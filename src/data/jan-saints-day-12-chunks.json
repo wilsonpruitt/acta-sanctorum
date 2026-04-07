@@ -1,0 +1,252 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-maximus-von-taormina-01.md",
+    "saint": "Acta Sanctorum: Maximus von Taormina",
+    "source": "01-acta-sanctorum-maximus-von-taormina.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 249,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-tatjana-von-rom-01.md",
+    "saint": "Acta Sanctorum: Tatjana von Rom",
+    "source": "02-acta-sanctorum-tatjana-von-rom.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 811,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-probus-von-verona-01.md",
+    "saint": "Acta Sanctorum: Probus von Verona",
+    "source": "03-acta-sanctorum-probus-von-verona.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 297,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-euthasia-01.md",
+    "saint": "Acta Sanctorum: Euthasia",
+    "source": "04-acta-sanctorum-euthasia.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 92,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-satyrus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Satyrus und Gefährten",
+    "source": "05-acta-sanctorum-satyrus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 730,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-mertius-01.md",
+    "saint": "Acta Sanctorum: Mertius",
+    "source": "06-acta-sanctorum-mertius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 254,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-petrus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Petrus und Gefährten",
+    "source": "07-acta-sanctorum-petrus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 171,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-zoticus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Zoticus und Gefährten",
+    "source": "08-acta-sanctorum-zoticus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 225,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-8-maertyrer-von-nicaea-01.md",
+    "saint": "Acta Sanctorum: 8 Märtyrer von Nicäa",
+    "source": "09-acta-sanctorum-8-maertyrer-von-nicaea.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 125,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-tigrius-und-eutropius-01.md",
+    "saint": "Acta Sanctorum: Tigrius und Eutropius",
+    "source": "10-acta-sanctorum-tigrius-und-eutropius.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1372,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-tigrius-und-eutropius-02.md",
+    "saint": "Acta Sanctorum: Tigrius und Eutropius",
+    "source": "10-acta-sanctorum-tigrius-und-eutropius.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 667,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-johannes-ii-von-ravenna-01.md",
+    "saint": "Acta Sanctorum: Johannes II. von Ravenna",
+    "source": "11-acta-sanctorum-johannes-ii-von-ravenna.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1498,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-johannes-ii-von-ravenna-02.md",
+    "saint": "Acta Sanctorum: Johannes II. von Ravenna",
+    "source": "11-acta-sanctorum-johannes-ii-von-ravenna.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 331,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-caesaria-die-aeltere-01.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 1,
+    "totalParts": 7,
+    "words": 1371,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-caesaria-die-aeltere-02.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 2,
+    "totalParts": 7,
+    "words": 1466,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-caesaria-die-aeltere-03.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 3,
+    "totalParts": 7,
+    "words": 1490,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-caesaria-die-aeltere-04.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 4,
+    "totalParts": 7,
+    "words": 1374,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-caesaria-die-aeltere-05.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 5,
+    "totalParts": 7,
+    "words": 1469,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-caesaria-die-aeltere-06.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 6,
+    "totalParts": 7,
+    "words": 1499,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-caesaria-die-aeltere-07.md",
+    "saint": "Acta Sanctorum: Caesaria die Ältere",
+    "source": "12-acta-sanctorum-caesaria-die-aeltere.md",
+    "part": 7,
+    "totalParts": 7,
+    "words": 451,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-victorinus-01.md",
+    "saint": "Acta Sanctorum: Victorinus",
+    "source": "13-acta-sanctorum-victorinus.md",
+    "part": 1,
+    "totalParts": 4,
+    "words": 1442,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-victorinus-02.md",
+    "saint": "Acta Sanctorum: Victorinus",
+    "source": "13-acta-sanctorum-victorinus.md",
+    "part": 2,
+    "totalParts": 4,
+    "words": 1475,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-victorinus-03.md",
+    "saint": "Acta Sanctorum: Victorinus",
+    "source": "13-acta-sanctorum-victorinus.md",
+    "part": 3,
+    "totalParts": 4,
+    "words": 1488,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-victorinus-04.md",
+    "saint": "Acta Sanctorum: Victorinus",
+    "source": "13-acta-sanctorum-victorinus.md",
+    "part": 4,
+    "totalParts": 4,
+    "words": 1049,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-naimus-jacobinus-und-anselm-01.md",
+    "saint": "Acta Sanctorum: Naimus, Jacobinus und Anselm",
+    "source": "19-acta-sanctorum-naimus-jacobinus-und-anselm.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 188,
+    "status": "pending"
+  }
+]

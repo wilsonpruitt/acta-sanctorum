@@ -1,0 +1,312 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-epiphanias-01.md",
+    "saint": "Acta Sanctorum: Epiphanias",
+    "source": "01-acta-sanctorum-epiphanias.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 562,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-melchior-01.md",
+    "saint": "Acta Sanctorum: Melchior",
+    "source": "02-acta-sanctorum-melchior.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 145,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-telesphorus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Telesphorus und Gefährten",
+    "source": "03-acta-sanctorum-telesphorus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 236,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-honorius-julius-und-antoninus-01.md",
+    "saint": "Acta Sanctorum: Honorius, Julius und Antoninus",
+    "source": "04-acta-sanctorum-honorius-julius-und-antoninus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 81,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-pompejanus-01.md",
+    "saint": "Acta Sanctorum: Pompejanus",
+    "source": "05-acta-sanctorum-pompejanus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 196,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-anastasius-01.md",
+    "saint": "Acta Sanctorum: Anastasius",
+    "source": "06-acta-sanctorum-anastasius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 109,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-macra-von-reims-01.md",
+    "saint": "Acta Sanctorum: Macra von Reims",
+    "source": "07-acta-sanctorum-macra-von-reims.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1392,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-macra-von-reims-02.md",
+    "saint": "Acta Sanctorum: Macra von Reims",
+    "source": "07-acta-sanctorum-macra-von-reims.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 645,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-nilammon-01.md",
+    "saint": "Acta Sanctorum: Nilammon",
+    "source": "08-acta-sanctorum-nilammon.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 521,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-melanius-von-rennes-01.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 1,
+    "totalParts": 6,
+    "words": 1367,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-melanius-von-rennes-02.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 2,
+    "totalParts": 6,
+    "words": 1446,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-melanius-von-rennes-03.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 3,
+    "totalParts": 6,
+    "words": 1454,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-melanius-von-rennes-04.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 4,
+    "totalParts": 6,
+    "words": 1402,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-melanius-von-rennes-05.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 5,
+    "totalParts": 6,
+    "words": 1494,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-melanius-von-rennes-06.md",
+    "saint": "Acta Sanctorum: Melanius von Rennes",
+    "source": "09-acta-sanctorum-melanius-von-rennes.md",
+    "part": 6,
+    "totalParts": 6,
+    "words": 883,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-petrus-von-canterbury-01.md",
+    "saint": "Acta Sanctorum: Petrus von Canterbury",
+    "source": "10-acta-sanctorum-petrus-von-canterbury.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 782,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-erminold-von-pruefening-01.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 1,
+    "totalParts": 10,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-erminold-von-pruefening-02.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 2,
+    "totalParts": 10,
+    "words": 1328,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-erminold-von-pruefening-03.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 3,
+    "totalParts": 10,
+    "words": 1471,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-erminold-von-pruefening-04.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 4,
+    "totalParts": 10,
+    "words": 1370,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-erminold-von-pruefening-05.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 5,
+    "totalParts": 10,
+    "words": 1171,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-erminold-von-pruefening-06.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 6,
+    "totalParts": 10,
+    "words": 1490,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-erminold-von-pruefening-07.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 7,
+    "totalParts": 10,
+    "words": 1489,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-erminold-von-pruefening-08.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 8,
+    "totalParts": 10,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-erminold-von-pruefening-09.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 9,
+    "totalParts": 10,
+    "words": 1490,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-erminold-von-pruefening-10.md",
+    "saint": "Acta Sanctorum: Erminold von Prüfening",
+    "source": "11-acta-sanctorum-erminold-von-pruefening.md",
+    "part": 10,
+    "totalParts": 10,
+    "words": 86,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-guarinus-von-sitten-01.md",
+    "saint": "Acta Sanctorum: Guarinus von Sitten",
+    "source": "12-acta-sanctorum-guarinus-von-sitten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 873,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-gertrud-van-oosten-01.md",
+    "saint": "Acta Sanctorum: Gertrud van Oosten",
+    "source": "13-acta-sanctorum-gertrud-van-oosten.md",
+    "part": 1,
+    "totalParts": 4,
+    "words": 1458,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-gertrud-van-oosten-02.md",
+    "saint": "Acta Sanctorum: Gertrud van Oosten",
+    "source": "13-acta-sanctorum-gertrud-van-oosten.md",
+    "part": 2,
+    "totalParts": 4,
+    "words": 1352,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-gertrud-van-oosten-03.md",
+    "saint": "Acta Sanctorum: Gertrud van Oosten",
+    "source": "13-acta-sanctorum-gertrud-van-oosten.md",
+    "part": 3,
+    "totalParts": 4,
+    "words": 1496,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-gertrud-van-oosten-04.md",
+    "saint": "Acta Sanctorum: Gertrud van Oosten",
+    "source": "13-acta-sanctorum-gertrud-van-oosten.md",
+    "part": 4,
+    "totalParts": 4,
+    "words": 645,
+    "status": "pending"
+  }
+]

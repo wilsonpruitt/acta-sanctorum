@@ -1,0 +1,15 @@
+{
+  "name": "acta-sanctorum",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "chunk": "node scripts/chunk.mjs",
+    "translate": "node scripts/translate.mjs",
+    "pipeline": "node scripts/scrape.mjs && node scripts/chunk.mjs && node scripts/translate.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "volume": "January Volume I",
+  "source": "heiligenlexikon.de/ActaSanctorum",
+  "pages": [
+    {
+      "id": "einleitung",
+      "title": "Einleitung (Introduction/Preface)",
+      "url": "https://www.heiligenlexikon.de/ActaSanctorum/Einleitung_Januar_I.html",
+      "status": "pending"
+    }
+  ],
+  "notes": "Add more page URLs here as you discover them from the site navigation. The site organizes by month and volume."
+}

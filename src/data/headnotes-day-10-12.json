@@ -1,0 +1,302 @@
+{
+  "day-10/acta-sanctorum-nikanor": {
+    "summary": "St. Nicanor, one of the original seven deacons of the apostolic church, venerated as a martyr in Cyprus. According to Galesinius, he preached the Gospel on Cyprus and was martyred under Emperor Vespasian around A.D. 76. The commentary discusses his feast days among Greeks and Latins and evaluates the dubious claim that he died alongside St. Stephen.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-thecla-und-justina": {
+    "summary": "SS. Thecla and Justina, venerated at Leontini (modern Lentini) in Sicily, 3rd century. Thecla was a noble virgin who sheltered persecuted Christians and built churches; Justina was her kinswoman and companion in evangelization. The text includes a brief vita drawn from the liturgical readings of the Church of Leontini, approved under Pope Paul V.",
+    "genre": "vita",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-saturus-und-gefaehrten": {
+    "summary": "SS. Saturus, Vitalianus, Felicitas, Quintus, and Artates, African martyrs known only from the manuscript Martyrology of St. Jerome and the ancient Irish Martyrology of Dungal. A brief commentary noting the scarcity of information about this group.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-revocatus-und-gefaehrten": {
+    "summary": "SS. Revocatus, Firmus, Jucundus, and companions, martyrs recorded in the Martyrology of St. Jerome. The commentary discusses their possible connection to the martyrs of the same names commemorated on January 9 and notes textual difficulties in identifying the full list of companions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-possessor-und-gefaehrten": {
+    "summary": "St. Possessor and two companions, martyrs at Cirta (modern Constantine, Algeria) in Numidia, known from the Martyrology of St. Jerome. A brief notice distinguishing them from similarly named martyrs at Smyrna on January 9.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-paulus-von-theben": {
+    "summary": "St. Paul of Thebes (d. c. 341), the first Christian hermit, who withdrew into the Egyptian desert at age 22 during the Decian persecution and lived in solitude for over 90 years. The entry includes an extensive scholarly preface defending the authenticity of St. Jerome's famous Life against early modern critics, followed by a second Life from a Greek Bavarian manuscript narrating the meeting of Paul and St. Antony.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-markianos-von-konstantinopel": {
+    "summary": "St. Marcian (d. after 472), priest and Great Steward (Oeconomus) of the Church of Constantinople under Patriarch Gennadius. He built several churches in Constantinople, including St. Irene and St. Anastasia, and was renowned for his poverty amid great wealth and his miracle-working. The text includes a detailed preface on the office of the Great Steward and a vita from Symeon Metaphrastes.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-florida": {
+    "summary": "St. Florida, a virgin venerated at Dijon in Burgundy, mentioned by St. Gregory of Tours as resting in the basilica of the castle of Dijon. A very brief notice recording that she 'changed her garment and was exceedingly religious,' with no further details of her life or century known.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-walerich": {
+    "summary": "St. Valeric (Waleric), a 6th-century hermit from Lower Belgium who settled in the territory of Limoges under King Clovis. He built a cell near the tomb of St. Martial and attracted many followers through his holiness and miracles, including healing the blind and lame. The commentary draws on the Readings of the Church of Limoges and the Gallican Martyrology of Saussay.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-domitian-von-melitene": {
+    "summary": "St. Domitian (d. c. 600), Bishop of Melitene in Armenia Minor, kinsman of Emperor Maurice. He played a key diplomatic role in restoring the Persian king Chosroes to his throne and attempted to convert him to Christianity. Pope Gregory the Great praised his learning and zeal. The entry includes lives from the Greek Menaea and from Theophylact Simocatta's Maurician History.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-johannes-camillus-bonus-von-mailand": {
+    "summary": "St. John Camillus Bonus (d. c. 659), Archbishop of Milan, a Ligurian (Genoese) who served as papal ambassador under Pope Gregory the Great before becoming archbishop. He returned the archiepiscopal seat to Milan from Genoa, combated Monothelite and Arian heresies with the help of St. John of Bergamo, and attended the Roman synod of 649 under Pope Martin I. The vita is drawn from Joseph Ripamontius's History of Milan.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-agatho": {
+    "summary": "St. Agatho (d. c. 682), Pope and 'Wonder-Worker,' a Sicilian monk who became Supreme Pontiff. He convened the Sixth Ecumenical Council (Third Council of Constantinople, 680-681) against the Monothelite heresy, and was renowned for miraculous healings, including curing a leper with a kiss. The vita by Anastasius Bibliothecarius recounts his pontificate, the Council, and the exposure of heretical forgeries.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-sethrida": {
+    "summary": "St. Sethrida, a 7th-century English princess, stepdaughter of King Anna of the East Angles, who traveled to Gaul to enter the monastery of Faremoutier (Brie). She and her stepsister St. Ethelburga were both appointed abbess there. The commentary draws on Bede's Ecclesiastical History and Henry of Huntingdon.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-aldus-html": {
+    "summary": "St. Aldus, a hermit venerated at Pavia in Italy, whose dates and origins are unknown. His body was first interred in the chapel of St. Columbanus at Pavia and later translated to the basilica of St. Michael. He may have been a monk of Bobbio who adopted the eremitical life.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-benincasa": {
+    "summary": "Blessed Benincasa (d. 1194), eighth Abbot of the Benedictine monastery of Cava (near Salerno), who governed from 1171 until his death. He sent one hundred monks under Father Theobald to establish the famous monastery of Monreale in Sicily, founded by King William II. He is venerated with a Mass of the Holy Trinity at Cava.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-wilhelm-von-donjeon": {
+    "summary": "St. William of Bourges (d. 1209), Cistercian monk and Archbishop of Bourges, canonized by Pope Honorius III in 1218. Known for his holiness, cheerful disposition, and miracles, he is the patron saint of the French nation at the University of Paris. The entry includes an extensive preface and three ancient vitae, including one by a contemporary eyewitness, abridged by Surius.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-gundisalvus-amaranthus": {
+    "summary": "Blessed Gonsalvus (Gonzalo) of Amarante (d. c. 1259), a Portuguese Dominican friar venerated at the town of Amarante in the Entre-Douro-e-Minho region. After pilgrimages to Rome and Jerusalem, he entered the Order of Preachers and spent his remaining life in pastoral work. His public cult was authorized by Pope Pius IV. The vita was written in Portuguese by Didacus de Rosario and translated into Latin by Stephanus Sampayo.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "day-10/acta-sanctorum-christiana-von-lucca": {
+    "summary": "Blessed Oringa, called Christiana (d. 1310), a virgin from Santa Croce in the Arno valley of Tuscany. Of humble birth, she fled her brothers' attempts to marry her off, miraculously crossing a river with dry garments, and became a servant in Lucca. She was renowned for extreme asceticism, mystical visions, and the gift of reading hearts. The vita is from Silvanus Razzi's Italian collection of holy women's lives.",
+    "genre": "vita",
+    "century": "14th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-balthasar": {
+    "summary": "St. Balthasar, traditionally identified as one of the three Magi (Kings) who visited the infant Christ, venerated especially at Cologne where his relics are kept. The commentary discusses the varying traditions assigning feast days to each of the three Kings and describes the elaborate liturgical celebrations at the Cologne Cathedral, including the ancient custom of 'jubilation' on this day.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-hyginus": {
+    "summary": "St. Hyginus (d. c. 156), Pope and Martyr, the ninth Bishop of Rome. A Greek philosopher from Athens, he organized the clergy into hierarchical grades and confronted the heresies of Valentinus and Cerdo (teacher of Marcion) with notable vigilance. The commentary discusses the considerable chronological uncertainties surrounding his pontificate and the evidence for his martyrdom under Antoninus Pius.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-philoromus-und-gefaehrten": {
+    "summary": "SS. Philoromus, Eugenius, Quinctus, Januarius, Saturninus, and Vincentius, African martyrs known from the Martyrology of St. Jerome and the ancient Irish Martyrology of Dungal. A brief notice with minimal biographical information.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-polyeuctus-und-gefaehrten": {
+    "summary": "SS. Polyeuctus, Candidianus, and Philoromus, three martyrs who preached the Christian faith openly, were arrested, and condemned to death by fire. Their Acts, preserved in ancient manuscripts from the libraries of Marcus Welser, St. Maximin at Trier, and St. Bertin, describe their harmonious companionship and bold confession before the judge. The time and place of martyrdom are not specified.",
+    "genre": "passio",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-agentus-und-gefaehrten": {
+    "summary": "SS. Agentus, Donatus, Augustinus, Salvius, Felix, and approximately twenty other martyrs in Spain, known from the Martyrology of St. Jerome and the ancient Irish Martyrology of Dungal. A brief commentary noting the many names and the difficulty of identifying individual figures among the corrupted manuscript traditions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-salvius": {
+    "summary": "St. Salvius, a martyr venerated at Carthage in North Africa, whose feast occasioned a sermon by St. Augustine. All major Latin martyrologies mention him. The commentary discusses the confusion between this Salvius and a heretical Donatist bishop of the same name at Membresa.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-alexander-von-fermo": {
+    "summary": "St. Alexander, Bishop and Martyr of Fermo (Firmum) in Picenum, Italy. Said to have been a native of Fermo from the Sinigarda family, he was slain near the city for defending the Catholic faith. His acts were lost when Fermo was burned by Emperor Frederick I. His body rests in the Metropolitan basilica.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-palaemon": {
+    "summary": "St. Palaemon, a 4th-century anchorite in the Thebaid (Upper Egypt) and master of St. Pachomius. He led an extremely austere life of bread, salt, and vigils, and tested Pachomius rigorously before accepting him as a disciple. The vita is excerpted from the Life of St. Pachomius, translated by Dionysius Exiguus, and includes vivid episodes of monastic discipline and the cautionary tale of an arrogant monk.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-hortensius": {
+    "summary": "St. Hortensius, a bishop known only from the Martyrology of St. Jerome and the Irish Martyrology of Dungal. No further information about his life, see, or century has been discovered.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-theodosius-von-antiochia": {
+    "summary": "St. Theodosius of Antioch (d. c. 412), an anchorite who founded the celebrated monastery 'on the Cliff' near Rhosus in Cilicia. Born to a distinguished Antiochene family, he practiced severe asceticism with iron chains and matted hair reaching his feet. When Saracen raids threatened, he prudently withdrew to Antioch. The entry includes lives from the Greek Menaea and from the Philotheus of Theodoret of Cyrrhus.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-honorata": {
+    "summary": "St. Honorata (d. c. 500), a virgin at Pavia, youngest sister of St. Epiphanius, Bishop of Pavia. She entered the monastery of St. Vincent and was carried off into captivity when King Odoacer plundered Pavia, but was ransomed by her brother. Her translation, accompanied by many miracles, was directed by Bishop Litifredus after a dream-vision.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-anastasius-und-gefaehrten": {
+    "summary": "St. Anastasius (d. c. 560) and nine monks at Suppentonia near Mount Soracte in Italy. Anastasius was a former Notary of the Roman Church who became a monk and then abbot. St. Gregory the Great recounts in his Dialogues how a divine voice called Anastasius and eight brothers by name from the summit of a rock, and each died in the order called within days.",
+    "genre": "miracula",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-theodosius-der-grosse": {
+    "summary": "St. Theodosius the Coenobiarch (d. 529), a Cappadocian from the village of Mogarisus who founded a great monastery in the Judaean desert near Jerusalem. For thirty years he ate no bread, sustained only by palm fruit and carob pods. He performed numerous miracles and resisted the Monophysite emperor Anastasius. The entry includes an extensive scholarly preface, the Menaea account, and a full vita attributed to a contemporary (possibly the monk Cyril).",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-vitalius": {
+    "summary": "St. Vitalius (d. early 7th century), a monk from the monastery of Abbot Seridon at Gaza who adopted a scandalous-seeming apostolate in Alexandria: he paid prostitutes to abstain from sin for one night while he prayed in their rooms. Universally calumniated during his life, his true sanctity was revealed only after his death when a miraculous inscription and demonic retribution vindicated him. The vita is drawn from the Life of St. John the Almoner by Leontius of Neapolis.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-salvius-von-amiens": {
+    "summary": "St. Salvius (d. c. 615), Bishop of Amiens in Gaul, who founded a monastery dedicated to the Virgin Mary (later called St. Salvius of Montreuil). He flourished under King Theodoric, son of Childebert. The preface carefully disentangles him from two other bishops named Salvius (of Albi and Angouleme), correcting widespread confusions in earlier martyrologies and chronicles.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-egwin-von-worcester": {
+    "summary": "St. Egwin (d. c. 717), third Bishop of Worcester in England, of royal Mercian lineage. Expelled from his see for zealous preaching against paganism and illicit marriages, he journeyed to Rome with his feet bound in iron fetters, miraculously recovering the key from a fish's belly in the Tiber. Vindicated by the Pope, he returned to his see and later founded the monastery of Evesham.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-tato": {
+    "summary": "St. Tato (d. 729), a Beneventan nobleman who became a monk at the monastery of St. Vincent on the Volturno in Samnium. Together with his brothers Paldo and Taso, he undertook a pilgrimage and founded a monastic community. He was appointed abbot after the monks could not endure Taso's severity, but the appointment was disapproved by Pope Gregory II.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "day-11/acta-sanctorum-paulinus-von-aquileia": {
+    "summary": "St. Paulinus II (d. 803), Patriarch of Aquileia, a distinguished grammarian and theologian at the court of Charlemagne. He presided over the Council of Forum Julii and was instrumental in the theological disputes of the Carolingian era. The entry opens with a detailed history of the Patriarchate of Aquileia and its migration from Grado to Forum Julii (Cividale del Friuli), and includes a donation charter from Charlemagne.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-maximus-von-taormina": {
+    "summary": "St. Maximus, the second bishop of Taormina (Tauromenium) in Sicily, traditionally held to have been baptized and ordained by the Apostle Peter himself during his journey to Rome. He succeeded St. Pancratius in the see. Beyond the notice in Metaphrastes, no further information about his life has been discovered.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-tatjana-von-rom": {
+    "summary": "St. Tatiana (also called Datiana), a Roman martyr under Emperor Alexander Severus (3rd century), who was a deaconess and daughter of a man who served three times as consul. She destroyed pagan idols by prayer, survived hooks, fire, and wild beasts, and was finally beheaded. The commentary notes that her Acts are nearly identical to those of St. Martina (January 1) and St. Prisca (January 18), raising the possibility that they describe the same person.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-probus-von-verona": {
+    "summary": "St. Probus, the sixth bishop of Verona, who governed the church around A.D. 236 during the persecution of Emperor Maximinus. He was distinguished by charity and holiness of life. His body is disputed between the basilica of St. Stephen and the basilica of St. Proculus in Verona.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-euthasia": {
+    "summary": "St. Euthasia, a martyr beheaded by the sword, known only from a brief entry in the Greek Menaea with an accompanying distich. She may be identical with St. Euthalia, treated more fully on August 27.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-satyrus-und-gefaehrten": {
+    "summary": "SS. Satyrus, Cyriacus, and Moscentius, martyrs venerated variously in Achaia, Antioch, or Arabia. Satyrus, a citizen of Arabia, was beheaded after he blew upon a pagan idol and signed his forehead with the cross, causing it to fall. The commentary discusses the conflicting testimonies about the place and date of his martyrdom.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-mertius": {
+    "summary": "St. Mertius (or Meortius), a soldier martyred under Diocletian. When ordered to sacrifice to idols during a campaign against the Moors in North Africa, he refused and was stripped of his military belt, scourged for seven days, and died in prison. The Menaea provide a brief account of his sufferings.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-petrus-und-gefaehrten": {
+    "summary": "SS. Peter, Philoromus, Zoticus, Castulus, and Aventinus, Egyptian martyrs known from ancient martyrologies including those of St. Jerome, the Dungal manuscript, and the Carthusians of Cologne. No further details of their lives or deaths are recorded.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-zoticus-und-gefaehrten": {
+    "summary": "SS. Zoticus, Rogatus, Modestus, Castulus, and thirty-six companion soldiers, African martyrs. The Roman Martyrology records 'a company of forty soldiers' in Africa; Baronius restored their names from an ancient manuscript. The Martyrology of St. Jerome and the Dungal manuscript provide variant lists of names.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-8-maertyrer-von-nicaea": {
+    "summary": "Eight anonymous martyrs at Nicaea in Bithynia, slain by the sword, known only from the Greek Menaea with an accompanying distich playing on the symbolism of the number eight and the Beatitudes. No further information survives.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-tigrius-und-eutropius": {
+    "summary": "SS. Tigrius the Priest and Eutropius the Lector, martyrs at Constantinople in the early 5th century under Emperor Arcadius. They were supporters of St. John Chrysostom who, after his exile and the burning of the Great Church, were falsely accused of arson. Tigrius, a freed barbarian slave and eunuch raised to the priesthood, was tortured until his joints were dislocated. The vita is drawn from Nicephorus Callistus.",
+    "genre": "passio",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-johannes-ii-von-ravenna": {
+    "summary": "St. John II (d. c. 500), Archbishop of Ravenna, who saved his city from destruction by personally interceding with Attila the Hun in the 450s. He later mediated the siege of Ravenna by Theodoric the Ostrogoth and worked to restore ecclesiastical discipline during the calamities of the barbarian invasions. The vita is drawn from Hieronymus Rubeus's History of Ravenna, drawing on Ricobaldus of Ferrara.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-caesaria-die-aeltere": {
+    "summary": "St. Caesaria the Elder (d. c. 530), virgin and first abbess of the convent of nuns at Arles in Gaul, sister of the great Bishop Caesarius of Arles. Educated at a convent in Marseilles, she was installed at the new monastery her brother founded, where multitudes of virgins gathered under strict enclosure. The text draws on the Life of St. Caesarius by his disciple Cyprian and the poems of Venantius Fortunatus.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-victorinus": {
+    "summary": "St. Victorian (d. 560), the first Abbot of Asana (Asanense) in Aragon, Spain, whose relics were credited with securing the Christian victory at the Battle of Alcoraz (c. 1094-1096) during the reconquest of Huesca from the Moors. He is also invoked as a rain-bringer. The vita, written in Spanish by Francisco Diego de Aynsa-y-Yriarte, was compiled from ancient breviaries and local traditions.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-12/acta-sanctorum-naimus-jacobinus-und-anselm": {
+    "summary": "SS. Nainius (or Bainius), Jacobinus, and Anselmus, martyrs at Brescia in Italy, traditionally held to have been killed alongside SS. Faustinus and Jovita. This entry records the discovery (inventio) of their relics; the date and circumstances of their martyrdom and discovery are both unknown. Ferrarius notes that no mention of them survives in the records of the Church of Brescia.",
+    "genre": "translatio",
+    "century": null,
+    "bhl": null
+  }
+}

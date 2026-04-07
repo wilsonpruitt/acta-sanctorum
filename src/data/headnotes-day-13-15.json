@@ -1,0 +1,380 @@
+{
+  "day-13/acta-sanctorum-potitus": {
+    "summary": "St. Potitus, a boy martyr of thirteen years, suffered under Emperor Antoninus (Marcus Aurelius) around A.D. 166. His origins are disputed between Sardinia and Sardica in Dacia/Thrace. The text provides an extensive Bollandist preface examining his cult across multiple calendars, the translation of his relics from Apulia to Sardinia and thence to Pisa, followed by the full Acts of his martyrdom from several manuscript traditions.",
+    "genre": "passio",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-andreas-von-trier": {
+    "summary": "St. Andrew, twelfth Bishop of Trier, served around A.D. 236. His deeds are largely lost; a brief commentary notes he succeeded Anastasius in 227 and may have died by persecution or natural death around 235. The manuscript Florarium calls him a martyr.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-40-soldaten": {
+    "summary": "Forty holy soldier-martyrs killed at Rome on the Via Lavicana around A.D. 262, under the Emperor Gallienus. They were beheaded for confessing the Christian faith. The commentary discusses their relationship to other martyrs recorded on the same day and the chronology of the persecution.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-secundus": {
+    "summary": "St. Secundus (or Secundinus), a Roman martyr, is known only from brief entries in the Martyrology of St. Jerome and related manuscripts. Whether he was a companion of the Forty Soldiers on the Via Lavicana remains uncertain.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-eno-und-quirio": {
+    "summary": "Sts. Eno and Quirio are obscure Roman martyrs attested by the manuscript Martyrology of St. Jerome and the Florarium. Quirio is said to have suffered at Rome under Gallienus around A.D. 263, possibly in connection with the Forty Soldiers.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-cyriacus-und-gefaehrten": {
+    "summary": "Sts. Cyriacus, Ciminus, Zoticus, Herisus (or Erisinus), Glycerius, Felix, and Januarius are martyrs recorded at Naples in Campania by the ancient Martyrology of St. Jerome. Nothing further is known of their acts or dates.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-pachomius-und-papyrinus": {
+    "summary": "Sts. Pachomius and Papyrinus are martyrs recorded in the Greek Menaea, who were drowned in a river and crowned with martyrdom. They are distinct from the more famous Pachomius of Tabennesi and other saints of the same name.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-athanasius": {
+    "summary": "St. Athanasius is a martyr venerated by the Greeks on January 13, recorded in the Menaea as having been beaten to death with rods. The commentary distinguishes him from several other martyrs named Athanasius venerated on other days throughout the year.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-hermylos-und-stratonikos": {
+    "summary": "Sts. Hermylus, a deacon, and Stratonicus, a prison-keeper, were martyred at Singidunum (modern Belgrade) in Upper Moesia around A.D. 315 under the Emperor Licinius. After savage torments, both were drowned in the Danube. The text includes a detailed preface and full Acts from Metaphrastes.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-glaphyra": {
+    "summary": "St. Glaphyra, an Italian virgin in the household of Licinius's wife (Constantine's sister), fled to Amasea in Pontus around A.D. 324 to preserve her virginity from the emperor's advances. She contributed to the building of a church there under Bishop Basileus and died before Licinius's agents could arrest her. Her life is drawn from the Acts of St. Basileus by John the Presbyter of Nicomedia.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-agritius-von-trier": {
+    "summary": "St. Agricius (or Agroetius), twenty-seventh Bishop of Trier, held his see from at least A.D. 314 (when he subscribed to the Council of Arles) until about 335. Tradition claims he was formerly Patriarch of Antioch, summoned by St. Helena and Pope Sylvester to re-evangelize Trier. The text includes a full Life from a manuscript of the monastery of St. Maximin.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-leontius-von-caesarea": {
+    "summary": "St. Leontius, Bishop of Caesarea in Cappadocia, was a prominent participant in the Council of Nicaea (A.D. 325) who consecrated St. Gregory the Illuminator as Bishop of Armenia. He died around 337. The commentary draws on Gregory the Presbyter's oration praising the Nicene Fathers, noting that Leontius's body remained incorrupt for centuries.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-hilarius-von-poitiers": {
+    "summary": "St. Hilary, Bishop of Poitiers (d. A.D. 367), was one of the foremost Latin theologians and defenders of Nicene orthodoxy against Arianism. Exiled to Phrygia for four years under Emperor Constantius, he returned to restore Catholic faith throughout Gaul. The extensive Bollandist entry covers his veneration, feast-day history, and introduces the Life by Fortunatus.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-viventius": {
+    "summary": "St. Viventius, a presbyter of Samaritan origins converted at Antioch, came to Gaul and lived as a hermit near the castle of Graulon in the territory of Poitiers around A.D. 400. He reportedly lived to 120 years of age. His relics were later translated to the monastery of Vergy in Burgundy. The text includes a full anonymous Life from old manuscripts.",
+    "genre": "vita",
+    "century": "4th/5th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-theodor-von-sens": {
+    "summary": "Blessed Theodore, eleventh Bishop of Sens, served from roughly 356 to the end of the 4th century. He was buried in the church of Sts. Gervasius and Protasius at Sens alongside his immediate successors. Little else is recorded of his deeds.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-designatus-von-maastricht": {
+    "summary": "St. Designatus, third Bishop of Maastricht (after St. Servatius and Agricolaus), served at the beginning of the 6th century and reportedly died around 508-525. The Florarium credits him with raising three dead soldiers. The commentary discusses the transfer of the see from Tongres to Maastricht and the confused state of the early episcopal catalogue.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-verus-von-vienne": {
+    "summary": "St. Verus (or Virus), the third Bishop of Vienne bearing that name, succeeded St. Euantius in A.D. 586 under King Childebert II and died before 596. During his episcopate, St. Desiderius served as deacon of the Church of Vienne.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-stephanus-von-bourges": {
+    "summary": "Blessed Stephen, forty-third (or forty-fifth) Bishop of Bourges, died on January 13, A.D. 835, having served for eight years under Pope Gregory IV. He was noted for his extreme modesty, being content with a single priest and servant, and frequently saying that the goods of the Church are the patrimony of the poor.",
+    "genre": "commentary",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-gumesindus-und-servus-dei": {
+    "summary": "Sts. Gumesindus, a priest, and Servus Dei, a monk, were martyred at Cordoba in A.D. 852 during the persecution of Christians under Muslim rule. Their martyrdom was recorded by the contemporary St. Eulogius in his Memorial of the Saints. The text includes the brief original Acts.",
+    "genre": "passio",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-euticius": {
+    "summary": "Blessed Euticius, considered the founder or first abbot of the monastery of Baume in Burgundy, lived in the time of Emperor Louis the Pious (9th century). He compiled monastic customs into a single volume that were later observed at Baume and Cluny. The text preserves his life primarily through the account in John the Italian's Life of St. Odo.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-leuogisilus": {
+    "summary": "St. Leogisilus (also called Longisus or Longinus), an abbot venerated at the monastery of Vergy in Burgundy, is of uncertain date and origin. His relics may have been among those translated to Vergy along with those of St. Viventius. No Acts survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-heldemar-von-tournai": {
+    "summary": "Blessed Heldemar, a priest and hermit, co-founded the monastery and congregation of Arrouaise in the diocese of Arras around 1090, together with Cono (later a cardinal) and the layman Roger. The Arrouaisians became a notable congregation of Regular Canons following the Rule of St. Augustine, praised for their austerity and governance. The text includes the foundation narrative from the monastery's own records.",
+    "genre": "vita",
+    "century": "11th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-gottfried-von-cappenberg": {
+    "summary": "Blessed Godfrey, Count of Cappenberg (d. 1127), converted his ancestral castle into a Premonstratensian monastery under the influence of St. Norbert and entered the order himself. The extensive Bollandist entry by John Gamans includes a historical commentary, the contemporary Life by a Canon of Cappenberg (likely Provost Otto I), and appendices from the Life of St. Norbert.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-yvette-von-huy": {
+    "summary": "Blessed Juetta (or Jutta), a widow and recluse of Huy in Belgium (d. 1228), devoted herself after her husband's death to extreme asceticism, prayer, and care for lepers. She eventually became a recluse attached to the leper-house near Huy under Cistercian governance. Her Life was written by Hugo, a Canon of the Premonstratensian abbey of Floreffe, who knew her personally.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "day-13/acta-sanctorum-veronika-negroni-von-binasco": {
+    "summary": "Blessed Veronica of Binasco (c. 1445-1497), a nun of the monastery of St. Martha in Milan under the Rule of St. Augustine, was renowned for ecstatic visions of the mysteries of Christ's life. Her Life was written by the Dominican preacher Isidore Isolano and published in 1518. Veneration was authorized by Leo X twenty years after her death.",
+    "genre": "vita",
+    "century": "15th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-maleachi": {
+    "summary": "The Prophet Malachi, whose name means 'Angel of God,' is honored by the Latins on January 14 and by the Greeks on January 3. The text includes a brief Life from St. Epiphanius, noting that Malachi was of the tribe of Zebulun, born after the return from Babylon, and died young.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-euphrasius": {
+    "summary": "St. Euphrasius, a bishop celebrated on January 14, is of uncertain identity. The commentary considers several candidates: a Bishop of Sufes martyred under the Vandals, a Bishop of Thena known from Cyprian's correspondence, the apostle of Illiturgis in Spain, and a 6th-century Bishop of Clermont praised by Gregory of Tours.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-clerus": {
+    "summary": "St. Clerus (also called Clarus or Glycerius), a deacon and martyr, was killed after many torments by being cast into the sea, possibly at Antioch. He is distinct from the Clerus beheaded at Antioch on January 7. His name appears in various corrupt forms across the ancient Martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-paulus-und-gefaehrten": {
+    "summary": "Sts. Paul, Successus, Victorinus, Saturus, Missor, Gerontius, Lucretius, Januarius, Agapitus, Crucessius, Eufra, Florida, Theocosia, and eight others are African martyrs known only from the ancient Martyrologies of St. Jerome and the Irish manuscript. No further details of their passion survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-firminus-von-mende": {
+    "summary": "St. Firminus, Bishop of Mende (city of the Gabali) in Gaul, is venerated on January 14 with a proper office. He served between the martyrdom of St. Privatus (under Gallienus) and the Council of Arles in 314, though exact dates are uncertain. His body was discovered at La Canourgue, where it is still venerated.",
+    "genre": "commentary",
+    "century": "3rd/4th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-sabbas-vom-sinai-und-gefaehrten": {
+    "summary": "Sts. Sabbas, Isaiah, and thirty-six other monk-martyrs were killed by Saracens on Mount Sinai during the persecution of Diocletian. The commentary distinguishes these earlier martyrs from a later group killed in the 5th century and discusses the fortification to which some monks retreated during the attack.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-felix-von-nola": {
+    "summary": "St. Felix, priest of Nola in Campania, was celebrated by St. Paulinus of Nola in numerous birthday poems. During the persecution he was imprisoned and miraculously freed by an angel, then rescued his aged Bishop Maximus from the wilderness. He survived his torments and died peacefully, renowned for miracles. The extensive entry disentangles his Acts from those of a Roman priest also named Felix who died at Nola.",
+    "genre": "vita",
+    "century": "3rd/4th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-felix": {
+    "summary": "St. Felix, a Roman priest and younger brother of another Felix, was exiled under Prefect Draccus to the quarries at Circeii, where he converted the Tribune Probus and performed miracles. After twelve years, he died peacefully on a Sunday at Nola after completing the sacred mysteries. His Acts have frequently been confused with those of the Nolan Felix praised by Paulinus.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-makrina-die-aeltere": {
+    "summary": "St. Macrina the Elder, grandmother of St. Basil the Great, was a disciple of St. Gregory Thaumaturgus at Neocaesarea in Pontus. She and her husband endured nearly seven years of hiding in the forests of Pontus during the persecution of Maximian Galerius. She later nurtured young Basil in the orthodox faith. The text draws on testimonies from Basil, Gregory of Nazianzus, and Gregory of Nyssa.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-theodoulus-und-gefaehrten": {
+    "summary": "Sts. Theodulus the priest, Paul, John, Proclus, Hypatius, Isaac, Macarius, Mark, Benjamin, Elias, and other monk-martyrs were killed by Saracen raiders near Mount Sinai in the 5th century. Their martyrdom was witnessed and described by St. Nilus, who was living among them with his son Theodulus. The full history by St. Nilus is included.",
+    "genre": "passio",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-43-moenche-von-raithu": {
+    "summary": "Forty-three monk-martyrs of the monastery of Raithu, near the Red Sea coast of Arabia, were slaughtered by Blemmyes raiders at an uncertain date. The commentary establishes that Raithu was on the eastern shore of the Red Sea near Pharan, distinguishes the Blemmyes from the Saracens, and provides the account from the Greek Menaea.",
+    "genre": "passio",
+    "century": null,
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-theodoulos-vom-sinai": {
+    "summary": "St. Theodulus, son of St. Nilus the monk, survived the Saracen massacre at Sinai in the late 5th century. Captured by barbarians and nearly sacrificed, he was later ransomed by a bishop. His relics were translated with those of his father to the church of Sts. Peter and Paul at the orphanage in Constantinople under the Emperor Justin the Younger.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-datius-von-mailand": {
+    "summary": "St. Datius, Bishop of Milan (d. A.D. 552), served during the devastating Gothic Wars and the great famine in Liguria. He wrote historical Annals (now lost) and was commended by Cassiodorus for his charity toward the poor, being entrusted with distributing royal grain stores at low prices. The commentary traces his episcopate, writings, and correspondence.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-fulgentius-von-astigi": {
+    "summary": "St. Fulgentius, brother of Sts. Leander and Isidore of Seville, was Bishop of Astigi (Ecija) and possibly also of Carthagena in Visigothic Spain. He subscribed to councils in 610 and 619 and is credited with various biblical commentaries. His feast is observed on different days across Spanish dioceses.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-cadeoldus-von-vienne": {
+    "summary": "St. Cadeoldus (or Edaldus), thirty-fourth Bishop of Vienne in Gaul, served around the end of the 7th century under the Frankish kings. Pope John V sent him the pallium and relics of St. Paul. The commentary examines his succession, the confusion in episcopal catalogues, and whether he was previously a Benedictine abbot.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-stephanos": {
+    "summary": "St. Stephen, an 8th-century monk from the East, visited monasteries along the Jordan before coming to Constantinople during the reign of Leo the Isaurian, where he was received by Patriarch Germanus. He founded the monastery at the Lake of Geese, gathered many monks, and died in holiness. His life is preserved in the Greek Menaea.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-englmar": {
+    "summary": "Blessed Engelmarus, a hermit in the forests of Bavaria near Windberg, was murdered shortly after the octave of Epiphany, probably around 1096-1100. He had withdrawn to the wilderness after the death of his master, Bishop Gregory of Passau, in 1093. His Life was written by a Premonstratensian of Windberg monastery within a generation of his death.",
+    "genre": "vita",
+    "century": "11th/12th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-odo-von-novara": {
+    "summary": "Blessed Odo, born at Novara and professed in the Carthusian order, resigned his abbacy at Zadar due to episcopal persecution, then settled at Tagliacozzo in Italy with papal permission around the time of Clement III (1187-1191). He lived in extreme austerity in a small cell beside a convent, celebrated for miracles. Pope Gregory IX initiated his canonization process.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-sabas-i-von-serbien": {
+    "summary": "St. Sabbas (Sava), youngest son of King Simeon Stephen of Rascia (Serbia), became a monk on Mount Athos and later the first Archbishop of an autocephalous Serbian Church in the 13th century. The Life by John Tomco Marnavitius provides extensive background on the origins of the Serbian kingdom, the Nemania dynasty, and the political context of the Latin Empire of Constantinople.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "day-14/acta-sanctorum-oderich-von-pordenone": {
+    "summary": "Blessed Odoric (Orderic) of Pordenone (d. 1331), a Franciscan friar, traveled through Asia and India evangelizing and converted many peoples to Christianity. He dictated an account of his journeys entitled On the Wonders of the World. He died at Udine in Friuli and was canonized locally within the Patriarchate of Aquileia, celebrated for posthumous miracles.",
+    "genre": "vita",
+    "century": "14th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-habakkuk": {
+    "summary": "The holy prophets Habakkuk and Micah are jointly commemorated on January 15, when their relics were discovered under divine revelation during the reign of Theodosius the Elder at Eleutheropolis in Judea. The commentary discusses the identification of each prophet, distinguishing the minor prophet Micah from an earlier Micah of Ahab's time, and examining whether there were one or two prophets named Habakkuk.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-pansophius": {
+    "summary": "St. Pansophius, a martyr of Alexandria under the Emperor Decius, was the son of the proconsul Nilus. After distributing his patrimony to the poor, he spent twenty-seven years as a hermit in the desert. Denounced to the Augustal Prefect, he refuted pagan superstitions and was beaten to death with rods. His Acts come from the Greek Menaea.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-secundina": {
+    "summary": "St. Secundina, a virgin and martyr of Anagnia (Anagni) in Latium, was converted by St. Magnus the Bishop and suffered under the Emperor Decius and the Prefect Valerianus. After months of imprisonment and torments, she died miraculously during prayer. The text includes an epitome of her Acts from Philippus Ferrarius.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-cresconius-und-gefaehrten": {
+    "summary": "Sts. Cresconius, Zeno, Menelaus, and companions are Egyptian martyrs known from the ancient Martyrologies of St. Jerome and the Irish manuscript. The brief commentary notes the textual variants and possible confusion with other martyrs named Thyrsus recorded elsewhere in January.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-cornelius-und-gefaehrten": {
+    "summary": "Sts. Cornelius, Caelestius, and other martyrs of the East are entirely unknown beyond brief entries in the Martyrology of St. Jerome and the Rhinow manuscript.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-ephysius-von-nora": {
+    "summary": "St. Ephysius, a soldier-martyr of Cagliari in Sardinia, was beheaded under the Emperor Diocletian and the judge Flavianus. His Acts were written by the priest Marcus, who claims to have been an eyewitness. The entry describes his cult at Cagliari, the crypt-prison where he was held, and the translation of his relics to Pisa alongside those of St. Potitus.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-makarius-der-aegypter": {
+    "summary": "St. Macarius the Egyptian (c. 301-391), priest and abbot in the desert of Scetis, was one of the most celebrated Desert Fathers and a disciple of St. Anthony. The extensive Bollandist preface distinguishes him from Macarius the Alexandrian and from an older Macarius who governed Anthony's Pispirian monastery on the Nile, untangling the complex traditions surrounding multiple saints of this name.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-isidor-von-alexandrien": {
+    "summary": "St. Isidore, a monk and priest of Alexandria (d. c. 404), was a disciple of St. Anthony and served as xenodochus (keeper of the guesthouse) at the Church of Alexandria. He is commemorated alongside St. Macarius on January 15 in nearly all ancient Latin Martyrologies. The commentary draws on Rufinus, Palladius, and Socrates to reconstruct his career.",
+    "genre": "commentary",
+    "century": "4th/5th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-maura-und-britta": {
+    "summary": "Sts. Maura and Britta, holy virgins of Tours in Gaul, were unknown until their bodies were miraculously revealed during the episcopate of St. Euphronius in the 6th century. They likely lived in or near the time of St. Martin. Their discovery was recorded by St. Gregory of Tours in On the Glory of the Confessors.",
+    "genre": "miracula",
+    "century": null,
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-alexander-akoimetes": {
+    "summary": "St. Alexander (d. c. 430), founder of the Acoemetae ('Sleepless Ones'), established monasteries on the Euphrates and at Constantinople where monks maintained perpetual choral prayer in rotating shifts. His unpublished Life, obtained from a royal manuscript, was written by one of his own disciples. The commentary traces the origins and spread of the Acoemetan institute through the East.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-johannes-der-kalybit": {
+    "summary": "St. John Calybites ('the Hut-Dweller'), son of the Constantinople senator Eutropius, secretly left home to join the Acoemetan monks and later returned as an unrecognized beggar, living in a hut near his parents' house in the mid-5th century. His story parallels that of St. Alexius of Rome. The entry includes two distinct Greek Lives, one newly published from a Vatican manuscript.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-maurus-von-subiaco": {
+    "summary": "St. Maurus (d. A.D. 584), disciple of St. Benedict from childhood, was sent by his master to Gaul where he founded the monastery of Glanfeuil (later Saint-Maur-sur-Loire) and presided over it for forty years. Famous for walking on water to save the boy Placidus, he propagated the Benedictine Rule throughout Gaul. His Life was written by the eyewitness St. Faustus and approved by Pope Boniface III.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-ita-von-killeedy": {
+    "summary": "St. Ida (or Ita), a virgin of Ireland venerated in the diocese of Limerick in the 6th century, is one of the most revered Irish women saints. Her Life, received from John Colgan, was written by a near-contemporary author and transcribed from an ancient Kilkenny codex. She is mentioned in the Lives of numerous other Irish saints.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-tarsitia": {
+    "summary": "St. Tarsitia, a Merovingian virgin of royal blood descended from the family of Pippin, fled from Germany to Aquitaine to preserve her chastity. She lived as a hermit in a cave near Rodez (Segodunum), fed miraculously by a goat and sometimes from heaven. Her genealogy, connecting her to St. Arnulf of Metz and the Carolingian dynasty, is preserved in manuscripts.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-bonitus-von-clermont": {
+    "summary": "St. Bonitus (or Bonus), thirtieth Bishop of Clermont of the Arverni, served under the Merovingian kings at the turn of the 8th century and later resigned his see to make a pilgrimage to Rome. He died at Lyon and his relics were translated to Clermont. His Life was written by an anonymous contemporary who accompanied the translation. He is particularly remembered for receiving a chasuble from an apparition of the Blessed Virgin.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-emembertus-von-cambrai": {
+    "summary": "St. Ablebertus (or Emebertus), Bishop of Cambrai and Arras at the beginning of the 8th century, was the brother of the holy virgins Rainildis and Gudila. He preceded St. Autbertus in the episcopal see. His relics are preserved at the Church of Canonesses at Maubeuge, where his feast is celebrated annually.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-maurus-von-huy": {
+    "summary": "St. Maurus, called 'Born-Dead' because he was reportedly stillborn and restored to life at the chapel of the Blessed Virgin of the Vineyard, was a hermit venerated at Huy in Belgium. His dates are uncertain, with some placing him in the late 7th century. His tomb was noted for remaining dry when floodwaters from the Hoyoux inundated the church.",
+    "genre": "vita",
+    "century": null,
+    "bhl": null
+  },
+  "day-15/acta-sanctorum-ceolwulf-von-northumbrien": {
+    "summary": "St. Ceolwulf, King of Northumbria from 729, was the learned ruler to whom the Venerable Bede dedicated his Ecclesiastical History of the English People. After eight years of reign, moved by his reading of that History and the examples of earlier royal monks, he abdicated in 738 and entered the monastery of Lindisfarne. The commentary draws extensively on William of Malmesbury, Henry of Huntingdon, and other English chroniclers.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  }
+}

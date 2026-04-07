@@ -1,0 +1,668 @@
+{
+  "feb/day-21/felix": {
+    "summary": "St. Felix, the third Bishop of Metz in Belgica Prima, succeeded Sts. Clement and Celestis in the early episcopal succession of that see. He reportedly governed the Church of Metz for approximately forty-two years, dying around A.D. 128, though the chronology is uncertain.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "feb/day-21/anthimus": {
+    "summary": "St. Anthimus, Bishop of Interamna (Terni) and Spoleto in Umbria, flourished under the Emperor Marcus Aurelius around A.D. 176. He erected churches, preached throughout Umbria, and secured the temporary release of the martyr St. Concordius. He is invoked as patron against storms.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "feb/day-21/martyrs-maurice": {
+    "summary": "St. Maurice and seventy companion soldier-martyrs suffered at Apamea in Syria II under the Emperor Maximian. Distinct from Maurice of Agaunum and the Theban Legion, this Maurice and his fellow soldiers, including his son Photinus, were tortured and exposed to insects for ten days before dying. The Acts survive in a Greek manuscript collated with Metaphrastes.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-21/martyrs-verulus": {
+    "summary": "Sts. Verulus, Secundinus, Siricius, Felix, Servulus, Saturninus, Fortunatus, Jocundus, Julian, Alexander, and sixteen companions were martyred at Hadrumetum (modern Sousse) in the Roman province of Byzacena, Africa. Their martyrdom may belong to either the Diocletianic persecution or the Vandal period; Baronius attributed it to the latter.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-21/martyrs-victorinus": {
+    "summary": "Sts. Victorinus, Mappalicus, and eighteen other martyrs are recorded in the ancient Roman Martyrology of St. Jerome, listed separately from the Hadrumetine group. They are African martyrs of uncertain date, with Victorinus celebrated as the leader and standard-bearer of the company.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-21/sicilian-martyrs-claudius": {
+    "summary": "Sts. Claudius, Sabinus, and Maximus were Sicilian martyrs who suffered around A.D. 303 under the Emperors Diocletian and Maximian. Assigned to Palermo by Caietanus on the basis of a manuscript Breviary, their Acts have not been recovered.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-21/irene": {
+    "summary": "St. Irene, a consecrated virgin and sister of Pope St. Damasus, was born in Spain and lived at Rome. She dedicated herself to chastity and solitary prayer, and died on February 21, A.D. 379, in the twelfth year of her brother's pontificate. Damasus composed a verse epitaph for her tomb.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-21/vitalina": {
+    "summary": "St. Vitalina, a virgin venerated at Artonne among the Arverni in Gaul, died around A.D. 390. St. Gregory of Tours recounts that St. Martin of Tours conversed with her at her tomb, where she confessed that washing her head on Good Friday had delayed her vision of God. Martin assured her she would see the Lord within three days.",
+    "genre": "miracula",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-21/severian": {
+    "summary": "St. Severian, Bishop of Scythopolis in Palestine, was martyred in A.D. 452 during the violent aftermath of the Council of Chalcedon. The pseudo-bishop Theodosius, an Eutychian partisan, had him killed for refusing to support the anti-Chalcedonian faction. Scythopolis was the metropolis of the Second Palestine.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-21/zacharias": {
+    "summary": "St. Zacharias, Patriarch of Jerusalem, was appointed around A.D. 609 and led captive to Persia in 614 when the Sassanids under Sarbarus captured Jerusalem, killing ninety thousand Christians and seizing the True Cross. He was freed after the death of Chosroes II and restored to his see in 629 by the Emperor Heraclius. He is venerated by the Greeks on February 21.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-21/paterius": {
+    "summary": "St. Paterius, Bishop of Brescia in Italy, flourished at the beginning of the seventh century. He is widely identified with Paterius the Notary and Deputy Chancellor of the Roman Church, a disciple of Pope St. Gregory the Great, who compiled an exposition of Scripture from Gregory's works at the Pope's own encouragement.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-21/gumbert": {
+    "summary": "St. Gumbert (Gondebert), Archbishop of Sens in Gaul, abdicated his see and retired to the Vosges wilderness, where he founded the Benedictine monastery of Senones, naming it after his former bishopric. His chronology is debated: some place him in the late sixth century amid the civil wars of the Merovingian queens, others under Charlemagne around 773-778.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-21/martyrs-germanus": {
+    "summary": "Sts. Germanus, Abbot, and Randoald, Provost of Grandval in the diocese of Basel, were martyred toward the end of the seventh century, probably around 677. Germanus was educated by St. Modoald of Trier and St. Arnulf of Metz before entering monastic life at Luxeuil under St. Waldebert. Their Life was written by the contemporary priest Bobolenus.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-21/peter-of-maiuma": {
+    "summary": "St. Peter of Maiuma, a secretary of public revenues in Palestine, was martyred in A.D. 743. While ill, he invited Arab acquaintances and denounced Muhammad as a false prophet, urging them to embrace Christianity. After recovering, he repeated these declarations publicly and was beheaded. St. John Damascene composed his eulogy.",
+    "genre": "passio",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-21/timothy-the-anchorite": {
+    "summary": "St. Timothy the Anchorite dwelt at a place called Symbola, possibly near the Tauric Chersonese or Mount Olympus in Bithynia. He practiced extreme asceticism from youth, preserved lifelong virginity, and was gifted with the grace of healing and power over demons. His date is uncertain, perhaps the eighth century.",
+    "genre": "vita",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-21/george": {
+    "summary": "St. George, Bishop of Amastris in Paphlagonia on the Black Sea, was elevated to the episcopate by St. Tarasius, Patriarch of Constantinople. He lived under the Emperors Irene, Constantine VI, and Nicephorus at the turn of the ninth century, and obtained autocephalous status for his see. His Life was written by an anonymous author, perhaps in the late ninth century.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-22/aristion": {
+    "summary": "St. Aristion, one of the seventy-two disciples of Christ, is attested by St. Papias of Hierapolis as an early witness to the Lord's teachings. Eusebius and St. Jerome record him as a 'disciple of the Lord' from whom Papias learned. He is associated with Salamis in Cyprus, where he may have ended his life.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-22/abilius": {
+    "summary": "St. Abilius was the third Patriarch of Alexandria, succeeding St. Anianus in the fourth year of Domitian (A.D. 84). He governed the Church for approximately thirteen years, during which the faith grew in Egypt, the Pentapolis, and Africa. He died around A.D. 97.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-22/papias": {
+    "summary": "St. Papias, Bishop of Hierapolis in Phrygia, flourished at the beginning of the second century. A hearer of either St. John the Apostle or John the Elder (a point debated since antiquity), and a companion of St. Polycarp, he composed a five-volume Explanation of the Sayings of the Lord, now largely lost. He is a key witness to early oral traditions about Christ.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "feb/day-22/anthusa-and-her-twelve-servants": {
+    "summary": "St. Anthusa and her twelve servants were martyred by the sword on an unknown date. The Greek Menaea record their feast on February 22 with a brief distich praising the servants' loyalty in dying alongside their mistress. No further Acts survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-22/gallus": {
+    "summary": "St. Gallus, a Roman consul, was martyred at Antioch. He is recorded in the most ancient manuscript of the Roman Martyrology attributed to St. Jerome. The date and circumstances of his martyrdom are unknown, though several prominent Romans bore the name Gallus across the first through fourth centuries.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-22/african-martyrs-victorinus": {
+    "summary": "Sts. Victorinus, Eucirus, Paulus, Donatus, Fortuna, and twenty-eight companions were African martyrs. Victorinus is called 'the Palatine' in some manuscripts, suggesting a connection to the imperial household. Their names appear in the Martyrology of St. Jerome and in the correspondence of Lucianus to Celerinus preserved by St. Cyprian.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-22/paschasius": {
+    "summary": "St. Paschasius, the twelfth (or eleventh) Bishop of Vienne in Gaul, served during the persecutions of Diocletian and Maximian and died before the Council of Arles in A.D. 314. He is credited with recovering the relics of St. Maurice of the Theban Legion from the Rhone, depositing them in the crypt of St. Peter at Vienne.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-22/baradatus": {
+    "summary": "St. Baradatus, a Syrian anchorite, practiced extreme asceticism under the Emperors Theodosius II, Marcian, and Leo the Thracian (mid-fifth century). He was so esteemed that Emperor Leo addressed to him the same letter sent to the principal patriarchs regarding the Council of Chalcedon, and Baradatus replied with a courteous defense of orthodoxy in A.D. 457.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-22/maximianus": {
+    "summary": "St. Maximianus, Bishop of Ravenna, was consecrated by Pope Vigilius at Constantinople and governed the Church of Ravenna from A.D. 546 to 556. He consecrated several major basilicas, including that of St. Vitalis (547) and St. Apollinaris at Classe (549). His manuscript Life survives among the sacred Virgins of St. Andrew at Ravenna.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-22/athanasius": {
+    "summary": "St. Athanasius, a Confessor born at Constantinople, became a monk near Nicomedia in Bithynia. Under the Iconoclast Emperor Leo the Armenian (813-820), he was tortured and exiled for venerating sacred images. He persevered in the orthodox faith until death, and his remains were placed in the Paulopetrium monastery.",
+    "genre": "commentary",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-23/martha": {
+    "summary": "St. Martha, a virgin of Astorga in the kingdom of Leon, was martyred under the Emperor Decius around A.D. 251. The proconsul Paternus attempted to persuade her to worship idols, offering his son in marriage; she refused, declaring herself betrothed to Christ. She was tortured on the rack and beheaded. Her cult remains strong throughout the diocese of Astorga.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-23/african-martyrs-cresconius": {
+    "summary": "Sts. Cresconius, Zeno, Menander, Carinianus, Arion, Hippolytus, Diodorus, Menelantus, Athora, Peter, Lambeses, Lucian, Felix, and thirty-five others are African martyrs of unknown date and circumstances, recorded in various ancient Martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/martyrs-of-smyrna-eros": {
+    "summary": "Sts. Eros, Carpophorus, and Gerontius were martyred at Smyrna in Asia Minor. They are recorded in the most ancient Roman Martyrology of St. Jerome and other manuscripts, listed after St. Polycarp of Smyrna, which may indicate they belonged to a later period. The time and manner of their martyrdom are unknown.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/asian-martyrs-sinon": {
+    "summary": "Sts. Sinon, Herulus, Cuscumus, Menalippus, Zeno, Sinertes, and Siricus were martyred at an unknown location in Asia Minor. Their names survive only in the ancient Roman Martyrology of St. Jerome and related manuscripts, with considerable variation in spelling. No Acts or further details are known.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/thea": {
+    "summary": "St. Thea is a martyr venerated by the Greeks on February 23, distinct from the Egyptian Thea celebrated on July 18. The Menaea record only that she mocked the false gods and was slain by the sword. No place, date, or further Acts survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/sirenus": {
+    "summary": "St. Sirenus (or Sinerius), a monk and solitary leading an ascetic life, was martyred at Sirmium in Lower Pannonia around A.D. 302. Despite later claims linking him to Fermo in Italy or Sexi Firmum in Spain, the ancient Martyrologies consistently locate his passion at Sirmium.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": "7596"
+  },
+  "feb/day-23/primian": {
+    "summary": "St. Primian, a Greek bishop of unknown see, is venerated as a martyr at Ancona in Picenum. His relics were discovered around 1370 under Bishop John of Ancona; a sepulchral inscription indicates he was Greek. A revelation attributed to the saint places his martyrdom more than a thousand years before the discovery, possibly under Diocletian.",
+    "genre": "translatio",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/polycarp": {
+    "summary": "St. Polycarp the Priest, a Roman confessor distinct from St. Polycarp of Smyrna, flourished around A.D. 300. He is associated with St. Sebastian and is credited with converting many to the faith of Christ and encouraging them to the glory of martyrdom. The Martyrologies honor him on February 23.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-23/clement": {
+    "summary": "St. Clement is a martyr commemorated in the Greek Menaea on February 23, said to have been 'perfected by the sword.' He is distinct from all other known saints of the same name. No place is specified; the Bollandists conjecture he was crowned in Greece or an Eastern province.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/romana": {
+    "summary": "St. Romana, a Roman virgin and daughter of the city prefect Calpurnius, was baptized by Pope St. Silvester and retired to a life of solitary prayer in caves near Todi in Umbria around A.D. 324. She was renowned for miracles and is inscribed in the Roman Martyrology on February 23.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-23/syrian-anchorites-john": {
+    "summary": "Sts. John, Moses, Antiochus, and Antoninus were Syrian anchorites of the fifth century, celebrated by Theodoret of Cyrus in chapter 23 of his Philotheus (Religious History) while they were still alive. John was a disciple of St. Limnaeus. All four were 'iron-bearers' who practiced severe asceticism in the region of Cyristica.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-23/florentius": {
+    "summary": "St. Florentius, a confessor venerated at Seville in Spain, died on February 23, A.D. 485, at the age of fifty-three. A Latin epitaph found with his relics confirms that he rested in peace, indicating a natural death rather than martyrdom. He is celebrated in the Roman Martyrology and throughout the diocese of Seville.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-23/dositheus": {
+    "summary": "St. Dositheus, a monk in Palestine who lived around A.D. 530, was the first disciple of St. Dorotheus the Archimandrite at the monastery of Abbot Seridus, near Ascalon. Despite having no prior knowledge of sacred doctrine, he advanced rapidly to holiness through strict obedience and the cutting off of his own will. His Life was written by a disciple of Dorotheus.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-23/felix": {
+    "summary": "St. Felix, Bishop of Brescia in Italy, governed that Church for approximately forty years during the first half of the seventh century. He erected many churches with the support of the Lombard Queen Theodolinda and King Adaloald, and successfully resisted the imposition of an Arian bishop by King Rothari.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-23/earcongota": {
+    "summary": "St. Earcongota, a royal Anglo-Saxon virgin, was the daughter of King Earconbert of Kent and St. Sexburga. She entered the monastery of Faremoutiers (Eboriacum) in the forest of Brie in Gaul, founded by St. Fara. Bede records her exemplary religious life and heavenly signs attending her death near the end of the seventh century.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-23/milburga": {
+    "summary": "St. Milburga, a virgin of the Mercian royal house, was the daughter of King Merwald and granddaughter of King Penda. She became the first Abbess of Wenlock in Shropshire, a monastery founded by St. Waldebert of Luxeuil around A.D. 680. She died around 722 and was famed for miracles.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": "5959"
+  },
+  "feb/day-23/lazarus": {
+    "summary": "St. Lazarus, a monk, priest, and painter at Constantinople, was tortured under the Iconoclast Emperor Theophilus (829-842) for painting sacred images, with red-hot iron plates applied to his hands. After recovery, he painted a miraculous image of St. John the Forerunner. Following Theophilus's death, he restored the image of Christ in the Chalke. He died around 870.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-23/celsus": {
+    "summary": "St. Celsus, the fifth Bishop of Trier, succeeded St. Auspicius in the early Christian period. His tomb was discovered around A.D. 979 under Archbishop Egbert, who promoted his cult. His deposition is recorded as January 4, but the Discovery of his relics is celebrated on February 23.",
+    "genre": "translatio",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-23/milo": {
+    "summary": "St. Milo, Archbishop of Benevento, was of Auvergnat origin and is best known as the mentor of St. Stephen, founder of the Order of Grandmont, whom he educated for twelve years. He died in A.D. 1070 at Benevento. Though enrolled among the Saints, he has no formal ecclesiastical office.",
+    "genre": "commentary",
+    "century": "11th century",
+    "bhl": null
+  },
+  "feb/day-24/matthias-the-apostle": {
+    "summary": "St. Matthias, chosen by lot to replace Judas Iscariot among the Twelve Apostles (Acts 1:15-26), is venerated by the Latins on February 24 and by the Greeks on August 9. The commentary examines the historical traditions surrounding his apostolate, the circumstances of his election as recorded by Luke, and the various legends about his later ministry.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-24/montanus": {
+    "summary": "Sts. Montanus, Lucius, Julian, Victoricus, Flavian, and companions were African martyrs who suffered around A.D. 260 during the persecution under the Emperor Valerian. Their Acts, surviving in an early letter-form, are among the important documents of the African church.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-24/martyrs-paul-and-primitivus": {
+    "summary": "Sts. Paul and Primitivus (or Primitiva) were martyred at Portus Romanus, the ancient port city near Ostia. They are recorded in the most ancient Roman Martyrology of St. Jerome. Baronius later inscribed the entry as 'St. Primitiva, Martyr' based on one manuscript variant, but other sources consistently read 'Primitivus.'",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-24/sergius": {
+    "summary": "St. Sergius was martyred at Caesarea in Cappadocia during the Diocletianic persecution around A.D. 304. The Martyrologies attest that his 'illustrious deeds are extant,' though their precise content has been elusive. Acts were published from a Gothic manuscript codex at the Cistercian monastery of Mont-Sion in Toledo.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-24/modestus": {
+    "summary": "St. Modestus, Bishop of Trier in Belgica Prima, flourished in the fifth century, succeeding Bishop Miletus. He is venerated on February 24 in numerous manuscript Martyrologies. His death is variously placed around A.D. 480-499. He is buried in the church of St. Eucharius (later St. Matthias) at Trier.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-24/praetextatus": {
+    "summary": "St. Praetextatus, Bishop of Rouen, was martyred in A.D. 586. He suffered exile under the Merovingian King Chilperic I for blessing the marriage of Prince Merovech and Brunhild, and was later restored to his see. He was assassinated on Easter Sunday by agents of Queen Fredegund. His Acts are drawn largely from the eyewitness account of Gregory of Tours.",
+    "genre": "passio",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-24/letard": {
+    "summary": "St. Letard (Liudhard), Bishop of Senlis in Gaul, accompanied the Frankish princess Bertha to England upon her marriage to Ethelbert, King of Kent, and served as her chaplain. He thus helped prepare the ground for the Augustinian mission to England. He died at Canterbury before King Ethelbert, likely in the early seventh century.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-24/ethelbert": {
+    "summary": "St. Ethelbert, King of the Kentish people and overlord among the Anglo-Saxon kingdoms, died on February 24, A.D. 616 at Canterbury. He was the first English king to receive baptism, converted through the mission of St. Augustine of Canterbury, and his reign marked the beginning of Christianity's establishment in England.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-24/john-theristus": {
+    "summary": "St. John Theristus ('the Reaper'), a Basilian monk at Stilo in Calabria, was born at Palermo to Christian parents and died around A.D. 1129. His Greek Acts, preserved at the monastery of Grottaferrata, explain his surname from a miraculous reaping. He is venerated on February 24 at both Stilo and Palermo.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "feb/day-25/african-martyrs-donatus": {
+    "summary": "Sts. Donatus, Justus, Irenaeus, Pisinion, Aurulius, Rutulus, Primasius, Ingenula, and forty-five companions are African martyrs whose names are preserved in multiple Martyrologies with considerable variation. Neither the date nor the specific circumstances of their martyrdom are known.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-25/martyrs-ingona-or-ingenua": {
+    "summary": "Sts. Ingona (or Ingenua), Fortunatus, Pissinus, Irenaeus, Justus, Crescentius, Revocatus, Januaria, Luciosa, Casta, and a second Fortunatus are martyrs of uncertain provenance, recorded in the ancient Martyrology of St. Jerome. They may overlap with the African Martyrs of the same day, though the Bollandists treat them separately.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-25/egyptian-martyrs-victorinus": {
+    "summary": "Sts. Victorinus, Victor, Nicephorus, Claudian, Dioscorus, Serapion, and Papias were Egyptian martyrs who suffered around A.D. 285. Their names appear in multiple Martyrologies, and they are commemorated on February 25 in the Roman Martyrology.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-25/anthony": {
+    "summary": "St. Anthony is a martyr commemorated in the Greek Menaea on February 25 as having been 'consumed by fire.' No place, date, or further details survive. He is distinct from all other known saints of the same name.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-25/martyrs-ananias-the-priest": {
+    "summary": "Sts. Ananias the Priest, Peter the Key-Bearer, and seven soldiers were martyred in Phoenicia under the Emperor Diocletian. Ananias, brought before the governor Maximus, boldly confessed Christ and destroyed idols by prayer. He converted Peter, the prison doorkeeper, and all nine were thrown into the sea.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-25/rheginus": {
+    "summary": "St. Rheginus, Bishop of Scopelos, was martyred around A.D. 355 for his defense of the orthodox faith. The Greek Menaea praise his unshaken spirit in the face of the sword. He is venerated on February 25.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-25/caesarius": {
+    "summary": "St. Caesarius, brother of St. Gregory the Theologian (Nazianzen), was a distinguished physician and later Quaestor of the province of Bithynia. He died around A.D. 369 at Nazianzus. Gregory delivered a celebrated funeral oration in his honor, in which he testifies to having seen Caesarius among the blessed.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-25/felix-iii": {
+    "summary": "St. Felix III (sometimes numbered II), Pope from A.D. 483 to 492, was the third of four Popes named Felix. Of noble Roman lineage and an ancestor of Pope St. Gregory the Great, he vigorously defended Chalcedonian orthodoxy and excommunicated Patriarch Acacius of Constantinople, precipitating the Acacian Schism.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-25/theodore-the-fool": {
+    "summary": "St. Theodore, 'the Fool for Christ's sake,' is commemorated in the Greek Menaea on February 25 as having died in peace. Following the precedent of King David feigning madness before Achish, Theodore adopted the guise of foolishness to conceal his holiness. No date, place, or further Acts are known.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-25/aldetrudis": {
+    "summary": "St. Aldetrudis, a virgin of the Merovingian nobility, was the daughter of St. Waldetrudis and St. Vincentius the Count, and niece of St. Aldegundis. She succeeded her aunt as Abbess of Maubeuge in Hainaut near the end of the seventh century. Her Acts survive in manuscript from Rouge-Cloitre.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-25/walburga": {
+    "summary": "St. Walburga, an Anglo-Saxon virgin, was the sister of St. Willibald and St. Winnebald. She became Abbess of the double monastery at Heidenheim in Bavaria, dying around A.D. 780. Her relics at Eichstatt became famous for a miraculous flow of oil. She is one of the most widely venerated English saints on the Continent.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-25/tarasius": {
+    "summary": "St. Tarasius, Patriarch of Constantinople (A.D. 784-806), was chosen from a secular career as imperial secretary to lead the Church through the restoration of icon veneration. He presided over the Second Council of Nicaea (787), which condemned Iconoclasm and restored the cult of sacred images.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-26/martyrs-papias": {
+    "summary": "Sts. Papias, Diodorus, Conon, and Claudianus were martyred at Attalia in Pamphylia under the Emperor Decius around A.D. 251. They preceded St. Nestor, Bishop of Magydus, in martyrdom during the same persecution under the governor Pollio (Publius). Their Acts are referenced in the presidial record of Nestor's trial.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-26/nestor": {
+    "summary": "St. Nestor, Bishop of Magydus in Pamphylia, was martyred at Perge in A.D. 251 under the Emperor Decius and the governor Pollio. His presidial Acts, taken down by court notaries, survive in a manuscript from the monastery of St. Maximinus. Baronius judged them legitimate.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-26/martyrs-alexander": {
+    "summary": "Sts. Alexander, Nestor, Justus, Theon, Epion, Donativus, Ampliatus, and Ingenuus were martyred at Thessalonica in Macedonia. They appear in ancient Martyrologies, but the date and circumstances of their passion are unknown.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-26/fortunatus-and-his-thirty-two-companion-martyrs-of-antioch": {
+    "summary": "St. Fortunatus and thirty-two companions were martyred at Antioch. They are recorded in the most ancient Roman Martyrology of St. Jerome, which specifies Antioch as the location. Peter of Natali designates Fortunatus as a priest. Their date is unknown.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-26/felix": {
+    "summary": "St. Felix was a martyr at Alexandria in Egypt. He is recorded in the Martyrology of St. Jerome and the Reichenau manuscript, separated from the Antiochene group of Fortunatus. No further details of his passion survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-26/dionysius": {
+    "summary": "St. Dionysius, Bishop of Augsburg (Augusta Vindelicorum), was martyred in A.D. 303 during the Diocletianic persecution. He is venerated as one of the earliest Christian leaders and martyrs in the Roman province of Raetia.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-26/paschalis": {
+    "summary": "St. Paschalis, a Roman martyr, is venerated at Antwerp in Belgium, where his relics were translated. Little is known of his original martyrdom at Rome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-26/philippus": {
+    "summary": "St. Philippus, a bishop and martyr, is venerated at Bologna in Italy. The circumstances of his episcopate and martyrdom remain uncertain.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-26/alexander": {
+    "summary": "St. Alexander, Bishop of Alexandria in Egypt, presided over the see during the emergence of the Arian heresy and played a decisive role in convening the Council of Nicaea in A.D. 325. He died in 326 and was succeeded by St. Athanasius. His defense of Trinitarian orthodoxy was foundational for the Nicene settlement.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-26/faustinianus": {
+    "summary": "St. Faustinianus, Bishop of Bologna in Italy, served in the fourth century as one of the early successors of St. Zama, the first bishop of that see. The Bollandist commentary discusses his place in the episcopal catalogue and the early Christianization of Bologna.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-26/porphyrius": {
+    "summary": "St. Porphyrius, Bishop of Gaza in Palestine, died in A.D. 421. He is celebrated for his zealous campaign to destroy the pagan temples of Gaza, particularly the great Marneion, with the support of the Empress Eudoxia. His Life was written by his deacon Mark.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-26/andreas": {
+    "summary": "St. Andreas, Bishop of Florence in Etruria, is assigned to the fifth century. The Bollandist commentary examines his place in the early episcopal succession of Florence.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-26/servulus": {
+    "summary": "St. Servulus, Bishop of Verona in Italy, is placed after A.D. 1000. Little is recorded of his episcopate beyond his inclusion in the catalogues of Veronese bishops.",
+    "genre": "commentary",
+    "century": "11th century",
+    "bhl": null
+  },
+  "feb/day-26/victor": {
+    "summary": "St. Victor, a priest at Archiac in French Champagne, lived in the sixth or seventh century. The Bollandist commentary provides what survives of his history and cult.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-27/alexandrian-martyrs-julian-the-gouty": {
+    "summary": "Sts. Julian the Gouty, his servant Cronion Eunus, and the soldier Besas were martyred at Alexandria in A.D. 250 during the Decian persecution. Their passion is described in the letter of St. Dionysius of Alexandria preserved by Eusebius. Despite his affliction with gout, Julian was carried to the tribunal and steadfastly confessed the faith.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-27/gelasius": {
+    "summary": "St. Gelasius (or Gelasinus), a mime actor at Heliopolis in Phoenicia, was martyred in A.D. 297. While performing a burlesque of Christian baptism on stage, he experienced a genuine conversion and publicly confessed Christ, for which he was immediately put to death.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-27/nesius": {
+    "summary": "St. Nesius is a martyr of unknown date and provenance, recorded briefly in ancient Martyrologies. No Acts or further details survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/martyrs-alexander": {
+    "summary": "Sts. Alexander, Antigonus, Abundantius (or Abundius), Titianus, Macarius, Severianus, Calanus, Fortunio, and Januarius were martyred at Thessalonica in Macedonia. They are recorded in ancient Martyrologies, but the date and circumstances of their passion remain unknown.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/african-martyrs-dionysius-and-24-others": {
+    "summary": "St. Dionysius and twenty-four companions are African martyrs of unknown date, recorded in ancient Martyrologies. No further details of their passion survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/martyrs-of-smyrna-servilianus": {
+    "summary": "Sts. Servilianus, Datianus (or Dacianus), and Leander were martyred at Smyrna in Asia Minor. They are attested in ancient Martyrologies, but neither date nor circumstances are known.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/honorina": {
+    "summary": "St. Honorina, a virgin and martyr, is venerated at Conflans in France. Her passion is the subject of a Bollandist preliminary commentary examining her cult and the translation of her relics.",
+    "genre": "passio",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/pontiana": {
+    "summary": "St. Pontiana is a martyr venerated at Genoa in Liguria. Little is known of her beyond brief notices in Martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/chrysogonus": {
+    "summary": "St. Chrysogonus is a confessor venerated at Genoa in Liguria. He is distinct from the more famous St. Chrysogonus of Aquileia. Details of his life remain scarce.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/thalelaeus": {
+    "summary": "St. Thalelaeus, a Syrian anchorite, flourished around A.D. 460. He is one of the ascetics celebrated by Theodoret of Cyrus in his Philotheus and is known for his extraordinary feats of endurance and penitential practice.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-27/onesima": {
+    "summary": "St. Onesima is a virgin of unknown date and provenance, commemorated by the Greeks on February 27. No Acts or further details survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-27/eucharius": {
+    "summary": "St. Eucharius, Bishop of Maastricht (Tongeren) in Belgium, served in the sixth century. He is one of the early bishops of a see that later transferred to Liege.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-27/comganus": {
+    "summary": "St. Comganus, Abbot of Glenusk in Ireland, lived before A.D. 569. He is one of the many Irish monastic founders of the sixth century, though details of his life are sparse.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-27/stephen-of-constantinople": {
+    "summary": "St. Stephen of Constantinople served as Accubitor (a palace attendant or guard) to the Emperor Maurice. He is associated with events after A.D. 614 and is venerated in Greek calendars.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-27/baldomerus": {
+    "summary": "St. Baldomerus, a Subdeacon at Lyon in Gaul, flourished around A.D. 660. Originally a locksmith, he was ordained to the subdiaconate by Bishop Gundulf of Lyon and became known for his piety, charity, and miracles. His cult was important in early medieval Lyon.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-27/alnothus": {
+    "summary": "St. Alnothus, a hermit in England, was martyred around A.D. 700. He had been a cowherd of St. Werburga before retiring to a solitary life. He was killed by robbers and venerated as a martyr.",
+    "genre": "passio",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-27/monks-basilius-and-procopius-decapolita": {
+    "summary": "Sts. Basilius and Procopius Decapolita, monks and confessors at Constantinople, suffered for their defense of sacred images around A.D. 750 under the Iconoclast emperors. Procopius is surnamed 'Decapolita' from the Decapolis region of Palestine.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-28/apostles-nymphas-of-laodicea-and-eubulus-of-rome": {
+    "summary": "Sts. Nymphas of Laodicea and Eubulus of Rome are counted among the seventy disciples of Christ. Nymphas is mentioned by St. Paul in Colossians 4:15 as hosting a church in his house. They are commemorated on February 28 in the Greek tradition.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-28/abircius-the-martyr": {
+    "summary": "St. Abircius is a martyr of unknown date and provenance, commemorated by the Greeks on February 28. Only the briefest notice survives in the Menaea.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/alexandrian-martyrs": {
+    "summary": "A company of priests, deacons, and laypeople of Alexandria who died in A.D. 261 while ministering to those suffering from a devastating plague. Their heroic charity in nursing the sick at the cost of their own lives was celebrated by St. Dionysius of Alexandria, and they are honored as martyrs.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-28/alexandrian-martyrs-celer": {
+    "summary": "Sts. Celer (or Cerealis), Pupillus, Serapion, Justus, Claudianus, Theophilus, Victorinus, Saturninus, and other companions are Alexandrian martyrs recorded in ancient Martyrologies. Their names appear with considerable variation across manuscripts.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/martyrs-macarius-and-rufinus": {
+    "summary": "Sts. Macarius, Rufinus, Justus, and Theophilus are martyrs, perhaps of Rome, recorded in ancient Martyrologies. The date and circumstances of their passion are unknown.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/martyrs-nicophorus": {
+    "summary": "Sts. Nicophorus, Diodorus, Papias, and nineteen other companions, including several women, are martyrs of unknown provenance recorded in ancient Martyrologies with considerable name variation.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/roman-martyrs-symphorianus": {
+    "summary": "Sts. Symphorianus, Macarius, Victorinus, Maurice, Anicetus, Modestus, Cyriacus, Faustus, Placidus, Rocchus, Alexander, Genesius, Eulalia, and Hirena are Roman martyrs whose relics were translated to Antwerp in Belgium. Their cult at Antwerp is the subject of the Bollandist historical commentary.",
+    "genre": "translatio",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/barsus": {
+    "summary": "St. Barsus (or Barses), Bishop of Damascus in Syria, is commemorated on February 28. He is known from brief notices in Greek and Latin sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/vindemialis": {
+    "summary": "St. Vindemialis, Bishop of Verona in Italy, is briefly noted in the Bollandist commentary. His place in the Veronese episcopal succession is discussed.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-28/proterius": {
+    "summary": "St. Proterius, Patriarch of Alexandria, was martyred in A.D. 457. Elected to replace the deposed Monophysite Dioscorus after the Council of Chalcedon (451), he was murdered by a mob on Good Friday when the Monophysite Timothy Aelurus seized the patriarchal see. He is one of the most prominent Chalcedonian martyrs.",
+    "genre": "passio",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-28/0010-romanus": {
+    "summary": "St. Romanus, Abbot of the monastery at Condat in the Jura mountains of Burgundy, died around A.D. 460. He was a pioneer of monasticism in the Jura, withdrawing to the wilderness with his brother St. Lupicinus and gathering a large community. His Life was written by an anonymous near-contemporary.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-28/0011-romanus": {
+    "summary": "St. Romanus, Archbishop of Reims in Champagne, died around A.D. 533. He is numbered among the early medieval archbishops of that great metropolitan see.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-28/rufina-the-virgin": {
+    "summary": "St. Rufina is a virgin commemorated on February 28, distinct from the more famous Roman martyr Rufina (July 10). No date, place, or further details survive.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-29/oswald": {
+    "summary": "St. Oswald, Bishop of Worcester and later Archbishop of York, died on February 29, A.D. 992. Of Danish descent and educated at Fleury, he was a principal architect of the tenth-century English monastic reform alongside Sts. Dunstan and Ethelwold. He founded Ramsey Abbey and reformed numerous monasteries according to the Benedictine Rule.",
+    "genre": "vita",
+    "century": "10th century",
+    "bhl": null
+  }
+}

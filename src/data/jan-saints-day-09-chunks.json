@@ -1,0 +1,322 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-paschasia-01.md",
+    "saint": "Acta Sanctorum: Paschasia",
+    "source": "01-acta-sanctorum-paschasia.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 881,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-epictetus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Epictetus und Gefährten",
+    "source": "02-acta-sanctorum-epictetus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 421,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-vitalis-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Vitalis und Gefährten",
+    "source": "03-acta-sanctorum-vitalis-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 449,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-marciana-01.md",
+    "saint": "Acta Sanctorum: Marciana",
+    "source": "04-acta-sanctorum-marciana.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1344,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-marciana-02.md",
+    "saint": "Acta Sanctorum: Marciana",
+    "source": "04-acta-sanctorum-marciana.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 1022,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-julian-und-basilissa-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 15,
+    "words": 1361,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-julian-und-basilissa-und-gefaehrten-02.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 2,
+    "totalParts": 15,
+    "words": 1336,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-julian-und-basilissa-und-gefaehrten-03.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 3,
+    "totalParts": 15,
+    "words": 1431,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-julian-und-basilissa-und-gefaehrten-04.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 4,
+    "totalParts": 15,
+    "words": 1303,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-julian-und-basilissa-und-gefaehrten-05.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 5,
+    "totalParts": 15,
+    "words": 1414,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-julian-und-basilissa-und-gefaehrten-06.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 6,
+    "totalParts": 15,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-julian-und-basilissa-und-gefaehrten-07.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 7,
+    "totalParts": 15,
+    "words": 1448,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-julian-und-basilissa-und-gefaehrten-08.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 8,
+    "totalParts": 15,
+    "words": 1467,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-julian-und-basilissa-und-gefaehrten-09.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 9,
+    "totalParts": 15,
+    "words": 1349,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-julian-und-basilissa-und-gefaehrten-10.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 10,
+    "totalParts": 15,
+    "words": 1459,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-julian-und-basilissa-und-gefaehrten-11.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 11,
+    "totalParts": 15,
+    "words": 1186,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-julian-und-basilissa-und-gefaehrten-12.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 12,
+    "totalParts": 15,
+    "words": 1414,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-julian-und-basilissa-und-gefaehrten-13.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 13,
+    "totalParts": 15,
+    "words": 1500,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-julian-und-basilissa-und-gefaehrten-14.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 14,
+    "totalParts": 15,
+    "words": 1481,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-julian-und-basilissa-und-gefaehrten-15.md",
+    "saint": "Acta Sanctorum: Julian und Basilissa und Gefährten",
+    "source": "05-acta-sanctorum-julian-und-basilissa-und-gefaehrten.md",
+    "part": 15,
+    "totalParts": 15,
+    "words": 316,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-petrus-von-sebaste-01.md",
+    "saint": "Acta Sanctorum: Petrus von Sebaste",
+    "source": "06-acta-sanctorum-petrus-von-sebaste.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1458,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-petrus-von-sebaste-02.md",
+    "saint": "Acta Sanctorum: Petrus von Sebaste",
+    "source": "06-acta-sanctorum-petrus-von-sebaste.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 335,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-marcellinus-von-ancona-01.md",
+    "saint": "Acta Sanctorum: Marcellinus von Ancona",
+    "source": "07-acta-sanctorum-marcellinus-von-ancona.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 702,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-waningus-von-f-camp-01.md",
+    "saint": "Acta Sanctorum: Waningus von Fécamp",
+    "source": "08-acta-sanctorum-waningus-von-f-camp.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1434,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-waningus-von-f-camp-02.md",
+    "saint": "Acta Sanctorum: Waningus von Fécamp",
+    "source": "08-acta-sanctorum-waningus-von-f-camp.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1420,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-waningus-von-f-camp-03.md",
+    "saint": "Acta Sanctorum: Waningus von Fécamp",
+    "source": "08-acta-sanctorum-waningus-von-f-camp.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 987,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-filanus-01.md",
+    "saint": "Acta Sanctorum: Filanus",
+    "source": "09-acta-sanctorum-filanus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 958,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-hadrian-von-canterbury-01.md",
+    "saint": "Acta Sanctorum: Hadrian von Canterbury",
+    "source": "10-acta-sanctorum-hadrian-von-canterbury.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1490,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-hadrian-von-canterbury-02.md",
+    "saint": "Acta Sanctorum: Hadrian von Canterbury",
+    "source": "10-acta-sanctorum-hadrian-von-canterbury.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 1268,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-bertwald-von-canterbury-01.md",
+    "saint": "Acta Sanctorum: Bertwald von Canterbury",
+    "source": "11-acta-sanctorum-bertwald-von-canterbury.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 527,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-eustratius-thaumaturgos-01.md",
+    "saint": "Acta Sanctorum: Eustratius „Thaumaturgos”",
+    "source": "12-acta-sanctorum-eustratius-thaumaturgos.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1498,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "0031-acta-sanctorum-eustratius-thaumaturgos-02.md",
+    "saint": "Acta Sanctorum: Eustratius „Thaumaturgos”",
+    "source": "12-acta-sanctorum-eustratius-thaumaturgos.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 93,
+    "status": "pending"
+  }
+]

@@ -1,0 +1,404 @@
+{
+  "day-01/acta-sanctorum-maria-beschneidung-jesu": {
+    "summary": "An entry for January 1 treating the Circumcision of the Lord and the Octave of the Nativity. It opens with a sermon by Bishop Faustinus against pagan customs on the January Kalends, followed by a commentary on the relic of the Holy Foreskin venerated at Antwerp and elsewhere.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-caspar": {
+    "summary": "A brief Bollandist commentary on St. Gaspar (Caspar), one of the three Magi Kings. According to tradition he was ordained bishop by the Apostle Thomas and died at age 109 after celebrating the Eucharist. The fuller treatment is deferred to January 6 and 11.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-maertyrer-von-syracus": {
+    "summary": "A very brief notice of anonymous early martyrs at Syracuse in Sicily, described as the first fruits of Christian martyrdom on the island during the persecution of Nero, around the year 67.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-concordius": {
+    "summary": "St. Concordius, priest and martyr at Spoleto in Umbria, killed around 175 under the Emperor Antoninus (Marcus Aurelius). This vita, drawn from ancient manuscripts, narrates his upbringing by his priest father Gordianus in Rome, his flight to St. Eutyches, his interrogation and torture by the governor Torquatus, and his beheading for refusing to sacrifice to Jupiter.",
+    "genre": "vita",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-elvanus": {
+    "summary": "A Bollandist commentary on SS. Elvanus and Meduinus, apostolic men in 2nd-century Britain. Sent by King Lucius to Pope Eleutherus around 180, Elvanus was consecrated bishop and Meduinus appointed doctor of the Britons; they helped bring Christianity to the British Isles.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-martina": {
+    "summary": "St. Martina, Roman virgin and martyr under Emperor Alexander Severus (r. 222-235). This passio, drawn from ancient manuscripts including that of St. Maximin at Trier, narrates how the noble deaconess Martina was arrested, brought before the emperor, and refused to sacrifice to Apollo, whereupon the idol was shattered by an earthquake and a demon fled wailing from the temple.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-caius-und-gefaehrten": {
+    "summary": "A brief notice of the otherwise little-known martyrs Caius, Iactus, and Heraclus at Bologna, recorded in the manuscript Martyrology of St. Jerome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-victor-und-gefaehrten": {
+    "summary": "A brief notice from the manuscript Martyrology of St. Jerome recording the African martyrs Victor, Felix, Narcissus, Argyrus, and four unnamed companions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-primianus-und-gefaehrten": {
+    "summary": "A brief notice of the otherwise unattested martyrs Primianus, two Saturnini, Victor, Honoratus, Leucius, and Hermes, known only from the manuscript Martyrology of St. Jerome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-paracodus-von-vienne": {
+    "summary": "St. Paracodas (also Pyragodas), a Greek by birth, seventh or eighth bishop of Vienne in Gaul, who held office under the emperors Caracalla through Maximinus (early 3rd century). The commentary includes a letter from Pope Victor concerning the Easter controversy.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-30-soldaten": {
+    "summary": "A Bollandist commentary on the thirty holy soldier-martyrs put to death at Rome on the Via Appia under Emperor Diocletian. Various martyrologies record that they were first chained and then beheaded.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-euphrosynus-und-gefaehrten": {
+    "summary": "A brief notice of St. Euphrosynus, a bishop, along with Priamianus (or Prianus) and nine unnamed companions, martyred at Nicomedia. Known from the Martyrology of St. Jerome; little else survives about them.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-severus-von-ravenna": {
+    "summary": "A Bollandist commentary sorting out the confusion between St. Severus the martyr at Ravenna (d. 304 under Maximian) and the more famous St. Severus, bishop and confessor of Ravenna. The commentary draws on Jerome Rubeus and other authorities to distinguish the two.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-evantus-und-hermes": {
+    "summary": "A minimal notice of the martyrs Evantus and Hermes in Rhaetia, known only from the Martyrology of St. Jerome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-magnus": {
+    "summary": "A minimal notice of St. Magnus the martyr, recorded in the Roman Martyrology and a few other sources with no further details.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-theodotus": {
+    "summary": "A brief notice of St. Theodotus the martyr, known from the Greek Menaea, who ended his life by the sword. The Bollandists consider him distinct from the various Theodoti in Latin martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-gregor-von-nazianz-der-aeltere": {
+    "summary": "St. Gregory the Elder, bishop of Nazianzus in Cappadocia (d. c. 373), father of St. Gregory the Theologian. The text consists of the funeral oration delivered by his son in the presence of St. Basil, translated by Jacques de Billy. It recounts Gregory's conversion from the Hypsistarian sect, his blameless character even before baptism, and his long episcopate.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-telemachus": {
+    "summary": "St. Almachus (or Telemachus), a monk from the East who was martyred at Rome around 394. According to Theodoret, he entered the arena to stop gladiatorial combat and was stoned to death by the spectators; Emperor Honorius subsequently abolished gladiatorial shows and enrolled him among the martyrs.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-fulgentius-von-ruspe": {
+    "summary": "St. Fulgentius, bishop of Ruspe in North Africa (d. c. 529), a major anti-Arian theologian. This vita, written by an unnamed disciple and addressed to Bishop Felicianus, narrates his noble Carthaginian ancestry, his education in Greek and Latin, his early career as procurator, and his eventual turn to monastic life. The text is a key source for late-antique African Christianity.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-mochua-cuanus": {
+    "summary": "St. Mochua (also called Cuanus), an Irish abbot who died on January 1. A former soldier for thirty years, he converted to monastic life and founded the monastery of Teach-Mochua. His vita, supplied by Fr. Hugh Ward from Irish codices, recounts numerous miracles including healing St. Colman-Ela of pride-induced amnesia and curing St. Munnu of leprosy.",
+    "genre": "vita",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-mochua-cronanus": {
+    "summary": "St. Mochua of Balla (also called Cronanus), an Irish abbot and disciple of St. Congall of Bangor. Born with ringworm and despised by his parents, he was set to tend sheep until Congall recognized his sanctity. He later founded the monastery of Balla in Connacht, guided there by a miraculous spring that traveled in the form of a cloud. The vita was translated from Irish by Philip O'Sullivan Beare.",
+    "genre": "vita",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-agrippinus-von-autun": {
+    "summary": "St. Agrippinus, eighteenth bishop of Autun in Gaul (fl. c. 533-538). He attended the Second and Third Councils of Orleans and is remembered for ordaining St. Germanus of Paris to the diaconate and priesthood. He died before 549.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-eugendus-von-condat": {
+    "summary": "St. Eugendus (also Augendus), abbot of the monastery of Condat (later Saint-Claude) in the Jura mountains of Burgundy. Entered monastic life at age seven under SS. Romanus and Lupicinus, and never left the monastery for the remaining fifty-three years of his life. This vita, written by an anonymous disciple, describes his extreme asceticism, his learning in both Latin and Greek, and his refusal of priestly ordination.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-marinus-von-l-rins": {
+    "summary": "A brief notice of St. Marinus, priest and abbot of Lerins, recorded in the Lerins Chronology. He is mentioned in the vita of St. Eugendus as having commissioned the compilation of the institutions of the monastery of Agaunum.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-clarus-von-vienne": {
+    "summary": "St. Clarus, priest and abbot of the monastery of St. Marcellus at Vienne in Gaul. Distinguished from boyhood by divine signs, he calmed a storm on the Rhone as a child. His vita describes the flourishing monastic life of Vienne, with over a thousand monks and nuns in numerous monasteries, and Clarus's rise from monk to abbot.",
+    "genre": "vita",
+    "century": null,
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-stabilis-von-clermont": {
+    "summary": "A brief notice of St. Stabilis, thirty-eighth bishop of Clermont in the Auvergne (d. c. 810). His feast was celebrated on January 1 with an office of eight lessons in the church of St. Illidius at Clermont.",
+    "genre": "commentary",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-wilhelm-von-dijon": {
+    "summary": "St. William (Willelmus), abbot of Saint-Benignus at Dijon (d. 1031), an Italian-born Benedictine reformer and disciple of St. Maiolus of Cluny. His vita, written by Glaber Rodulfus, recounts his noble Lombard-Swabian ancestry, his birth during a siege by Emperor Otto I, his baptism sponsored by the emperor, and his career as the foremost propagator of Benedictine monasticism in his era, reforming numerous abbeys across France.",
+    "genre": "vita",
+    "century": "11th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-clarus-von-seligenstadt": {
+    "summary": "A brief notice of St. Clarus, a monk and recluse at the monastery of SS. Marcellinus and Peter at Seligenstadt in the diocese of Mainz (fl. c. 1043). Enclosed for the love of God and devoted to prayer and contemplation, he was reputed to have attained the spirit of prophecy.",
+    "genre": "commentary",
+    "century": "11th century",
+    "bhl": null
+  },
+  "day-01/acta-sanctorum-odilo-von-cluny": {
+    "summary": "St. Odilo, fifth abbot of Cluny (d. 1049 at Souvigny), celebrated for instituting the Commemoration of All the Faithful Departed on November 2, a practice later adopted by the universal Church. Of noble Auvergnat birth, he entered Cluny under St. Maiolus and was appointed his successor. Two vitae are presented: one by his disciple Lotsald, the other by St. Peter Damian.",
+    "genre": "vita",
+    "century": "11th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-frontasius-und-gefaehrten": {
+    "summary": "SS. Frontasius, Severinus, Severianus, and Silanus, first-century martyrs in Gaul and disciples of St. Fronto, first bishop of Perigueux. This passio recounts their arrest by the governor Squirido, their torture with iron thorns and stakes, their beheading, and the miraculous post-mortem procession in which their headless bodies carried their own heads across the river Yla.",
+    "genre": "passio",
+    "century": "1st century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-maximianus-und-gefaehrten": {
+    "summary": "A brief notice of the martyrs Maximianus, Acutio, Timothy, Herissus, Artaxus, Vitus, Acutus, Tobias, and Eugenda at Sirmium, known from the Martyrology of St. Jerome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-maertyrer-von-piacenza": {
+    "summary": "A Bollandist commentary on the many anonymous martyrs of Piacenza, slain under the governor Giordanus during the Diocletianic persecution. Their bodies were cast into a well at the church of St. Mary of Campania, from which a healing oil once flowed.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-defendens-und-gefaehrten": {
+    "summary": "A Bollandist commentary on St. Defendens and companion martyrs of the Theban Legion, killed near the Rhone under Emperor Maximian. His body was buried by St. Theodorus, bishop of Marseilles, and his relics are venerated at Casale Monferrato, Chivasso, and Novara in Italy.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-theopistus": {
+    "summary": "A minimal notice from the Greek Menaea recording that St. Theopistus ended his life by stoning on January 2.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-sebastianus-und-alverius": {
+    "summary": "SS. Sebastianus and Alverius, Theban soldiers who fled the persecution of Emperor Maximian and were martyred near what is now Fossano in Piedmont. Their bodies were discovered in 1427 in stone caskets with an inscription identifying them as members of the Theban Legion.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-theodota": {
+    "summary": "A brief notice from the Greek Menaea of St. Theodota, mother of the physician-saints Cosmas and Damian, who ended her life in peace. Fuller treatment is given with her sons' Acts on September 27.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-maertyrer-der-heiligen-buecher": {
+    "summary": "A Bollandist commentary on the very many martyrs at Rome who refused to surrender the sacred scriptures when Diocletian's edict of 302-303 ordered all Christian books burned. The Roman Church commemorates them collectively on January 2, honoring those who chose death over betraying the holy codices.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-stratonicus-und-gefaehrten": {
+    "summary": "A brief notice of the martyrs Stratonicus, Macarius, Abbanus, Saturus, and Possessor, recorded in the Martyrology of St. Jerome. The identity of Macarius is uncertain, possibly the same as Macarius the Abbot mentioned elsewhere.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-maertyrer-von-lichfield": {
+    "summary": "A Bollandist commentary on the many British martyrs slain at Lichfield in Staffordshire during the Diocletianic persecution (c. 304). The city's very name (\"Field of Corpses\") and its coat of arms depicting slain martyrs preserve their memory. They are said to have been disciples of St. Amphibalus.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-rutila-und-gefaehrten": {
+    "summary": "A brief notice of the martyrs Rutila, Claudia, and Auriga in Ethiopia, and Vitalis and Stephen at Jerusalem, known from the Martyrology of St. Jerome and various manuscript sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-argaeus-narcissus-und-marcellinus": {
+    "summary": "SS. Argaeus, Narcissus, and the boy Marcellinus, three brothers martyred at Tomis in Pontus under Licinius. Marcellinus was seized among military recruits and, refusing to serve, was beaten, imprisoned, and drowned in the sea; his brothers were beheaded. The commentary collates variant accounts from numerous martyrologies.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-basilius-von-ankara": {
+    "summary": "St. Basilius of Ancyra, a layman martyred under Julian the Apostate at Caesarea in Cappadocia. Distinct from the Basilius who was a presbyter of Ancyra (celebrated March 22), this Basilius was tortured at Constantinople, then taken to Caesarea where he was thrown to a lioness and killed. A martyrium was built over his relics.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-isidor-von-antiochia": {
+    "summary": "A Bollandist commentary attempting to identify St. Isidore, recorded as a bishop and martyr at Antioch, and to sort out his possible conflation with St. Siridon (or Spiridion). The commentary notes Galesinius's claim that Isidore was a fierce defender of orthodoxy against the Arians.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-isidor-von-aegypten": {
+    "summary": "St. Isidore, bishop and confessor at Nitria in Egypt (4th century). St. Jerome attests that this venerable bishop came out to meet St. Paula with crowds of monks. The commentary includes Baronius's discussion of the early Christian terminology for \"confessor,\" \"professor,\" and \"exile\" as categories of witness to the faith.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-makarios-von-alexandria-der-juengere": {
+    "summary": "St. Macarius of Alexandria (d. c. 400), abbot and presbyter of the Cells in Egypt, distinct from the elder Macarius the Egyptian (treated January 15). This vita, compiled from the Lives of the Fathers, draws heavily on Palladius's Lausiac History and recounts Macarius's inheritance of St. Antony's virtues, his victory over demonic temptation, and his remarkable self-discipline.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-martinianus-von-mailand": {
+    "summary": "St. Martinianus (or Maternianus), seventeenth archbishop of Milan (d. c. 431). He wrote against the Nestorian heresy and sent his treatise to Emperor Theodosius and the Council of Ephesus, whose Fathers praised his learning. The commentary by Ripamontius corrects chronological errors in earlier accounts.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-macarius-von-rom": {
+    "summary": "St. Macarius of Rome, a former vice-prefect of the city who abandoned public life for eremitic solitude near the Lavino stream in the territory of Bologna (fl. c. 450). He lived on roots and water to extreme old age. His sarcophagus survives at the church of St. Helena, and his body was later preserved at Piacenza.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-markus-der-stumme": {
+    "summary": "A minimal notice from the Greek Menaea of St. Mark the Deaf, who rested in peace. A Greek distich appended to his entry explains that he did not hear earthly words even before leaving the earth.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-aspasius-von-melun": {
+    "summary": "St. Aspasius, confessor and patron of Melun in Gaul (d. after 549), believed to have been bishop of Eauze. He subscribed to several Gallic councils between 533 and 549 and died of a fever while passing through Melun, where his bones are still preserved in the churches of St. Mary and St. Aspasius.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-maximus-von-vienne": {
+    "summary": "St. Maximus, abbot and martyr in the diocese of Vienne, killed in the time of Emperor Heraclius (c. 625). This vita from ancient manuscripts traces his ancestry to the territory of Le Mans, the murder of his uncles by bandits during a pilgrimage to Rome, and the providential marriage that produced him.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-bladulphus": {
+    "summary": "St. Bladulphus (also Baldulphus or Blidulphus), a 7th-century monk and presbyter of the monastery of St. Columban at Bobbio. The commentary, drawn from Jonas the Abbot, recounts how he boldly rebuked the Arian King Arioald of the Lombards for heresy and was beaten nearly to death by the king's agents, yet rose unharmed as if from sleep.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-adalhard-von-corbie": {
+    "summary": "St. Adelard (Adalhard), abbot of Corbie in Picardy (d. c. 826), a grandson of Charles Martel and cousin of Charlemagne. He became a monk at twenty, was renowned for daily weeping over sins, and co-founded Corvey (New Corbie) in Saxony. His vita by St. Paschasius Radbertus is a major source for Carolingian monasticism, supplemented here by a second life by St. Gerard of Corbie.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-vedastus-von-arras-auffindung-des-kopfes": {
+    "summary": "An account of the finding of the head and other relics of St. Vedastus (Vaast) at the church of St. Mary in Arras in 1014, during the episcopate of Bishop Gerard. Baldricus's Chronicle of Cambrai and Arras reports that many miracles -- cleansing of lepers, healing of the crippled -- occurred at the relics for about three years.",
+    "genre": "translatio",
+    "century": "11th century",
+    "bhl": null
+  },
+  "day-02/acta-sanctorum-silvester": {
+    "summary": "St. Silvester, a Basilian monk at the monastery of St. Michael the Archangel near Troina in Sicily (d. 1185). Known for extreme austerity and miraculous deeds -- including walking barefoot forty miles in winter and entering a burning oven unharmed -- he later healed the King of Sicily's son and ended his life as a hermit in the forest near Troina.",
+    "genre": "commentary",
+    "century": "12th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-anterus": {
+    "summary": "St. Anterus, pope and martyr (d. 236), a Greek by birth. He diligently sought out the Acts of the Martyrs through the Church's notaries and stored them in the archives, for which he was crowned with martyrdom. The commentary discusses the system of seven notaries and seven subdeacons established to record martyrdom proceedings.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-florentius-von-vienne": {
+    "summary": "St. Florentius, bishop of Vienne in Gaul and martyr (d. c. 258). He served through the reigns of Gordian to Gallienus and was eventually relegated to exile, where he completed his martyrdom. Matthew of Westminster notes he was distinguished for his life and teaching.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-theopompus": {
+    "summary": "SS. Theopemptus, a bishop, and Theonas, a magician whom he converted, martyred under Diocletian around 284. Theopemptus was cast into a furnace, had an eye torn out, and drank a lethal poison without harm; the miracle converted Theonas. Theopemptus was beheaded and Theonas buried alive.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-zosimus-der-moench": {
+    "summary": "SS. Zosimus, a monk-hermit of Cilicia, and Athanasius, a commentariensis (prison record-keeper), martyred under Diocletian. Zosimus endured having his ears burned, was suspended and lowered into molten lead, yet survived; when a lion spoke with a human voice in the theatre, Athanasius was converted. Both retreated to the mountains and died together under collapsing rocks.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-petrus-apselamus-balsamus": {
+    "summary": "St. Peter Balsamus (also called Abselamus or Apselamus), an ascetic from the village of Anea in the territory of Eleutheropolis in Palestine, martyred at Caesarea in 291. The Bollandist commentary extensively collates conflicting sources on his name, place, date, and manner of death (cross, sword, or fire), drawing on Eusebius, the Menaea, and numerous martyrologies.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-martialis-und-gefaehrten": {
+    "summary": "A brief notice of SS. Martial, Statulian, Constantius, Possessor, Hilarinus, Firmus, Candidus, Rogatianus, Eugenia, Lucida, Acuta, and Poenica, African martyrs recorded in the Martyrology of St. Jerome.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-gordius": {
+    "summary": "St. Gordius, a centurion (count) of Caesarea in Cappadocia, martyred under Licinius. Unable to bear the spectacle of pagan idolatry, he withdrew to the mountains; then, inflamed with zeal, he burst into the theatre and publicly proclaimed Christ, for which he was beheaded. The text is St. Basil the Great's panegyric oration in his praise.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-theogenes-und-gefaehrten": {
+    "summary": "SS. Theogenes (or Diogenes), Primus, and Cyrinus, martyrs in the Hellespont under Licinius. Theogenes, the son of a bishop at Parium, was seized among military recruits, refused to serve, was beaten with clubs, imprisoned, and finally drowned in the sea. The commentary untangles extensive confusion in the manuscript tradition over names, dates, and locations.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-claudon-und-gefaehrten": {
+    "summary": "A Bollandist commentary on an obscure group of saints -- Claudon, Eugenes, Rhodus, Diogenius, Eugentus, Rhodon, and Prima -- recorded in the Martyrology of St. Jerome in connection with the city of Tomis. The editors note the entries are garbled and possibly transposed.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-lucianus-von-lentini": {
+    "summary": "A brief notice of St. Lucian, bishop and confessor at Leontini (Lentini) in Sicily, who flourished in the time of Constantine the Great (c. 330), drawn from the records of the Church of Leontini.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-melorus-von-cornwall": {
+    "summary": "St. Melorus (or Melior), a young British martyr of Cornwall (c. 411). After his father Duke Melianus was murdered by his uncle Rinoldus, the seven-year-old Melorus had his right hand and left foot amputated; he was given a silver hand and bronze foot, both of which functioned miraculously. At fourteen he was beheaded by his guardian at his uncle's instigation. The vita is from John Capgrave.",
+    "genre": "vita",
+    "century": "5th century",
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-salvator-von-belluno": {
+    "summary": "A brief notice of St. Salvator, bishop of Belluno in the March of Treviso, of unknown date. He governed the church for many years with great holiness and worked miracles during and after his life. His body is believed to rest in a stone sepulcher at a ruined Carthusian church near Belluno.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "day-03/acta-sanctorum-genoveva-von-paris": {
+    "summary": "St. Genovefa (Genevieve), virgin and patroness of Paris (d. c. 509). Born at Nanterre, she was recognized as a future saint by St. Germanus of Auxerre when he passed through on his way to combat the Pelagian heresy in Britain. This very ancient vita, written within sixteen years of her death, narrates her consecration to virginity and her miracles. Her reliquary was carried in public procession in times of need.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  }
+}

@@ -1,0 +1,914 @@
+{
+  "feb/day-01/martyrs-caecilius": {
+    "summary": "St. Caecilius, Bishop of Eliberis (modern Granada), and his companions, traditionally counted among the seven apostolic men sent to evangelize Spain in the 1st century. The Bollandist commentary examines the contested tradition that they were disciples of St. James the Greater, ordained by Saints Peter and Paul in Rome, and critically evaluates the Chronicle attributed to Dexter.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-01/ignatius-theophorus": {
+    "summary": "St. Ignatius Theophorus, Bishop of Antioch and martyr at Rome in AD 108, a disciple of St. John the Evangelist. The extensive Bollandist commentary treats his written Life, his famous epistles, his condemnation under Trajan, his journey from Syria to Rome, and his martyrdom by wild beasts in the Colosseum.",
+    "genre": "vita",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "feb/day-01/african-martyrs-publius": {
+    "summary": "A brief Bollandist notice on SS. Publius, Saturninus, Maurianus, Libosus, Vincentia, and twenty-four other unnamed martyrs who suffered in Africa. Their names are recorded in ancient martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/smyrnaean-martyrs": {
+    "summary": "The Smyrnaean martyrs: St. Pionius the Priest, Dionysius, another Pionius, and thirteen companions, who suffered at Smyrna in Asia during the Decian persecution, around AD 251. The commentary draws on early martyrological sources.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-01/martyrs-victor": {
+    "summary": "A brief notice on the holy martyrs Victor, Lucianus, Apollinaris, Hilarius, Ammon, Zoticus, and Cyriacus, recorded in ancient martyrologies without a specified location or date of persecution.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/eubertus": {
+    "summary": "St. Eubertus, bishop and confessor, venerated at Lille and Seclin in Flanders. A 4th-century companion of St. Piato (the Apostle of Tournai), he was sent from Rome into Gaul to preach the Gospel during the Diocletian persecution. His Acts have been lost, possibly destroyed during the Norman invasions.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-01/carion": {
+    "summary": "A very brief notice from the Greek Menaea on the holy martyr Carion, who had his tongue cut out before being put to death. Nothing further is known of him.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/martyrs-theion-and-two-boys": {
+    "summary": "A brief notice from the Greek Menaea on St. Theion and two unnamed boys, martyred by the sword. They are otherwise unknown to Latin calendars.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/ephrem-the-syrian": {
+    "summary": "St. Ephrem the Syrian (d. 378), deacon, theologian, and hymnographer at Edessa in Mesopotamia. The extensive Bollandist commentary treats his life, his combat against Arian, Bardesanite, Manichaean, and other heresies, his prolific writings, and his celebrated asceticism under the emperors Constantius, Julian, and Valens.",
+    "genre": "vita",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-01/aemilius": {
+    "summary": "A brief notice on St. Aemilius, a military commander whose relics were discovered at Lucca in Etruria in 1200, deposited in the altar of St. Barbara at the basilica of St. Paulinus. His remains included ashes, bones, an iron breastplate, and a silk garment.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/severus": {
+    "summary": "St. Severus, Bishop of Ravenna (d. c. 390), together with his wife St. Vincentia and their virgin daughter St. Innocentia. The commentary treats their feast day, the unusual household sanctity of an episcopal family, and their veneration at Ravenna.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-01/leonius": {
+    "summary": "St. Leonius (also called Leo or Leontius), priest at Poitiers in Gaul, a companion and fellow-priest of St. Hilary of Poitiers. He accompanied Hilary into exile, aided him against Arianism, and after Hilary's death continued preaching and working miracles. He died toward the end of the 4th century.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-01/paul": {
+    "summary": "St. Paul, bishop, venerated at Troyes (or possibly Saint-Paul-Trois-Chateaux) in Gaul. The commentary investigates whether he was bishop of Troyes in Champagne or Tricastinum in Dauphine, and discusses his relics preserved in the Cathedral of Troyes.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/torquatus": {
+    "summary": "St. Torquatus, Bishop of Tricastinum, and St. Josserand, monk, venerated at Cruas in Gaul. A brief Bollandist notice.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/timothy": {
+    "summary": "A brief Bollandist notice on St. Timothy, confessor, about whom very little is recorded beyond his name in the sacred calendars.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/peter-the-galatian": {
+    "summary": "St. Peter the Galatian, a 5th-century hermit who lived near Antioch in Syria. A brief notice on his ascetic life in the Syrian desert.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-01/cinnia": {
+    "summary": "St. Cinnia (or Kinnia), a 5th-century Irish virgin. A brief notice on this early Irish saint.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-01/ursus": {
+    "summary": "St. Ursus, priest at Aosta in Piedmont, who flourished around the year 500. A brief commentary on his pastoral ministry in the Alpine region.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/vendimianus": {
+    "summary": "St. Vendimianus, a hermit in Bithynia who lived after the year 500. A brief Bollandist notice on his eremitic life in Asia Minor.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/brigid": {
+    "summary": "St. Brigid of Ireland (d. 523), virgin and wonder-worker, foundress of the monastery at Kildare. This major Bollandist entry treats her life, miracles, and widespread veneration across Ireland and Scotland, drawing on multiple hagiographic traditions.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/darlugdacha": {
+    "summary": "St. Darlugdacha (or Dardulacha), a Scottish virgin who succeeded St. Brigid as abbess of Kildare in Ireland, dying in AD 524, the day after Brigid's own feast.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/carterius": {
+    "summary": "A brief notice on St. Carterius, priest among the Bituriges (Bourges) in Gaul, known from local hagiographic traditions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/severus-avranches": {
+    "summary": "St. Severus, 6th-century Bishop of Avranches in Gaul, whose relics were later translated to Rouen. The commentary treats his episcopate and posthumous veneration in Normandy.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/praecordius": {
+    "summary": "St. Praecordius, a 6th-century priest associated with Corbie and Vailly in Belgic Gaul. A brief account of his ministry.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/tuianus": {
+    "summary": "A brief Bollandist notice on St. Tuianus, abbot in Armorican Brittany, known from local hagiographic sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/pictus": {
+    "summary": "A brief notice on St. Pictus, bishop, about whom little is recorded beyond his name in certain martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-01/sorus": {
+    "summary": "St. Sorus, a 6th-century hermit among the Petrocorii (Perigord) in Gaul. A brief account of his eremitic life in southwestern France.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-01/martyrs-agrippanus": {
+    "summary": "SS. Agrippanus, bishop and martyr, and Ursicinus, martyr, at Le Puy in Gaul, killed sometime after AD 650. A brief commentary on their martyrdom in the Auvergne region.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-01/sigebert": {
+    "summary": "St. Sigebert III (d. 663), King of the Austrasian Franks, venerated at Metz. The commentary treats his pious kingship, his foundation of monasteries, and his veneration in Lotharingia.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-01/basil": {
+    "summary": "St. Basil, confessor, who served as Bishop of Crete and then of Thessalonica, around the year 870. A commentary on his episcopal career during the Byzantine era.",
+    "genre": "commentary",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-01/brigid-fiesole": {
+    "summary": "St. Brigid of Fiesole, a Scottish-born virgin who settled near Fiesole in Etruria toward the end of the 9th century. She came to Italy to visit her brother Andrew, Archdeacon of Fiesole, and after his death withdrew into the forests to live as a hermit until her own death.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-01/verdiana": {
+    "summary": "St. Verdiana (d. 1242), virgin and recluse of Castelfiorentino in Etruria. The commentary treats her enclosed life as an anchoress and her veneration in Tuscany.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "feb/day-02/roman-martyrs-fortunatus": {
+    "summary": "A large company of Roman martyrs led by SS. Fortunatus, Felicianus, Firmus, and Candidus, recorded in the ancient Hieronymian Martyrology and most later sources. The Bollandist commentary untangles textual corruptions across multiple manuscript traditions, discusses the relics of Fortunatus translated to Antwerp, Candidus to Volterra, and Felicianus to Plasencia in Spain.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-02/martyrs-of-forum-sempronii": {
+    "summary": "SS. Laurentius and Hippolytus, martyrs at Forum Sempronii (modern Fossombrone) in Umbria. A brief Bollandist commentary discussing their appearance in various martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-02/african-martyrs-victor": {
+    "summary": "A large company of African martyrs: SS. Victor, Marinus, Perpetua, Julia, and seventy-four others, together with Honoratus, Urbanus, Hilarus, Privatula, and thirty-four additional companions. A brief commentary on this extensive group of African martyrs.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-03/martyrs-celerina": {
+    "summary": "SS. Celerina, Ignatius, Laurentinus, and Celerinus the Deacon and Confessor, 3rd-century African martyrs and confessors. The extensive commentary draws heavily on the correspondence of St. Cyprian of Carthage to reconstruct the history of Celerinus, who survived torture under Decius, was drawn briefly into the Novatian schism, but returned to the Church and was ordained by Cyprian.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-03/fortunatus": {
+    "summary": "St. Fortunatus, a Roman martyr whose relics were translated to Antwerp in Belgium. A brief Bollandist notice linking him to the group of Roman martyrs commemorated on February 2.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-03/candidus": {
+    "summary": "St. Candidus, a Roman martyr whose relics were translated to Volterra in Etruria. A brief notice connecting him to the Roman martyrs of February 2.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-03/julian": {
+    "summary": "St. Julian, martyr at Auxerre in Gaul, who suffered toward the end of the 3rd century. A commentary on his passion and veneration in Burgundy.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-03/martyrs-of-sebastia-blasius-the-bishop": {
+    "summary": "St. Blasius, Bishop of Sebastia in Cappadocia, martyred with two boys and seven women under the Emperor Licinius. One of the most widely venerated saints of the early Church, patron against ailments of the throat. The commentary treats the various traditions surrounding his life, his retreat to a cave during the persecution, and his martyrdom.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-03/martyrs-paul-and-simon": {
+    "summary": "A brief Bollandist notice on the holy martyrs Paul and Simon, about whom little is known beyond their names in martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-03/sisters": {
+    "summary": "SS. Oliveria and Liberata, 6th-century virgin sisters at Chaumont in Gaul. A brief commentary on their life of consecrated virginity.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-03/virgins-berlindis": {
+    "summary": "SS. Berlindis, Nona, and Celsa, holy virgins of Meerbeke in Brabant, around the year 700. A brief account of their community life in Belgium.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-03/wereburga": {
+    "summary": "St. Wereburga, an 8th-century royal virgin, daughter of Wulfhere, King of the Mercians, in England. The commentary treats her monastic life, her oversight of several nunneries, and her posthumous cult centered at Chester.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-03/nithard": {
+    "summary": "St. Nithard, priest and martyr in Sweden, killed around AD 840. He was among the early missionaries to Scandinavia, martyred for the faith during the early stages of the Christianization of Sweden.",
+    "genre": "commentary",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-03/ansgar": {
+    "summary": "St. Ansgar (d. 865), Archbishop of Hamburg and Bremen, the Apostle of the Danes and Swedes. This major entry treats his missionary journeys to Denmark and Sweden, his establishment of the archbishopric of Hamburg, and his tireless efforts to plant Christianity in Scandinavia.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-03/liafdagus": {
+    "summary": "St. Liafdagus, Bishop of Ribe in Denmark, martyred around the year 980. A brief commentary on this early Danish bishop who died for the faith during the turbulent period of Scandinavian Christianization.",
+    "genre": "commentary",
+    "century": "10th century",
+    "bhl": null
+  },
+  "feb/day-04/martyrs-of-fossombrone-aquilinus": {
+    "summary": "The holy martyrs of Fossombrone (Forum Sempronii) in Umbria: SS. Aquilinus, Geminus, Gelasius, Magnus, Donatus, and companions. The detailed Bollandist commentary untangles the many textual corruptions of their names across manuscript martyrologies, discusses the confusion of Forum Sempronii with a supposed Roman Forum of Sempronius, and treats their probable martyrdom during the Diocletian persecution. The entry then continues with a substantial treatment of SS. Phileas, Bishop of Thmuis, and Philoromus, military tribune, martyred at Alexandria in AD 304.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-04/nicholas-the-confessor": {
+    "summary": "St. Nicholas the Confessor (d. 868), Archimandrite (abbot) of the Studite monastery of the Acoemetae at Constantinople. He suffered under the Iconoclast emperors for his defense of holy images.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-04/probatius": {
+    "summary": "A brief notice on St. Probatius, priest at Nogent in Gaul, known from local hagiographic sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-04/rembert": {
+    "summary": "St. Rembert (d. 888), Archbishop of Hamburg and Bremen in Lower Saxony, successor of St. Ansgar. The commentary treats his continuation of the Scandinavian mission, his pastoral governance, and his authorship of the Life of St. Ansgar.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-04/gemmulus-the-martyr": {
+    "summary": "A brief notice on St. Gemmulus, martyr at Ganna in the territory of Milan. Little is known beyond his name and the location of his cult.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-04/gilbert": {
+    "summary": "St. Gilbert of Sempringham (d. 1189), founder of the Gilbertine Order, the only medieval religious order of English origin. The commentary treats his establishment of double monasteries for men and women in Lincolnshire and his long-lived governance of the order.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "feb/day-04/obitius": {
+    "summary": "St. Obitius, confessor at Brescia in Italy, who flourished around the year 1200. A historical commentary on his life and local veneration.",
+    "genre": "commentary",
+    "century": "13th century",
+    "bhl": null
+  },
+  "feb/day-05/agatha": {
+    "summary": "St. Agatha, virgin and martyr at Catania in Sicily, who suffered in the Decian persecution around AD 251. This major Bollandist entry treats her liturgical feast (universally observed on February 5), the Acts of her martyrdom under the proconsul Quintianus, including her imprisonment, torture, the cutting off of her breasts, and her healing by St. Peter. Includes hymns attributed to St. Isidore of Seville.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-05/martyrs-theodula": {
+    "summary": "SS. Theodula, Boethus, Evagrius, Macarius, and other companions, martyrs at Anazarbus in Cilicia during the Diocletian persecution. A commentary treating their sufferings in eastern Asia Minor.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-05/african-martyrs-revocatus": {
+    "summary": "A brief notice on the African martyrs Revocatus, Saturus, Felix, Saturninus, and Gelasius, known from ancient martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-05/martyrs-legontianus-and-domitianus-at-chieti-in-the-abruzzi": {
+    "summary": "SS. Legontianus and Domitianus, martyrs at Chieti (ancient Teate) in the Abruzzi region of central Italy. A brief Bollandist commentary.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-05/pontic-martyrs": {
+    "summary": "Anonymous martyrs who suffered in the Roman province of Pontus at the beginning of the 4th century, during the great persecution. A brief notice drawn from the accounts of Eusebius.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-05/calamanda": {
+    "summary": "St. Calamanda, virgin and martyr in Catalonia, Spain. A brief notice translated from the Spanish of Antonius Vincent Domenec.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-05/agricolaus": {
+    "summary": "St. Agricolaus, Bishop of Maastricht in Belgium at the beginning of the 5th century. A commentary on this early Netherlandish bishop and the nascent Church in the lower Meuse valley.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-05/avitus": {
+    "summary": "St. Avitus (d. c. 524), Bishop of Vienne in Gaul, a prominent theologian and poet who played a key role in the conversion of the Burgundian King Sigismund from Arianism to Catholicism. The commentary treats his literary works, his theological disputes, and his episcopal governance.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-05/ingenuinus": {
+    "summary": "St. Ingenuinus (or Genuinus), Bishop of Sabiona (modern Brixen) in the Tyrol, who flourished around AD 640. A historical commentary on this early Alpine bishop who participated in the Council of Grado.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-05/bertulph-of-renty-and-ghent-in-belgium": {
+    "summary": "St. Bertulph, abbot of Renty and later associated with Ghent in Belgium, at the beginning of the 8th century. The commentary treats his monastic career and his veneration in Flanders.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-05/martyrs-indractus": {
+    "summary": "SS. Indractus, his sister Dominica, and nine companions, martyred at Glastonbury in England at the beginning of the 8th century. They were reportedly Irish pilgrims returning from Rome who were killed for their possessions by Saxon bandits.",
+    "genre": "passio",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-05/vodalus": {
+    "summary": "St. Vodalus (or Vodoalus), surnamed Benedictus, venerated at Soissons in Gaul at the beginning of the 8th century. A brief account of his life and cult.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-05/albin": {
+    "summary": "St. Albin (or Albuin), Bishop of Brixen in the Tyrol, who died around the year 1015. A commentary on his episcopate in the Alpine region.",
+    "genre": "commentary",
+    "century": "11th century",
+    "bhl": null
+  },
+  "feb/day-05/adelaide": {
+    "summary": "St. Adelaide (d. c. 1015), virgin and abbess of Vilich in the diocese of Cologne. The commentary treats her noble birth, her monastic governance, and her veneration in the Rhineland.",
+    "genre": "vita",
+    "century": "11th century",
+    "bhl": null
+  },
+  "feb/day-05/agatha-hildegard": {
+    "summary": "St. Agatha Hildegard (d. 1024), Palatine of Carinthia. A historical commentary on this noble laywoman venerated in the Austrian lands.",
+    "genre": "commentary",
+    "century": "11th century",
+    "bhl": null
+  },
+  "feb/day-06/bucolus": {
+    "summary": "St. Bucolus, Bishop of Smyrna in Asia, who lived around AD 100. He was a disciple of St. John the Evangelist and the predecessor of St. Polycarp in the see of Smyrna. The commentary draws on the Greek Menaea and Anthologion and the Life of St. Polycarp by Pionius, treating his long episcopate, his miracles both in life and at his tomb (where a healing plant sprang up), and the question of his role in consecrating Polycarp.",
+    "genre": "vita",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-06/vitalis": {
+    "summary": "A brief notice on St. Vitalis, martyr at Abula (Avila) in Spain, known from martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-06/antholianus": {
+    "summary": "St. Antholianus, martyr at Clermont in Gaul, around AD 255. A historical commentary on his martyrdom during the 3rd-century persecutions in the Auvergne.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-06/martyrs-saturninus": {
+    "summary": "A brief notice on the holy martyrs Saturninus, Theophilus, and Revocata, known from ancient martyrological sources without further specification of location or date.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-06/martyrs-dorothea-the-virgin": {
+    "summary": "St. Dorothea, virgin and martyr at Caesarea in Cappadocia, together with Theophilus Scholasticus and the sisters Christe and Calliste, who suffered under the Diocletian persecution. The well-known legend relates how Dorothea, on her way to execution, sent a basket of roses and apples from paradise to the skeptic Theophilus, who thereupon converted and was himself martyred.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-06/dorothea": {
+    "summary": "St. Dorothea, a consecrated virgin at Alexandria in Egypt at the beginning of the 4th century, distinct from the Cappadocian virgin martyr of the same name. A historical commentary on her life during the era of persecutions.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-06/martyrs-of-emesa-silvanus-the-bishop": {
+    "summary": "SS. Silvanus the Bishop, Lucas the Deacon, and Mucius (or Mocius) the Lector, martyrs at Emesa in Phoenicia in AD 312. The historical commentary treats their execution during the final phase of the great persecution, drawing on Eusebius.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-06/julian": {
+    "summary": "St. Julian, physician and martyr at Emesa in Phoenicia, AD 312. He suffered during the same persecution as Silvanus and his companions.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-06/irish-bishops-mel": {
+    "summary": "The holy Irish bishops Mel, Melchus, Munis, and Riocus, who flourished at the end of the 5th century. They are traditionally associated with the early Patrician Church in Ireland, and Mel is venerated as the first Bishop of Ardagh.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-06/vedastus": {
+    "summary": "St. Vedastus (Vaast), Bishop of Arras in Belgica Secunda, who died around AD 540. A major figure in the Christianization of northern Gaul, he was associated with the conversion of King Clovis and served as bishop for nearly forty years. The commentary provides a detailed treatment of his life and apostolate.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-06/amand": {
+    "summary": "St. Amand (d. 684), Bishop of Maastricht and apostle of Flanders, venerated at Elnone (later called Saint-Amand-les-Eaux) in Belgium. This major entry treats his extensive missionary career across Flanders, Gascony, and the Slavic lands, his founding of numerous monasteries, and his enduring cult throughout the Low Countries.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-06/finianus": {
+    "summary": "A brief notice on St. Finianus, abbot at Mellifont in Ireland. His identity and precise dates remain uncertain; he may be connected to one of several early Irish saints of this name.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-06/ina": {
+    "summary": "St. Ina, King of the West Saxons in Britain, who abdicated after the year 728 and went on pilgrimage to Rome. The historical commentary treats his long and prosperous reign, his lawgiving, his endowment of churches, and his resignation of the crown to pursue the religious life.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-06/guarinus": {
+    "summary": "St. Guarinus (d. 1159), Cardinal of the Holy Roman Church and Bishop of Praeneste (Palestrina). The commentary treats his Augustinian monastic formation, his elevation to the cardinalate, and his pastoral governance.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "feb/day-06/alderic-the-swineherd": {
+    "summary": "St. Alderic, a swineherd at Fussenich in the diocese of Cologne, venerated around the year 1200. A commentary on this humble lay saint of the Rhineland.",
+    "genre": "commentary",
+    "century": "13th century",
+    "bhl": null
+  },
+  "feb/day-06/brynolph": {
+    "summary": "St. Brynolph (d. 1317), Bishop of Skara in Sweden. A historical commentary on his episcopate, his promotion of ecclesiastical discipline, and his veneration in medieval Sweden.",
+    "genre": "commentary",
+    "century": "14th century",
+    "bhl": null
+  },
+  "feb/day-07/claudius-apollinaris": {
+    "summary": "St. Claudius Apollinaris, Bishop of Hierapolis in Phrygia, who flourished toward the end of the 2nd century. A prominent early Christian apologist and opponent of the Montanist (Cataphrygian) heresy, his lost writings are extensively quoted by Eusebius. The Bollandist commentary reconstructs his anti-Montanist polemic, his defense of the faith before Marcus Aurelius, and the history of the Cataphrygian sect.",
+    "genre": "commentary",
+    "century": "2nd century",
+    "bhl": null
+  },
+  "feb/day-07/martyrs-anatolius": {
+    "summary": "The holy martyrs Anatolius, Ammo, Statianus, Nepotianus, Lucius, Saturninus, and Saturnus (or Saturna). The commentary includes an account from Rufinus of an entire Phrygian city of Christians burned alive by soldiers under Diocletian, led by the official Adauctus.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-07/augulus": {
+    "summary": "St. Augulus, bishop and martyr in the city of Augusta in Britain. A historical commentary discussing his poorly attested martyrdom and the identification of his see.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-07/martyrs-theopemptus-and-companions": {
+    "summary": "A brief notice on the holy martyrs Theopemptus and his companions, known from martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-07/maximus": {
+    "summary": "St. Maximus (or Maximian), Bishop of Nola in Campania. A historical commentary on his episcopate in southern Italy.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-07/great-martyr-theodore": {
+    "summary": "St. Theodore Stratelates (the Commander), the Great Martyr, who suffered at Heraclea in Pontus in AD 319. One of the most celebrated military saints of the East, his cult was widespread in both Greek and Latin Churches. The commentary treats his military career, his destruction of a pagan temple, and his martyrdom by crucifixion and beheading.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-07/parthenius": {
+    "summary": "St. Parthenius, 4th-century Bishop of Lampsacus on the Hellespont. A brief account of his episcopate, known especially from the Greek hagiographic tradition for his miracle-working.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-07/moses": {
+    "summary": "St. Moses, Bishop of the Saracens in Arabia, toward the end of the 4th century. A historical commentary on this unusual figure who served as bishop to the Arab tribespeople, drawn from the accounts of Socrates and other ecclesiastical historians.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-07/juliana": {
+    "summary": "St. Juliana, widow of Bologna in Italy, around the year 435. A historical commentary on her life of piety after the death of her husband.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-07/paul-iii": {
+    "summary": "St. Paul III, a 6th-century Bishop of Brescia in Italy. A brief commentary on his episcopate.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-07/tresanus": {
+    "summary": "St. Tresanus, a 4th-century presbyter of Avenay in the Champagne region of Gaul. A historical commentary on his pastoral ministry and local veneration.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-07/lawrence": {
+    "summary": "St. Lawrence, Bishop of Siponto in Apulia, around the year 550. The commentary treats his episcopate and his association with the famous apparition of St. Michael the Archangel at Monte Gargano.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-07/fidelis": {
+    "summary": "St. Fidelis, Bishop of Merida in Spain, around the year 570. A brief account of his episcopate in the Visigothic period.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-07/medanus": {
+    "summary": "St. Medanus (or Meldanus), an Irish bishop who settled at Peronne in Gaul toward the end of the 6th century. The commentary treats the Irish diaspora of peregrini on the Continent.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-07/peter": {
+    "summary": "A brief notice on St. Peter, a monk in Monobatis, known from Greek hagiographic sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-07/colianus": {
+    "summary": "A brief notice on St. Colianus, Bishop of Adria in Emilia, Italy, known from local ecclesiastical traditions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-07/richard": {
+    "summary": "St. Richard (d. 722), an Anglo-Saxon king in Britain who abdicated and made a pilgrimage to Rome, dying at Lucca in Italy. He is the father of SS. Willibald, Winnebald, and Walburga. The commentary treats his royal lineage, his pilgrimage, and his cult at Lucca.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-07/amulwin": {
+    "summary": "St. Amulwin, 8th-century abbot of Lobbes and bishop, venerated at Lobbes and Binche in Belgium. A commentary on his monastic and episcopal career in Hainaut.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-07/luke-the-younger": {
+    "summary": "St. Luke the Younger, the Wonderworker (d. c. 946), a hermit and monk of Soterium (Steirion) in Greece. The commentary treats his ascetic life, his numerous miracles, and his widespread veneration in the Byzantine world.",
+    "genre": "vita",
+    "century": "10th century",
+    "bhl": null
+  },
+  "feb/day-08/juventius": {
+    "summary": "St. Juventius (or Eventius), Bishop of Ticinum (Pavia) in the 2nd century, traditionally sent there by St. Hermagoras of Aquileia together with St. Syrus. The extensive Bollandist commentary discusses whether two bishops of this name existed, treats the Acts of Syrus and Juventius, his preaching in Genoa, Tortona, and Asti, his miraculous use of the relics of St. Nazarius, and his long episcopate of nearly ninety years.",
+    "genre": "vita",
+    "century": "2nd century",
+    "bhl": "4619"
+  },
+  "feb/day-08/cointa": {
+    "summary": "St. Cointa (or Quinta), martyr at Alexandria in Egypt in AD 249. She suffered during the pre-Decian popular persecution described by St. Dionysius of Alexandria.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-08/roman-martyrs-paulus-the-bishop": {
+    "summary": "A brief notice on the holy Roman martyrs Paulus the Bishop, Lucius, and Cyriacus, recorded in ancient martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/martyrs-martha-and-maria": {
+    "summary": "SS. Martha and Maria, virgin martyrs, and Lycarion (or Bycarion), a martyred boy. A brief notice from ancient sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/martyrs-nicephorus-and-stephanus": {
+    "summary": "A brief notice on the holy martyrs Nicephorus and Stephanus, known from martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/martyrs-dionysius": {
+    "summary": "SS. Dionysius, Aemilianus, and Sebastianus, martyrs in Armenia Minor. A brief account of their suffering in the eastern provinces.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/communis": {
+    "summary": "A brief notice on St. Communis, martyr at Tuscana (Toscanella) in Etruria.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/martyrs-at-constantinople": {
+    "summary": "Holy monks of the monastery of St. Dius at Constantinople, martyred around the year 485. A historical commentary on their deaths during the religious conflicts of the late 5th century in the Byzantine capital.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-08/martyrs-under-cabades": {
+    "summary": "Unnamed martyrs who suffered under Cabades (Kavadh I), King of the Persians, at the beginning of the 6th century. A historical commentary on the persecution of Christians in the Sasanian Empire.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-08/honoratus": {
+    "summary": "St. Honoratus (d. 570), Bishop of Milan. A historical commentary on his episcopate during the Lombard invasions of northern Italy.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-08/nicetius": {
+    "summary": "St. Nicetius, Bishop of Vesontio (Besancon) in Burgundy at the beginning of the 7th century. A brief account of his episcopate.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-08/paulus": {
+    "summary": "St. Paulus (d. c. 649), Bishop of Verdun in Gallia Belgica. The commentary treats his monastic formation, his appointment to the see of Verdun, and his pastoral governance.",
+    "genre": "vita",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-08/elfleda": {
+    "summary": "St. Elfleda (d. 706), virgin and abbess of Strensall (Streoneshalh, i.e. Whitby) in England, daughter of King Oswiu of Northumbria. The commentary treats her life at the double monastery of Whitby and her involvement in ecclesiastical affairs.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-08/mengold": {
+    "summary": "St. Mengold, martyr at Huy in Belgium, around the year 892. The commentary treats his noble birth, his penitential life, and his violent death.",
+    "genre": "vita",
+    "century": "9th century",
+    "bhl": null
+  },
+  "feb/day-08/cuthman": {
+    "summary": "St. Cuthman, confessor at Steyning. A brief notice on this local saint of uncertain date.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-08/stephen": {
+    "summary": "St. Stephen of Muret (d. 1124), founder of the Order of Grandmont among the Lemovices (Limousin) in Gaul. The commentary treats his austere eremitic rule, the foundation of his monastery, and the distinctive character of the Grandmontine order.",
+    "genre": "vita",
+    "century": "12th century",
+    "bhl": null
+  },
+  "feb/day-09/philagrius": {
+    "summary": "St. Philagrius, 1st-century Bishop in Cyprus, martyr. Celebrated in the Greek Menaea together with SS. Pancratius of Taormina and Marcellus of Sicily, all three are said to have been disciples of St. Peter the Apostle. Philagrius preached Christ in Cyprus and, after enduring many trials for the faith, departed to the Lord.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-09/apollonia": {
+    "summary": "St. Apollonia, virgin and martyr at Alexandria in Egypt in AD 249. An aged deaconess whose teeth were knocked out before she cast herself into the fire during the pre-Decian persecution. She became one of the most widely invoked saints in medieval Europe, patroness against toothache.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-09/nicephorus": {
+    "summary": "St. Nicephorus, martyr at Antioch in Syria, around the year 258. The Acts relate the famous story of his reconciliation with the priest Sapricius: when Sapricius apostasized at the moment of execution, the layman Nicephorus stepped forward to take his place and was beheaded.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-09/athenodorus": {
+    "summary": "St. Athenodorus, bishop in Pontus and martyr, around the year 270. A brother of St. Gregory Thaumaturgus and fellow student of Origen at Caesarea. The historical commentary treats his episcopate and martyrdom in the Black Sea region.",
+    "genre": "commentary",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-09/martyrs-ammon": {
+    "summary": "SS. Ammon, Aemilianus, Lassa, Didymus, Poemus, another Ammon, and thirty-eight other martyrs at Membresa in Africa. A brief Bollandist notice on this group of North African martyrs.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-09/deacon-martyrs-primus-and-donatus": {
+    "summary": "SS. Primus and Donatus, deacon martyrs at the fortress of Lemelesum in Africa, around the year 362. They were killed by Donatist schismatics who attacked a Catholic basilica during the reign of Julian the Apostate.",
+    "genre": "commentary",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-09/prima": {
+    "summary": "A brief notice on St. Prima, martyr of Carthage, known from ancient martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-09/romanus-the-wonderworker": {
+    "summary": "St. Romanus the Wonderworker, a 5th-century monk at Antioch in Syria. Known for his ascetic life and miraculous deeds.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-09/attracta": {
+    "summary": "St. Attracta (or Tarahata), a 5th-century virgin in Ireland, traditionally associated with a foundation at Killaraght in County Sligo and revered for her hospitality to the poor.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-09/bishops-of-canusium": {
+    "summary": "SS. Ruffinus and Memor, successive bishops of Canusium (Canosa) in Apulia, around the years 500 and 514 respectively. A historical note on these early bishops of the important Apulian see.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-09/nebridius": {
+    "summary": "St. Nebridius, 6th-century Bishop of Egara (modern Terrassa) in Hispania Tarraconensis. A historical commentary on his episcopate in the Visigothic period.",
+    "genre": "commentary",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-09/teliaus": {
+    "summary": "St. Teliaus (or Eliud), Bishop of Llandaff in Wales, around the year 560. One of the great early Welsh saints, associated with the founding of the see of Llandaff and remembered for his pastoral zeal and miraculous deeds.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-09/sabinus": {
+    "summary": "St. Sabinus (d. c. 566), Bishop of Canusium (Canosa) in Apulia. A friend of St. Benedict of Nursia, he was renowned for his sanctity and wonder-working. The commentary treats his extensive episcopate and his appearances in the writings of St. Gregory the Great.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-09/bishops-sabinus-and-eunomius": {
+    "summary": "SS. Sabinus and Eunomius, bishops associated with Naples and Lesina in Apulia. A historical commentary exploring the confusion among several Italian bishops named Sabinus.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-09/saints-of-mouzon-victor-the-martyr-and-susanna-the-virgin": {
+    "summary": "SS. Victor the Martyr and Susanna the Virgin, venerated at Mouzon in Belgic Gaul (modern Ardennes). A commentary on their local cult at this fortified town on the Meuse.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-09/peter": {
+    "summary": "St. Peter, 8th-century Archbishop of Canosa in Apulia. A brief commentary on his governance of this ancient see.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-09/alto": {
+    "summary": "St. Alto (d. c. 760), abbot and founder of the monastery of Altomunster in Upper Bavaria. Traditionally of Irish or Scottish origin, he was one of the Insular missionaries who evangelized Germany. The commentary treats his monastic foundation with the support of King Pippin.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-09/raynald": {
+    "summary": "St. Raynald (d. 1225), Bishop of Nocera in Umbria. The commentary treats his episcopate and veneration in central Italy.",
+    "genre": "vita",
+    "century": "13th century",
+    "bhl": null
+  },
+  "feb/day-10/martyrs-andrew-and-aponius": {
+    "summary": "SS. Andrew and Aponius (or Aporius), martyrs at Bethlehem in Judea, traditionally dated to the persecution of Herod Agrippa in AD 41. Recorded in the Hieronymian Martyrology and other early sources, they are among the earliest known martyrs of the Holy Land after the Passion of Christ.",
+    "genre": "commentary",
+    "century": "1st century",
+    "bhl": null
+  },
+  "feb/day-10/roman-martyrs-zoticus": {
+    "summary": "SS. Zoticus, Irenaeus, Hyacinthus, and Amantius, Roman martyrs. A brief Bollandist notice on this group recorded in ancient martyrologies.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-10/martyrs-of-alexandria-apollo": {
+    "summary": "SS. Apollo, Protheus, Orion, Plausus, and many companions, martyrs at Alexandria in Egypt. A brief notice on this group of Alexandrian martyrs known from martyrological sources.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-10/martyrs-charalampius-the-priest": {
+    "summary": "St. Charalampius, priest and martyr at Magnesia and Antioch of Pisidia in AD 202, together with the soldiers Porphyrius and Baptus, and three women. Widely venerated in the Greek East, his passio relates his miraculous endurance under torture and his execution by beheading under the Emperor Septimius Severus.",
+    "genre": "passio",
+    "century": "3rd century",
+    "bhl": null
+  },
+  "feb/day-10/soteris": {
+    "summary": "St. Soteris, Roman virgin and martyr under Diocletian. Of noble birth, she refused to sacrifice and was struck in the face, tortured, and beheaded. She was related to St. Ambrose of Milan, who praised her in his writings.",
+    "genre": "passio",
+    "century": "4th century",
+    "bhl": null
+  },
+  "feb/day-10/peregrine": {
+    "summary": "St. Peregrine, confessor at Piacenza in Italy, around the year 400. A brief commentary on this local saint.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-10/zeno": {
+    "summary": "St. Zeno, a monk near Antioch in Syria, around the year 419. A brief account of his monastic life.",
+    "genre": "commentary",
+    "century": "5th century",
+    "bhl": null
+  },
+  "feb/day-10/silvanus": {
+    "summary": "St. Silvanus, bishop and confessor at Terracina in Italy. A brief notice on this local bishop of uncertain date.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-10/scholastica": {
+    "summary": "St. Scholastica (d. c. 513), virgin and sister of St. Benedict of Nursia, at Monte Cassino in Italy. The Bollandist commentary draws on St. Gregory the Great's Dialogues to treat her consecrated life, the famous episode of the miraculous rainstorm that detained Benedict at supper, and her death and burial alongside her brother.",
+    "genre": "vita",
+    "century": "6th century",
+    "bhl": null
+  },
+  "feb/day-10/protadius": {
+    "summary": "St. Protadius (d. 626), Bishop of Besancon. A brief account of his episcopate in Burgundy.",
+    "genre": "commentary",
+    "century": "7th century",
+    "bhl": null
+  },
+  "feb/day-10/trumwine": {
+    "summary": "St. Trumwine (or Tumma), Bishop of the Southern Picts, who retired to the monastery of Whitby around the year 700 after the Pictish defeat of the Northumbrians at Nechtansmere (685). The historical commentary draws on Bede's account of his episcopate and withdrawal.",
+    "genre": "commentary",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-10/austreberta": {
+    "summary": "St. Austreberta (d. 704), virgin, abbess in Belgium and Normandy. The commentary treats her monastic life, her governance of the convent at Pavilly, and her veneration in the region.",
+    "genre": "vita",
+    "century": "8th century",
+    "bhl": null
+  },
+  "feb/day-10/virgin-and-martyr-sura": {
+    "summary": "St. Sura (also called Soteris or Zuwarda), virgin and martyr at Dordrecht in Holland. A historical commentary discussing the confused traditions surrounding her identity and the various names under which she is venerated.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  },
+  "feb/day-10/paschasius": {
+    "summary": "A brief notice on St. Paschasius, abbot at Lesina and Naples, known from local Italian hagiographic traditions.",
+    "genre": "commentary",
+    "century": null,
+    "bhl": null
+  }
+}

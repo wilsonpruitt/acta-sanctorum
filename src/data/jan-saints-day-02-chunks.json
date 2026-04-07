@@ -1,0 +1,512 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-frontasius-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Frontasius und Gefährten",
+    "source": "01-acta-sanctorum-frontasius-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 673,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-maximianus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Maximianus und Gefährten",
+    "source": "02-acta-sanctorum-maximianus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 126,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-maertyrer-von-piacenza-01.md",
+    "saint": "Acta Sanctorum: Märtyrer von Piacenza",
+    "source": "03-acta-sanctorum-maertyrer-von-piacenza.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 228,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-defendens-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Defendens und Gefährten",
+    "source": "04-acta-sanctorum-defendens-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 390,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-theopistus-01.md",
+    "saint": "Acta Sanctorum: Theopistus",
+    "source": "05-acta-sanctorum-theopistus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 70,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-sebastianus-und-alverius-01.md",
+    "saint": "Acta Sanctorum: Sebastianus und Alverius",
+    "source": "06-acta-sanctorum-sebastianus-und-alverius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 225,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-theodota-01.md",
+    "saint": "Acta Sanctorum: Theodota",
+    "source": "07-acta-sanctorum-theodota.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 101,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-maertyrer-der-heiligen-buecher-01.md",
+    "saint": "Acta Sanctorum: Märtyrer der heiligen Bücher",
+    "source": "08-acta-sanctorum-maertyrer-der-heiligen-buecher.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 417,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-stratonicus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Stratonicus und Gefährten",
+    "source": "09-acta-sanctorum-stratonicus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 117,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-maertyrer-von-lichfield-01.md",
+    "saint": "Acta Sanctorum: Märtyrer von Lichfield",
+    "source": "10-acta-sanctorum-maertyrer-von-lichfield.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 204,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-rutila-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Rutila und Gefährten",
+    "source": "11-acta-sanctorum-rutila-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 190,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-argaeus-narcissus-und-marcellinus-01.md",
+    "saint": "Acta Sanctorum: Argäus, Narcissus und Marcellinus",
+    "source": "12-acta-sanctorum-argaeus-narcissus-und-marcellinus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 546,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-basilius-von-ankara-01.md",
+    "saint": "Acta Sanctorum: Basilius von Ankara",
+    "source": "13-acta-sanctorum-basilius-von-ankara.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 305,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-isidor-von-antiochia-01.md",
+    "saint": "Acta Sanctorum: Isidor von Antiochia",
+    "source": "14-acta-sanctorum-isidor-von-antiochia.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 342,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-isidor-von-aegypten-01.md",
+    "saint": "Acta Sanctorum: Isidor von Ägypten",
+    "source": "15-acta-sanctorum-isidor-von-aegypten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 395,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-makarios-von-alexandria-der-juengere-01.md",
+    "saint": "Acta Sanctorum: Makarios von Alexandria der Jüngere",
+    "source": "16-acta-sanctorum-makarios-von-alexandria-der-juengere.md",
+    "part": 1,
+    "totalParts": 4,
+    "words": 1496,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-makarios-von-alexandria-der-juengere-02.md",
+    "saint": "Acta Sanctorum: Makarios von Alexandria der Jüngere",
+    "source": "16-acta-sanctorum-makarios-von-alexandria-der-juengere.md",
+    "part": 2,
+    "totalParts": 4,
+    "words": 1128,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-makarios-von-alexandria-der-juengere-03.md",
+    "saint": "Acta Sanctorum: Makarios von Alexandria der Jüngere",
+    "source": "16-acta-sanctorum-makarios-von-alexandria-der-juengere.md",
+    "part": 3,
+    "totalParts": 4,
+    "words": 1437,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-makarios-von-alexandria-der-juengere-04.md",
+    "saint": "Acta Sanctorum: Makarios von Alexandria der Jüngere",
+    "source": "16-acta-sanctorum-makarios-von-alexandria-der-juengere.md",
+    "part": 4,
+    "totalParts": 4,
+    "words": 1254,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-martinianus-von-mailand-01.md",
+    "saint": "Acta Sanctorum: Martinianus von Mailand",
+    "source": "17-acta-sanctorum-martinianus-von-mailand.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 678,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-macarius-von-rom-01.md",
+    "saint": "Acta Sanctorum: Macarius von Rom",
+    "source": "18-acta-sanctorum-macarius-von-rom.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 474,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-markus-der-stumme-01.md",
+    "saint": "Acta Sanctorum: Markus der Stumme",
+    "source": "19-acta-sanctorum-markus-der-stumme.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 102,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-aspasius-von-melun-01.md",
+    "saint": "Acta Sanctorum: Aspasius von Melun",
+    "source": "20-acta-sanctorum-aspasius-von-melun.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 337,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-maximus-von-vienne-01.md",
+    "saint": "Acta Sanctorum: Maximus von Vienne",
+    "source": "21-acta-sanctorum-maximus-von-vienne.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1355,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-maximus-von-vienne-02.md",
+    "saint": "Acta Sanctorum: Maximus von Vienne",
+    "source": "21-acta-sanctorum-maximus-von-vienne.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1359,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-maximus-von-vienne-03.md",
+    "saint": "Acta Sanctorum: Maximus von Vienne",
+    "source": "21-acta-sanctorum-maximus-von-vienne.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 1264,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-bladulphus-01.md",
+    "saint": "Acta Sanctorum: Bladulphus",
+    "source": "22-acta-sanctorum-bladulphus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 696,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-adalhard-von-corbie-01.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 1,
+    "totalParts": 22,
+    "words": 1494,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-adalhard-von-corbie-02.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 2,
+    "totalParts": 22,
+    "words": 1472,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-adalhard-von-corbie-03.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 3,
+    "totalParts": 22,
+    "words": 1496,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-adalhard-von-corbie-04.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 4,
+    "totalParts": 22,
+    "words": 1180,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "0031-acta-sanctorum-adalhard-von-corbie-05.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 5,
+    "totalParts": 22,
+    "words": 1264,
+    "status": "pending"
+  },
+  {
+    "chunk": 32,
+    "filename": "0032-acta-sanctorum-adalhard-von-corbie-06.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 6,
+    "totalParts": 22,
+    "words": 1353,
+    "status": "pending"
+  },
+  {
+    "chunk": 33,
+    "filename": "0033-acta-sanctorum-adalhard-von-corbie-07.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 7,
+    "totalParts": 22,
+    "words": 1400,
+    "status": "pending"
+  },
+  {
+    "chunk": 34,
+    "filename": "0034-acta-sanctorum-adalhard-von-corbie-08.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 8,
+    "totalParts": 22,
+    "words": 1397,
+    "status": "pending"
+  },
+  {
+    "chunk": 35,
+    "filename": "0035-acta-sanctorum-adalhard-von-corbie-09.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 9,
+    "totalParts": 22,
+    "words": 1435,
+    "status": "pending"
+  },
+  {
+    "chunk": 36,
+    "filename": "0036-acta-sanctorum-adalhard-von-corbie-10.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 10,
+    "totalParts": 22,
+    "words": 1421,
+    "status": "pending"
+  },
+  {
+    "chunk": 37,
+    "filename": "0037-acta-sanctorum-adalhard-von-corbie-11.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 11,
+    "totalParts": 22,
+    "words": 1451,
+    "status": "pending"
+  },
+  {
+    "chunk": 38,
+    "filename": "0038-acta-sanctorum-adalhard-von-corbie-12.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 12,
+    "totalParts": 22,
+    "words": 1391,
+    "status": "pending"
+  },
+  {
+    "chunk": 39,
+    "filename": "0039-acta-sanctorum-adalhard-von-corbie-13.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 13,
+    "totalParts": 22,
+    "words": 1472,
+    "status": "pending"
+  },
+  {
+    "chunk": 40,
+    "filename": "0040-acta-sanctorum-adalhard-von-corbie-14.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 14,
+    "totalParts": 22,
+    "words": 1374,
+    "status": "pending"
+  },
+  {
+    "chunk": 41,
+    "filename": "0041-acta-sanctorum-adalhard-von-corbie-15.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 15,
+    "totalParts": 22,
+    "words": 1302,
+    "status": "pending"
+  },
+  {
+    "chunk": 42,
+    "filename": "0042-acta-sanctorum-adalhard-von-corbie-16.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 16,
+    "totalParts": 22,
+    "words": 1420,
+    "status": "pending"
+  },
+  {
+    "chunk": 43,
+    "filename": "0043-acta-sanctorum-adalhard-von-corbie-17.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 17,
+    "totalParts": 22,
+    "words": 1420,
+    "status": "pending"
+  },
+  {
+    "chunk": 44,
+    "filename": "0044-acta-sanctorum-adalhard-von-corbie-18.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 18,
+    "totalParts": 22,
+    "words": 1343,
+    "status": "pending"
+  },
+  {
+    "chunk": 45,
+    "filename": "0045-acta-sanctorum-adalhard-von-corbie-19.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 19,
+    "totalParts": 22,
+    "words": 1487,
+    "status": "pending"
+  },
+  {
+    "chunk": 46,
+    "filename": "0046-acta-sanctorum-adalhard-von-corbie-20.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 20,
+    "totalParts": 22,
+    "words": 1455,
+    "status": "pending"
+  },
+  {
+    "chunk": 47,
+    "filename": "0047-acta-sanctorum-adalhard-von-corbie-21.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 21,
+    "totalParts": 22,
+    "words": 1357,
+    "status": "pending"
+  },
+  {
+    "chunk": 48,
+    "filename": "0048-acta-sanctorum-adalhard-von-corbie-22.md",
+    "saint": "Acta Sanctorum: Adalhard von Corbie",
+    "source": "23-acta-sanctorum-adalhard-von-corbie.md",
+    "part": 22,
+    "totalParts": 22,
+    "words": 1392,
+    "status": "pending"
+  },
+  {
+    "chunk": 49,
+    "filename": "0049-acta-sanctorum-vedastus-von-arras-auffindung-des-kopfes-01.md",
+    "saint": "Acta Sanctorum: Vedastus von Arras - Auffindung des Kopfes",
+    "source": "24-acta-sanctorum-vedastus-von-arras-auffindung-des-kopfes.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 283,
+    "status": "pending"
+  },
+  {
+    "chunk": 50,
+    "filename": "0050-acta-sanctorum-silvester-01.md",
+    "saint": "Acta Sanctorum: Silvester",
+    "source": "25-acta-sanctorum-silvester.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 790,
+    "status": "pending"
+  }
+]

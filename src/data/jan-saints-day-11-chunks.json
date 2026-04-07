@@ -1,0 +1,462 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-balthasar-01.md",
+    "saint": "Acta Sanctorum: Balthasar",
+    "source": "01-acta-sanctorum-balthasar.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1070,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-hyginus-01.md",
+    "saint": "Acta Sanctorum: Hyginus",
+    "source": "02-acta-sanctorum-hyginus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1143,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-philoromus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Philoromus und Gefährten",
+    "source": "03-acta-sanctorum-philoromus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 144,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-polyeuctus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Polyeuctus und Gefährten",
+    "source": "04-acta-sanctorum-polyeuctus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 858,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-agentus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Agentus und Gefährten",
+    "source": "05-acta-sanctorum-agentus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 344,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-salvius-01.md",
+    "saint": "Acta Sanctorum: Salvius",
+    "source": "06-acta-sanctorum-salvius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 367,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-alexander-von-fermo-01.md",
+    "saint": "Acta Sanctorum: Alexander von Fermo",
+    "source": "07-acta-sanctorum-alexander-von-fermo.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 182,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-palaemon-01.md",
+    "saint": "Acta Sanctorum: Palaemon",
+    "source": "08-acta-sanctorum-palaemon.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-palaemon-02.md",
+    "saint": "Acta Sanctorum: Palaemon",
+    "source": "08-acta-sanctorum-palaemon.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 987,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-hortensius-01.md",
+    "saint": "Acta Sanctorum: Hortensius",
+    "source": "09-acta-sanctorum-hortensius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 83,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-theodosius-von-antiochia-01.md",
+    "saint": "Acta Sanctorum: Theodosius von Antiochia",
+    "source": "10-acta-sanctorum-theodosius-von-antiochia.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1500,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-theodosius-von-antiochia-02.md",
+    "saint": "Acta Sanctorum: Theodosius von Antiochia",
+    "source": "10-acta-sanctorum-theodosius-von-antiochia.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 1059,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-honorata-01.md",
+    "saint": "Acta Sanctorum: Honorata",
+    "source": "11-acta-sanctorum-honorata.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 815,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-anastasius-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Anastasius und Gefährten",
+    "source": "12-acta-sanctorum-anastasius-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 946,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-theodosius-der-grosse-01.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 1,
+    "totalParts": 17,
+    "words": 1155,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-theodosius-der-grosse-02.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 2,
+    "totalParts": 17,
+    "words": 1420,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-theodosius-der-grosse-03.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 3,
+    "totalParts": 17,
+    "words": 1314,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-theodosius-der-grosse-04.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 4,
+    "totalParts": 17,
+    "words": 1332,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-theodosius-der-grosse-05.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 5,
+    "totalParts": 17,
+    "words": 1407,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-theodosius-der-grosse-06.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 6,
+    "totalParts": 17,
+    "words": 1334,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-theodosius-der-grosse-07.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 7,
+    "totalParts": 17,
+    "words": 1328,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-theodosius-der-grosse-08.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 8,
+    "totalParts": 17,
+    "words": 1483,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-theodosius-der-grosse-09.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 9,
+    "totalParts": 17,
+    "words": 1426,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-theodosius-der-grosse-10.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 10,
+    "totalParts": 17,
+    "words": 1460,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-theodosius-der-grosse-11.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 11,
+    "totalParts": 17,
+    "words": 1306,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-theodosius-der-grosse-12.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 12,
+    "totalParts": 17,
+    "words": 1333,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-theodosius-der-grosse-13.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 13,
+    "totalParts": 17,
+    "words": 1435,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-theodosius-der-grosse-14.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 14,
+    "totalParts": 17,
+    "words": 1446,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-theodosius-der-grosse-15.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 15,
+    "totalParts": 17,
+    "words": 1500,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-theodosius-der-grosse-16.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 16,
+    "totalParts": 17,
+    "words": 1432,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-theodosius-der-grosse-17.md",
+    "saint": "Acta Sanctorum: Theodosius „der Große”",
+    "source": "13-acta-sanctorum-theodosius-der-grosse.md",
+    "part": 17,
+    "totalParts": 17,
+    "words": 925,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "0031-acta-sanctorum-vitalius-01.md",
+    "saint": "Acta Sanctorum: Vitalius",
+    "source": "14-acta-sanctorum-vitalius.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1488,
+    "status": "pending"
+  },
+  {
+    "chunk": 32,
+    "filename": "0032-acta-sanctorum-vitalius-02.md",
+    "saint": "Acta Sanctorum: Vitalius",
+    "source": "14-acta-sanctorum-vitalius.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 131,
+    "status": "pending"
+  },
+  {
+    "chunk": 33,
+    "filename": "0033-acta-sanctorum-salvius-von-amiens-01.md",
+    "saint": "Acta Sanctorum: Salvius von Amiens",
+    "source": "15-acta-sanctorum-salvius-von-amiens.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1388,
+    "status": "pending"
+  },
+  {
+    "chunk": 34,
+    "filename": "0034-acta-sanctorum-salvius-von-amiens-02.md",
+    "saint": "Acta Sanctorum: Salvius von Amiens",
+    "source": "15-acta-sanctorum-salvius-von-amiens.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1456,
+    "status": "pending"
+  },
+  {
+    "chunk": 35,
+    "filename": "0035-acta-sanctorum-salvius-von-amiens-03.md",
+    "saint": "Acta Sanctorum: Salvius von Amiens",
+    "source": "15-acta-sanctorum-salvius-von-amiens.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 796,
+    "status": "pending"
+  },
+  {
+    "chunk": 36,
+    "filename": "0036-acta-sanctorum-egwin-von-worcester-01.md",
+    "saint": "Acta Sanctorum: Egwin von Worcester",
+    "source": "16-acta-sanctorum-egwin-von-worcester.md",
+    "part": 1,
+    "totalParts": 5,
+    "words": 1496,
+    "status": "pending"
+  },
+  {
+    "chunk": 37,
+    "filename": "0037-acta-sanctorum-egwin-von-worcester-02.md",
+    "saint": "Acta Sanctorum: Egwin von Worcester",
+    "source": "16-acta-sanctorum-egwin-von-worcester.md",
+    "part": 2,
+    "totalParts": 5,
+    "words": 1428,
+    "status": "pending"
+  },
+  {
+    "chunk": 38,
+    "filename": "0038-acta-sanctorum-egwin-von-worcester-03.md",
+    "saint": "Acta Sanctorum: Egwin von Worcester",
+    "source": "16-acta-sanctorum-egwin-von-worcester.md",
+    "part": 3,
+    "totalParts": 5,
+    "words": 1495,
+    "status": "pending"
+  },
+  {
+    "chunk": 39,
+    "filename": "0039-acta-sanctorum-egwin-von-worcester-04.md",
+    "saint": "Acta Sanctorum: Egwin von Worcester",
+    "source": "16-acta-sanctorum-egwin-von-worcester.md",
+    "part": 4,
+    "totalParts": 5,
+    "words": 1301,
+    "status": "pending"
+  },
+  {
+    "chunk": 40,
+    "filename": "0040-acta-sanctorum-egwin-von-worcester-05.md",
+    "saint": "Acta Sanctorum: Egwin von Worcester",
+    "source": "16-acta-sanctorum-egwin-von-worcester.md",
+    "part": 5,
+    "totalParts": 5,
+    "words": 1065,
+    "status": "pending"
+  },
+  {
+    "chunk": 41,
+    "filename": "0041-acta-sanctorum-tato-01.md",
+    "saint": "Acta Sanctorum: Tato",
+    "source": "17-acta-sanctorum-tato.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 261,
+    "status": "pending"
+  },
+  {
+    "chunk": 42,
+    "filename": "0042-acta-sanctorum-paulinus-von-aquileia-01.md",
+    "saint": "Acta Sanctorum: Paulinus von Aquileia",
+    "source": "18-acta-sanctorum-paulinus-von-aquileia.md",
+    "part": 1,
+    "totalParts": 4,
+    "words": 1473,
+    "status": "pending"
+  },
+  {
+    "chunk": 43,
+    "filename": "0043-acta-sanctorum-paulinus-von-aquileia-02.md",
+    "saint": "Acta Sanctorum: Paulinus von Aquileia",
+    "source": "18-acta-sanctorum-paulinus-von-aquileia.md",
+    "part": 2,
+    "totalParts": 4,
+    "words": 1441,
+    "status": "pending"
+  },
+  {
+    "chunk": 44,
+    "filename": "0044-acta-sanctorum-paulinus-von-aquileia-03.md",
+    "saint": "Acta Sanctorum: Paulinus von Aquileia",
+    "source": "18-acta-sanctorum-paulinus-von-aquileia.md",
+    "part": 3,
+    "totalParts": 4,
+    "words": 1289,
+    "status": "pending"
+  },
+  {
+    "chunk": 45,
+    "filename": "0045-acta-sanctorum-paulinus-von-aquileia-04.md",
+    "saint": "Acta Sanctorum: Paulinus von Aquileia",
+    "source": "18-acta-sanctorum-paulinus-von-aquileia.md",
+    "part": 4,
+    "totalParts": 4,
+    "words": 1166,
+    "status": "pending"
+  }
+]

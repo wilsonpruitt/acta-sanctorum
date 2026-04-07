@@ -1,0 +1,572 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-maleachi-01.md",
+    "saint": "Acta Sanctorum: Maleachi",
+    "source": "01-acta-sanctorum-maleachi.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 612,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-euphrasius-01.md",
+    "saint": "Acta Sanctorum: Euphrasius",
+    "source": "02-acta-sanctorum-euphrasius.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 554,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-clerus-01.md",
+    "saint": "Acta Sanctorum: Clerus",
+    "source": "03-acta-sanctorum-clerus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 368,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-paulus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Paulus und Gefährten",
+    "source": "04-acta-sanctorum-paulus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 213,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-firminus-von-mende-01.md",
+    "saint": "Acta Sanctorum: Firminus von Mende",
+    "source": "05-acta-sanctorum-firminus-von-mende.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 583,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-sabbas-vom-sinai-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Sabbas vom Sinai und Gefährten",
+    "source": "06-acta-sanctorum-sabbas-vom-sinai-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 860,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-felix-von-nola-01.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 1,
+    "totalParts": 11,
+    "words": 1446,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-felix-von-nola-02.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 2,
+    "totalParts": 11,
+    "words": 1430,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-felix-von-nola-03.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 3,
+    "totalParts": 11,
+    "words": 1453,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-felix-von-nola-04.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 4,
+    "totalParts": 11,
+    "words": 1407,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-felix-von-nola-05.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 5,
+    "totalParts": 11,
+    "words": 1460,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-felix-von-nola-06.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 6,
+    "totalParts": 11,
+    "words": 1493,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-felix-von-nola-07.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 7,
+    "totalParts": 11,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-felix-von-nola-08.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 8,
+    "totalParts": 11,
+    "words": 1423,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-felix-von-nola-09.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 9,
+    "totalParts": 11,
+    "words": 1405,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-felix-von-nola-10.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 10,
+    "totalParts": 11,
+    "words": 1322,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-felix-von-nola-11.md",
+    "saint": "Acta Sanctorum: Felix von Nola",
+    "source": "07-acta-sanctorum-felix-von-nola.md",
+    "part": 11,
+    "totalParts": 11,
+    "words": 535,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-felix-01.md",
+    "saint": "Acta Sanctorum: Felix",
+    "source": "08-acta-sanctorum-felix.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1496,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-felix-02.md",
+    "saint": "Acta Sanctorum: Felix",
+    "source": "08-acta-sanctorum-felix.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 16,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-makrina-die-aeltere-01.md",
+    "saint": "Acta Sanctorum: Makrina die Ältere",
+    "source": "09-acta-sanctorum-makrina-die-aeltere.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1447,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-theodoulus-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 11,
+    "words": 1298,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-theodoulus-und-gefaehrten-02.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 2,
+    "totalParts": 11,
+    "words": 1292,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-theodoulus-und-gefaehrten-03.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 3,
+    "totalParts": 11,
+    "words": 1474,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-theodoulus-und-gefaehrten-04.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 4,
+    "totalParts": 11,
+    "words": 1314,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-theodoulus-und-gefaehrten-05.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 5,
+    "totalParts": 11,
+    "words": 1382,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-theodoulus-und-gefaehrten-06.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 6,
+    "totalParts": 11,
+    "words": 1468,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-theodoulus-und-gefaehrten-07.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 7,
+    "totalParts": 11,
+    "words": 1196,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-theodoulus-und-gefaehrten-08.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 8,
+    "totalParts": 11,
+    "words": 1307,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-theodoulus-und-gefaehrten-09.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 9,
+    "totalParts": 11,
+    "words": 1477,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-theodoulus-und-gefaehrten-10.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 10,
+    "totalParts": 11,
+    "words": 1443,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-theodoulus-und-gefaehrten-11.md",
+    "saint": "Acta Sanctorum: Theodoulus und Gefährten",
+    "source": "10-acta-sanctorum-theodoulus-und-gefaehrten.md",
+    "part": 11,
+    "totalParts": 11,
+    "words": 725,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "0031-acta-sanctorum-43-moenche-von-raithu-01.md",
+    "saint": "Acta Sanctorum: 43 Mönche von Raithu",
+    "source": "11-acta-sanctorum-43-moenche-von-raithu.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 913,
+    "status": "pending"
+  },
+  {
+    "chunk": 32,
+    "filename": "0032-acta-sanctorum-theodoulos-vom-sinai-01.md",
+    "saint": "Acta Sanctorum: Theodoulos vom Sinai",
+    "source": "12-acta-sanctorum-theodoulos-vom-sinai.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 471,
+    "status": "pending"
+  },
+  {
+    "chunk": 33,
+    "filename": "0033-acta-sanctorum-datius-von-mailand-01.md",
+    "saint": "Acta Sanctorum: Datius von Mailand",
+    "source": "13-acta-sanctorum-datius-von-mailand.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1362,
+    "status": "pending"
+  },
+  {
+    "chunk": 34,
+    "filename": "0034-acta-sanctorum-datius-von-mailand-02.md",
+    "saint": "Acta Sanctorum: Datius von Mailand",
+    "source": "13-acta-sanctorum-datius-von-mailand.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1353,
+    "status": "pending"
+  },
+  {
+    "chunk": 35,
+    "filename": "0035-acta-sanctorum-datius-von-mailand-03.md",
+    "saint": "Acta Sanctorum: Datius von Mailand",
+    "source": "13-acta-sanctorum-datius-von-mailand.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 802,
+    "status": "pending"
+  },
+  {
+    "chunk": 36,
+    "filename": "0036-acta-sanctorum-fulgentius-von-astigi-01.md",
+    "saint": "Acta Sanctorum: Fulgentius von Astigi",
+    "source": "14-acta-sanctorum-fulgentius-von-astigi.md",
+    "part": 1,
+    "totalParts": 4,
+    "words": 1394,
+    "status": "pending"
+  },
+  {
+    "chunk": 37,
+    "filename": "0037-acta-sanctorum-fulgentius-von-astigi-02.md",
+    "saint": "Acta Sanctorum: Fulgentius von Astigi",
+    "source": "14-acta-sanctorum-fulgentius-von-astigi.md",
+    "part": 2,
+    "totalParts": 4,
+    "words": 1388,
+    "status": "pending"
+  },
+  {
+    "chunk": 38,
+    "filename": "0038-acta-sanctorum-fulgentius-von-astigi-03.md",
+    "saint": "Acta Sanctorum: Fulgentius von Astigi",
+    "source": "14-acta-sanctorum-fulgentius-von-astigi.md",
+    "part": 3,
+    "totalParts": 4,
+    "words": 1448,
+    "status": "pending"
+  },
+  {
+    "chunk": 39,
+    "filename": "0039-acta-sanctorum-fulgentius-von-astigi-04.md",
+    "saint": "Acta Sanctorum: Fulgentius von Astigi",
+    "source": "14-acta-sanctorum-fulgentius-von-astigi.md",
+    "part": 4,
+    "totalParts": 4,
+    "words": 215,
+    "status": "pending"
+  },
+  {
+    "chunk": 40,
+    "filename": "0040-acta-sanctorum-cadeoldus-von-vienne-01.md",
+    "saint": "Acta Sanctorum: Cadeoldus von Vienne",
+    "source": "15-acta-sanctorum-cadeoldus-von-vienne.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 826,
+    "status": "pending"
+  },
+  {
+    "chunk": 41,
+    "filename": "0041-acta-sanctorum-stephanos-01.md",
+    "saint": "Acta Sanctorum: Stephanos",
+    "source": "16-acta-sanctorum-stephanos.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 497,
+    "status": "pending"
+  },
+  {
+    "chunk": 42,
+    "filename": "0042-acta-sanctorum-englmar-01.md",
+    "saint": "Acta Sanctorum: Englmar",
+    "source": "17-acta-sanctorum-englmar.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1467,
+    "status": "pending"
+  },
+  {
+    "chunk": 43,
+    "filename": "0043-acta-sanctorum-englmar-02.md",
+    "saint": "Acta Sanctorum: Englmar",
+    "source": "17-acta-sanctorum-englmar.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 514,
+    "status": "pending"
+  },
+  {
+    "chunk": 44,
+    "filename": "0044-acta-sanctorum-odo-von-novara-01.md",
+    "saint": "Acta Sanctorum: Odo von Novara",
+    "source": "18-acta-sanctorum-odo-von-novara.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1452,
+    "status": "pending"
+  },
+  {
+    "chunk": 45,
+    "filename": "0045-acta-sanctorum-odo-von-novara-02.md",
+    "saint": "Acta Sanctorum: Odo von Novara",
+    "source": "18-acta-sanctorum-odo-von-novara.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 163,
+    "status": "pending"
+  },
+  {
+    "chunk": 46,
+    "filename": "0046-acta-sanctorum-sabas-i-von-serbien-01.md",
+    "saint": "Acta Sanctorum: Sabas I. von Serbien",
+    "source": "19-acta-sanctorum-sabas-i-von-serbien.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1462,
+    "status": "pending"
+  },
+  {
+    "chunk": 47,
+    "filename": "0047-acta-sanctorum-sabas-i-von-serbien-02.md",
+    "saint": "Acta Sanctorum: Sabas I. von Serbien",
+    "source": "19-acta-sanctorum-sabas-i-von-serbien.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1479,
+    "status": "pending"
+  },
+  {
+    "chunk": 48,
+    "filename": "0048-acta-sanctorum-sabas-i-von-serbien-03.md",
+    "saint": "Acta Sanctorum: Sabas I. von Serbien",
+    "source": "19-acta-sanctorum-sabas-i-von-serbien.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 1390,
+    "status": "pending"
+  },
+  {
+    "chunk": 49,
+    "filename": "0049-acta-sanctorum-oderich-von-pordenone-01.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 1,
+    "totalParts": 8,
+    "words": 1474,
+    "status": "pending"
+  },
+  {
+    "chunk": 50,
+    "filename": "0050-acta-sanctorum-oderich-von-pordenone-02.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 2,
+    "totalParts": 8,
+    "words": 1422,
+    "status": "pending"
+  },
+  {
+    "chunk": 51,
+    "filename": "0051-acta-sanctorum-oderich-von-pordenone-03.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 3,
+    "totalParts": 8,
+    "words": 1495,
+    "status": "pending"
+  },
+  {
+    "chunk": 52,
+    "filename": "0052-acta-sanctorum-oderich-von-pordenone-04.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 4,
+    "totalParts": 8,
+    "words": 1493,
+    "status": "pending"
+  },
+  {
+    "chunk": 53,
+    "filename": "0053-acta-sanctorum-oderich-von-pordenone-05.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 5,
+    "totalParts": 8,
+    "words": 1480,
+    "status": "pending"
+  },
+  {
+    "chunk": 54,
+    "filename": "0054-acta-sanctorum-oderich-von-pordenone-06.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 6,
+    "totalParts": 8,
+    "words": 1358,
+    "status": "pending"
+  },
+  {
+    "chunk": 55,
+    "filename": "0055-acta-sanctorum-oderich-von-pordenone-07.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 7,
+    "totalParts": 8,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 56,
+    "filename": "0056-acta-sanctorum-oderich-von-pordenone-08.md",
+    "saint": "Acta Sanctorum: Oderich von Pordenone",
+    "source": "20-acta-sanctorum-oderich-von-pordenone.md",
+    "part": 8,
+    "totalParts": 8,
+    "words": 38,
+    "status": "pending"
+  }
+]

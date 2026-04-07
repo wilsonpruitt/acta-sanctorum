@@ -1,0 +1,22 @@
+{
+  "vol1": {
+    "archive_id": "actasanctorum01unse",
+    "label": "Ian. I",
+    "days": {
+      "day-01": 1, "day-02": 89, "day-03": 159, "day-04": 219,
+      "day-05": 309, "day-06": 326, "day-07": 371, "day-08": 457,
+      "day-09": 565, "day-10": 600, "day-11": 663
+    }
+  },
+  "vol2": {
+    "archive_id": "actasanctorum02unse",
+    "label": "Ian. II",
+    "days": {
+      "day-12": 1, "day-13": 34, "day-14": 212, "day-15": 275,
+      "day-16": 365, "day-17": 436, "day-18": 544, "day-19": 576,
+      "day-20": 615, "day-21": 701, "day-22": null, "day-23": null,
+      "day-24": null, "day-25": null, "day-26": null, "day-27": null,
+      "day-28": null, "day-29": null, "day-30": null, "day-31": null
+    }
+  }
+}

@@ -1,0 +1,310 @@
+[
+  {
+    "chunk": 0,
+    "filename": "00-front-matter-title-dedication-to-cardinal-barberini.md",
+    "heading": "Front Matter (Title, Dedication to Cardinal Barberini)",
+    "words": 168,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "01-eminentissimo-principi-francisco-barberino.md",
+    "heading": "EMINENTISSIMO PRINCIPI FRANCISCO BARBERINO",
+    "words": 396,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "02-benigno-lectori.md",
+    "heading": "BENIGNO LECTORI.",
+    "words": 1325,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "03-index-sanctorvm.md",
+    "heading": "INDEX SANCTORVM",
+    "words": 238,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "04-a.md",
+    "heading": "A",
+    "words": 2014,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "05-b.md",
+    "heading": "B",
+    "words": 783,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "06-c.md",
+    "heading": "C",
+    "words": 1067,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "07-d.md",
+    "heading": "D",
+    "words": 269,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "08-e.md",
+    "heading": "E",
+    "words": 778,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "09-f.md",
+    "heading": "F",
+    "words": 619,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "10-g.md",
+    "heading": "G",
+    "words": 724,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "11-h.md",
+    "heading": "H",
+    "words": 825,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "12-i.md",
+    "heading": "I",
+    "words": 1115,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "13-l.md",
+    "heading": "L",
+    "words": 292,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "14-m.md",
+    "heading": "M",
+    "words": 1467,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "15-n.md",
+    "heading": "N",
+    "words": 46,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "16-o.md",
+    "heading": "O",
+    "words": 59,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "17-p.md",
+    "heading": "P",
+    "words": 1481,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "18-q.md",
+    "heading": "Q",
+    "words": 22,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "19-r.md",
+    "heading": "R",
+    "words": 181,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "20-s.md",
+    "heading": "S",
+    "words": 1336,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "21-t.md",
+    "heading": "T",
+    "words": 712,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "22-v.md",
+    "heading": "V",
+    "words": 863,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "23-w.md",
+    "heading": "W",
+    "words": 150,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "24-x.md",
+    "heading": "X",
+    "words": 105,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "25-z.md",
+    "heading": "Z",
+    "words": 56,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "26-index-chronologicvs.md",
+    "heading": "INDEX CHRONOLOGICVS",
+    "words": 104,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "27-i-secvlvm-a-christo-nato.md",
+    "heading": "I. SECVLVM A CHRISTO NATO.",
+    "words": 130,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "28-ii-secvlvm.md",
+    "heading": "II. SECVLVM.",
+    "words": 173,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "29-iii-secvlvm.md",
+    "heading": "III. SECVLVM.",
+    "words": 376,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "30-iv-secvlvm.md",
+    "heading": "IV. SECVLVM.",
+    "words": 809,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "31-v-secvlvm.md",
+    "heading": "V. SECVLVM.",
+    "words": 525,
+    "status": "pending"
+  },
+  {
+    "chunk": 32,
+    "filename": "32-vi-secvlvm.md",
+    "heading": "VI. SECVLVM.",
+    "words": 395,
+    "status": "pending"
+  },
+  {
+    "chunk": 33,
+    "filename": "33-vii-secvlvm.md",
+    "heading": "VII. SECVLVM.",
+    "words": 518,
+    "status": "pending"
+  },
+  {
+    "chunk": 34,
+    "filename": "34-viii-secvlvm.md",
+    "heading": "VIII. SECVLVM.",
+    "words": 220,
+    "status": "pending"
+  },
+  {
+    "chunk": 35,
+    "filename": "35-ix-secvlvm.md",
+    "heading": "IX. SECVLVM.",
+    "words": 290,
+    "status": "pending"
+  },
+  {
+    "chunk": 36,
+    "filename": "36-x-secvlvm.md",
+    "heading": "X. SECVLVM.",
+    "words": 180,
+    "status": "pending"
+  },
+  {
+    "chunk": 37,
+    "filename": "37-xi-secvlvm.md",
+    "heading": "XI. SECVLVM.",
+    "words": 236,
+    "status": "pending"
+  },
+  {
+    "chunk": 38,
+    "filename": "38-xii-secvlvm.md",
+    "heading": "XII. SECVLVM.",
+    "words": 163,
+    "status": "pending"
+  },
+  {
+    "chunk": 39,
+    "filename": "39-xiii-secvlvm.md",
+    "heading": "XIII. SECVLVM.",
+    "words": 296,
+    "status": "pending"
+  },
+  {
+    "chunk": 40,
+    "filename": "40-xiv-secvlvm.md",
+    "heading": "XIV. SECVLVM.",
+    "words": 167,
+    "status": "pending"
+  },
+  {
+    "chunk": 41,
+    "filename": "41-xv-secvlvm.md",
+    "heading": "XV. SECVLVM.",
+    "words": 96,
+    "status": "pending"
+  },
+  {
+    "chunk": 42,
+    "filename": "42-xvi-secvlvm.md",
+    "heading": "XVI. SECVLVM.",
+    "words": 90,
+    "status": "pending"
+  },
+  {
+    "chunk": 43,
+    "filename": "43-xvii-secvlvm.md",
+    "heading": "XVII. SECVLVM.",
+    "words": 38,
+    "status": "pending"
+  }
+]

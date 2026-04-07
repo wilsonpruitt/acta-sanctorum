@@ -1,0 +1,14 @@
+node_modules/
+.env*.local
+.netlify
+
+# Large reference files
+*.pdf
+*.epub
+
+# Generated output
+site/
+
+# Large source corpora (translations + Latin)
+src/translations/
+src/latin/

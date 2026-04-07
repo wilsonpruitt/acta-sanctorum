@@ -1,0 +1,362 @@
+[
+  {
+    "chunk": 0,
+    "filename": "0000-acta-sanctorum-anterus-01.md",
+    "saint": "Acta Sanctorum: Anterus",
+    "source": "01-acta-sanctorum-anterus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 417,
+    "status": "pending"
+  },
+  {
+    "chunk": 1,
+    "filename": "0001-acta-sanctorum-florentius-von-vienne-01.md",
+    "saint": "Acta Sanctorum: Florentius von Vienne",
+    "source": "02-acta-sanctorum-florentius-von-vienne.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 257,
+    "status": "pending"
+  },
+  {
+    "chunk": 2,
+    "filename": "0002-acta-sanctorum-theopompus-01.md",
+    "saint": "Acta Sanctorum: Theopompus",
+    "source": "03-acta-sanctorum-theopompus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 262,
+    "status": "pending"
+  },
+  {
+    "chunk": 3,
+    "filename": "0003-acta-sanctorum-zosimus-der-moench-01.md",
+    "saint": "Acta Sanctorum: Zosimus der Mönch",
+    "source": "04-acta-sanctorum-zosimus-der-moench.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 280,
+    "status": "pending"
+  },
+  {
+    "chunk": 4,
+    "filename": "0004-acta-sanctorum-petrus-apselamus-balsamus-01.md",
+    "saint": "Acta Sanctorum: Petrus Apselamus (Balsamus)",
+    "source": "05-acta-sanctorum-petrus-apselamus-balsamus.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1359,
+    "status": "pending"
+  },
+  {
+    "chunk": 5,
+    "filename": "0005-acta-sanctorum-petrus-apselamus-balsamus-02.md",
+    "saint": "Acta Sanctorum: Petrus Apselamus (Balsamus)",
+    "source": "05-acta-sanctorum-petrus-apselamus-balsamus.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 565,
+    "status": "pending"
+  },
+  {
+    "chunk": 6,
+    "filename": "0006-acta-sanctorum-martialis-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Martialis und Gefährten",
+    "source": "06-acta-sanctorum-martialis-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 171,
+    "status": "pending"
+  },
+  {
+    "chunk": 7,
+    "filename": "0007-acta-sanctorum-gordius-01.md",
+    "saint": "Acta Sanctorum: Gordius",
+    "source": "07-acta-sanctorum-gordius.md",
+    "part": 1,
+    "totalParts": 3,
+    "words": 1414,
+    "status": "pending"
+  },
+  {
+    "chunk": 8,
+    "filename": "0008-acta-sanctorum-gordius-02.md",
+    "saint": "Acta Sanctorum: Gordius",
+    "source": "07-acta-sanctorum-gordius.md",
+    "part": 2,
+    "totalParts": 3,
+    "words": 1427,
+    "status": "pending"
+  },
+  {
+    "chunk": 9,
+    "filename": "0009-acta-sanctorum-gordius-03.md",
+    "saint": "Acta Sanctorum: Gordius",
+    "source": "07-acta-sanctorum-gordius.md",
+    "part": 3,
+    "totalParts": 3,
+    "words": 516,
+    "status": "pending"
+  },
+  {
+    "chunk": 10,
+    "filename": "0010-acta-sanctorum-theogenes-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Theogenes und Gefährten",
+    "source": "08-acta-sanctorum-theogenes-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1485,
+    "status": "pending"
+  },
+  {
+    "chunk": 11,
+    "filename": "0011-acta-sanctorum-theogenes-und-gefaehrten-02.md",
+    "saint": "Acta Sanctorum: Theogenes und Gefährten",
+    "source": "08-acta-sanctorum-theogenes-und-gefaehrten.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 975,
+    "status": "pending"
+  },
+  {
+    "chunk": 12,
+    "filename": "0012-acta-sanctorum-claudon-und-gefaehrten-01.md",
+    "saint": "Acta Sanctorum: Claudon und Gefährten",
+    "source": "09-acta-sanctorum-claudon-und-gefaehrten.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 199,
+    "status": "pending"
+  },
+  {
+    "chunk": 13,
+    "filename": "0013-acta-sanctorum-lucianus-von-lentini-01.md",
+    "saint": "Acta Sanctorum: Lucianus von Lentini",
+    "source": "10-acta-sanctorum-lucianus-von-lentini.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 137,
+    "status": "pending"
+  },
+  {
+    "chunk": 14,
+    "filename": "0014-acta-sanctorum-melorus-von-cornwall-01.md",
+    "saint": "Acta Sanctorum: Melorus von Cornwall",
+    "source": "11-acta-sanctorum-melorus-von-cornwall.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1146,
+    "status": "pending"
+  },
+  {
+    "chunk": 15,
+    "filename": "0015-acta-sanctorum-salvator-von-belluno-01.md",
+    "saint": "Acta Sanctorum: Salvator von Belluno",
+    "source": "12-acta-sanctorum-salvator-von-belluno.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 233,
+    "status": "pending"
+  },
+  {
+    "chunk": 16,
+    "filename": "0016-acta-sanctorum-genoveva-von-paris-01.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 1,
+    "totalParts": 13,
+    "words": 1347,
+    "status": "pending"
+  },
+  {
+    "chunk": 17,
+    "filename": "0017-acta-sanctorum-genoveva-von-paris-02.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 2,
+    "totalParts": 13,
+    "words": 1487,
+    "status": "pending"
+  },
+  {
+    "chunk": 18,
+    "filename": "0018-acta-sanctorum-genoveva-von-paris-03.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 3,
+    "totalParts": 13,
+    "words": 1445,
+    "status": "pending"
+  },
+  {
+    "chunk": 19,
+    "filename": "0019-acta-sanctorum-genoveva-von-paris-04.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 4,
+    "totalParts": 13,
+    "words": 1464,
+    "status": "pending"
+  },
+  {
+    "chunk": 20,
+    "filename": "0020-acta-sanctorum-genoveva-von-paris-05.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 5,
+    "totalParts": 13,
+    "words": 1495,
+    "status": "pending"
+  },
+  {
+    "chunk": 21,
+    "filename": "0021-acta-sanctorum-genoveva-von-paris-06.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 6,
+    "totalParts": 13,
+    "words": 1453,
+    "status": "pending"
+  },
+  {
+    "chunk": 22,
+    "filename": "0022-acta-sanctorum-genoveva-von-paris-07.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 7,
+    "totalParts": 13,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 23,
+    "filename": "0023-acta-sanctorum-genoveva-von-paris-08.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 8,
+    "totalParts": 13,
+    "words": 1497,
+    "status": "pending"
+  },
+  {
+    "chunk": 24,
+    "filename": "0024-acta-sanctorum-genoveva-von-paris-09.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 9,
+    "totalParts": 13,
+    "words": 1402,
+    "status": "pending"
+  },
+  {
+    "chunk": 25,
+    "filename": "0025-acta-sanctorum-genoveva-von-paris-10.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 10,
+    "totalParts": 13,
+    "words": 1465,
+    "status": "pending"
+  },
+  {
+    "chunk": 26,
+    "filename": "0026-acta-sanctorum-genoveva-von-paris-11.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 11,
+    "totalParts": 13,
+    "words": 1483,
+    "status": "pending"
+  },
+  {
+    "chunk": 27,
+    "filename": "0027-acta-sanctorum-genoveva-von-paris-12.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 12,
+    "totalParts": 13,
+    "words": 1358,
+    "status": "pending"
+  },
+  {
+    "chunk": 28,
+    "filename": "0028-acta-sanctorum-genoveva-von-paris-13.md",
+    "saint": "Acta Sanctorum: Genoveva von Paris",
+    "source": "13-acta-sanctorum-genoveva-von-paris.md",
+    "part": 13,
+    "totalParts": 13,
+    "words": 226,
+    "status": "pending"
+  },
+  {
+    "chunk": 29,
+    "filename": "0029-acta-sanctorum-blidmundus-gogus-01.md",
+    "saint": "Acta Sanctorum: Blidmundus (Gogus)",
+    "source": "14-acta-sanctorum-blidmundus-gogus.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 438,
+    "status": "pending"
+  },
+  {
+    "chunk": 30,
+    "filename": "0030-acta-sanctorum-quintinius-von-saint-quentin-auffindung-der-g-01.md",
+    "saint": "Acta Sanctorum: Quintinius von Saint-Quentin (Auffindung der Gebeine)",
+    "source": "15-acta-sanctorum-quintinius-von-saint-quentin-auffindung-der-gebeine.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1268,
+    "status": "pending"
+  },
+  {
+    "chunk": 31,
+    "filename": "0031-acta-sanctorum-bertilia-01.md",
+    "saint": "Acta Sanctorum: Bertilia",
+    "source": "16-acta-sanctorum-bertilia.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1383,
+    "status": "pending"
+  },
+  {
+    "chunk": 32,
+    "filename": "0032-acta-sanctorum-bertilia-02.md",
+    "saint": "Acta Sanctorum: Bertilia",
+    "source": "16-acta-sanctorum-bertilia.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 1405,
+    "status": "pending"
+  },
+  {
+    "chunk": 33,
+    "filename": "0033-acta-sanctorum-jakobus-der-aeltere-uebertragung-des-kopfes-01.md",
+    "saint": "Acta Sanctorum: Jakobus der Ältere (Übertragung des Kopfes)",
+    "source": "17-acta-sanctorum-jakobus-der-aeltere-uebertragung-des-kopfes.md",
+    "part": 1,
+    "totalParts": 2,
+    "words": 1411,
+    "status": "pending"
+  },
+  {
+    "chunk": 34,
+    "filename": "0034-acta-sanctorum-jakobus-der-aeltere-uebertragung-des-kopfes-02.md",
+    "saint": "Acta Sanctorum: Jakobus der Ältere (Übertragung des Kopfes)",
+    "source": "17-acta-sanctorum-jakobus-der-aeltere-uebertragung-des-kopfes.md",
+    "part": 2,
+    "totalParts": 2,
+    "words": 337,
+    "status": "pending"
+  },
+  {
+    "chunk": 35,
+    "filename": "0035-acta-sanctorum-daniel-von-padua-01.md",
+    "saint": "Acta Sanctorum: Daniel von Padua",
+    "source": "18-acta-sanctorum-daniel-von-padua.md",
+    "part": 1,
+    "totalParts": 1,
+    "words": 1349,
+    "status": "pending"
+  }
+]

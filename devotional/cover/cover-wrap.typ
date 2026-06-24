@@ -55,10 +55,10 @@
         #linebreak()
         #text(font: "EB Garamond SC 12", size: 10pt, tracking: 0.6pt, fill: faint)[January 1 — November 10]
 
-        #v(0.26in)
-        #box(stroke: 0.6pt + faint, inset: 3pt)[#image("engraving.png", width: 2.25in)]
+        #v(0.18in)
+        #box(stroke: 0.6pt + faint, inset: 3pt)[#image("engraving.png", height: 3.25in)]
 
-        #v(0.34in)
+        #v(0.24in)
         #text(size: 15pt, tracking: 2.5pt)[WILSON PRUITT]
         #v(0.06in)
         #text(size: 8.5pt, fill: faint, tracking: 0.5pt)[actasanctorum.org]
@@ -121,6 +121,12 @@
       #text(size: 9pt, tracking: 1.5pt, fill: faint)[WROOT PRESS]
       #linebreak()
       #text(size: 8.5pt, fill: faint)[actasanctorum.org]
+    ]
+    // KDP barcode reserve — mask the frame out of the bottom-right corner so
+    // the auto-generated barcode (≈2in × 1.2in, 0.25in off trim) lands on a
+    // clean cream field. KDP silently rejects covers with art in this zone.
+    #place(bottom + right, dx: -0.12in, dy: -0.12in)[
+      #rect(width: 2.35in, height: 1.4in, fill: cream, stroke: none)
     ]
   ]
 ]

@@ -35,7 +35,7 @@
   height: 9in,
   margin: (top: 0.6in, bottom: 0.6in, inside: 0.7in, outside: 0.6in),
   footer: _footer,
-  footer-descent: 0.25in,
+  footer-descent: 0.1in,
 )
 
 // =========================================================================
@@ -104,7 +104,7 @@
 
     Set in EB Garamond.
 
-    First edition, 2026 · isbn 000-0-00000-000-0
+    First edition, 2026 · isbn 979-8-18408-405-3
 
     _actasanctorum.org_
   ]

@@ -1,0 +1,15 @@
+## October 30
+
+# Marcellus the Centurion
+
+*Roman officer, refused the imperial sacrifice, c. 260–298*
+
+He was a centurion of the Legio VII Gemina, the Trajanic legion that had been stationed at León in Roman Spain for two centuries and was, by the late third century, the principal garrison of the Iberian peninsula. He had been a Christian since at least his early manhood — perhaps from childhood; the family was Christian — and had served in the legion for at least fifteen years without conflict between his religion and his rank, since the Roman army of the period required no specifically pagan act of its soldiers as a condition of service. Maximian's persecution edicts of 297 changed that. The standing orders required every soldier to participate in the public sacrifice on the emperor's birthday — to eat the meat from the altar, to pour the libation, to acknowledge the imperial divinity. The birthday came around on the twenty-first of July, 298.
+
+Marcellus's legion, then on garrison duty at Tingis (Tangier) in Roman Mauritania, was assembled in the parade-ground for the imperial sacrifice. The wine was poured; the altar was lit; the troops formed up. Marcellus stepped out of the line, unbuckled his *cingulum militare* — the broad bronze-fitted leather belt that was the soldier's badge of rank — and laid it on the ground in front of the altar with his sword and his vine-staff on top of it. *I am a Christian,* he said. *I cannot serve the emperors except by serving Christ. From this day on I cease to follow your gods of wood and stone, who are deaf and dumb idols.* The standard-bearers stared. The other centurions shouted at him to pick up the belt. He left it where it lay.
+
+He was arrested on the spot, held a week, and brought before the deputy prefect of the African provinces, Astasius Fortunatus, who tried for four hours to talk him into recanting. The court protocol is unusually full and unusually patient — Astasius was a humane administrator and clearly did not want to execute a fifteen-year veteran with a clean record. He kept offering alternatives: leave of absence, transfer, a quiet retirement. Marcellus answered each with the same line. *It is not lawful for a Christian to bear arms for the things of this world.* Astasius, finally exhausted, transferred the case to the higher court and let Marcellus be charged formally with desertion. He was beheaded outside the city walls of Tingis on the thirtieth of October, 298, by the local centurion's *vitis* — the same vine-staff he had himself once carried.
+
+A court-recorder named Cassian, present for the sentencing, threw down his wax tablets and refused to write the death-warrant. He was killed with Marcellus the next month. Their two *acta* travel together in every Carthaginian recension. The fifteen-year centurion who would not pour the wine has been remembered in the Roman martyrology for seventeen hundred years.
+
+> *"Non licet Christiano homini molestiis sæcularibus militare, qui Christo Domino militat."* — Marcellus, in the courtyard at Tingis, the line his judge could not get him to retract

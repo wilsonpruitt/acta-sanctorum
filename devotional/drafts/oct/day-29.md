@@ -1,0 +1,15 @@
+## October 29
+
+# Narcissus of Jerusalem
+
+*Bishop of the Holy City, accused and vindicated, c. 99–c. 215*
+
+He was elected the thirtieth bishop of Jerusalem around the year 180 — twenty-sixth in the line, by Eusebius's count, after the twelve original Hebrew Christian bishops who had governed the church before the Bar Kokhba revolt of 135 destroyed the original community. The see he inherited had been quietly rebuilt in the long second century by the small Greek-speaking community that had moved back into Aelia Capitolina, the new Roman city Hadrian had built on the ruins of Jerusalem. Narcissus governed it through the Quartodeciman controversy and signed the decisive Palestinian council under Theophilus of Caesarea around 195 that aligned the eastern churches on the Sunday-after-Passover reckoning Rome had insisted on.
+
+Eusebius preserves the most famous story about him. One Easter eve the deacons discovered, late on Holy Saturday, that there was no oil for the lamps for the great paschal vigil — the supply had run out, the markets were closed, the congregation was already gathering. They came to Narcissus in distress. He told them to fill the lamps with water from the cathedral well; he prayed over it, blessed it, and instructed them to light the lamps. The water burned as oil. The vigil proceeded. Eusebius adds that several of the brothers preserved samples of the water-turned-oil for many years afterwards.
+
+The other famous story is darker. Three local enemies of Narcissus concocted a charge against him so grave and obscene that the *Historia Ecclesiastica* declines to specify it. They each swore to it under the oldest form of imprecatory oath: the first that he might be burned alive if he were lying, the second that he might be eaten with the wasting disease, the third that he might lose his eyes. The Jerusalem church, knowing Narcissus's life, did not believe them. Narcissus, however, weary of the controversy and longing for the contemplative life he had wanted as a young man, slipped away into the desert and was not seen for some years. The community, eventually concluding he had died, elected three successive bishops in his absence. Then Narcissus reappeared. The three accusers had, in the meantime, all suffered the curses they had sworn. The first had been burned to death in a house-fire; the second had wasted away; the third, seeing the fates of the first two, had publicly confessed the perjury and wept himself blind.
+
+Narcissus resumed the see, governed it some years more, and finally — by then, Eusebius says, in his middle hundreds — accepted Alexander of Cappadocian Caesarea as his coadjutor. He died perhaps in his hundred-and-seventeenth year, certainly past one hundred. The successor he had asked for would die in Decius's persecution two generations later, the chair of James still rooted where Narcissus had set it.
+
+> *"That sinners may not say in their hearts: there is no judgment."* — *Eusebius's gloss on the fates of Narcissus's accusers*

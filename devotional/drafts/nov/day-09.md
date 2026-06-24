@@ -1,0 +1,15 @@
+## November 9
+
+# Ursinus of Bourges
+
+*First bishop of Bourges, apostle of the Berry, fl. c. 250*
+
+He was one of the seven bishops the Roman church sent into Gaul in the third century — the same band that brought Denis to Paris, Saturninus to Toulouse, Trophimus to Arles, Paul to Narbonne, Martial to Limoges, Gatian to Tours, and Austremonius (just a week earlier in this calendar, on November 1) to Clermont. Ursinus drew the Berry — the high pasture-country between the Loire and the central massif, with its capital at *Avaricum,* the great Roman city Caesar had taken from Vercingetorix two and a half centuries earlier and which was, by 250, one of the major administrative seats of central Gaul. The diocese of Bourges that grew up under Ursinus has been one of the great archdioceses of France ever since.
+
+Gregory of Tours, writing in the late sixth century, is the earliest source — and in two different works he gives two contradictory dates. In the *Historia Francorum* he places Ursinus with the seven bishops in the time of Decius. In the *De Gloria Confessorum* he calls him *a discipulis apostolorum,* of the disciples of the apostles, which would put him in the late first century. The Bollandists settle on the older third-century dating, drawn from the local memory of the Bourges Christian community; the apostolic claim is the later legend that grew up around the rediscovery of his relics.
+
+What survives of his work, in any case, is the ground-laying. He arrived at Bourges with no community to receive him, opened a small house chapel in the home of a Gallo-Roman senator named Leocadius — an ancestor (Gregory preserves with proper family pride) of his own family, descended from the Lyon martyr Vettius Epagathus who had died in the persecution of 177 — and gathered the first generation of converts there. He ordained presbyters and deacons from among the Berry Christians as their numbers grew. He built the first cathedral of the city, almost certainly a small wooden building inside the Roman walls. He was buried, when his time came perhaps in his late sixties, in a Gallo-Roman cemetery just outside the city walls, and his grave was forgotten in the long pagan reaction that followed the Decian persecution.
+
+The grave was rediscovered by accident in the mid-sixth century. A servant of the diocese named Augustus, who had built a small oratory in honor of Saint Martin on what turned out to be the Roman cemetery site, was excavating for an extension when his workmen came on a marble sarcophagus inscribed with the name *Ursinus.* The relics were translated, in the presence of Bishop Probian of Bourges and the visiting Saint Germanus of Paris, into the new basilica that took Ursinus's name and that has stood on the spot since. The cathedral of Bourges that grew up over the next eight hundred years — one of the masterpieces of French Gothic, the *Cathédrale Saint-Étienne* — kept his crypt below the apse. The first bishop the Roman church sent to the Berry has not had to be moved twice.
+
+> *"De stirpe Vettii Epagathi."* — Gregory of Tours, on the family of Leocadius the senator who first opened his house to Ursinus

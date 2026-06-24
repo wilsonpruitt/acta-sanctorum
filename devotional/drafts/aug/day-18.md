@@ -1,0 +1,15 @@
+## August 18
+
+# Helena of Constantinople
+
+*Empress, mother of Constantine, discoverer of the Cross, c. 248–328*
+
+The AASS Augusti III gives her name in the imperial form preserved on her coinage: *Flavia Julia Helena*. The Bollandists open with a long source-critical discussion of her birthplace — the British tradition (Colchester, daughter of a King Coel) they reject; the Treveran (Trier) and the Bithynian (Drepanum on the Sea of Marmara, the small port-town her son would later rename Helenopolis) remain. The commentary tilts gently to the Bithynian view, on the testimony of Procopius and Anonymus Valesianus. She was born in the East. The empire she would die in had not yet been born.
+
+She was a *stabularia*, by the Latin sources — the daughter or perhaps the keeper of an inn — when the Roman officer Constantius Chlorus, then in the East with the legions, took her into his household about 270. He was perhaps thirty; she was twenty-two. They were not formally married. She bore him a son in 272 or 273 at the Roman colony of Naissus in Moesia — modern Niš in Serbia — and they called him Constantine. The household kept together for the next twenty years. In 293, when Diocletian raised Constantius to be Caesar of the West in the new Tetrarchy, the new Caesar was required to put Helena aside and to marry Theodora for political reasons. Helena retired into obscurity at Trier with her son. She lived perhaps thirteen years out of the public eye.
+
+Her son became Augustus on his father's death at York in 306, and over the next eighteen years fought his way to sole rule. He recalled his mother to the court. He gave her the title Augusta, the imperial purple, the right to mint her own coinage, and assigned her the Sessorian Palace at Rome with its great gardens out toward the Lateran. She converted to Christianity, by Eusebius's testimony, under her son's instruction; she became the foremost imperial patroness of the church.
+
+In the early 320s, now in her late seventies, she made the journey to Palestine for which the Greek tradition calls her Saint. She arrived at Jerusalem in perhaps 326. The Temple platform she found in ruins; the city of Hadrian's *Aelia Capitolina* had been built over the older holy places. She had Constantine's authorization to clear, to excavate, to rebuild. Beneath a pagan shrine on the Western Hill she had the workmen dig, and found — Ambrose, Rufinus, Sozomen, Socrates, Theodoret all report it — three crosses and a *titulus* with the name of Christ. The True Cross was identified by miracle: a sick woman healed at its touch. She built the Basilica of the Holy Sepulchre over the site, the Basilica of the Nativity at Bethlehem, the Eleona on the Mount of Olives. She returned to Constantinople carrying portions of the Cross with her. She died there, perhaps eighty, in 328. The relics now lie in the church of Santa Croce in Gerusalemme at Rome, built into her old Sessorian Palace, with earth from Calvary still under its floor.
+
+> *"My son, build a basilica over this place; for here the Lord was lifted up for the world."* — Helena, by tradition, to Constantine, after the finding of the Cross

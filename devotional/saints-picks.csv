@@ -1,367 +1,367 @@
-Month,Day,Saint,Notes
-January,1,Odilo,"29 options, 76kb"
-January,2,Basil the Great,"25 options, 6kb"
-January,3,Genoveva Of Paris,"18 options, 150kb"
-January,4,Elizabeth Ann Seton,"16 options, 4kb"
-January,5,Edward the Confessor,"21 options, 10kb"
-January,6,Epiphany,"13 options, 135kb"
-January,7,Lucian of Antioch,"26 options, 136kb"
-January,8,Severinus of Noricum,"27 options, 5kb"
-January,9,Julian Und Basilissa And Companions,"12 options, 197kb"
-January,10,Paulus Of Theben,"18 options, 72kb"
-January,11,Theodosius the Cenobiarch,"18 options, 51kb"
-January,12,Benedict Biscop,"14 options, 85kb"
-January,13,Athanasius,"25 options, 4kb"
-January,14,Felix of Nola,"20 options, 4kb"
-January,15,Maurus,"18 options, 230kb"
-January,16,Marcellus,"15 options, 114kb"
-January,17,Anthony The Great,"10 options, 626kb"
-January,18,Prisca,"2 options, 52kb"
-January,19,Marius and Martha,"3 options, 138kb"
-January,20,Fabian,"10 options, 51kb"
-January,21,Agnes,"2 options, 493kb"
-January,22,Vincent of Saragossa,"4 options, 121kb"
-January,23,John The Almsgiver,"15 options, 401kb"
-January,24,Timothy and Titus,"17 options, 67kb"
-January,25,Henry Suso,"12 options, 335kb"
-January,26,Paula,"16 options, 142kb"
-January,27,John Chrysostom,"4 options, 415kb"
-January,28,Thomas Aquinas,"3 options, 844kb"
-January,29,Gildas,"6 options, 735kb"
-January,30,Hyacinthe Mariscotti,"1 options, 555kb"
-January,31,Athanasius,"14 options, 50kb"
-February,1,Brigid of Ireland,"23 options, 9kb"
-February,2,Presentation of the Lord,"3 options, 120kb"
-February,3,Blaise,"12 options, 82kb"
-February,4,Nicholas The Confessor,"7 options, 153kb"
-February,5,Agatha Hildegard,"14 options, 448kb"
-February,6,Martyrs Dorothea The Virgin,"16 options, 52kb"
-February,7,Paul Iii,"19 options, 6kb"
-February,8,Paulus,"14 options, 93kb"
-February,9,Peter,"17 options, 12kb"
-February,10,Scholastica,"14 options, 217kb"
-February,11,Basilius In Armenia,"22 options, 5kb"
-February,12,Brigid of Ireland,"24 options, 4kb"
-February,13,Gregory Ii,"21 options, 213kb"
-February,14,Valentine I,"11 options, 85kb"
-February,15,Martyrs Joseph The Deacon,"17 options, 10kb"
-February,16,Simeon,"16 options, 7kb"
-February,17,Benedict,"17 options, 8kb"
-February,18,Simeon,"14 options, 24kb"
-February,19,Auxibius,"11 options, 51kb"
-February,20,Paula,"10 options, 8kb"
-February,21,Peter Of Maiuma,"15 options, 10kb"
-February,22,Athanasius,"9 options, 593kb"
-February,23,Syrian Anchorites John,"17 options, 8kb"
-February,24,John Theristus,"9 options, 42kb"
-February,25,Anthony,"12 options, 4kb"
-February,26,Porphyrius,"13 options, 165kb"
-February,27,Monks Basilius And Procopius Decapolita,"13 options, 328kb"
-February,28,Proterius,"12 options, 58kb"
-February,29,Oswald,"1 options, 90kb"
-March,1,David of Wales,"66 listed, 86 chunks"
-March,2,St. Basileus,"23 listed, 67 chunks"
-March,3,St. Basilius,"80 listed, 53 chunks"
-March,4,St. Basilius,"62 listed, 41 chunks"
-March,5,"St. MARTYRS OF ANTIOCH: VICTOR, ADRIAN, PAMPHILUS, PALATUS, MARTUS, SATURNINUS, JUSTUS, LUCOSA, LIKEWISE SATURNINUS, MARTINUS, PETER, CHARIATTON, MARCIUS, AND 22 OTHERS.","1 listed, 42 chunks"
-March,6,St. Basilius,"61 listed, 146 chunks"
-March,7,"St. AFRICAN MARTYRS PERPETUA, FELICITAS, SATURUS, SATURNINUS, REVOCATUS, AND SECUNDOLUS, AT CARTHAGE OR THUBURBO,","1 listed, 83 chunks"
-March,8,St. Paul,"34 listed, 78 chunks"
-March,9,St. GREGORY,"1 listed, 158 chunks"
-March,10,St. Paul,"68 listed, 34 chunks"
-March,11,St. Peter,"30 listed, 33 chunks"
-March,12,"St. MARTYRS PETRONIUS THE BISHOP, MODESTUS, DOMITIANUS, EUSTASIUS THE PRIEST, CARPUS, FIRMUS OR CONFIRMUS, PAUL, MACEDONIUS, PATRICIUS, FELICION, JOVINIANUS, HILARIUS, CONCESSUS, AND BASILISSA, WHO SUFFERED IN ASIA.","2 listed, 107 chunks"
-March,13,"St. MARTYRS OF NICOMEDIA: MACEDONIUS THE PRIEST, PATRICIA AND MODESTA. LIKEWISE CYRION OR CION THE PRIEST, SATURNINUS, JANUARIUS, SALVIUS OR SILVIUS, PETRONIUS, MODESTINUS, ZOSIMUS, EUSTASIUS THE PRIEST, BASILLA, EPPEPODUS THE DEACON, AND TWO OTHERS.","2 listed, 59 chunks"
-March,14,"St. MARTYRS EUPHRASIUS, ALEXANDER, FRUNIMUS, AND BASILIUS, AT THESSALONICA.","3 listed, 19 chunks"
-March,15,St. Anthony,"4 listed, 29 chunks"
-March,16,"St. John Bishop of Cremona, then of Mantua, and finally Martyr at Vicenza","5 listed, 62 chunks"
-March,17,"St. Thomasellus of Perugia, of the Order of Preachers","4 listed, 77 chunks"
-March,18,"St. Bartholomew of Anglario, Priest of the Order of Saint Francis of the Observance, at Empoli in Tuscany","51 listed, 57 chunks"
-March,19,St. Basilla,"36 listed, 50 chunks"
-March,20,"St. Thomas, Patriarch of Constantinople","51 listed, 127 chunks"
-March,21,ON SAINTS FORTUNATUS AND JOHN,"4 listed, 75 chunks"
-March,22,St. Epaphroditus,"2 listed, 48 chunks"
-March,23,"St. Peter of the Order of Hermits of St. Augustine, at Gubbio in Umbria","2 listed, 21 chunks"
-March,24,"St. AFRICAN MARTYRS ROGATUS, CATULA, AUTUS OR UTUS, VICTORINUS, SATURNINUS, LIKEWISE SATURNINUS, SALITOR OR SALUTARIS, APRILIS, JOSEPH, AND CALIONDOLA.","2 listed, 40 chunks"
-March,25,"St. Thomas, hermit of the Camaldolese Order in Umbria","20 listed, 50 chunks"
-March,26,St. Gabriel the Archangel,"3 listed, 56 chunks"
-March,27,"St. JOHN THE HERMIT, NEAR LYCOPOLIS IN EGYPT.","0 listed, 16 chunks"
-March,28,"St. MARTYRS OF CAESAREA: ROGATUS, ALEXANDER, DOROTHEUS, AUDACTA, MARY, MODESTUS, AND DAGOLAPHUS.","0 listed, 39 chunks"
-March,29,St. MARK THE CONFESSOR,"0 listed, 19 chunks"
-March,30,"St. Peter Regalatus, of the Order of Friars Minor of the Observance, at Aguilera in Old Castile","7 listed, 68 chunks"
-March,31,"St. Daniel the Merchant, at Venice on the Island of Murano, among the Camaldolese monks","1 listed, 14 chunks"
-April,1,Ctesiphon,3 saints on page
-April,2,Theodulus,1 saints on page
-April,3,Pancras,5 saints on page
-April,4,George,3 saints on page
-April,5,Didymus,2 saints on page
-April,6,Bl. Catherine,5 saints on page
-April,7,Coprica,7 saints on page
-April,8,Amantius,1 saints on page
-April,9,Prochorus,3 saints on page
-April,10,Holda,3 saints on page
-April,11,Philip,9 saints on page
-April,12,Brigid of Ireland,6 saints on page
-April,13,Evphemia,4 saints on page
-April,14,John,3 saints on page
-April,15,Basilissa,5 saints on page
-April,16,Callisto,8 saints on page
-April,17,Peter,6 saints on page
-April,18,Bl. John,10 saints on page
-April,19,Timo,4 saints on page
-April,20,Bl. Dominic,9 saints on page
-April,21,Appelico,2 saints on page
-April,22,Senorina,1 saints on page
-April,23,Felice,4 saints on page
-April,24,Daniele,3 saints on page
-April,25,Mark,9 saints on page
-April,26,Marcellino,6 saints on page
-April,27,John,11 saints on page
-April,28,Mark,6 saints on page
-April,29,Valentine,13 saints on page
-April,30,John,12 saints on page
-May,1,Philip,13 saints on page
-May,2,Helpidius,7 saints on page
-May,3,Peter,4 saints on page
-May,4,Bl. Michael,14 saints on page
-May,5,John,8 saints on page
-May,6,Lvcius,3 saints on page
-May,7,John,9 saints on page
-May,8,Victor,6 saints on page
-May,9,Gregory,4 saints on page
-May,10,Primus,7 saints on page
-May,11,Evellius,8 saints on page
-May,12,Pancras,3 saints on page
-May,13,Bl. Anthony,11 saints on page
-May,14,Ivsta,8 saints on page
-May,15,Peter,10 saints on page
-May,16,Bl. Francis,13 saints on page
-May,17,Andronico,5 saints on page
-May,18,Venantius,6 saints on page
-May,19,John,5 saints on page
-May,20,Lvcifero,3 saints on page
-May,21,Peter,13 saints on page
-May,22,Casto,8 saints on page
-May,23,Michael,4 saints on page
-May,24,Thomas,7 saints on page
-May,25,Gregory,8 saints on page
-May,26,Philip,6 saints on page
-May,27,John,9 saints on page
-May,28,Andrew,6 saints on page
-May,29,Bl. Peter,8 saints on page
-May,30,Gabino,5 saints on page
-May,31,Hermia,9 saints on page
-June,1,Justin Martyr,WebFetch fill
-June,2,Martyrs of Lyons (Pothinus),WebFetch fill
-June,3,Athanasius,8 saints on page
-June,4,Bl. Francisca,11 saints on page
-June,5,Gregory,7 saints on page
-June,6,Cyriacus,8 saints on page
-June,7,Paul,4 saints on page
-June,8,Bl. John,5 saints on page
-June,9,Primus,8 saints on page
-June,10,Basilides,7 saints on page
-June,11,Basilla,7 saints on page
-June,12,John,6 saints on page
-June,13,Ianuarius,4 saints on page
-June,14,Brigid of Ireland,7 saints on page
-June,15,Bl. Peter,15 saints on page
-June,16,Mark,5 saints on page
-June,17,Bl. Peter,11 saints on page
-June,18,Thomo,6 saints on page
-June,19,Iuda,8 saints on page
-June,20,Paul,8 saints on page
-June,21,Thomas,7 saints on page
-June,22,Albino,4 saints on page
-June,23,Peter,6 saints on page
-June,24,John,3 saints on page
-June,25,Bl. John,12 saints on page
-June,26,Maxentius,4 saints on page
-June,27,Anecto,3 saints on page
-June,28,Lupercius,5 saints on page
-June,29,Marcellus,4 saints on page
-June,30,Asclino,6 saints on page
-July,1,Martin of Vienne,WebFetch fill
-July,2,Visitation of Mary,WebFetch fill
-July,3,Hyacintho,4 saints on page
-July,4,Valentine,12 saints on page
-July,5,Brigid of Ireland,10 saints on page
-July,6,Bl. Peter,16 saints on page
-July,7,Thomas,18 saints on page
-July,8,Paul,20 saints on page
-July,9,Paul,15 saints on page
-July,10,Rufina,9 saints on page
-July,11,Sidronius,10 saints on page
-July,12,John,13 saints on page
-July,13,Stephen,12 saints on page
-July,14,Peter,16 saints on page
-July,15,Athanasius,12 saints on page
-July,16,Paul,12 saints on page
-July,17,Athenogene,12 saints on page
-July,18,Guddene,12 saints on page
-July,19,Peter,8 saints on page
-July,20,Paul,12 saints on page
-July,21,Daniele,9 saints on page
-July,22,Joseph,7 saints on page
-July,23,Apollinare,5 saints on page
-July,24,Bl. Anthony,13 saints on page
-July,25,John,7 saints on page
-July,26,Ignatius,6 saints on page
-July,27,Lawrence,8 saints on page
-July,28,Peregrini,11 saints on page
-July,29,Martha,9 saints on page
-July,30,Abdon,6 saints on page
-July,31,Peter,10 saints on page
-August,1,Felice,15 saints on page
-August,2,Peter,7 saints on page
-August,3,Bl. Augustine,6 saints on page
-August,4,Eudocia,10 saints on page
-August,5,Memmius,11 saints on page
-August,6,Justo,5 saints on page
-August,7,Faustino,9 saints on page
-August,8,Hormisda,9 saints on page
-August,9,Bl. John,9 saints on page
-August,10,Virginibus,8 saints on page
-August,11,Susanna,7 saints on page
-August,12,Macarius,10 saints on page
-August,13,Cassiano,7 saints on page
-August,14,Demetrius,6 saints on page
-August,15,Tharsicius,5 saints on page
-August,16,Ambrose,11 saints on page
-August,17,Paul,6 saints on page
-August,18,Leo,6 saints on page
-August,19,Magno,9 saints on page
-August,20,Seronius,8 saints on page
-August,21,Cyriaca,6 saints on page
-August,22,Athanasius,5 saints on page
-August,23,Anthony,14 saints on page
-August,24,Aurea,7 saints on page
-August,25,Magino,6 saints on page
-August,26,Bl. John,12 saints on page
-August,27,Bl. John,10 saints on page
-August,28,Ambrose,9 saints on page
-August,29,Basilla,5 saints on page
-August,30,Philonide,8 saints on page
-August,31,Paulinus,8 saints on page
-September,1,Bl. Peter,15 saints on page
-September,2,Sex,10 saints on page
-September,3,Basilissa,10 saints on page
-September,4,Marcellus,5 saints on page
-September,5,Victorino,7 saints on page
-September,6,Onesiphoro,6 saints on page
-September,7,Stephen,14 saints on page
-September,8,Adriano,8 saints on page
-September,9,Gregory,9 saints on page
-September,10,Nicholas,9 saints on page
-September,11,Felice,11 saints on page
-September,12,Serapius,10 saints on page
-September,13,Anthony,14 saints on page
-September,14,John,6 saints on page
-September,15,Nicomede,12 saints on page
-September,16,Euphemia,11 saints on page
-September,17,Bl. Peter,10 saints on page
-September,18,Thomas,10 saints on page
-September,19,John,8 saints on page
-September,20,Theodoro,5 saints on page
-September,21,Bl. Mark,6 saints on page
-September,22,Phoca,9 saints on page
-September,23,Bl. Peter,9 saints on page
-September,24,Paphnutius,5 saints on page
-September,25,Paul,13 saints on page
-September,26,John,8 saints on page
-September,27,Zena,9 saints on page
-September,28,John,15 saints on page
-September,29,Michael,9 saints on page
-September,30,Antonino,8 saints on page
-October,1,Bl. Thomas,13 saints on page
-October,2,Thomas,12 saints on page
-October,3,Victor,13 saints on page
-October,4,Francis,14 saints on page
-October,5,Bl. Peter,13 saints on page
-October,6,Faith,16 saints on page
-October,7,Mark,12 saints on page
-October,8,Benedicta,16 saints on page
-October,9,Peter,16 saints on page
-October,10,Paulinus,14 saints on page
-October,11,Bl. Martin,22 saints on page
-October,12,Evagrius,14 saints on page
-October,13,Luke,15 saints on page
-October,14,Fortunata,6 saints on page
-October,15,Agileo,10 saints on page
-October,16,Martiniano,24 saints on page
-October,17,John,22 saints on page
-October,18,Justo,6 saints on page
-October,19,Beronico,2 saints on page
-October,20,John,15 saints on page
-October,21,Asterius,21 saints on page
-October,22,John,22 saints on page
-October,23,John,23 saints on page
-October,24,Bl. John,17 saints on page
-October,25,Bl. Francis,29 saints on page
-October,26,Athanasius,26 saints on page
-October,27,Florentius,14 saints on page
-October,28,Bl. Anthony,16 saints on page
-October,29,Brigid of Ireland,11 saints on page
-October,30,Benedict,15 saints on page
-October,31,Ammonius,6 saints on page
-November,1,Paul,14 saints on page
-November,2,Ambrose,5 saints on page
-November,3,Valentine,7 saints on page
-November,4,Gregory,18 saints on page
-November,5,Bl. Martin,7 saints on page
-November,6,Lupantius,6 saints on page
-November,7,Bl. Lucy,6 saints on page
-November,8,Kebius,2 saints on page
-November,9,Theodoro,7 saints on page
-November,10,Bl. Ambrose,6 saints on page
-November,11,Martin,Propylaeum: 7 elogia in Propylaeum
-November,12,Martin,Propylaeum: 11 elogia in Propylaeum
-November,13,Valentinus,Propylaeum: 8 elogia in Propylaeum
-November,14,Clement,Propylaeum: 8 elogia in Propylaeum
-November,15,Eugenius,Propylaeum: 8 elogia in Propylaeum
-November,16,Rufin,Propylaeum: 6 elogia in Propylaeum
-November,17,Gregory,Propylaeum: 9 elogia in Propylaeum
-November,18,Romanus,Propylaeum: 6 elogia in Propylaeum
-November,19,Elizabeth,Propylaeum: 8 elogia in Propylaeum
-November,20,Ampelius,Propylaeum: 11 elogia in Propylaeum
-November,21,Presentation of Mary,Propylaeum: 9 elogia in Propylaeum
-November,22,Cecilia,Propylaeum: 4 elogia in Propylaeum
-November,23,Clement,Propylaeum: 8 elogia in Propylaeum
-November,24,Chrysogonus,Propylaeum: 8 elogia in Propylaeum
-November,25,Catherine,Propylaeum: 5 elogia in Propylaeum
-November,26,Silvester,Propylaeum: 11 elogia in Propylaeum
-November,27,Basileus,Propylaeum: 7 elogia in Propylaeum
-November,28,Rufinus,Propylaeum: 6 elogia in Propylaeum
-November,29,Andrew,Propylaeum: 6 elogia in Propylaeum
-November,30,Andrew,Propylaeum: 6 elogia in Propylaeum
-December,1,Diodorus,Propylaeum: 11 elogia in Propylaeum
-December,2,Bibiana,Propylaeum: 11 elogia in Propylaeum
-December,3,Sabbas,Propylaeum: 9 elogia in Propylaeum
-December,4,Barbara,Propylaeum: 7 elogia in Propylaeum
-December,5,Sabbas,Propylaeum: 9 elogia in Propylaeum
-December,6,Nicholas,Propylaeum: 5 elogia in Propylaeum
-December,7,Mary,Propylaeum: 7 elogia in Propylaeum
-December,8,Eutychian (Pope),Propylaeum: 8 elogia in Propylaeum
-December,9,Restitutus,Propylaeum: 10 elogia in Propylaeum
-December,10,Melchiades (Pope),Propylaeum: 9 elogia in Propylaeum
-December,11,Damasus,Propylaeum: 7 elogia in Propylaeum
-December,12,Synesius,Propylaeum: 4 elogia in Propylaeum
-December,13,Lucy,Propylaeum: 7 elogia in Propylaeum
-December,14,Hero,Propylaeum: 8 elogia in Propylaeum
-December,15,Mary,Propylaeum: 6 elogia in Propylaeum
-December,16,Valentinus,Propylaeum: 5 elogia in Propylaeum
-December,17,Florian,Propylaeum: 8 elogia in Propylaeum
-December,18,Rufinus,Propylaeum: 6 elogia in Propylaeum
-December,19,Nemesius,Propylaeum: 7 elogia in Propylaeum
-December,20,Thomas,Propylaeum: 8 elogia in Propylaeum
-December,21,Thomas,Propylaeum: 6 elogia in Propylaeum
-December,22,Flavian,Propylaeum: 4 elogia in Propylaeum
-December,23,Victoria,Propylaeum: 4 elogia in Propylaeum
-December,24,Gregory,Propylaeum: 7 elogia in Propylaeum
-December,25,Anastasia,Propylaeum: 3 elogia in Propylaeum
-December,26,Stephen,Propylaeum: 7 elogia in Propylaeum
-December,27,John,Propylaeum: 3 elogia in Propylaeum
-December,28,Eutychius,Propylaeum: 9 elogia in Propylaeum
-December,29,Thomas,Propylaeum: 8 elogia in Propylaeum
-December,30,Sabinus,Propylaeum: 6 elogia in Propylaeum
-December,31,Silvester,Propylaeum: 6 elogia in Propylaeum
+Month,Day,Saint,Source,Notes
+January,1,Odilo of Cluny,jan-vol1/saints/day-01,
+January,2,Adelard of Corbie,jan-vol1/saints/day-02,
+January,3,Genevieve of Paris,jan-vol1/saints/day-03,sample
+January,4,Pharaildis of Ghent,jan-vol1/saints/day-04,
+January,5,Edward the Confessor,jan-vol1/saints/day-05,
+January,6,Epiphany,jan-vol1/saints/day-06,feast
+January,7,Lucian of Antioch,jan-vol1/saints/day-07,
+January,8,Severinus of Noricum,jan-vol1/saints/day-08,
+January,9,Adrian of Canterbury,jan-vol1/saints/day-09,
+January,10,William of Bourges,jan-vol1/saints/day-10,
+January,11,Theodosius the Cenobiarch,jan-vol1/saints/day-11,
+January,12,Benedict Biscop,jan-vol1/saints/day-12,
+January,13,Hilary of Poitiers,jan-vol1/saints/day-13,
+January,14,Felix of Nola,jan-vol1/saints/day-14,
+January,15,Maurus,jan-vol1/saints/day-15,draft from Gregory's Dialogues only
+January,16,"Marcellus I, Pope",jan-vol2/day-16,
+January,17,Anthony the Great,jan-vol2/day-17,sample
+January,18,Deicolus of Lure,jan-vol2/day-18,
+January,19,Wulfstan of Worcester,jan-vol2/day-19,
+January,20,Fabian,jan-vol2/day-20,
+January,21,Agnes,jan-vol2/day-21,
+January,22,Vincent of Saragossa,jan-vol2/day-22,
+January,23,John the Almsgiver,jan-vol2/day-23,
+January,24,Babylas of Antioch,jan-vol2/day-24,
+January,25,Henry Suso,jan-vol2/day-25,
+January,26,Paula,jan-vol2/day-26,
+January,27,John Chrysostom,jan-vol2/day-27,
+January,28,Julian Sabas,jan-vol2/day-28,
+January,29,Gildas,jan-vol2/day-29,
+January,30,Hyacintha Mariscotti,jan-vol2/day-30,
+January,31,Marcella,jan-vol2/day-31,
+February,1,Brigid of Ireland,feb/day-01,
+February,2,Cornelius the Centurion,feb/day-02,swap 2026-05-14 (eleventh correction): Presentation of the Lord has no DE-section in AASS Feb 2; Cornelius at line 1948 (Acts 10's first Gentile convert, AASS treats him as bishop of Caesarea)
+February,3,Ansgar of Hamburg-Bremen,feb/day-03,
+February,4,Nicholas of Studios,feb/day-04,
+February,5,Agatha of Sicily,feb/day-05,
+February,6,Vedast of Arras,feb/day-06,
+February,7,Romuald of Camaldoli,feb/day-07,
+February,8,Stephen of Muret,feb/day-08,
+February,9,Cyril of Alexandria,feb/day-09,
+February,10,Scholastica,feb/day-10,
+February,11,Calogerus of Ravenna,feb/day-11,swap 2026-05-14 (twelfth correction): Caedmon absent from AASS (English vernacular poet); Calogerus at line 92 (early Italian bishop)
+February,12,Benedict of Aniane,feb/day-12,
+February,13,Modomnoc of Ossory,feb/day-13,
+February,14,Cyril (Apostle to the Slavs),feb/day-14,KEEP 2026-05-14 (twelfth correction): substantively in AASS at Mar 9 line 1384 (joint DE SANCTIS EPISCOPIS SLAVORVM APOSTOLIS CYRILLO ET METHODIO with Methodius); modern Roman calendar moved feast to Feb 14
+February,15,Sigfrid of Sweden,feb/day-15,
+February,16,Gilbert of Sempringham,feb/day-16,
+February,17,Finan of Lindisfarne,feb/day-17,
+February,18,Theotonius of Coimbra,feb/day-18,
+February,19,Conrad of Piacenza,feb/day-19,
+February,20,Eleutherius of Tournai,feb/day-20,swap 2026-05-14 (twelfth correction): Wulfric absent from AASS (English anchorite); Eleutherius at line 1437 (6th-c. Frankish bishop of Tournai)
+February,21,Peter Damian,feb/day-21,
+February,22,Margaret of Cortona,feb/day-22,
+February,23,Polycarp of Smyrna,feb/day-23,
+February,24,Matthias the Apostle,feb/day-24,AASS-native apostolic date
+February,25,Walburga of Heidenheim,feb/day-25,
+February,26,Porphyry of Gaza,feb/day-26,
+February,27,Procopius of Decapolis,feb/day-27,
+February,28,Proterius of Alexandria,feb/day-28,
+February,29,Oswald of Worcester,feb/day-29,leap day
+March,1,David of Wales,mar/day-01,
+March,2,Chad of Mercia,mar/day-02,
+March,3,Cunegunde of Luxembourg,mar/day-03,
+March,4,Casimir of Poland,mar/day-04,
+March,5,Gerasimus of the Jordan,mar/day-05,
+March,6,Colette of Corbie,mar/day-06,
+March,7,Thomas Aquinas,mar/day-07,AASS-native (death day 1274)
+March,8,Felix of Dunwich,mar/day-08,
+March,9,Frances of Rome,mar/day-09,AASS-native death day (1440)
+March,10,Forty Martyrs of Sebaste,mar/day-10,
+March,11,Eulogius of Córdoba,mar/day-11,
+March,12,Gregory the Great,mar/day-12,
+March,13,Leander of Seville,mar/day-13,
+March,14,Matilda of Saxony,mar/day-14,
+March,15,"Zachary, Pope",mar/day-15,
+March,16,Heribert of Cologne,mar/day-16,
+March,17,Patrick of Ireland,mar/day-17,
+March,18,Cyril of Jerusalem,mar/day-18,
+March,19,"Joseph, Husband of Mary",mar/day-19,feast
+March,20,Cuthbert of Lindisfarne,mar/day-20,
+March,21,Benedict of Nursia,mar/day-21,
+March,22,Lea of Rome,mar/day-22,
+March,23,Nicon and the 199 Sicilian Monk-Martyrs,mar/day-23,swap 2026-05-14 (twelfth correction): Turibius (canonized 1726) absent from AASS; Nicon at line 43 (headline saint of the day, monk-martyrs near Taormina)
+March,24,Catherine of Sweden,mar/day-24,
+March,25,Dismas the Good Thief,mar/day-25,swap 2026-05-14 (eleventh correction): Annunciation feast has no DE-section in AASS Mar 25; Dismas at line 1429 (DE SANCTO LATRONE CRUCIFIXO CUM CHRISTO — the medieval reckoning paired Christ's conception and crucifixion on the same calendar day, hence Dismas's traditional March 25)
+March,26,Ludger of Münster,mar/day-26,
+March,27,Rupert of Salzburg,mar/day-27,
+March,28,John of Capistrano,mar/day-28,
+March,29,Berthold of Carmel,mar/day-29,
+March,30,John Climacus,mar/day-30,
+March,31,Benjamin the Deacon,mar/day-31,
+April,1,Hugh of Grenoble,apr/day-01,
+April,2,Francis of Paola,apr/day-02,
+April,3,Richard of Chichester,apr/day-03,
+April,4,Isidore of Seville,apr/day-04,
+April,5,Vincent Ferrer,apr/day-05,
+April,6,Methodius (Apostle to the Slavs),apr/day-06,KEEP 2026-05-14 (twelfth correction): substantively in AASS at Mar 9 line 1384 (joint with Cyril); Apr 6 = his death day 885
+April,7,Hegesippus,apr/day-07,
+April,8,Walter of Pontoise,apr/day-08,
+April,9,Waltrude of Mons,apr/day-09,
+April,10,Bademus of Persia,apr/day-10,
+April,11,Stanislaus of Krakow,apr/day-11,
+April,12,"Julius I, Pope",apr/day-12,
+April,13,"Martin I, Pope",apr/day-13,
+April,14,Lidwina of Schiedam,apr/day-14,
+April,15,Hunna of Strasbourg,apr/day-15,
+April,16,Magnus of Orkney,apr/day-16,
+April,17,Stephen Harding,apr/day-17,
+April,18,Apollonius the Apologist,apr/day-18,
+April,19,Alphege of Canterbury,apr/day-19,
+April,20,Agnes of Montepulciano,apr/day-20,
+April,21,Anselm of Canterbury,apr/day-21,
+April,22,Theodore of Sykeon,apr/day-22,
+April,23,Adalbert of Prague,apr/day-23,
+April,24,Mellitus of Canterbury,apr/day-24,
+April,25,Mark the Evangelist,apr/day-25,
+April,26,Stephen of Perm,apr/day-26,
+April,27,Zita of Lucca,apr/day-27,
+April,28,Vitalis and Valeria,apr/day-28,swap 2026-05-14 (twelfth correction): Hugh of Cluny absent from AASS substantively; Vitalis and Valeria at line 2193 (early Roman martyr-couple)
+April,29,Catherine of Siena,apr/day-29,KEEP 2026-05-14 (twelfth correction): substantively in AASS at Apr 30 line 18733 (DE S. CATHARINA SENENSI); modern Roman calendar moved feast to Apr 29
+April,30,"Pius V, Pope",apr/day-30,
+May,1,Sigismund of Burgundy,may/day-01,
+May,2,Athanasius of Alexandria,may/day-02,
+May,3,Juvenal of Narni,may/day-03,SWAPPED 2026-06-24: Philip & James not treated in AASS May 3. Swapped to Juvenal of Narni (first bishop, substantive Life). Re-drafted from source.
+May,4,Monica,may/day-04,old feast (revised RC moved to Aug 27)
+May,5,Hilary of Arles,may/day-05,
+May,6,Petronax of Monte Cassino,may/day-06,
+May,7,Benedict II (Pope),may/day-07,SWAPPED 2026-06-24: John of Beverley absent from the AASS corpus here (from Bede). Swapped to Pope Benedict II (d.686), substantively treated May 7. Re-drafted from Anastasius.
+May,8,Peter of Tarentaise,may/day-08,
+May,9,Pachomius the Great,may/day-09,KEEP 2026-05-14 (twelfth correction): substantively in AASS at May 14 line 3224 (DE SANCTIS ABBATIBVS PACHOMIO ET THEODORO); May 9 placement is likely from a regional Eastern calendar variant
+May,10,Comgall of Bangor,may/day-10,SWAPPED 2026-06-24: Antoninus of Florence is NOT in this AASS corpus — day-25 is the Zenobius dossier and only cites Antoninus's chronicle. Real broken mapping. Swapped to Comgall of Bangor (abbot, substantive Life in day-10/saints/0007-comgall.md). Re-drafted from source.
+May,11,Mamertus of Vienne,may/day-11,
+May,12,Pancras (Pancratius),may/day-12,SWAPPED 2026-06-24: day-12 source treats a different Germanus (Hegumen of Cosinitra), not the Patriarch. Swapped to Pancras, the Roman boy-martyr whose feast is May 12. Re-drafted from his Acts.
+May,13,Servatus of Tongeren,may/day-13,
+May,14,Carthach the Younger of Lismore,may/day-14,
+May,15,Isidore the Farmer,may/day-15,
+May,16,Brendan the Navigator,may/day-16,
+May,17,Paschal Baylon,may/day-17,
+May,18,"John I, Pope",may/day-18,KEPT 2026-06-24 (not swapped): feast genuinely May 18; AASS Life is filed at day-27/saints/0010-john-pope-i.md. Quote re-sourced from there.
+May,19,Dunstan of Canterbury,may/day-19,
+May,20,Bernardine of Siena,may/day-20,
+May,21,Godric of Finchale,may/day-21,swap 2026-05-13: Bobola post-AASS (canonized 1938)
+May,22,Rita of Cascia,may/day-22,
+May,23,William of Rochester,may/day-23,
+May,24,Vincent of Lerins,may/day-24,
+May,25,"Gregory VII, Pope",may/day-25,
+May,26,Augustine of Canterbury,may/day-26,AASS-native death day
+May,27,Bede the Venerable,may/day-27,AASS-traditional Western feast
+May,28,Germanus of Paris,may/day-28,
+May,29,Maximinus of Trier,may/day-29,
+May,30,Isaac the Anchorite,may/day-30,re-swap 2026-05-13: Walstan not in AASS Maii VII; Isaac is at line 1650
+May,31,Petronilla,may/day-31,swap 2026-05-14 (eleventh correction): Visitation feast has no DE-section in AASS May 31; Petronilla at line 68 (Roman virgin-martyr, traditionally daughter of St. Peter, buried in the Catacombs of Domitilla)
+June,1,Justin Martyr,jun/day-01,
+June,2,Martyrs of Lyons,jun/day-02,
+June,3,Kevin of Glendalough,jun/day-03,
+June,4,Petroc of Cornwall,jun/day-04,
+June,5,Boniface of Mainz,jun/day-05,
+June,6,Norbert of Xanten,jun/day-06,
+June,7,Robert of Newminster,jun/day-07,
+June,8,Medard of Noyon,jun/day-08,
+June,9,Columba of Iona,jun/day-09,
+June,10,Margaret of Scotland,jun/day-10,
+June,11,Barnabas the Apostle,jun/day-11,
+June,12,"Leo III, Pope",jun/day-12,
+June,13,Anthony of Padua,jun/day-13,
+June,14,Methodius I of Constantinople,jun/day-14,
+June,15,Landelinus of Crespin,jun/day-15,swap 2026-05-13: Germaine Cousin canonized 1867 post-AASS Junii
+June,16,Lutgardis of Aywières,jun/day-16,
+June,17,Botulph of Icanho,jun/day-17,
+June,18,Elizabeth of Schönau,jun/day-18,
+June,19,Bruno of Querfurt,jun/day-19,re-swap 2026-05-13: Romuald's AASS day is Feb 7 not Jun 19; Bruno (AASS Bonifacius) at AASS Junii III line 17201
+June,20,"Silverius, Pope",jun/day-20,
+June,21,Alban of Mainz,jun/day-21,re-swap 2026-05-13: Eusebius of Samosata's AASS day is Jun 22 not 21; Alban at AASS Junii IV line 3027
+June,22,Paulinus of Nola,jun/day-22,
+June,23,Etheldreda of Ely,jun/day-23,
+June,24,John the Baptist,jun/day-24,reframe 2026-05-14 (eleventh correction): Nativity is feast-only but AASS Jun 24 line 42 has substantive treatment of John himself (DE SANCTO IOANNE PRODROMO ET BAPTISTA) — entry recast from feast to saint
+June,25,Prosper of Reggio Emilia,jun/day-25,SWAPPED 2026-06-24: AASS June 25 treats Prosper of Reggio Emilia (bishop), not Prosper of Aquitaine — Bollandists explicitly distinguish them. Re-drafted from his Lessons.
+June,26,Anthelm of Belley,jun/day-26,
+June,27,Ladislaus I of Hungary,jun/day-27,
+June,28,Irenaeus of Lyons,jun/day-28,
+June,29,Peter and Paul,jun/day-29,feast
+June,30,Erentrude of Salzburg,jun/day-30,SWAPPED 2026-06-24: "First Martyrs of Rome" is a 1969 feast not in the AASS Junii. Swapped to Erentrude of Salzburg (first abbess of Nonnberg), substantively treated on June 30. Re-drafted from her Life.
+July,1,Julius of Caerleon,jul/day-01,re-swap 2026-05-13: Aaron is AASS praetermissi only; Julius alone is substantive day-1 entry. NOTE: local AASS Latin for Jul 1 is header-only
+July,2,Otto of Bamberg,jul/day-02,
+July,3,"Leo II, Pope",jul/day-03,
+July,4,Elizabeth of Portugal,jul/day-04,
+July,5,Athanasius of Athos,jul/day-05,
+July,6,Sexburga of Ely,jul/day-06,
+July,7,Willibald of Eichstätt,jul/day-07,
+July,8,Kilian of Würzburg,jul/day-08,
+July,9,Anatolia and Audax,jul/day-09,swap 2026-05-13: Gorkum martyrs canonized 1867 post-AASS Julii
+July,10,Rufina and Secunda,jul/day-10,swap 2026-05-13: Giuliani canonized 1839 post-AASS Julii
+July,11,"Pius I, Pope",jul/day-11,
+July,12,John Gualbert,jul/day-12,
+July,13,"Henry II, Emperor",jul/day-13,KEEP 2026-05-14 (twelfth correction): substantively in AASS at Jul 14 line 14713 (DE S. HENRICO IMPERATORE); modern Roman calendar moved feast to Jul 13 (his actual death day in 1024)
+July,14,Bonaventure,jul/day-14,AASS-traditional date
+July,15,David of Munktorp,jul/day-15,
+July,16,Our Lady of Mount Carmel,jul/day-16,feast
+July,17,Marcellina,jul/day-17,
+July,18,Frederick of Utrecht,jul/day-18,
+July,19,Macrina the Younger,jul/day-19,
+July,20,Elijah the Prophet,jul/day-20,Carmelite tradition; biblical
+July,21,Praxedes of Rome,jul/day-21,swap 2026-05-13: Brindisi canonized 1881 post-AASS Julii V
+July,22,Mary Magdalene,jul/day-22,
+July,23,Bridget of Sweden,jul/day-23,KEEP 2026-05-14 (twelfth correction): substantively in AASS at Oct 8 line 89244 (DE S. BIRGITTA VIDUA); pre-1969 Roman feast was Oct 8 (date of canonization 1391); 1969 reform moved feast to Jul 23 (her death day 1373)
+July,24,Christina the Astonishing,jul/day-24,
+July,25,"James the Greater, Apostle",jul/day-25,
+July,26,Anne (mother of the Virgin),jul/day-26,
+July,27,Pantaleon,jul/day-27,swap 2026-05-14 (twelfth correction): Celestine I absent from AASS Jul 27; Pantaleon at line 6602 (great healing-saint of Eastern antiquity, pairs with Cosmas and Damian Sep 27)
+July,28,Samson of Dol,jul/day-28,
+July,29,Martha of Bethany,jul/day-29,
+July,30,Peter Chrysologus,jul/day-30,
+July,31,Ignatius of Loyola,jul/day-31,
+August,1,Maccabean Mother and Seven Sons,aug/day-01,swap 2026-05-13: Alphonsus canonized 1839 post-AASS; AASS Aug 1 line 85
+August,2,"Stephen I, Pope",aug/day-02,swap 2026-05-13: Eusebius of Vercelli not in AASS Aug 2; Stephen I moved from Aug 3 (AASS Aug 2 line 411)
+August,3,Lydia the Purpurarian,aug/day-03,swap 2026-05-13: Stephen I moved to Aug 2; Lydia at AASS Aug 3 line 29 (Acts 16 convert)
+August,4,Dominic Guzmán,aug/day-04,AASS-native (old feast day)
+August,5,Oswald of Northumbria,aug/day-05,
+August,6,Justus and Pastor,aug/day-06,swap 2026-05-14 (eleventh correction): Transfiguration feast has no DE-section in AASS Aug 6; Justus and Pastor at line 2750 (Spanish boy-martyrs of Toledo under Diocletian, ancient Iberian cult)
+August,7,Victricius of Rouen,aug/day-07,swap 2026-05-13: Sixtus II's AASS day is Aug 6 (Transfiguration holds Aug 6); Victricius at AASS Aug 7 line 1061
+August,8,Aemilianus of Cyzicus,aug/day-08,9th c. iconodule confessor
+August,9,Numidicus of Carthage,aug/day-09,
+August,10,Lawrence of Rome,aug/day-10,
+August,11,Alexander Carbonarius of Comana,aug/day-11,swap 2026-05-13: Clare's AASS day is Aug 12; Alexander at AASS Aug 11 line 25
+August,12,Clare of Assisi,aug/day-12,swap 2026-05-13: Chantal canonized 1767 post-AASS Augusti vol II; Clare moved from Aug 11 (AASS Aug 12 line 6521)
+August,13,Maximus the Confessor,aug/day-13,
+August,14,Eusebius of Rome,aug/day-14,
+August,15,Alypius of Tagaste,aug/day-15,swap 2026-05-13 (eighth correction): Assumption has no DE-section in AASS Aug 15; Alypius at line 73 — Augustine's lifelong friend, bishop of Tagaste
+August,16,Hyacinth of Poland,aug/day-16,swap 2026-05-13: Stephen of Hungary's AASS day is Sept 2 (line 17169); Hyacinth moved from Aug 17 (AASS Aug 16 header)
+August,17,Liberatus and the Carthaginian Martyrs,aug/day-17,swap 2026-05-13: Hyacinth moved to Aug 16; Liberatus at AASS Aug 17 line 6304 (5th c. martyrs under Vandal Huneric)
+August,18,Helena of Constantinople,aug/day-18,
+August,19,Andrew the Tribune,aug/day-19,swap 2026-05-13: John Eudes canonized 1925 post-AASS; Andrew at AASS Aug 19 line 2854 (Roman military martyr in Cilicia)
+August,20,Bernard of Clairvaux,aug/day-20,
+August,21,Bernard Tolomei,aug/day-21,Olivetan founder
+August,22,Sigfrid of Wearmouth,aug/day-22,
+August,23,Sidonius Apollinaris,aug/day-23,5th c. bishop-poet of Clermont
+August,24,Bartholomew the Apostle,aug/day-24,
+August,25,Louis IX of France,aug/day-25,
+August,26,Bregwine of Canterbury,aug/day-26,
+August,27,Caesarius of Arles,aug/day-27,
+August,28,Augustine of Hippo,aug/day-28,
+August,29,Beheading of John the Baptist,aug/day-29,feast
+August,30,Pammachius the Senator,aug/day-30,swap 2026-05-13: Rose of Lima's AASS day is Aug 26 (line 18446); Pammachius at AASS Aug 30 line 1727 (Roman senator, friend of Jerome)
+August,31,Aidan of Lindisfarne,aug/day-31,
+September,1,Arcanus and Aegidius of Borgo San Sepolcro,sep/day-01,swap 2026-05-13 (eighth correction): Drithelm absent; the AASS Aegidius at line 41387 is NOT St Giles of Provence (he has no substantive AASS section) but the 10th-c. Spanish hermit who with Arcanus of Arcadia founded Borgo S. Sepolcro in Umbria
+September,2,Stephen of Hungary,sep/day-02,swap 2026-05-13 (eighth correction): William of Roskilde absent; Stephen at line 17169 (cleared in seventh correction)
+September,3,Phoebe the Deaconess,sep/day-03,biblical (Rom 16)
+September,4,Rose of Viterbo,sep/day-04,substantive AASS entry at line 58535 (DE SANCTA ROSA VIRGINE)
+September,5,Bertinus of Sithiu,sep/day-05,
+September,6,Magnus of Füssen,sep/day-06,
+September,7,Cloud (Clodoald),sep/day-07,
+September,8,Adrian and Natalia,sep/day-08,swap 2026-05-13 (eighth correction extension): Nativity of Mary has no DE-section in AASS Sep 8 — same pattern as Aug 15 Assumption / Sep 14 Holy Cross; Adrian + 23 companions + his wife Natalia at line 403 (the day's headline AASS treatment)
+September,9,Kieran of Clonmacnoise,sep/day-09,swap 2026-05-13 (eighth correction): Peter Claver canonized 1888 — post-AASS Sept II (1748); Kieran at line 7564
+September,10,Nicholas of Tolentino,sep/day-10,
+September,11,Paphnutius of Egypt,sep/day-11,
+September,12,Ailbe of Emly,sep/day-12,
+September,13,Maurilius of Angers,sep/day-13,swap 2026-05-13 (eighth correction): Notburga's AASS day is Sep 14 not 13; Maurilius at line 1362
+September,14,Cornelius and Cyprian,sep/day-14,swap 2026-05-13 (eighth correction): Exaltation of Holy Cross has no DE-section; Cornelius (line 34) and Cyprian of Carthage (line 7114) on AASS-true day
+September,15,Catherine of Genoa,sep/day-15,
+September,16,Euphemia,sep/day-16,swap 2026-05-13 (eighth correction): Cornelius/Cyprian moved to AASS-true Sep 14; Euphemia substantive on day-16
+September,17,Hildegard of Bingen,sep/day-17,
+September,18,Joseph of Cupertino,sep/day-18,
+September,19,Theodore of Tarsus,sep/day-19,
+September,20,John of Egypt,sep/day-20,swap 2026-05-13 (eighth correction): Vincent Madelgarus absent from AASS Sep 20; John of Lycopolis at line 11268
+September,21,Matthew the Apostle,sep/day-21,
+September,22,Maurice and the Theban Legion,sep/day-22,swap 2026-05-13 (eighth correction): Thomas of Villanova's AASS day is Sep 18 (line 5583); Maurice at line 3980
+September,23,Adamnan of Iona,sep/day-23,
+September,24,Gerard of Csanád,sep/day-24,
+September,25,Cleophas,sep/day-25,swap 2026-05-13 (eighth correction): Albert of Jerusalem canonized 1914 — post-AASS; Cleophas at line 38 (Emmaus disciple)
+September,26,Cyprian and Justina,sep/day-26,swap 2026-05-13 (eighth correction): Cosmas/Damian's AASS-true day is Sep 27; Cyprian of Antioch + Justina at line 840
+September,27,Cosmas and Damian,sep/day-27,swap 2026-05-13 (eighth correction): Vincent de Paul canonized 1737 — absent from AASS Sept VII (1760); Cosmas/Damian at line 7311 (their AASS-true day)
+September,28,Wenceslaus of Bohemia,sep/day-28,
+September,29,Holy Archangels,sep/day-29,feast (Michaelmas)
+September,30,Jerome,sep/day-30,
+October,1,Remigius of Reims,oct/day-01,Baptized Clovis
+October,2,Leodegar of Autun,oct/day-02,swap 2026-05-13 (ninth correction): Guardian Angels feast has no DE-section in AASS Oct 2; Leodegar (Léger) at line 4907, 7th-c. Frankish bishop blinded and martyred c. 679
+October,3,The Two Ewalds,oct/day-03,
+October,4,Francis of Assisi,oct/day-04,
+October,5,Galla of Rome,oct/day-05,
+October,6,Bruno of Cologne,oct/day-06,
+October,7,Justina of Padua,oct/day-07,swap 2026-05-13 (ninth correction): Rosary feast has no DE-section in AASS Oct 7; Justina V.M. at line 30 — distinct from Justina of Antioch on Sep 26
+October,8,Demetrius of Thessalonica,oct/day-08,
+October,9,Denis of Paris and Companions,oct/day-09,
+October,10,Paulinus of York,oct/day-10,
+October,11,Bruno the Great,oct/day-11,
+October,12,Edwin of Northumbria,oct/day-12,swap 2026-05-13 (ninth correction): Wilfrid absent from AASS Oct 12; Edwin (the king Paulinus baptized) at line 13978 — natural pair with Oct 10 Paulinus of York
+October,13,Theophilus of Antioch,oct/day-13,
+October,14,"Callistus I, Pope",oct/day-14,
+October,15,Teresa of Ávila,oct/day-15,
+October,16,Gall of St. Gallen,oct/day-16,swap 2026-05-13 (ninth correction): Hedwig absent from AASS Oct 16; Gall at line 8479 — Columbanus's Irish companion, founder of the great Allemanic abbey
+October,17,John Colobus (John the Dwarf),oct/day-17,swap 2026-05-13 (ninth correction): Ignatius of Antioch absent from AASS Oct 17 substantively (only in apparatus around Heron); John Colobus at line 4323 — Egyptian desert father of the Apophthegmata
+October,18,Luke the Evangelist,oct/day-18,
+October,19,Peter of Alcántara,oct/day-19,Franciscan reformer; mentor to Teresa of Ávila — verified AASS-native at line 32 (AASS Oct VIII 1853, post-canonization 1669); NOT a modern-external exception as the standing notes claimed
+October,20,Acca of Hexham,oct/day-20,
+October,21,Hilarion of Gaza,oct/day-21,
+October,22,Abercius of Hierapolis,oct/day-22,2nd c.; his own epitaph survives
+October,23,Severinus of Cologne,oct/day-23,swap 2026-05-13 (ninth correction): Boethius absent from AASS Oct 23 (cult only formalized 1883); Severinus of Cologne at line 5962, 4th-c. bishop, the day's substantive Severinus
+October,24,Felix of Thibiuca,oct/day-24,
+October,25,Gaudentius of Brescia,oct/day-25,
+October,26,Cedd of Lastingham,oct/day-26,
+October,27,Frumentius of Ethiopia,oct/day-27,
+October,28,"Simon and Jude, Apostles",oct/day-28,
+October,29,Narcissus of Jerusalem,oct/day-29,
+October,30,Marcellus the Centurion,oct/day-30,
+October,31,Quintinus of Vermand,oct/day-31,swap 2026-05-13 (ninth correction extension): Wolfgang absent from AASS Oct 31 — his Acta were deferred to a later Nov volume after the Bollandist working on them died in 1900 and were never substantively published; Quintinus at line 8968 (3rd-c. martyr of Vermand/Saint-Quentin in Picardy)
+November,1,Austremonius of Clermont,nov/day-01,swap 2026-05-13 (tenth correction): All Saints feast has no DE-section in AASS Nov 1; Austremonius at line 2556 (3rd-c. apostle of the Auvergne)
+November,2,Ambrose of Agaune,nov/day-02,swap 2026-05-13 (tenth correction): All Souls feast has no DE-section in AASS Nov 2; Ambrose at line 43369 (Burgundian abbot of Saint-Maurice d'Agaune; pairs with Sep 22 Maurice/Theban Legion)
+November,3,Hubert of Liège,nov/day-03,swap 2026-05-13 (tenth correction): Martin de Porres canonized 1962 (post-AASS); Hubert at line 24481 (7th-c. apostle of the Ardennes; stag-conversion legend)
+November,4,Emeric of Hungary,nov/day-04,swap 2026-05-13 (tenth correction): Borromeo (canonized 1610) listed in calendar but no DE-section in AASS Nov vol II; Emeric at line 77177 (son of King Stephen of Hungary — pairs with Sep 2 Stephen and the Regnum Marianum dedication)
+November,5,Zechariah and Elizabeth,nov/day-05,biblical AND AASS-substantive at line 516 (DE SS. ZACHARIA ET ELISABETH PARENTIBUS S. IOHANNIS BAPTISTAE) — verified 2026-05-13
+November,6,Winnoc of Wormhoudt,nov/day-06,verified AASS-substantive at line 15471
+November,7,Willibrord of Utrecht,nov/day-07,verified AASS-substantive at line 17479
+November,8,Godfrey of Amiens,nov/day-08,verified AASS-substantive at line 62284
+November,9,Ursinus of Bourges,nov/day-09,swap 2026-05-13 (tenth correction): Lateran Dedication feast has no DE-section in AASS Nov 9; Ursinus at line 47098 (apostolic-era founder of the see of Bourges)
+November,10,Tryphon of Lampsacus,nov/day-10,swap 2026-05-13 (tenth correction): Pope Leo I deferred by AASS Nov vol IV to Nov 12 (editorial accident, same Wolfgang pattern); Tryphon is the principal substantive AASS Nov 10 feast (early martyr)
+November,11,Martin of Tours,(out of scope — Phase 0 stops at Nov 10),Propylaeum
+November,12,Martin,(out of scope),Propylaeum
+November,13,Valentinus,(out of scope),Propylaeum
+November,14,Clement,(out of scope),Propylaeum
+November,15,Eugenius,(out of scope),Propylaeum
+November,16,Rufin,(out of scope),Propylaeum
+November,17,Gregory,(out of scope),Propylaeum
+November,18,Romanus,(out of scope),Propylaeum
+November,19,Elizabeth,(out of scope),Propylaeum
+November,20,Ampelius,(out of scope),Propylaeum
+November,21,Presentation of Mary,(out of scope),Propylaeum
+November,22,Cecilia,(out of scope),Propylaeum
+November,23,Clement,(out of scope),Propylaeum
+November,24,Chrysogonus,(out of scope),Propylaeum
+November,25,Catherine,(out of scope),Propylaeum
+November,26,Silvester,(out of scope),Propylaeum
+November,27,Basileus,(out of scope),Propylaeum
+November,28,Rufinus,(out of scope),Propylaeum
+November,29,Andrew,(out of scope),Propylaeum
+November,30,Andrew,(out of scope),Propylaeum
+December,1,Diodorus,(out of scope),Propylaeum
+December,2,Bibiana,(out of scope),Propylaeum
+December,3,Sabbas,(out of scope),Propylaeum
+December,4,Barbara,(out of scope),Propylaeum
+December,5,Sabbas,(out of scope),Propylaeum
+December,6,Nicholas,(out of scope),Propylaeum
+December,7,Mary,(out of scope),Propylaeum
+December,8,Eutychian (Pope),(out of scope),Propylaeum
+December,9,Restitutus,(out of scope),Propylaeum
+December,10,Melchiades (Pope),(out of scope),Propylaeum
+December,11,Damasus,(out of scope),Propylaeum
+December,12,Synesius,(out of scope),Propylaeum
+December,13,Lucy,(out of scope),Propylaeum
+December,14,Hero,(out of scope),Propylaeum
+December,15,Mary,(out of scope),Propylaeum
+December,16,Valentinus,(out of scope),Propylaeum
+December,17,Florian,(out of scope),Propylaeum
+December,18,Rufinus,(out of scope),Propylaeum
+December,19,Nemesius,(out of scope),Propylaeum
+December,20,Thomas,(out of scope),Propylaeum
+December,21,Thomas,(out of scope),Propylaeum
+December,22,Flavian,(out of scope),Propylaeum
+December,23,Victoria,(out of scope),Propylaeum
+December,24,Gregory,(out of scope),Propylaeum
+December,25,Anastasia,(out of scope),Propylaeum
+December,26,Stephen,(out of scope),Propylaeum
+December,27,John,(out of scope),Propylaeum
+December,28,Eutychius,(out of scope),Propylaeum
+December,29,Thomas,(out of scope),Propylaeum
+December,30,Sabinus,(out of scope),Propylaeum
+December,31,Silvester,(out of scope),Propylaeum

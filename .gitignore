@@ -12,3 +12,9 @@ site/
 # Large source corpora (translations + Latin)
 src/translations/
 src/latin/
+
+# Devotional — scratch renders & pre-fix backups (keep engraving.png + .typ sources)
+devotional/cover/*.png
+!devotional/cover/engraving.png
+devotional/cover/scout/
+devotional/drafts/_backup-pre-fidelity-*/

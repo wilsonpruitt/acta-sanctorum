@@ -1,0 +1,15 @@
+## November 6
+
+# Winnoc of Wormhoudt
+
+*Anglo-Breton monk, abbot of Wormhoudt, c. 640–c. 717*
+
+He was Welsh-Breton by family — a member of the Cornish-Breton royal house of Domnonia, perhaps a son of King Judicael of Brittany — and was sent across the Channel as a young man to study under Bertinus at the new Benedictine foundation at Sithiu in Frankish Flanders. The monastery he came to had been started by Audomarus and Mommolinus only thirty years earlier, and Winnoc became one of the four Britons whom Bertinus accepted as novices in the 670s, perhaps the most accomplished of them. He took the habit, made profession, and stayed at Sithiu for the next twenty years.
+
+In about 695 Bertinus, now an old man, sent Winnoc north into the partly-pagan country between the Aa and the North Sea — the Frankish *pagus Mempiscus,* a flat marshy region of small fishing-villages and isolated farms where the gospel had not yet taken hold — with three British companions to plant a daughter house. They built a small cell at Wormhoudt, a hamlet on a low rise above the marsh, and over the next two decades raised it into a working monastery: refectory, dormitory, scriptorium, an enclosed garden for the brothers, an open one for the poor. Winnoc was its first prior and eventually its abbot. The community was small — perhaps a dozen brothers — and Winnoc, though now in his sixties and the abbot, refused to be excused from any of the manual work. He took his turn at the kitchen, the laundry, the pigsty, the scriptorium. When he had grown too old to work in the fields, he asked to be assigned to the mill, where he would grind the brothers' grain.
+
+The mill at Wormhoudt was one of the small hand-mills the monasteries used to grind a day's flour at a time. A man Winnoc's age — he was in his late seventies by then — ought not to have been able to keep up with the strength of the millstones. The brothers noticed, after a few months, that the meal-bin behind the mill was always full when they came to draw flour from it, and that the stones were turning at speeds the old man could not possibly have produced by his own arm. One of the brothers, curious, peered through the gap in the mill-shed wall one afternoon to see how he managed. The mill stopped immediately. The brother went blind on the spot. He stumbled into the chapel weeping; the brothers brought him to Winnoc's feet; Winnoc, gentle and amused, blessed his eyes in the Lord's name and the man saw again.
+
+He died at Wormhoudt on the sixth of November, perhaps 717, eighty years old at least. The body was translated to Bergues-Saint-Winoc when the abbey there was founded under his name in the late ninth century, and it has lain there since. The Welsh-Breton prince who had been sent across the Channel as a young man and never went home founded one of the great small monasteries of Frankish Flanders by being willing, at the end of a long life, to grind the brothers' grain.
+
+> *"Tene quod habes, ne alius accipiat coronam tuam."* — *the verse hung above Winnoc's mill at Wormhoudt: Hold fast that which you have, that no man take your crown*

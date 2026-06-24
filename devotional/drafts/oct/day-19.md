@@ -1,0 +1,15 @@
+## October 19
+
+# Peter of Alcántara
+
+*Discalced Franciscan reformer, mentor of Teresa of Ávila, 1499–1562*
+
+He was born at Alcántara on the Tajo, the small Extremaduran town whose Roman bridge still spans the river, the son of a noble family in straitened circumstances — the father was a lawyer, the mother had brought a small dowry, the boy was educated by the Augustinians at Salamanca and entered the Observant Franciscans at sixteen. He was already known in the convent for the fact that he ate one meal every three days, slept ninety minutes a night, and never lifted his eyes when he walked — *I never knew the color of the wall of my cell,* he would say in old age, *for I never raised my head.* He was ordained priest at twenty-five. He preached for twenty-five years through the Extremadura and Andalusia, gathering a small group of followers around him who wanted to live the original Franciscan rule before the relaxations had set in.
+
+In 1554 he founded the first house of his reform at Pedroso, in the Sierra Morena, with seven friars: barefoot, eating only what was begged door to door, sleeping on bare boards in cells four feet by six, keeping nightly vigil. The houses spread; by 1561 there were sixteen of them; the *Alcantarine* reform of the Franciscans became the most rigorous branch of the order in the Spanish-speaking world for the next four hundred years.
+
+His most consequential single work, however, was a friendship. In 1559 the Carmelite nun Teresa of Cepeda y Ahumada, then in her early forties at the convent of the Encarnación at Ávila, was being investigated by the Inquisition for the unsettling visions she had begun to have and for the equally unsettling proposal she was making to break away from her own community and found a stricter house of Carmel. She was alone, terrified, and on the edge of being silenced. Peter of Alcántara, then sixty and the most respected ascetic in Spain, came to Ávila at the request of Bishop Mendoza to interview her. He spent three days with her in the convent parlor. He came out persuaded that the visions were of God, the proposal was of the Holy Spirit, and the Inquisition needed to leave her alone. *He understood me by experience,* Teresa would write in the *Vida,* *which is the only thing here below that altogether suffices.* He stayed her champion for the next three years until his death.
+
+He died at the friary of Arenas de San Pedro on the eighteenth of October, 1562, kneeling in his cell, standing and praying — though he was sixty-three he looked, his brothers said, like a man of ninety. Teresa had a vision of him at the moment of his death three hundred miles away in Ávila and recorded it. He had told her once, near the end, *daughter, all of this and the world besides will pass; only love endures.* The reform he had begun outlasted him by four hundred years; the friend he had defended outlasted him in another way altogether.
+
+> *"Daughter, all of this and the world besides will pass; only love endures."* — Peter of Alcántara, to Teresa, in the parlor at Ávila

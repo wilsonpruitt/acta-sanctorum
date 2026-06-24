@@ -1,0 +1,15 @@
+## November 7
+
+# Willibrord of Utrecht
+
+*Apostle of the Frisians, first archbishop of Utrecht, c. 658–739*
+
+He was a Northumbrian, born around 658 in the kingdom of Deira, the southern half of the Northumbrian heptarchy where Edwin had ruled the previous generation. His father Wilgis was a married presbyter of the Yorkshire countryside who, after the boy's birth, set himself up as a hermit on the cliffs above the Humber and lived another forty years there as a solitary. Willibrord was sent at seven to the great Northumbrian abbey of Ripon under Wilfrid and was raised there as one of Wilfrid's own children. At twenty he went to the Irish monastery of Rathmelsigi to learn Greek and patristic Latin and continental computus; he stayed for twelve years.
+
+The proposal to plant a mission in Frisia came from his old Irish abbot Egbert in 690. The Frankish *maior domus* Pippin of Herstal, having just defeated the Frisian king Radbod in a frontier campaign that opened the Christianizable parts of the lower Rhine country to the gospel, was looking for missionary clergy. Egbert sent Willibrord with eleven companions — *erant autem numero XII,* the twelve apostles of Frisia. They landed at the mouth of the Rhine, walked east along the coast to Utrecht, and settled in the small Roman chapel that the great Frankish missionary Amandus had built sixty years earlier and that the pagan Frisians had reduced to ruins.
+
+Willibrord went to Rome in 695 to be consecrated bishop. Pope Sergius received him in the Lateran, gave him the new name *Clemens,* put the pallium on his shoulders, and sent him back as the first archbishop of the Frisians. He took his see at Utrecht, the small Roman *castellum* on the lower Rhine that the Frankish administration had been using as a frontier customs-post. He governed the Frisian church for forty-four more years.
+
+The work was patient and slow. He ordained a generation of Frisian-speaking presbyters; he founded the great daughter monastery of Echternach in 698 on a piece of land Pepin's mother-in-law Irmina gave him; he made repeated missionary journeys north into Denmark (the Danish king Ongendus refused him hospitality but gave him thirty Danish boys to be raised as missionaries — they were the first Christian-Scandinavian generation), into the Frankish-Saxon borderlands, into the Frisian island of Heligoland, where he baptized in the spring at the foot of the pagan idol of Fositesland, a defiant act that drew the murderous attention of King Radbod. Bede, who knew him personally, gives him the warmest portrait of any of the second-generation continental missionaries. He was, Bede writes, *moderatus, gravis, prudens, in conversatione humilis et iocundus* — measured, serious, prudent, in his conversation humble and pleasant. He died at Echternach on the seventh of November, 739, eighty-one years old, having walked into a swampy frontier country at thirty-two and walked out of it having given the country a church.
+
+> *"Moderatus, gravis, prudens, in conversatione humilis et iocundus."* — Bede, *Historia Ecclesiastica* 5.11

@@ -1,0 +1,15 @@
+## November 2
+
+# Ambrose of Agaune
+
+*Burgundian abbot, second father of Saint-Maurice, c. 470–c. 521*
+
+He had been abbot of the small monastery of Île-Barbe — *the Barbarian Island,* the wooded outcrop in the middle of the Saône just upriver from Lyon — when the Burgundian king Sigismund, recently converted from Arianism, decided in 515 to refound the great Frankish monastery at Agaunum in the alpine Valais. Agaunum was the site of the martyrdom of Maurice and the Theban Legion — the Egyptian legion who had refused to draw their swords against fellow Christians, executed in the gorge of the Rhone perhaps in 287 — and the small chapel that had grown up over their grave had become, by the early sixth century, run-down, half-secularized, and inhabited largely by laymen who had drifted into it for the patronage. Sigismund wanted a real monastic community. The Burgundian bishops, gathered for the dedication on September 22, 515, had recommended Hymnemodus of Grigny for the office. He took it; he died within five years; the brothers asked for Ambrose to succeed him.
+
+Ambrose came up from the Saône with a few of his Île-Barbe brothers in the autumn of 520. The reform he installed at Agaune would shape the great Frankish monastic foundations of the next two centuries: the *laus perennis,* the perpetual praise, by which the brothers were divided into nine choirs that succeeded each other through the twenty-four hours of the day so that the office of the Mass and the singing of the psalms continued unbroken at the tomb of the martyrs from year's end to year's end. The custom had been imported from the East — from the *acoemetae* of Constantinople, the *sleepless* monks — and the Burgundian foundation became its first Western installation. The form spread. By the eighth century the *laus perennis* would be observed at Saint-Denis, at Saint-Riquier, at Reichenau, at Lorsch, at every great Carolingian house of the Frankish heartland.
+
+Ambrose served as abbot for perhaps a year. He died on the second of November, 521. The *Vita sanctorum abbatum Agaunensium* — written within a generation of his death by an Agaune monk who had known him personally — gives him a quiet portrait: a small, careful, deeply learned man who had spent his short rule holding the brothers to the rule and the silence, who had asked to be buried not under his own name but at the foot of the martyrs' altar, *quia non est dignus servus super dominum suum,* because the servant is not worthy to be over his lord.
+
+The abbey he reformed has not stopped chanting. *Saint-Maurice d'Agaune* is the oldest continuously functioning monastery in the West — fifteen hundred years on the same foundation, fifty years older than Monte Cassino — and the office Ambrose installed has never been entirely silenced. The Augustinian canons who govern the abbey today still keep the vigil at the martyrs' tomb. The servant who would not be over his lord has been at his lord's feet for fifteen hundred years.
+
+> *"Quia non est dignus servus super dominum suum."* — Ambrose, on his refusal to be buried under his own name

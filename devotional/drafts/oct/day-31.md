@@ -1,0 +1,15 @@
+## October 31
+
+# Quintinus of Vermand
+
+*Roman senator, missionary to the Belgae, martyr of Picardy, c. 260–c. 287*
+
+He was a Roman of the senatorial class, son of one of the consular families of the second century, well-educated in the household, baptized as a young man under Pope Caius around 282. He went up into Gaul with the great Roman missionary band that the Gallic chronicles call *the seven bishops* — Denis to Paris, Saturninus to Toulouse, Trophimus to Arles, Paul to Narbonne, Martial to Limoges, Gatian to Tours, Lucian to Beauvais — and Quintinus, the youngest of them, walked north with Lucian into the *Augusta Veromanduorum,* the Roman frontier-town that the medieval French would call Saint-Quentin after him. He was perhaps twenty-five.
+
+He preached for two or three years up and down the Somme valley with what success the figures put at six hundred conversions in a single afternoon at the central forum — the standard hagiographic round number, but the Roman senator's Latin and manners would have given him a hearing among the half-Romanized Belgic gentry of the region, and the Christian community of Vermand was real and substantial by the time the persecution caught up with it. The persecution was the small private hunt of a single Roman officer named Rictiovarus, *præfectus prætorio Galliarum* under Maximian, who carried his charge with a personal viciousness none of the historians of the period could quite explain. He hunted down the missionary clergy of northern Gaul one at a time. He took Quintinus in 287.
+
+The trial-acta are circumstantial in a way that suggests they descend from a real court protocol, much elaborated. Quintinus was beaten with leaded scourges, then racked, then stretched between two stakes; boiling oil was poured down his back; nails were driven through his fingers; quicklime, mustard, and vinegar were forced down his throat; eventually two iron bars were driven through his body from neck to thigh. Through all of it, the interrogator could get only the same answer: *Christianus sum.* When the prefect finally ordered the beheading, on the thirty-first of October, the *acta* preserve the small detail the Bollandists love most: a white dove rose from the body and disappeared into the morning sky. Rictiovarus, perhaps superstitiously, perhaps simply tired, ordered the body weighted with lead and dropped into the Somme just downstream of the bridge.
+
+Fifty-five years later the body was found by a blind Roman noblewoman named Eusebia who had been instructed in a vision to dredge the river at the bend below the bridge. She found it uncorrupt, lifted it out, was healed of her blindness when she touched it, and gave it to the local Christian community for burial. The basilica that grew over the burial became the cathedral of the diocese the Carolingians would rebuild around it in the ninth century, and the medieval town that grew around it took the saint's name. The Roman senator who had walked north to evangelize a foreign country has been the patron of that country for seventeen hundred years.
+
+> *"Christianus sum."* — Quintinus, in the long interrogation at Augusta Veromanduorum

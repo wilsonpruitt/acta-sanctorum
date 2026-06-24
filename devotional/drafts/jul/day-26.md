@@ -1,0 +1,13 @@
+## July 26
+
+# Anne
+
+*Mother of the Virgin, first century B.C.*
+
+She is not in the canonical Gospels. Her name appears first in the *Protoevangelium of James* — a Greek text of the mid-second century, of unknown provenance, which the church afterward read as a useful supplement to the Gospels for what it told of Mary's parentage and childhood, but which it never received into the New Testament canon. The *Protoevangelium* names her Anna (Hebrew *Hannah*, the same as the mother of Samuel, *grace*), and gives her husband as Joachim. They were, the text says, of the line of David, lived in Jerusalem, and were childless after twenty years of marriage. Joachim's offering at the Temple was once refused by the priest Issachar on the grounds that he had not raised children for Israel. He went into the wilderness for forty days in protest and prayer; she stayed in the garden of their house, also fasting. An angel came to each of them with the same message at the same hour: that Anna would conceive and bear a daughter who would be holy to the Lord.
+
+She conceived. She bore a daughter and named her Miriam — Mary. She kept her at home for three years, then by an old Israelite custom of the temple-girls she presented the child at the sanctuary, where Mary remained, in the formula of the text, *until she was twelve*. Anne and Joachim, then in their late middle age, lived to see her betrothed to Joseph the carpenter. The *Protoevangelium* does not record their deaths. The tradition that grew up around their cult gives them respectful old age and burial in Jerusalem; their tomb was venerated in the church of Saint Anne in the Bezetha quarter from the fourth century, and the Crusader-period basilica of Saint Anne still stands there, perhaps the most acoustically perfect church in Jerusalem.
+
+Whether or not the *Protoevangelium*'s narrative is historical — and the AASS, with the careful Bollandist instinct, treats it as pious supplement rather than testimony — the cult of Anne is one of the oldest in the church. Constantinople kept her feast from the sixth century; Naples from the eighth; the Latin West from the twelfth. The grandmother of Christ was, in the popular medieval imagination, the patroness of mothers, of housewives, of childbirth, of the teaching of girls to read. The standard medieval icon shows her teaching the young Mary the alphabet from a book of psalms — the psalter, by the chronicler's gentle joke, that her namesake Hannah composed.
+
+> *"And Mary grew, and her parents adored the Lord; and they brought her to the temple of the Lord, that she might be brought up there in holiness."* — *Protoevangelium of James* 6

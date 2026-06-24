@@ -1,0 +1,15 @@
+## August 7
+
+# Victricius of Rouen
+
+*Soldier-confessor, archbishop, apostle of the Morini, c. 340–417*
+
+He had been a soldier under Julian the Apostate. The AASS Augusti II preserves the key narrative from the two letters of Paulinus of Nola — Letters 18 and 37 — that are nearly the only contemporary source for his life. He was a young Christian in the army, perhaps twenty, when at a military council on the day the standards were blessed for a campaign, he stepped forward, removed the military belt of his rank, threw the arms down at the feet of his tribune, and said he would not fight any longer under the apostate emperor. The tribune flew into a fury. They beat him with rods and shattered them across his back. They threw him into a prison cell whose floor had been spread with fragments of broken pottery so he could not lie down. The torturer's hands, the AASS Vita reports, were struck with sudden inability; he could not strike the next blow. Victricius was sentenced to death. The executioner sent to do the work was struck blind on the way. Victricius walked free.
+
+He spent the next years in northern Gaul learning the language of the Belgic tribes — the Morini, the Nervii, the people of the long Boulogne coastal road. He became a priest, then in the early 380s archbishop of Rouen — eighth in the metropolitan see, and a successor in spirit to Martin of Tours, who at Vienne in 389 met both Victricius and the young Paulinus of Nola at the same gathering. Victricius spent the next twenty-eight years preaching across the Morini country between Rouen and the Channel coast, founding the first monasteries in those barbarian regions. He brought to the Frankish frontier the same austere monasticism Martin had established at Marmoutier.
+
+The most consequential thing he wrote was occasioned by a gift from Ambrose of Milan. Ambrose sent him a small chest of relics — from the martyrs of Bologna, perhaps from Gervase and Protase whose bodies Ambrose had discovered in 386 — and Victricius's procession of those relics through Rouen in 396 became the occasion of his sermon *De Laude Sanctorum*, the *Praise of the Saints*. It is the earliest patristic treatise on the proper place of the cult of relics: the bodies of the martyrs, Victricius preached, are not magical objects but the same flesh that Christ took, sanctified by the same Spirit that raised him, awaiting the same resurrection that we await. The treatise was read across the West for the next millennium.
+
+He was honored by Pope Innocent I with apostolic letters answering his canonical questions and commending his learning. He died at Rouen in peace, perhaps 417, in his late seventies. Ordericus Vitalis wrote his epitaph six centuries later: *Victricius victor, vitiorum fortis et ultor* — Victricius the victor, strong avenger of vices, who steeped the Lord's Church in his nourishing commandments.
+
+> *"What we venerate in the relics is not the bones, but the Christ in whose Body those bones already share."* — Victricius, *De Laude Sanctorum*, on the procession at Rouen

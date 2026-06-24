@@ -1,0 +1,14 @@
+## June 16
+
+# Lutgardis of Aywières
+
+*Cistercian mystic of Brabant, 1182–1246*
+
+She was born at Tongeren in the duchy of Brabant, to a noble mother and a merchant father. Her father, hoping she would prosper in the world, entrusted twenty marks of silver to a trader to grow her marriage-dowry; the trader, crossing again and again into England and broken by misfortunes, squandered the twenty down to one. The girl herself was eager to marry, and the lost dowry did not change that — it was her mother who turned her, saying, as the chronicler reports, "If you will marry Christ, I will prepare for you a most honorable monastery; but if you choose a mortal man, you will have no other than a keeper of cows." She was placed at the Benedictine convent of Saint Catherine outside Saint-Trond a little past twelve. She did not at first take to it. She was lively, conversational, well-liked among the visitors who came to the parlor, and went on for some years receiving the discreet attentions of a young soldier of the town through the speaking-grille. The change came at sixteen, when, the chronicler says, she saw a vision of Christ showing her his wounded side and asking her to attend to him with the attention she had been giving the world.
+
+She gave it. She took final vows. She was elected prioress at twenty-four. Almost immediately she fled the office — too prominent, too administrative, too unsuited to the contemplation she had only just learned to hold — and transferred at twenty-four to the stricter Cistercian house at Aywières in the French-speaking Walloon country south of Brussels, where she lived the remaining forty years of her life. She refused to learn French. She had vowed, she said, never to speak again about anything that did not matter for salvation, and the unfamiliar grammar would make her speak slowly and weigh each word.
+
+She kept three successive seven-year fasts. The first seven years, bidden in a vision of the Virgin to fast against the Albigensian heresy then threatening, she took only bread and beer. The second seven years she fasted for sinners on bread and herbs. The third fast she began against a feared enemy of the Church, and never broke it, even on Easter, until her death in its seventh year. She went blind in her last eleven years. She was visited in her cell by her old confessor Thomas of Cantimpré, who wrote her *Vita*, and by Hadewijch the Beguine poet, who took some of her phrases home for her own *Visions*. She died at Aywières, June 16, 1246, asking only that they bury her where she had prayed; and she was laid on the right side of the choir, near the wall where she was wont to pray, in a solemn and honorable place.
+
+> *"Lutgard wept; she led a life without crime; with Christ she dwells, whom this stone covers."* — epitaph by Sybil de Gages, who served her in life
+

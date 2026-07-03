@@ -29,6 +29,7 @@ function cleanDisplayName(raw) {
   let name = raw.replace(/^Acta Sanctorum:\s*/i, '').trim();
   if (NAME_FIXES[name]) return NAME_FIXES[name];
   // German → English common patterns
+  name = name.replace(/\s*\([^)]*\)/g, '');              // drop parenthetical variants: "Gudula (Gudrun)" → "Gudula"
   name = name.replace(/ und Gefährten$/, ' and Companions');
   name = name.replace(/ die Ältere$/, ' the Elder');
   name = name.replace(/ der Ältere$/, ' the Elder');
@@ -36,10 +37,18 @@ function cleanDisplayName(raw) {
   name = name.replace(/ der Grosse$/, ' the Great');
   name = name.replace(/ der Bekenner$/, ' the Confessor');
   name = name.replace(/ von /g, ' of ');
+  name = name.replace(/ van /g, ' of ');                  // Dutch "van"
+  name = name.replace(/ und /g, ' and ');                 // general "und"
+  name = name.replace(/ der /g, ' the ');                 // general "der"
+  name = name.replace(/Gefährten/g, 'Companions');
+  name = name.replace(/Konstantinopel/g, 'Constantinople');
+  name = name.replace(/\bTheben\b/g, 'Thebes');
+  name = name.replace(/\bSyracus\b/g, 'Syracuse');
+  name = name.replace(/\bRom\b/g, 'Rome');
   name = name.replace(/Märtyrer/g, 'Martyrs');
   name = name.replace(/Mönche/g, 'Monks');
   name = name.replace(/Soldaten/g, 'Soldiers');
-  return name;
+  return name.replace(/\s+/g, ' ').trim();
 }
 
 // ── Helpers ──
@@ -152,68 +161,232 @@ function isSectionHeading(line) {
   return false;
 }
 
-/** Extract footnotes (lines starting with "a." "b." etc.) and return {html, footnotes} */
+/** Extract footnotes (lines starting with "a." "b." etc.) and return {html, footnotes}
+ *
+ * Handles three source conventions:
+ *   1. Period form    — `a. Text`  (feb, jan-vol2, most of mar)
+ *   2. Bracketed form — `[a] Text` (most of apr)
+ *   3. No-period form — `a Text`   (apr, jan-vol1, some of mar)
+ *
+ * Period and bracketed forms are unambiguous and accepted anywhere.
+ * No-period form risks false positives on wrapped body paragraphs that happen
+ * to start with the English article "a" or pronoun "i", so it is only
+ * accepted when:
+ *   - inside a NOTES section (after a `NOTES` header, until a CHAPTER/§/[N]
+ *     section boundary), OR
+ *   - the chunk has ≥2 distinct no-period candidate letters (cluster rule), OR
+ *   - the letter is not 'a' or 'i' (safe letters), OR
+ *   - for 'a'/'i' singletons, the following word starts with a capital letter.
+ */
 function extractFootnotes(text) {
   const lines = text.split('\n');
   const footnotes = [];
   const bodyLines = [];
 
+  const periodForm = /^([a-o])\.\s+(.+)$/;
+  const bracketForm = /^\[([a-o])\]\s+(.+)$/;
+  const noPeriodForm = /^([a-o])\s+(.+)$/;
+  const notesHeader = /^(NOTES|ANNOTATIONS)\.?$/i;
+  // Lines that close the NOTES scope. Covers the common headers that appear
+  // after notes blocks across the corpus: CHAPTER, APPENDIX, PROLOGUE,
+  // HISTORY OF…, PRELIMINARY…, PART, BOOK, §, and numbered paragraphs like
+  // `[12]`. We also accept any ALL-CAPS heading-like line (≥4 chars, contains
+  // a space or period) as a generic fallback — loose boundaries are safer
+  // than leaving NOTES scope open across body text.
+  const sectionBoundary =
+    /^(CHAPTER\b|APPENDIX\b|PROLOGUE\b|EPILOGUE\b|PART\b|BOOK\b|§|\[\d+\]|[A-Z][A-Z0-9 .,'\-]{3,}\.?$)/;
+
+  // Pre-scan: count distinct no-period letters to decide cluster mode.
+  const noPeriodLetters = new Set();
+  for (const line of lines) {
+    const t = line.trim();
+    if (periodForm.test(t) || bracketForm.test(t)) continue;
+    const m = t.match(noPeriodForm);
+    if (m && m[2].length > 20) noPeriodLetters.add(m[1]);
+  }
+  const inCluster = noPeriodLetters.size >= 2;
+
+  let inNotesScope = false;
+  // Accumulator for a multi-paragraph bracketed def: apr translations often
+  // wrap a single note's text across several blank-separated paragraphs.
+  // When in NOTES scope, every line that isn't a new def or section boundary
+  // is folded into the current def.
+  let currentDef = null;
+  const flushCurrentDef = () => {
+    if (currentDef) {
+      footnotes.push(currentDef);
+      currentDef = null;
+    }
+  };
+
   for (const line of lines) {
     const trimmed = line.trim();
-    // Match footnote definitions: lines starting with a single letter followed by a period and space
-    const fnMatch = trimmed.match(/^([a-o])\.\s+(.+)$/);
-    if (fnMatch && fnMatch[2].length > 20) {
-      footnotes.push({ letter: fnMatch[1], text: fnMatch[2] });
-    } else {
+
+    if (notesHeader.test(trimmed)) {
+      flushCurrentDef();
+      inNotesScope = true;
       bodyLines.push(line);
+      continue;
     }
+
+    // Section boundaries close the NOTES scope.
+    if (inNotesScope && sectionBoundary.test(trimmed)) {
+      flushCurrentDef();
+      inNotesScope = false;
+    }
+
+    // Period form — always accepted
+    const mP = trimmed.match(periodForm);
+    if (mP && mP[2].length > 20) {
+      flushCurrentDef();
+      footnotes.push({ letter: mP[1], text: mP[2] });
+      continue;
+    }
+
+    // Bracketed form — always accepted (unambiguous: paragraph markers use digits).
+    // In NOTES scope, accept even very short first lines since continuation
+    // paragraphs will fill in the rest.
+    const mB = trimmed.match(bracketForm);
+    if (mB && (mB[2].length > 20 || inNotesScope)) {
+      flushCurrentDef();
+      currentDef = { letter: mB[1], text: mB[2] };
+      continue;
+    }
+    // Also accept bare `[letter]` with no trailing text in NOTES scope
+    // (e.g. ursmar `[k]` on its own line).
+    const mBempty = trimmed.match(/^\[([a-o])\]\s*$/);
+    if (mBempty && inNotesScope) {
+      flushCurrentDef();
+      currentDef = { letter: mBempty[1], text: '' };
+      continue;
+    }
+
+    // No-period form — gated by context to avoid body-paragraph false positives
+    const mN = trimmed.match(noPeriodForm);
+    if (mN && mN[2].length > 20) {
+      const letter = mN[1];
+      const rest = mN[2];
+      const safeLetter = letter !== 'a' && letter !== 'i';
+      const startsWithCapital = /^[A-Z]/.test(rest);
+      if (inNotesScope || inCluster || safeLetter || startsWithCapital) {
+        flushCurrentDef();
+        footnotes.push({ letter, text: rest });
+        continue;
+      }
+    }
+
+    // Continuation line for the current bracketed def
+    if (currentDef && inNotesScope) {
+      if (trimmed.length > 0) {
+        currentDef.text = currentDef.text
+          ? `${currentDef.text} ${trimmed}`
+          : trimmed;
+      }
+      continue;
+    }
+
+    bodyLines.push(line);
   }
+  flushCurrentDef();
 
   return { bodyText: bodyLines.join('\n'), footnotes };
 }
 
-/** Link inline footnote markers (single letters a-o preceded by space) to their definitions */
+/** Link inline footnote markers `[a]`, `[b]`, … to their definitions and
+ *  append a notes block. Only links letters that have a corresponding
+ *  footnote definition, so orphan markers render as plain text rather than
+ *  broken links.
+ *
+ *  The bracketed `[letter]` convention is the only inline marker format
+ *  preserved across translations; bare single letters are ambiguous with
+ *  English words (article "a", pronoun "i") and are intentionally not linked.
+ *  Paragraph markers like `[1]` use digits so they don't collide.
+ */
 function linkFootnoteRefs(html, footnotes) {
-  if (footnotes.length === 0) return html;
-
-  const letters = new Set(footnotes.map(f => f.letter));
-
-  // Replace inline references: " a " or " a," or " a;" etc. — single letter surrounded by word boundary
-  for (const letter of letters) {
-    // Match the letter when preceded by whitespace and followed by whitespace or punctuation
-    // Be careful not to match normal words
-    const regex = new RegExp(`(\\s)${letter}(\\s|,|;|\\.|:)`, 'g');
-    html = html.replace(regex, `$1<sup class="fn-ref" id="fnref-${letter}"><a href="#fn-${letter}">${letter}</a></sup>$2`);
-  }
-
-  // Build footnote section
-  let fnHtml = '<div class="footnotes"><h4>Notes</h4>';
-  for (const fn of footnotes) {
-    fnHtml += `<div class="footnote" id="fn-${fn.letter}"><span class="fn-num"><a href="#fnref-${fn.letter}" style="color: var(--rubric); text-decoration: none;">${fn.letter}.</a></span> ${escapeHtml(fn.text)}</div>`;
-  }
-  fnHtml += '</div>';
-
-  return html + fnHtml;
+  return appendFootnoteBlock(linkInlineBracketRefs(html, footnotes, ''), footnotes, '');
 }
 
 /** Link footnotes with a unique suffix to avoid ID collisions across chunks */
 function linkFootnoteRefsWithSuffix(html, footnotes, suffix) {
+  return appendFootnoteBlock(linkInlineBracketRefs(html, footnotes, suffix), footnotes, suffix);
+}
+
+// Files with multiple NOTES sections reuse letters (e.g. zeno has three `a`
+// definitions). Pair inline refs to defs in reading order using per-letter
+// occurrence counts, so the Nth `[a]` ref links to the Nth `a` def.
+function linkInlineBracketRefs(html, footnotes, suffix) {
   if (footnotes.length === 0) return html;
-
-  const letters = new Set(footnotes.map(f => f.letter));
-
-  for (const letter of letters) {
-    const regex = new RegExp(`(\\s)${letter}(\\s|,|;|\\.|:)`, 'g');
-    html = html.replace(regex, `$1<sup class="fn-ref" id="fnref-${letter}${suffix}"><a href="#fn-${letter}${suffix}">${letter}</a></sup>$2`);
-  }
-
-  let fnHtml = '<div class="footnotes"><h4>Notes</h4>';
+  const defCountsByLetter = {};
   for (const fn of footnotes) {
-    fnHtml += `<div class="footnote" id="fn-${fn.letter}${suffix}"><span class="fn-num"><a href="#fnref-${fn.letter}${suffix}" style="color: var(--rubric); text-decoration: none;">${fn.letter}.</a></span> ${escapeHtml(fn.text)}</div>`;
+    defCountsByLetter[fn.letter] = (defCountsByLetter[fn.letter] || 0) + 1;
+  }
+  const refCounts = {};
+  return html.replace(/\[([a-o])\]/g, (match, letter) => {
+    if (!defCountsByLetter[letter]) return match;
+    const n = (refCounts[letter] = (refCounts[letter] || 0) + 1);
+    if (n > defCountsByLetter[letter]) return match; // orphan inline ref
+    const occ = n > 1 ? `-${n}` : '';
+    const refId = `fnref-${letter}${suffix}${occ}`;
+    const fnId = `fn-${letter}${suffix}${occ}`;
+    return `<sup class="fn-ref" id="${refId}"><a href="#${fnId}">${letter}</a></sup>`;
+  });
+}
+
+function appendFootnoteBlock(html, footnotes, suffix) {
+  if (footnotes.length === 0) return html;
+  let fnHtml = '<div class="footnotes"><h4>Notes</h4>';
+  const letterCounts = {};
+  for (const fn of footnotes) {
+    const n = (letterCounts[fn.letter] = (letterCounts[fn.letter] || 0) + 1);
+    const occ = n > 1 ? `-${n}` : '';
+    const fnId = `fn-${fn.letter}${suffix}${occ}`;
+    const refId = `fnref-${fn.letter}${suffix}${occ}`;
+    fnHtml += `<div class="footnote" id="${fnId}"><span class="fn-num"><a href="#${refId}" style="color: var(--rubric); text-decoration: none;">${fn.letter}.</a></span> ${escapeHtml(fn.text)}</div>`;
   }
   fnHtml += '</div>';
-
   return html + fnHtml;
+}
+
+/** Render a saint's full article.
+ *
+ *  Parts are concatenated *before* footnote extraction so inline refs in one
+ *  part can resolve to definitions in a later part (chunk boundaries in the
+ *  scrape sometimes split a notes section — the body ends up in chunk N and
+ *  the `NOTES.` block in chunk N+1). Per-letter occurrence counting in
+ *  appendFootnoteBlock/linkInlineBracketRefs keeps duplicate letters from
+ *  multiple NOTES sections unique.
+ */
+function renderSaintArticle(saint) {
+  const combinedBody = saint.parts
+    .map(p => p.body.replace(/<!--.*?-->\n*/g, ''))
+    .join('\n\n');
+  const { bodyText, footnotes } = extractFootnotes(combinedBody);
+  let articleHtml = mdToHtml(bodyText);
+  if (footnotes.length > 0) {
+    articleHtml = linkFootnoteRefsWithSuffix(articleHtml, footnotes, '');
+  }
+  return articleHtml;
+}
+
+/** Render a facing-column verse block: original (left) beside translation (right). */
+function renderVerseCols(latinLines, englishLines) {
+  const trimEdges = (arr) => {
+    let a = arr.slice();
+    while (a.length && a[0].trim() === '') a.shift();
+    while (a.length && a[a.length - 1].trim() === '') a.pop();
+    return a;
+  };
+  const col = (lines, label, langClass) => {
+    let out = `<div class="verse-col ${langClass}"><div class="verse-col-label">${label}</div>`;
+    for (const raw of trimEdges(lines)) {
+      const t = raw.trim();
+      out += t === ''
+        ? '<div class="verse-gap"></div>'
+        : `<div class="verse-line">${escapeHtml(t)}</div>`;
+    }
+    return out + '</div>';
+  };
+  return `<div class="verse-cols">${col(latinLines, 'Latin', 'verse-latin')}${col(englishLines, 'English', 'verse-english')}</div>\n`;
 }
 
 /** Convert markdown-ish text to simple HTML */
@@ -221,9 +394,29 @@ function mdToHtml(text) {
   const lines = text.split('\n');
   let html = '';
   let inParagraph = false;
+  let verseMode = null; // null | 'latin' | 'english'
+  let verseLatin = [];
+  let verseEnglish = [];
 
   for (const line of lines) {
     const trimmed = line.trim();
+
+    // Facing-column verse block: "::: versecols" … "|||" … ":::"
+    if (verseMode === null && trimmed === '::: versecols') {
+      if (inParagraph) { html += '</p>\n'; inParagraph = false; }
+      verseMode = 'latin'; verseLatin = []; verseEnglish = [];
+      continue;
+    }
+    if (verseMode !== null) {
+      if (trimmed === '|||') { verseMode = 'english'; continue; }
+      if (trimmed === ':::') {
+        html += renderVerseCols(verseLatin, verseEnglish);
+        verseMode = null;
+        continue;
+      }
+      (verseMode === 'latin' ? verseLatin : verseEnglish).push(line);
+      continue;
+    }
 
     // Skip the repeated header lines that appear in every chunk
     if (trimmed === 'Acta Sanctorum of the Bollandists') continue;
@@ -340,6 +533,7 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
   ${FONT_LINKS}
   <link rel="stylesheet" href="${cssPath}">
   <link rel="stylesheet" href="${cssPath.replace('style.css', '')}pagefind/pagefind-ui.css">
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <div class="page">
@@ -352,6 +546,32 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
       ${prev}
       ${next}
     </nav>
+    <section class="site-feedback">
+      <h2>Feedback</h2>
+      <p>Noticed an error, have a suggestion, or want to share a thought? Let me know.</p>
+      <form action="https://formspree.io/f/mwvwdjpz" method="POST">
+        <label>
+          <span>Your email (optional)</span>
+          <input type="email" name="email" placeholder="you@example.com">
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <input type="hidden" name="_page" value="${escapeHtml(title)}">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section class="site-support">
+      <h2>Support the Translation</h2>
+      <p>The Acta Sanctorum has never been available in English. This site is translating all of it: January through June are done, and the calendar runs to November&nbsp;10, where the Bollandists stopped in 1940. The scholarship pipeline is built; what remains is a compute bill. Contributions go directly to translating more of the calendar.</p>
+      <div class="support-tiers">
+        <a href="https://buy.stripe.com/6oUcN4fPfb5cfQS6Lh4gg06" target="_blank" rel="noopener">$10 &mdash; a feast day</a>
+        <a href="https://buy.stripe.com/fZu14mdH74GObAC4D94gg07" target="_blank" rel="noopener">$300 &mdash; a month</a>
+        <a href="https://buy.stripe.com/cNi5kC8mN2yG5ce6Lh4gg0b" target="_blank" rel="noopener">$10/mo &mdash; patron</a>
+      </div>
+      <p class="support-fine">The Acta was a funded enterprise for three centuries; the translation runs the same way. Everything here is free and stays free whether you give or not. Wroot Press is a small independent press &mdash; an imprint of Wroot Labs LLC, not a charity. Contributions aren't tax-deductible; they buy compute.</p>
+    </section>
     <footer class="site-footer">
       Latin source: <a href="https://www.heiligenlexikon.de/ActaSanctorum/" target="_blank">Heiligenlexikon.de</a><br>
       English translation by Wilson Pruitt
@@ -480,7 +700,13 @@ function collectMarDays() {
   return days;
 }
 
-/** Collect saints from split files (Vol II and February) */
+/** Collect saints from split files (Vol II and February onward).
+ *
+ *  Files that share a slug (because the saint's sections were split across
+ *  non-contiguous chunks) are merged into one saint with multiple parts in
+ *  file order, so the renderer can concatenate them. Without this, the
+ *  last file silently overwrote the earlier one.
+ */
 function collectSplitSaints(baseDir, dayStart, dayEnd) {
   const days = [];
 
@@ -493,24 +719,33 @@ function collectSplitSaints(baseDir, dayStart, dayEnd) {
     const files = fs.readdirSync(saintsDir).filter(f => f.endsWith('.md') && !f.includes('preamble')).sort();
     if (files.length === 0) continue;
 
-    const saints = [];
+    const saintsBySlug = new Map();
+    const slugOrder = [];
     for (const file of files) {
       const content = fs.readFileSync(path.join(saintsDir, file), 'utf-8');
       const { meta, body } = parseFrontmatter(content, file);
       const displayName = meta.saint || 'Unknown';
       const slug = meta.slug || slugify(displayName);
 
-      saints.push({
-        name: displayName,
-        displayName,
-        slug,
-        day: d,
-        parts: [{ file, meta, body }],
-        totalWords: body.split(/\s+/).length,
-        sourceUrl: null,
-      });
+      if (saintsBySlug.has(slug)) {
+        const existing = saintsBySlug.get(slug);
+        existing.parts.push({ file, meta, body });
+        existing.totalWords += body.split(/\s+/).length;
+      } else {
+        saintsBySlug.set(slug, {
+          name: displayName,
+          displayName,
+          slug,
+          day: d,
+          parts: [{ file, meta, body }],
+          totalWords: body.split(/\s+/).length,
+          sourceUrl: null,
+        });
+        slugOrder.push(slug);
+      }
     }
 
+    const saints = slugOrder.map(s => saintsBySlug.get(s));
     if (saints.length > 0) {
       days.push({ day: d, saints, saintCount: saints.length });
     }
@@ -608,6 +843,9 @@ function buildSite() {
   janV2Days.sort((a, b) => a.day - b.day);
   const febDays = collectSplitSaints('feb', 1, 29);
   const marDays = collectSplitSaints('mar', 1, 31);
+  const aprDays = collectSplitSaints('apr', 1, 30);
+  const mayDays = collectSplitSaints('may', 1, 31);
+  const junDays = collectSplitSaints('jun', 1, 30);
   const headnotes = loadHeadnotes();
   const parisPages = loadParisPages();
 
@@ -627,6 +865,12 @@ function buildSite() {
   const febDayCount = febDays.length;
   const marSaints = marDays.reduce((s, d) => s + d.saintCount, 0);
   const marDayCount = marDays.length;
+  const aprSaints = aprDays.reduce((s, d) => s + d.saintCount, 0);
+  const aprDayCount = aprDays.length;
+  const maySaints = mayDays.reduce((s, d) => s + d.saintCount, 0);
+  const mayDayCount = mayDays.length;
+  const junSaints = junDays.reduce((s, d) => s + d.saintCount, 0);
+  const junDayCount = junDays.length;
   const landingBody = `
     <div class="landing">
       <div class="landing-ornament">&#10022; &#10022; &#10022;</div>
@@ -642,7 +886,7 @@ function buildSite() {
       <div class="landing-description">
         A new English translation of the <em>Acta Sanctorum</em>, the monumental Bollandist
         collection of hagiographic texts arranged by liturgical feast day. This edition
-        presents ${totalSaints + febSaints} saint entries across January, February, and March,
+        presents ${totalSaints + febSaints + marSaints + aprSaints + maySaints + junSaints} saint entries across January through ${junSaints > 0 ? 'June' : (maySaints > 0 ? 'May' : (aprSaints > 0 ? 'April' : 'March'))},
         translated from the Latin text digitized by the &Ouml;kumenisches Heiligenlexikon.
       </div>
       <div class="month-grid">
@@ -659,9 +903,24 @@ function buildSite() {
           <a href="march/index.html">Martius &middot; March</a>
           <span class="vol-count">${marSaints > 0 ? marSaints + ' entries' : 'in progress'}</span>
         </div>
-        <div class="month-link disabled">Aprilis <span class="vol-count">forthcoming</span></div>
-        <div class="month-link disabled">Maius <span class="vol-count">forthcoming</span></div>
-        <div class="month-link disabled">Iunius <span class="vol-count">forthcoming</span></div>
+        ${aprSaints > 0
+          ? `<div class="month-link">
+          <a href="april/index.html">Aprilis &middot; April</a>
+          <span class="vol-count">${aprSaints} entries</span>
+        </div>`
+          : `<div class="month-link disabled">Aprilis <span class="vol-count">in progress</span></div>`}
+        ${maySaints > 0
+          ? `<div class="month-link">
+          <a href="may/index.html">Maius &middot; May</a>
+          <span class="vol-count">${maySaints} entries</span>
+        </div>`
+          : `<div class="month-link disabled">Maius <span class="vol-count">forthcoming</span></div>`}
+        ${junSaints > 0
+          ? `<div class="month-link">
+          <a href="june/index.html">Iunius &middot; June</a>
+          <span class="vol-count">${junSaints} entries</span>
+        </div>`
+          : `<div class="month-link disabled">Iunius <span class="vol-count">forthcoming</span></div>`}
         <div class="month-link disabled">Iulius <span class="vol-count">forthcoming</span></div>
         <div class="month-link disabled">Augustus <span class="vol-count">forthcoming</span></div>
         <div class="month-link disabled">September <span class="vol-count">forthcoming</span></div>
@@ -671,6 +930,12 @@ function buildSite() {
       </div>
       <div class="search-container">
         <div id="search"></div>
+      </div>
+      <div style="max-width: 540px; margin: 3rem auto 0; padding: 1.6rem 2rem; background: var(--parchment-deep); border: 1px solid var(--rule); text-align: center;">
+        <div style="font-family: var(--font-ui); font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faint);">Now Available</div>
+        <div style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; color: var(--rubric); margin: 0.5rem 0 0.4rem;">A Daily Devotional</div>
+        <div style="font-family: var(--font-body); font-size: 0.9rem; color: var(--ink-light); line-height: 1.5;">One saint for each day of the year, drawn from these texts &mdash; published as a paperback.</div>
+        <a href="https://www.amazon.com/dp/B0H6KPXHVY" style="display: inline-block; margin-top: 1rem; font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--rubric); text-decoration: none; border-bottom: 1px solid var(--rubric);">View on Amazon &rarr;</a>
       </div>
       <div style="text-align:center; margin-top: 2.5rem;">
         <a href="about.html" style="font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faint); text-decoration: none; border-bottom: 1px dotted var(--rule);">About this translation</a>
@@ -790,21 +1055,7 @@ function buildSite() {
     for (let si = 0; si < day.saints.length; si++) {
       const saint = day.saints[si];
 
-      // Assemble all chunks — render footnotes per-chunk to avoid letter collisions
-      let articleHtml = '';
-      let fnCounter = 0;
-      for (const part of saint.parts) {
-        const cleanBody = part.body.replace(/<!--.*?-->\n?/g, '');
-        const { bodyText, footnotes } = extractFootnotes(cleanBody);
-        let chunkHtml = mdToHtml(bodyText);
-        if (footnotes.length > 0) {
-          // Use a unique suffix per chunk to avoid ID collisions
-          const suffix = fnCounter > 0 ? `-${fnCounter}` : '';
-          chunkHtml = linkFootnoteRefsWithSuffix(chunkHtml, footnotes, suffix);
-          fnCounter++;
-        }
-        articleHtml += chunkHtml;
-      }
+      const articleHtml = renderSaintArticle(saint);
 
       const genre = guessGenre(saint);
       const sourceLink = saint.sourceUrl
@@ -949,9 +1200,7 @@ function buildSite() {
       // Saint pages
       for (let si = 0; si < day.saints.length; si++) {
         const saint = day.saints[si];
-        const { bodyText, footnotes } = extractFootnotes(saint.parts[0]?.body || '');
-        let articleHtml = mdToHtml(bodyText);
-        articleHtml = linkFootnoteRefs(articleHtml, footnotes);
+        const articleHtml = renderSaintArticle(saint);
         const genre = guessGenre(saint);
 
         const saintBody = `
@@ -1023,7 +1272,7 @@ function buildSite() {
         breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> March',
         body: marBody,
         prevLink: { href: '../february/index.html', label: 'February' },
-        nextLink: null,
+        nextLink: aprDays.length > 0 ? { href: '../april/index.html', label: 'April' } : null,
       })
     );
 
@@ -1071,9 +1320,7 @@ function buildSite() {
       // Saint pages
       for (let si = 0; si < day.saints.length; si++) {
         const saint = day.saints[si];
-        const { bodyText, footnotes } = extractFootnotes(saint.parts[0]?.body || '');
-        let articleHtml = mdToHtml(bodyText);
-        articleHtml = linkFootnoteRefs(articleHtml, footnotes);
+        const articleHtml = renderSaintArticle(saint);
         const genre = guessGenre(saint);
 
         const saintBody = `
@@ -1096,6 +1343,365 @@ function buildSite() {
             : { href: 'index.html', label: `${day.day} March` },
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} March` } : null),
+        }));
+      }
+    }
+  }
+
+  // ── April Pages ──
+  if (aprDays.length > 0) {
+    const APRIL_DATES = [
+      'Kalendis Aprilis', 'IV Non. Apr.', 'III Non. Apr.', 'Prid. Non. Apr.',
+      'Nonis Aprilis', 'VIII Id. Apr.', 'VII Id. Apr.', 'VI Id. Apr.',
+      'V Id. Apr.', 'IV Id. Apr.', 'III Id. Apr.', 'Prid. Id. Apr.',
+      'Idibus Aprilis', 'XVIII Kal. Mai.', 'XVII Kal. Mai.', 'XVI Kal. Mai.',
+      'XV Kal. Mai.', 'XIV Kal. Mai.', 'XIII Kal. Mai.', 'XII Kal. Mai.',
+      'XI Kal. Mai.', 'X Kal. Mai.', 'IX Kal. Mai.', 'VIII Kal. Mai.',
+      'VII Kal. Mai.', 'VI Kal. Mai.', 'V Kal. Mai.', 'IV Kal. Mai.',
+      'III Kal. Mai.', 'Prid. Kal. Mai.'
+    ];
+
+    // April index
+    let aprBody = `
+      <div class="section-header">
+        <h1>Aprilis</h1>
+        <div class="subtitle">April &middot; Days 1&ndash;${aprDayCount} &middot; ${aprSaints} entries${aprDayCount < 30 ? ' (in progress)' : ''}</div>
+        <div class="section-rule"></div>
+      </div>
+      <div class="day-grid">`;
+
+    for (const day of aprDays) {
+      const dp = String(day.day).padStart(2, '0');
+      const romanDate = APRIL_DATES[day.day - 1] || '';
+      const topSaints = day.saints.slice(0, 5).map(s => s.displayName).join(', ');
+      const more = day.saintCount > 5 ? ` + ${day.saintCount - 5} more` : '';
+      aprBody += `
+        <div class="day-card">
+          <h3><a href="day-${dp}/index.html">${day.day} April</a></h3>
+          <div class="saint-preview">${romanDate} &middot; ${day.saintCount} entries: ${escapeHtml(topSaints)}${more}</div>
+        </div>`;
+    }
+    aprBody += '</div>';
+
+    fs.mkdirSync(path.join(SITE_DIR, 'april'), { recursive: true });
+    fs.writeFileSync(
+      path.join(SITE_DIR, 'april/index.html'),
+      htmlPage({
+        title: 'April',
+        cssPath: '../style.css',
+        breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> April',
+        body: aprBody,
+        prevLink: { href: '../march/index.html', label: 'March' },
+        nextLink: mayDays.length > 0 ? { href: '../may/index.html', label: 'May' } : null,
+      })
+    );
+
+    // April day + saint pages (same structure as January/February/March)
+    for (let di = 0; di < aprDays.length; di++) {
+      const day = aprDays[di];
+      const dp = String(day.day).padStart(2, '0');
+      const dayDir = path.join(SITE_DIR, 'april', `day-${dp}`);
+      fs.mkdirSync(dayDir, { recursive: true });
+
+      let dayBody = `
+        <div class="day-header">
+          <h2>${day.day} April</h2>
+          <div class="day-date">${APRIL_DATES[day.day - 1] || ''} &middot; ${day.saintCount} entries</div>
+          <div class="section-rule"></div>
+        </div>
+        <ul class="saint-list">`;
+
+      for (const saint of day.saints) {
+        const genre = guessGenre(saint);
+        dayBody += `
+          <li>
+            <a href="${saint.slug}.html">${escapeHtml(saint.displayName)}</a>
+            ${genreTagHtml(genre)}
+          </li>`;
+      }
+      dayBody += '</ul>';
+
+      const prevDay = di > 0 ? aprDays[di - 1] : null;
+      const nextDay = di < aprDays.length - 1 ? aprDays[di + 1] : null;
+
+      fs.writeFileSync(path.join(dayDir, 'index.html'), htmlPage({
+        title: `${day.day} April`,
+        cssPath: '../../style.css',
+        breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">April</a><span class="sep">&rsaquo;</span> ${day.day} April`,
+        body: dayBody,
+        prevLink: prevDay
+          ? { href: `../day-${String(prevDay.day).padStart(2, '0')}/index.html`, label: `${prevDay.day} April` }
+          : { href: '../index.html', label: 'April' },
+        nextLink: nextDay
+          ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} April` }
+          : null,
+      }));
+
+      // Saint pages
+      for (let si = 0; si < day.saints.length; si++) {
+        const saint = day.saints[si];
+        const articleHtml = renderSaintArticle(saint);
+        const genre = guessGenre(saint);
+
+        const saintBody = `
+          <div class="saint-header">
+            <h1>${escapeHtml(saint.displayName)}</h1>
+            <div class="feast-date">${day.day} April &middot; ${genre}</div>
+            <div class="section-rule"></div>
+          </div>
+          <article class="article">${articleHtml}</article>`;
+
+        const prevSaint = si > 0 ? day.saints[si - 1] : null;
+        const nextSaint = si < day.saints.length - 1 ? day.saints[si + 1] : null;
+
+        fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
+          title: saint.displayName,
+          cssPath: '../../style.css',
+          breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">April</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} Apr</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
+          body: saintBody,
+          prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
+            : { href: 'index.html', label: `${day.day} April` },
+          nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
+            : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} April` } : null),
+        }));
+      }
+    }
+  }
+
+  // ── May Pages ──
+  if (mayDays.length > 0) {
+    const MAY_DATES = [
+      'Kalendis Maii', 'VI Non. Mai.', 'V Non. Mai.', 'IV Non. Mai.',
+      'III Non. Mai.', 'Prid. Non. Mai.', 'Nonis Maii', 'VIII Id. Mai.',
+      'VII Id. Mai.', 'VI Id. Mai.', 'V Id. Mai.', 'IV Id. Mai.',
+      'III Id. Mai.', 'Prid. Id. Mai.', 'Idibus Maii', 'XVII Kal. Iun.',
+      'XVI Kal. Iun.', 'XV Kal. Iun.', 'XIV Kal. Iun.', 'XIII Kal. Iun.',
+      'XII Kal. Iun.', 'XI Kal. Iun.', 'X Kal. Iun.', 'IX Kal. Iun.',
+      'VIII Kal. Iun.', 'VII Kal. Iun.', 'VI Kal. Iun.', 'V Kal. Iun.',
+      'IV Kal. Iun.', 'III Kal. Iun.', 'Prid. Kal. Iun.'
+    ];
+
+    // May index
+    let mayBody = `
+      <div class="section-header">
+        <h1>Maius</h1>
+        <div class="subtitle">May &middot; Days 1&ndash;${mayDayCount} &middot; ${maySaints} entries${mayDayCount < 31 ? ' (in progress)' : ''}</div>
+        <div class="section-rule"></div>
+      </div>
+      <div class="day-grid">`;
+
+    for (const day of mayDays) {
+      const dp = String(day.day).padStart(2, '0');
+      const romanDate = MAY_DATES[day.day - 1] || '';
+      const topSaints = day.saints.slice(0, 5).map(s => s.displayName).join(', ');
+      const more = day.saintCount > 5 ? ` + ${day.saintCount - 5} more` : '';
+      mayBody += `
+        <div class="day-card">
+          <h3><a href="day-${dp}/index.html">${day.day} May</a></h3>
+          <div class="saint-preview">${romanDate} &middot; ${day.saintCount} entries: ${escapeHtml(topSaints)}${more}</div>
+        </div>`;
+    }
+    mayBody += '</div>';
+
+    fs.mkdirSync(path.join(SITE_DIR, 'may'), { recursive: true });
+    fs.writeFileSync(
+      path.join(SITE_DIR, 'may/index.html'),
+      htmlPage({
+        title: 'May',
+        cssPath: '../style.css',
+        breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> May',
+        body: mayBody,
+        prevLink: { href: '../april/index.html', label: 'April' },
+        nextLink: junDays.length > 0 ? { href: '../june/index.html', label: 'June' } : null,
+      })
+    );
+
+    // May day + saint pages (same structure as January/February/March/April)
+    for (let di = 0; di < mayDays.length; di++) {
+      const day = mayDays[di];
+      const dp = String(day.day).padStart(2, '0');
+      const dayDir = path.join(SITE_DIR, 'may', `day-${dp}`);
+      fs.mkdirSync(dayDir, { recursive: true });
+
+      let dayBody = `
+        <div class="day-header">
+          <h2>${day.day} May</h2>
+          <div class="day-date">${MAY_DATES[day.day - 1] || ''} &middot; ${day.saintCount} entries</div>
+          <div class="section-rule"></div>
+        </div>
+        <ul class="saint-list">`;
+
+      for (const saint of day.saints) {
+        const genre = guessGenre(saint);
+        dayBody += `
+          <li>
+            <a href="${saint.slug}.html">${escapeHtml(saint.displayName)}</a>
+            ${genreTagHtml(genre)}
+          </li>`;
+      }
+      dayBody += '</ul>';
+
+      const prevDay = di > 0 ? mayDays[di - 1] : null;
+      const nextDay = di < mayDays.length - 1 ? mayDays[di + 1] : null;
+
+      fs.writeFileSync(path.join(dayDir, 'index.html'), htmlPage({
+        title: `${day.day} May`,
+        cssPath: '../../style.css',
+        breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">May</a><span class="sep">&rsaquo;</span> ${day.day} May`,
+        body: dayBody,
+        prevLink: prevDay
+          ? { href: `../day-${String(prevDay.day).padStart(2, '0')}/index.html`, label: `${prevDay.day} May` }
+          : { href: '../index.html', label: 'May' },
+        nextLink: nextDay
+          ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} May` }
+          : null,
+      }));
+
+      // Saint pages
+      for (let si = 0; si < day.saints.length; si++) {
+        const saint = day.saints[si];
+        const articleHtml = renderSaintArticle(saint);
+        const genre = guessGenre(saint);
+
+        const saintBody = `
+          <div class="saint-header">
+            <h1>${escapeHtml(saint.displayName)}</h1>
+            <div class="feast-date">${day.day} May &middot; ${genre}</div>
+            <div class="section-rule"></div>
+          </div>
+          <article class="article">${articleHtml}</article>`;
+
+        const prevSaint = si > 0 ? day.saints[si - 1] : null;
+        const nextSaint = si < day.saints.length - 1 ? day.saints[si + 1] : null;
+
+        fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
+          title: saint.displayName,
+          cssPath: '../../style.css',
+          breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">May</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} May</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
+          body: saintBody,
+          prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
+            : { href: 'index.html', label: `${day.day} May` },
+          nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
+            : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} May` } : null),
+        }));
+      }
+    }
+  }
+
+  // ── June Pages ──
+  if (junDays.length > 0) {
+    const JUNE_DATES = [
+      'Kalendis Iunii', 'IV Non. Iun.', 'III Non. Iun.', 'Prid. Non. Iun.',
+      'Nonis Iunii', 'VIII Id. Iun.', 'VII Id. Iun.', 'VI Id. Iun.',
+      'V Id. Iun.', 'IV Id. Iun.', 'III Id. Iun.', 'Prid. Id. Iun.',
+      'Idibus Iunii', 'XVIII Kal. Iul.', 'XVII Kal. Iul.', 'XVI Kal. Iul.',
+      'XV Kal. Iul.', 'XIV Kal. Iul.', 'XIII Kal. Iul.', 'XII Kal. Iul.',
+      'XI Kal. Iul.', 'X Kal. Iul.', 'IX Kal. Iul.', 'VIII Kal. Iul.',
+      'VII Kal. Iul.', 'VI Kal. Iul.', 'V Kal. Iul.', 'IV Kal. Iul.',
+      'III Kal. Iul.', 'Prid. Kal. Iul.'
+    ];
+
+    // June index
+    let junBody = `
+      <div class="section-header">
+        <h1>Iunius</h1>
+        <div class="subtitle">June &middot; Days 1&ndash;${junDayCount} &middot; ${junSaints} entries${junDayCount < 30 ? ' (in progress)' : ''}</div>
+        <div class="section-rule"></div>
+      </div>
+      <div class="day-grid">`;
+
+    for (const day of junDays) {
+      const dp = String(day.day).padStart(2, '0');
+      const romanDate = JUNE_DATES[day.day - 1] || '';
+      const topSaints = day.saints.slice(0, 5).map(s => s.displayName).join(', ');
+      const more = day.saintCount > 5 ? ` + ${day.saintCount - 5} more` : '';
+      junBody += `
+        <div class="day-card">
+          <h3><a href="day-${dp}/index.html">${day.day} June</a></h3>
+          <div class="saint-preview">${romanDate} &middot; ${day.saintCount} entries: ${escapeHtml(topSaints)}${more}</div>
+        </div>`;
+    }
+    junBody += '</div>';
+
+    fs.mkdirSync(path.join(SITE_DIR, 'june'), { recursive: true });
+    fs.writeFileSync(
+      path.join(SITE_DIR, 'june/index.html'),
+      htmlPage({
+        title: 'June',
+        cssPath: '../style.css',
+        breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> June',
+        body: junBody,
+        prevLink: { href: '../may/index.html', label: 'May' },
+        nextLink: null,
+      })
+    );
+
+    // June day + saint pages (same structure as January/February/March/April/May)
+    for (let di = 0; di < junDays.length; di++) {
+      const day = junDays[di];
+      const dp = String(day.day).padStart(2, '0');
+      const dayDir = path.join(SITE_DIR, 'june', `day-${dp}`);
+      fs.mkdirSync(dayDir, { recursive: true });
+
+      let dayBody = `
+        <div class="day-header">
+          <h2>${day.day} June</h2>
+          <div class="day-date">${JUNE_DATES[day.day - 1] || ''} &middot; ${day.saintCount} entries</div>
+          <div class="section-rule"></div>
+        </div>
+        <ul class="saint-list">`;
+
+      for (const saint of day.saints) {
+        const genre = guessGenre(saint);
+        dayBody += `
+          <li>
+            <a href="${saint.slug}.html">${escapeHtml(saint.displayName)}</a>
+            ${genreTagHtml(genre)}
+          </li>`;
+      }
+      dayBody += '</ul>';
+
+      const prevDay = di > 0 ? junDays[di - 1] : null;
+      const nextDay = di < junDays.length - 1 ? junDays[di + 1] : null;
+
+      fs.writeFileSync(path.join(dayDir, 'index.html'), htmlPage({
+        title: `${day.day} June`,
+        cssPath: '../../style.css',
+        breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">June</a><span class="sep">&rsaquo;</span> ${day.day} June`,
+        body: dayBody,
+        prevLink: prevDay
+          ? { href: `../day-${String(prevDay.day).padStart(2, '0')}/index.html`, label: `${prevDay.day} June` }
+          : { href: '../index.html', label: 'June' },
+        nextLink: nextDay
+          ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} June` }
+          : null,
+      }));
+
+      for (let si = 0; si < day.saints.length; si++) {
+        const saint = day.saints[si];
+        const articleHtml = renderSaintArticle(saint);
+        const genre = guessGenre(saint);
+
+        const saintBody = `
+          <div class="saint-header">
+            <h1>${escapeHtml(saint.displayName)}</h1>
+            <div class="feast-date">${day.day} June &middot; ${genre}</div>
+            <div class="section-rule"></div>
+          </div>
+          <article class="article">${articleHtml}</article>`;
+
+        const prevSaint = si > 0 ? day.saints[si - 1] : null;
+        const nextSaint = si < day.saints.length - 1 ? day.saints[si + 1] : null;
+
+        fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
+          title: saint.displayName,
+          cssPath: '../../style.css',
+          breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">June</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} June</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
+          body: saintBody,
+          prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
+            : { href: 'index.html', label: `${day.day} June` },
+          nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
+            : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} June` } : null),
         }));
       }
     }
@@ -1148,6 +1754,51 @@ function buildSite() {
       });
     }
   }
+  // Add April saints
+  for (const day of aprDays) {
+    const dp = String(day.day).padStart(2, '0');
+    for (const saint of day.saints) {
+      allSaints.push({
+        displayName: saint.displayName,
+        day: day.day,
+        month: 'april',
+        slug: saint.slug,
+        dayPad: dp,
+        genre: guessGenre(saint),
+        words: saint.totalWords || 0,
+      });
+    }
+  }
+  // Add May saints
+  for (const day of mayDays) {
+    const dp = String(day.day).padStart(2, '0');
+    for (const saint of day.saints) {
+      allSaints.push({
+        displayName: saint.displayName,
+        day: day.day,
+        month: 'may',
+        slug: saint.slug,
+        dayPad: dp,
+        genre: guessGenre(saint),
+        words: saint.totalWords || 0,
+      });
+    }
+  }
+  // Add June saints
+  for (const day of junDays) {
+    const dp = String(day.day).padStart(2, '0');
+    for (const saint of day.saints) {
+      allSaints.push({
+        displayName: saint.displayName,
+        day: day.day,
+        month: 'june',
+        slug: saint.slug,
+        dayPad: dp,
+        genre: guessGenre(saint),
+        words: saint.totalWords || 0,
+      });
+    }
+  }
   allSaints.sort((a, b) => {
     // Sort numbers to end, then alphabetically
     const aNum = a.displayName.match(/^\d/);
@@ -1161,7 +1812,7 @@ function buildSite() {
   let indexBody = `
     <div class="section-header">
       <h1>Index of Saints</h1>
-      <div class="subtitle">${allSaints.length} entries &middot; January, February &amp; March</div>
+      <div class="subtitle">${allSaints.length} entries &middot; January&ndash;${junDays.length > 0 ? 'June' : (mayDays.length > 0 ? 'May' : (aprDays.length > 0 ? 'April' : 'March'))}</div>
       <div class="section-rule"></div>
     </div>
     <div style="text-align:center; margin-bottom: 2rem; font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.15em;">`;
@@ -1183,7 +1834,7 @@ function buildSite() {
       currentLetter = letter;
       indexBody += `<h3 id="letter-${letter}" style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; color: var(--rubric); margin: 2rem 0 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--rule);">${letter}</h3>`;
     }
-    const monthLabel = saint.month === 'march' ? 'Mar' : (saint.month === 'february' ? 'Feb' : 'Jan');
+    const monthLabel = saint.month === 'june' ? 'Jun' : (saint.month === 'may' ? 'May' : (saint.month === 'april' ? 'Apr' : (saint.month === 'march' ? 'Mar' : (saint.month === 'february' ? 'Feb' : 'Jan'))));
     const monthPath = saint.month || 'january';
     const wordLabel = saint.words > 1000 ? `${Math.round(saint.words / 1000)}k` : (saint.words > 0 ? `${saint.words}` : '');
     indexBody += `<div style="padding: 0.3rem 0; display: flex; justify-content: space-between; align-items: baseline;">

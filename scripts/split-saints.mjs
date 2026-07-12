@@ -7,9 +7,13 @@
  * Usage: node scripts/split-saints.mjs --source feb/day-16 [--dry-run]
  *        node scripts/split-saints.mjs --all-feb [--dry-run]
  *        node scripts/split-saints.mjs --all-jan-vol2 [--dry-run]
+ *        node scripts/split-saints.mjs --all-mar [--dry-run]
+ *        node scripts/split-saints.mjs --all-apr [--dry-run]
+ *        node scripts/split-saints.mjs --all-may [--dry-run]
+ *        node scripts/split-saints.mjs --all-jun [--dry-run]
  */
 
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -24,20 +28,69 @@ const source = args.find((_, i, a) => a[i - 1] === '--source');
 const allFeb = args.includes('--all-feb');
 const allJanV2 = args.includes('--all-jan-vol2');
 const allMar = args.includes('--all-mar');
+const allApr = args.includes('--all-apr');
+const allMay = args.includes('--all-may');
+const allJun = args.includes('--all-jun');
+const allJul = args.includes('--all-jul');
+
+/**
+ * Remove byte-identical duplicate paragraph blocks within a saint's text.
+ * Blocks are separated by blank lines; a block is dropped if an earlier block
+ * has the same normalized text and that normalized text is >= 80 chars (long
+ * enough that a coincidental legitimate repeat is effectively impossible).
+ * Keeps the first occurrence. Inline [margin notes] are ignored when comparing.
+ */
+function dedupeBlocks(text) {
+  const blocks = text.split(/\n\s*\n/);
+  const seen = new Set();
+  const out = [];
+  for (const block of blocks) {
+    const key = block.replace(/\[[^\]]*\]/g, ' ').toLowerCase().replace(/[^a-z]/g, '');
+    if (key.length >= 80 && seen.has(key)) continue; // drop duplicate
+    if (key.length >= 80) seen.add(key);
+    out.push(block);
+  }
+  return out.join('\n\n');
+}
 
 /** Detect if a line is a saint entry boundary */
 function isSaintBoundary(line) {
   const t = line.trim();
-  if (t.length < 10 || t.length > 300) return false;
+  // Lower bound rejects stray short lines. The upper bound is only a sanity
+  // ceiling: real entry headers can run long when they enumerate a martyr
+  // group inline (e.g. "ON THE HOLY MARTYRS OF GORCUM: NICHOLAS PICHIUS …" —
+  // 756 chars, listing all nineteen). The old 300-char cap silently rejected
+  // such headers, merging the whole group into the previous saint. False
+  // positives are prevented by the anchored, case-sensitive patterns below,
+  // not by this length limit.
+  if (t.length < 10 || t.length > 2000) return false;
 
-  // "ON ST. NAME" or "ON STS. NAME" or "ON THE HOLY ..."
-  if (/^ON (ST\.|STS\.|SAINT|THE HOLY) /i.test(t)) return true;
+  // The opening keyword ("ON"/"CONCERNING"/"DE") and the honorific must be
+  // UPPERCASE — real entry headers read "ON ST. …", "CONCERNING SS. …",
+  // "DE S. …". Matching these case-sensitively rejects line-wrapped prose that
+  // merely begins with a lowercase "on the holy …" (e.g. "a sermon on the holy
+  // Nun-Martyr Theodosia: copied from a Codex Vatican") — the bug the old
+  // blanket ALL-CAPS check was guarding against — while still allowing the
+  // saint NAME after the honorific to be title-cased. Some months' translators
+  // wrote "ON ST. Quintus" rather than the all-caps "ON ST. QUINTUS"; the old
+  // check silently dropped every such header, collapsing a whole day into one
+  // giant mis-merged entry.
 
-  // "CONCERNING ST." / "CONCERNING THE"
-  if (/^CONCERNING (ST\.|STS\.|THE HOLY) /i.test(t)) return true;
+  // Honorific prefixes that open a saint entry. Besides ST./STS./SAINT we must
+  // also catch abbreviated "S."/"SS.", Blessed ("B."/"BB."/"BL."/"BLESSED") and
+  // Venerable ("VEN."/"VENERABLE") forms — otherwise those entries (e.g.
+  // "ON B. ÆMILIANA…", "ON S. PETER CÆLESTINE") are missed and accrete into the
+  // previous saint, producing giant mis-merged pages.
+  const HONORIFIC = '(ST\\.|STS\\.|S\\.|SS\\.|SAINT|SAINTS|B\\.|BB\\.|BL\\.|BLESSED|VEN\\.|VENERABLE|THE HOLY|THE BLESSED)';
+
+  // "ON ST. NAME" / "ON B. NAME" / "ON THE HOLY ..." etc. (case-sensitive prefix)
+  if (new RegExp(`^ON ${HONORIFIC} `).test(t)) return true;
+
+  // "CONCERNING ST." / "CONCERNING THE HOLY" etc.
+  if (new RegExp(`^CONCERNING ${HONORIFIC} `).test(t)) return true;
 
   // "DE S." or "DE SS." (Latin)
-  if (/^DE S[S]?\. /i.test(t)) return true;
+  if (/^DE S[S]?\. /.test(t)) return true;
 
   // NOTE: "LIFE OF", "ACTS OF", "MIRACLES OF", "TRANSLATION OF", "HISTORY OF"
   // are NOT treated as new saint boundaries — they are sub-sections within
@@ -51,19 +104,31 @@ function isSaintBoundary(line) {
 function extractSaintName(line) {
   let name = line.trim();
   // Remove all known prefixes
-  name = name.replace(/^(ON |CONCERNING |DE |LIFE OF |ACTS OF |PASSION OF |MARTYRDOM OF |TRANSLATION OF |MIRACLES OF |HISTORY OF )(ST\.|STS\.|SS\.|S\.|SAINT |BLESSED |B\. |THE HOLY |THE MARTYRDOM |THE PASSION |THE TRANSLATION |THE FINDING |THE DISCOVERY |THE )\s*/i, '');
-  // Clean up remaining "OF" prefix from patterns like "ACTS OF THE MARTYRDOM OF ST. X"
-  name = name.replace(/^(ST\.|STS\.|SAINT |BLESSED |B\. )\s*/i, '');
+  name = name.replace(/^(ON |CONCERNING |DE |LIFE OF |ACTS OF |PASSION OF |MARTYRDOM OF |TRANSLATION OF |MIRACLES OF |HISTORY OF )(ST\.|STS\.|SS\.|S\.|SAINT |SAINTS |BLESSED |B\. |BB\. |BL\. |VEN\. |VENERABLE |THE HOLY |THE BLESSED |THE MARTYRDOM |THE PASSION |THE TRANSLATION |THE FINDING |THE DISCOVERY |THE )\s*/i, '');
+  // Clean up remaining honorific prefix from patterns like "ACTS OF THE MARTYRDOM OF ST. X"
+  name = name.replace(/^(ST\.|STS\.|SS\.|S\.|SAINT |SAINTS |BLESSED |B\. |BB\. |BL\. |VEN\. |VENERABLE )\s*/i, '');
+  // Cut author/provenance attribution that runs onto the name without a comma,
+  // e.g. "ADALBERT FROM A MONK OF TRIER…" → "ADALBERT", "JUDE THE APOSTLE FROM
+  // THE LXXII DISCIPLES" → "JUDE THE APOSTLE".
+  name = name.replace(/\s+(FROM|BY|WRITTEN BY|AUTHORE|EX)\s+.*$/i, '');
+  // Cut inline group enumerations: a colon or semicolon separates the group
+  // name from the list of individuals ("MARTYRS OF GORCUM: NICHOLAS PICHIUS
+  // …; HIERONYMUS …" → "Martyrs of Gorcum").
+  name = name.split(/[:;]/)[0].trim();
   // Remove trailing period
   name = name.replace(/\.\s*$/, '');
   // Remove location info after comma (keep first part)
   // e.g. "JULIANA, VIRGIN OF NICOMEDIA AND MARTYR, AT BRUSSELS" → "Juliana"
-  // But keep compound names like "FAUSTINIANUS AND IUVENTIA"
-  const parts = name.split(',');
-  name = parts[0].trim();
+  // But keep compound names like "FAUSTINIANUS AND IUVENTIA".
+  // Skip when the name starts with a digit so thousands separators in numbers
+  // like "16,000 Soldiers" are not mistaken for a location comma.
+  if (!/^\d/.test(name)) {
+    const parts = name.split(',');
+    name = parts[0].trim();
+  }
   // Title case, preserving Roman numerals
   name = name.split(' ').map(w => {
-    if (['AND', 'OF', 'THE', 'AT', 'IN'].includes(w)) return w.toLowerCase();
+    if (['AND', 'OF', 'THE', 'AT', 'IN', 'OR'].includes(w)) return w.toLowerCase();
     // Keep Roman numerals uppercase
     if (/^[IVXLCDM]+\.?$/.test(w)) return w.replace('.', '');
     return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
@@ -77,7 +142,11 @@ function extractSaintName(line) {
 }
 
 function slugify(name) {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const lig = { 'æ': 'ae', 'œ': 'oe', 'ø': 'o', 'ß': 'ss', 'ð': 'd', 'þ': 'th' };
+  return name.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')     // strip combining accents (é→e)
+    .replace(/[æœøßðþ]/g, (c) => lig[c] || c)              // transliterate ligatures (æ→ae)
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 /** Split a day's translations into saint entries */
@@ -151,6 +220,12 @@ async function splitDay(basePath) {
     }
   }
 
+  // Remove byte-identical duplicate paragraph blocks within each saint.
+  // Guards against the duplicate-translation artifact (a passage emitted twice
+  // by the translation agent, or duplicated during chunk/part merging). Only
+  // long blocks (>=80 normalized chars) are deduped, so a commentary [1] and a
+  // Life [1] — which differ in wording — are never collapsed; keeps first.
+  for (const s of final) s.text = dedupeBlocks(s.text);
   const saints2 = final;
 
   // Extract day number from basePath
@@ -169,6 +244,11 @@ async function splitDay(basePath) {
   // Write saint files
   const saintsDir = join(transDir, 'saints');
   await mkdir(saintsDir, { recursive: true });
+  // Clear stale saint files first — re-runs can change slugs (e.g. after a
+  // re-scrape), and writing by index+slug would otherwise leave orphans behind.
+  for (const f of await readdir(saintsDir)) {
+    if (f.endsWith('.md')) await rm(join(saintsDir, f));
+  }
 
   for (let i = 0; i < saints2.length; i++) {
     const s = saints2[i];
@@ -207,6 +287,32 @@ async function main() {
     for (let d = 1; d <= 31; d++) {
       const dp = String(d).padStart(2, '0');
       total += await splitDay(`mar/day-${dp}`);
+    }
+  } else if (allApr) {
+    for (let d = 1; d <= 30; d++) {
+      const dp = String(d).padStart(2, '0');
+      total += await splitDay(`apr/day-${dp}`);
+    }
+  } else if (allMay) {
+    for (let d = 1; d <= 31; d++) {
+      const dp = String(d).padStart(2, '0');
+      total += await splitDay(`may/day-${dp}`);
+    }
+  } else if (allJun) {
+    for (let d = 1; d <= 30; d++) {
+      const dp = String(d).padStart(2, '0');
+      total += await splitDay(`jun/day-${dp}`);
+    }
+  } else if (allJul) {
+    // Only split days that actually have translations (July is being filled
+    // in chronologically; re-running this after more days land is safe).
+    for (let d = 1; d <= 31; d++) {
+      const dp = String(d).padStart(2, '0');
+      const dir = join(ROOT, 'src', 'translations', 'jul', `day-${dp}`);
+      if (!existsSync(dir)) continue;
+      const files = (await readdir(dir)).filter(f => /^\d{4}-jul-day-\d{2}\.md$/.test(f));
+      if (files.length === 0) continue;
+      total += await splitDay(`jul/day-${dp}`);
     }
   }
 

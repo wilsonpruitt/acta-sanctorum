@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Agent(general-purpose)",
+      "Write(path:/Users/wilsonpruitt/acta-sanctorum/src/translations/**)",
+      "Edit(path:/Users/wilsonpruitt/acta-sanctorum/src/translations/**)",
+      "Read(path:/Users/wilsonpruitt/acta-sanctorum/**)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}

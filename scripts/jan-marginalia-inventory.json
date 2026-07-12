@@ -1,0 +1,1068 @@
+{
+  "generated_at": "2026-05-24T02:57:27.474Z",
+  "volume": "jan-vol1",
+  "stats": {
+    "chunks_with_marginalia": 34,
+    "chunks_needing_work": 5,
+    "total_latin_marginalia": 139
+  },
+  "batches": [
+    {
+      "chunks": [
+        "01",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "11"
+      ],
+      "total": 38
+    },
+    {
+      "chunks": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "19"
+      ],
+      "total": 39
+    },
+    {
+      "chunks": [
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "27",
+        "28",
+        "29"
+      ],
+      "total": 37
+    },
+    {
+      "chunks": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "total": 25
+    }
+  ],
+  "chunks": [
+    {
+      "prefix": "01",
+      "english_rel": "src/translations/jan-vol1/01-preface-prologus.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/01-de-actis-sanctorvm-eorvmqve-dilvcidatione-et-editione-ad-adm.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 1,
+      "marginalia": [
+        {
+          "phrase": "[Prologus]",
+          "latin_context": "YTENS MONASTERII LÆTIENSIS ORDINIS S. BENEDICTI ABBATEM, ET RELIGIOSISSIMVM EIVS CONVENTVM, IOANNIS BOLLANDI PRÆFATIO. [Prologus] Heribertvs Rosweydvs. Adumbrarat hic olim, Admodvm Reverende Domine, formam magni & ardui, quod moliebatur, operis. Ac",
+          "offset": 222
+        }
+      ]
+    },
+    {
+      "prefix": "03",
+      "english_rel": "src/translations/jan-vol1/03-utility-of-sacred-history.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/03-i-historiae-sacrae-vtilitas.md",
+      "latin_marginalia_count": 5,
+      "english_marginalia_count": 1,
+      "marginalia": [
+        {
+          "phrase": "[Historia sacra vtilis,]",
+          "latin_context": "cilium temporum tædio languentes; id omne multo luculentius in sacra inest historia, vt vere dux vitæ, lux consiliorum, [Historia sacra vtilis,] morum magistra debeat existimari. Nam siue Annales Ecclesiasticos quis voluat, vt qua ratione proseminata primum vera r",
+          "offset": 476
+        },
+        {
+          "phrase": "[Suet. in Iul. cap. 7.]",
+          "latin_context": "pertæsus ignauiam suam, quod nihildum a se memorabile actum esset in ætate qua iam Alexander orbem terrarum subegisset. [Suet. in Iul. cap. 7.] Peruulgatum & illud Themistoclis noctu ambulantis in publico, quod somnum capere non posset, dicentisq; Miltiadis tropæ",
+          "offset": 5797
+        },
+        {
+          "phrase": "[Cic. Tusc. qu. 4.]",
+          "latin_context": "istoclis noctu ambulantis in publico, quod somnum capere non posset, dicentisq; Miltiadis tropæis se a somno suscitari. [Cic. Tusc. qu. 4.] Hoc spectasse Romanos illos antiquos existimo, dum etiam in conuiuiis, canerent ad tibiam clarorum virorum laudes atque",
+          "offset": 5965
+        },
+        {
+          "phrase": "[Ibid.]",
+          "latin_context": "sse Romanos illos antiquos existimo, dum etiam in conuiuiis, canerent ad tibiam clarorum virorum laudes atque virtutes, [Ibid.] vt ex Caronis Originibus refert Cicero. Verum hæc apud Christianos multo & frequentiora sunt & clariora. Quotusquisque",
+          "offset": 6115
+        },
+        {
+          "phrase": "[Matth. 13. 52.]",
+          "latin_context": "se regni celestis pronuntiauit olim Christus Saluator noster, si de thesauro suo scriba doctus vetera proferat ac noua. [Matth. 13. 52.] Thesauros hic & veteres diu abditos, & nouos, profero, etsi nec docte nec eleganter, diligenter tamen certe ac fidelite",
+          "offset": 9031
+        }
+      ]
+    },
+    {
+      "prefix": "04",
+      "english_rel": "src/translations/jan-vol1/04-acts-carefully-recorded.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/04-ii-acta-sanctorum-olim-diligenter-conscripta.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Romæ scripta olim Martyrum Acta]",
+          "latin_context": "c disciplinæ, honestarum actionum & artium parens, ne qua suis pateretur vel instrumenta deesse vel ornamenta virtutis, [Romæ scripta olim Martyrum Acta] constituit vt sanctorum hominum, eorum præsertim qui pro sacrorum defensione vitam posuissent, res gestæ diligenter lit",
+          "offset": 295
+        },
+        {
+          "phrase": "[Vitæ etiam non Martyrum scripta.]",
+          "latin_context": "s oportebat. At non Martyrum solum, sed aliorum quoque, qui vitam pie actam insigni opinione sanctitatis terminassent, [Vitæ etiam non Martyrum scripta.] præcipue si prodigiis essent a morte celebrati, scribi res præcipue si prodigiis essent a morte celebrati, scribi res p",
+          "offset": 11791
+        }
+      ]
+    },
+    {
+      "prefix": "05",
+      "english_rel": "src/translations/jan-vol1/05-collections-eusebius-metaphrastes.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/05-iii-acta-sanctorum-a-variis-collecta-de-eusebio-simeone-meta.md",
+      "latin_marginalia_count": 3,
+      "english_marginalia_count": 4,
+      "marginalia": [
+        {
+          "phrase": "[Acta Sanctorum collecta.]",
+          "latin_context": "studio elucubrata singulorum gesta Sanctorum; visum est quibusdam viris eruditis, vt ad plures eorum manaret vtilitas, [Acta Sanctorum collecta.] quibus alioquin ad illa sacra tabularia non patebat accessus, præcipua quædam maximeque illustria in vnum colligere vol",
+          "offset": 337
+        },
+        {
+          "phrase": "[Simeon Metaphrastes]",
+          "latin_context": "imus eo in genere Simeon Metaphrastes, qui & Logotheta dictus, ab illustri, quam Constantinopolitano in palatio gessit, [Simeon Metaphrastes] dignitate. De cuius viri ætate, vitæ instituto, lucubrationibus, quia multa perperam scripta a viris etiam non indoctis",
+          "offset": 3475
+        },
+        {
+          "phrase": "[Vitæ a Metaphraste collectæ, vel scriptæ.]",
+          "latin_context": "ta etiam pristina auctorum phrasi, aut modice interpolata. Perspicere id licet ex Vita S. Simeonis Stylitæ v. Ianuarij, [Vitæ a Metaphraste collectæ, vel scriptæ.] cuius magnam partem e Theodoreti Philotheo accepit, pauculis ad attentionem conciliandam, aptiusve connectendas periodo",
+          "offset": 18082
+        }
+      ]
+    },
+    {
+      "prefix": "06",
+      "english_rel": "src/translations/jan-vol1/06-latin-collections-legenda-aurea.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/06-iv-acta-vetera-sanctorum-a-latinis-collecta-legenda-aurea-de.md",
+      "latin_marginalia_count": 10,
+      "english_marginalia_count": 6,
+      "marginalia": [
+        {
+          "phrase": "[Acta SS. collegit S. Cerannius Ep.Paris.]",
+          "latin_context": "um Sanctorum Martyrum gesta ad laudis suæ cumulum pro amore religionis congregare in vrbe Parisiaca deuotus intenderet. [Acta SS. collegit S. Cerannius Ep.Paris.] Vitas Patrum, quarum aliquas ipse composuit, alias in vnum volumen fortassis redegit S. Hieronymus, vt 17. Ianuarij ad",
+          "offset": 532
+        },
+        {
+          "phrase": "[Vincentius Bellouacensis in Speculo;]",
+          "latin_context": "uacensis ex ordine Prædicatorum præter alia Speculum historiale scripsit, quod ab orbe condito ad sua perduxit tempora, [Vincentius Bellouacensis in Speculo;] ad annum videlicet 1244.quo scribebat, vt lib.31.cap.105.testatur. Ei operi pleraque ex actis Sanctorū infersit, multa",
+          "offset": 3021
+        },
+        {
+          "phrase": "[Iacobus de Voragine]",
+          "latin_context": "genda Aurea Iacobi de Voragine ex eodē Ordine Prædicatorū. Est Vorago, vnde vel ortus vel certe cognomen duxit Iacobus, [Iacobus de Voragine] in ora Ligustici maris Genuam inter ac Sauonam oppidum, quod olim Vitus Virginis in tabulis itinerariis appellatum vide",
+          "offset": 4029
+        },
+        {
+          "phrase": "[Episcopus Genuensis.]",
+          "latin_context": "a Michaele Pio, Leandro Alberto, Fernando de Castillio, aliisque laudatus. Archiepiscopus Genuensis anno 1292. electus, [Episcopus Genuensis.] probante Nicolao IV. Pontifice maximo, moribus, inquit Iacobus Philippus Bergomensis, & doctrina ac dignitate magno in",
+          "offset": 4560
+        },
+        {
+          "phrase": "[Gibellinorum non fautor,]",
+          "latin_context": "ij VIII. in die Cinerum se posuisset pro cineribus ex more suscipiendis; vbi cum ex more dici a Sacerdote consuetū est, [Gibellinorum non fautor,] Memento homo quia cinis es & in cinerem reuerteris; Bonifacius Pontifex videns hominem, mutatis quibusdam verbis dixit:",
+          "offset": 5080
+        },
+        {
+          "phrase": "[Acta quoque SS. collegit Petrus Calo Clodiensis,]",
+          "latin_context": "loniæ Agrippinæ laudem carmen: quod tamen & in aliis libris excusum audio; neque quis hoc opus coagmentarit, sat scio. [Acta quoque SS. collegit Petrus Calo Clodiensis,] Tradit Volaterranus lib.21. Petrum ex oppido Clodiensi aliorum Sanctorum ab Iacobo præteritorum historiam scripsisse. N",
+          "offset": 14843
+        },
+        {
+          "phrase": "[Bernardus Guido Ep. Lodeuen.]",
+          "latin_context": ", qui admodum exacte ingentia duo volumina de vitis Diuorum scripsit, quæ in bibliotheca Dominicana Bononiæ seruantur. [Bernardus Guido Ep. Lodeuen.] Eadem prope ætate vixit Bernardus Guido ex eodem Ordine, qui an. 1324. Lodeuensis in Gallia Narbonensi Episcopus factus",
+          "offset": 16068
+        },
+        {
+          "phrase": "[S. Antoninus in Chronic.]",
+          "latin_context": "ad Sanctorum illustrandum honorem iam olim peculiariter incubuisse videatur) præter alia plurima quæ erudite composuit, [S. Antoninus in Chronic.] Chronicon conflauit in tres partes distinctum, ab orbe condito ad Pij II. pontificatum, siue Christi annum 1459. quo &",
+          "offset": 17030
+        },
+        {
+          "phrase": "[Petrus de Natalibus in Catalogo,]",
+          "latin_context": "gestis ex aliis accepta scriptoribus intexuit. Suppar prope S. Antonino fuit Petrus de Natalibus, Episcopus Equilinus, [Petrus de Natalibus in Catalogo,] (in Equilia, siue Æquilia insula Anassi Fluminis ostio obiecta, ea sita olim Sedes, Gradensi Patriarchæ subiecta) qui i",
+          "offset": 17373
+        },
+        {
+          "phrase": "[Gentius & Gilemannus.]",
+          "latin_context": "quilino fuit Ioannes Gilemannus monasterij Canonicorum regularium in Rubea-valle iuxta Bruxellam in Brabantia Supprior, [Gentius & Gilemannus.] qui summo labore atque industria Vitas-Sanctorum plurimas collegit & manu sua descripsit: quo in studio præclaram opera",
+          "offset": 19696
+        }
+      ]
+    },
+    {
+      "prefix": "07",
+      "english_rel": "src/translations/jan-vol1/07-recent-collections-surius.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/07-v-acta-ss-recentius-collecta-praeclarum-laurentij-surij-opus.md",
+      "latin_marginalia_count": 6,
+      "english_marginalia_count": 6,
+      "marginalia": [
+        {
+          "phrase": "[Acta SS. recentiores collegere,]",
+          "latin_context": "dæ sanctitatis rationes videatur largius quam superioribus ætatibus communicare; id ad eam trahere sententiam possumus, [Acta SS. recentiores collegere,] vt numquam antehac perinde Sanctorum acta illustrata fuisse dicamus, atque hoc seculo, quo plurimi certatim, typographi",
+          "offset": 341
+        },
+        {
+          "phrase": "[Mombritius,]",
+          "latin_context": "rsequar omnes quorum hoc sacro in studio desudauit industria: præcipuos solum, quorum latius patuit labor, percensebo. [Mombritius,] Boninus Mombritius Mediolanensis duo ingentia volumina edidit, quibus acta Sanctorum complexus est, vt ea in MSS. codic",
+          "offset": 779
+        },
+        {
+          "phrase": "[Faber Stapulensis,]",
+          "latin_context": ". Dicauit illud opus, quod Sanctuarium inscripsit, honestissimo Equiti Cicho Simonetæ Ducum Mediolanensium Secretario. [Faber Stapulensis,] Iacobus Faber Stapulensis Martyrum agones antiquis ex monumentis genuine descriptos publicare moliebatur, vt testatur S",
+          "offset": 1147
+        },
+        {
+          "phrase": "[VVicelius,]",
+          "latin_context": "mum non vidimus: habuerat Rosweydus, ab amico fortassis commodatum; atque ex eo quorumdam acta Sanctorum descripserat. [VVicelius,] Georgius Wicelius multos edidit libros, quibus nascentia tunc hæreticarum portenta opinionum iugularet, alios quibus af",
+          "offset": 1582
+        },
+        {
+          "phrase": "[Lipomanus.]",
+          "latin_context": "elucubrandum necessariorum copiam defuisse. Vtilius eodem in genere laborauit Aloysius Lipomanus Episcopus Veronensis, [Lipomanus.] qui plurimas Sanctorum vitas a grauissimis & probatissimis auctoribus conscriptas edidit, suaque adiecit scholia aduers",
+          "offset": 2261
+        },
+        {
+          "phrase": "[Surius,]",
+          "latin_context": "niæ Agrippinæ litteris dedit operam; atque hic ætatis anno vigesimo, Christi 1542. in Carthusianorum Ordinem cooptatus, [Surius,] & vitam ipse suam sanctissime instituit, & aliis qua posset ad Christianam pietatem excitandis, aut a profana hæreseon",
+          "offset": 3889
+        }
+      ]
+    },
+    {
+      "prefix": "08",
+      "english_rel": "src/translations/jan-vol1/08-rosweydus-plan.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/08-vi-heriberto-rosweydo-adumbratum-de-sanctorum-actis-opus.md",
+      "latin_marginalia_count": 3,
+      "english_marginalia_count": 3,
+      "marginalia": [
+        {
+          "phrase": "[Rosvveydus maius de SS. opus]",
+          "latin_context": "ratum de Sanctorum Actis opus. Postremus ad hanc messem animum admouit ac manum Heribertus Rosweydus e Societate Iesv, [Rosvveydus maius de SS. opus] acer iudicio vir, stylo robustus, omnibus disciplinis & doctrinis politus ac perfectus. Quo ille intenderet, quæ collig",
+          "offset": 153
+        },
+        {
+          "phrase": "[An id potuerit sexagenarius?]",
+          "latin_context": "mentis vigore, memoriæ tenacitate, futurus erat, vt Annotationes tunc demum concinnaret? Quid iis Vitis erat facturus, [An id potuerit sexagenarius?] quas plurimas, genuinas fortasse ratus, descripserat, ego ex aliis breuiatas, imo & vitiatas, postea deprehendi? Ederet",
+          "offset": 7048
+        },
+        {
+          "phrase": "[Potuit prius,]",
+          "latin_context": "& vitæ sanctitudo in dubium fortassis vocaretur. An examinaret omnia diligenter, absolutis Annotationibus? qua ætate? [Potuit prius,] Ego quidem certe existimo, si cum Fastos edidit Rosweydus, continuo calamū sumpsisset, & insudasset operi, excutere pot",
+          "offset": 7861
+        }
+      ]
+    },
+    {
+      "prefix": "09",
+      "english_rel": "src/translations/jan-vol1/09-authors-purpose.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/09-vii-auctoris-hoc-in-opere-propositum.md",
+      "latin_marginalia_count": 7,
+      "english_marginalia_count": 7,
+      "marginalia": [
+        {
+          "phrase": "[Acta Sanctorum hic]",
+          "latin_context": ". Auctoris hoc in opere propositum. Nvnc quid mihi propositum sit, quorsum spectet mea hæc commentatio, planum faciam. [Acta Sanctorum hic] Nec vestigia Rosweydi anxie ac sollicite persequi animus est, vt quæ non fixa firmiter, parte aliqua operis absoluta, s",
+          "offset": 128
+        },
+        {
+          "phrase": "[Actis additæ Annotationes,]",
+          "latin_context": "Cogitabat præterea Rosweydus vitas primum solas edere, postea de earum scriptoribus, horum ætate ac Sanctorum ipsorum, [Actis additæ Annotationes,] de vtrorumque vitæ ratione, domicilij aut mortis loco, & aliis, quæ superius proposita sunt, disputare. Ego vero satius",
+          "offset": 2370
+        },
+        {
+          "phrase": "[Eæ fidem conciliant, etiam præiudicatus;]",
+          "latin_context": "s? Edidi XIII. Ianuarij vitam S. Kentigerni Pictorum Scotorumque Episcopi, sane admirabilem. Vir quidam eruditissimus, [Eæ fidem conciliant, etiam præiudicatus;] & in Anglicanarum rerum Scriptoribus versatissimus, cum mecum de Sanctorum Vitis haberet sermonem, rogatus a me est, qu",
+          "offset": 3839
+        },
+        {
+          "phrase": "[Inornata Acta an respuenda.]",
+          "latin_context": "ibus Rosweydi non probetur institutum, minus etiam meum; propterea quod existiment, satius esse vrbano & venusto stylo, [Inornata Acta an respuenda.] quæ de Sanctis comperta sunt, narrari; quam rudera quædam incondita, aut saxa potius barbari sermonis proiici: quin & S",
+          "offset": 5987
+        },
+        {
+          "phrase": "[Cur incompte olim scripta?]",
+          "latin_context": "t multis ætatibus vel rari extitere præclari scriptores, vel qui extitere, ij suorum studiorum inanem sectari mercedem, [Cur incompte olim scripta?] quam Deo Diuisque suos consecrare labores maluerunt. Si qui autem bene docti Sanctorum gesta mandare litteris aggressi",
+          "offset": 7162
+        },
+        {
+          "phrase": "[Testimonia scriptorum,]",
+          "latin_context": "m quis ego sum, qui cum discrepant atque inter se pugnant scriptorum variorum narrationes, ipse quod mihi visum fuerit, [Testimonia scriptorum,] velut certum minimeque dubium pronuntiem, & mea vnius, quæ nulla est, firmem auctoritate? Nonne id satis est, si vbi pl",
+          "offset": 8141
+        },
+        {
+          "phrase": "[Opus hoc fons est,]",
+          "latin_context": "psos suis volo verbis vti: quæ tamen si quando obscuriora erunt, vt mihi interpretari ea & explicare liceat, deposcam. [Opus hoc fons est,] Fontem igitur demonstro, puræ quidem aquæ & salubris, sed in obscura latentem silua, densis septum frutetis, musco obsi",
+          "offset": 9665
+        }
+      ]
+    },
+    {
+      "prefix": "11",
+      "english_rel": "src/translations/jan-vol1/11-order-and-method.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/11-i-ordo-dicendorum-ratio.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 1,
+      "marginalia": [
+        {
+          "phrase": "[Ordo necessarius in Vitu SS.]",
+          "latin_context": "ceterarum functionibus ac muniis virtutum, omnique vitæ ratione, ordo quidam, idemque fere Diuina haustus institutione, [Ordo necessarius in Vitu SS.] studiosissime conseruatus: vt æquum propterea sit, omnem, qui de eorum gestis instituitur, sermonem certo quoque ordine",
+          "offset": 573
+        }
+      ]
+    },
+    {
+      "prefix": "12",
+      "english_rel": "src/translations/jan-vol1/12-clarity-and-reader-convenience.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/12-ii-ad-perspicuitatem-lectorum-commodum-excogitata.md",
+      "latin_marginalia_count": 9,
+      "english_marginalia_count": 9,
+      "marginalia": [
+        {
+          "phrase": "[Chartæ & litterarum forma non nimis sumptuosa & operosa.]",
+          "latin_context": "i characterum magnitudine, nitore chartæ, ceteraque elegantia capti, nil pensi habent, quanti pretij futuri sint libri, [Chartæ & litterarum forma non nimis sumptuosa & operosa.] & quam multi eos coempturi. Volui ego ita opus hoc meum cudi, vt nec fœda esset charta, neque deformes litteræ, quæ aue",
+          "offset": 441
+        },
+        {
+          "phrase": "[Litterarum discrimina.]",
+          "latin_context": "hic edisseram. Primum grandiori forma characteris (vt de titulis nihil dicam) impressa Sanctorum cuiusque diei nomina, [Litterarum discrimina.] vt ipsa litterarum magnitudo illico oculos aduertat Lectoris animumque. Eius tamen Sancti nomen, cuius eo die festiuita",
+          "offset": 1440
+        },
+        {
+          "phrase": "[Dies & annus mortis SS. indicati in margine.]",
+          "latin_context": "aractere. Principio Vitæ cuiusque aut præuiæ meæ de ea dissertationis, in margine diem signaui quo is colitur Sanctus, [Dies & annus mortis SS. indicati in margine.] & annum quo decessit: vel si annum certa nota temporis circumscribere ac definire non potui, tum seculum quo vixit, aut",
+          "offset": 2482
+        },
+        {
+          "phrase": "[Tituli paginarum.]",
+          "latin_context": "us isthic datur vita, & dies mensis adscriptus; ne quemquam oporteat plura voluere folia vt norit quo de Sancto agatur, [Tituli paginarum.] & quo die mensis. Quia vero eiusdem Sancti plures quandoque sunt vitæ, a diuersis scriptæ auctoribus, ideo in exteriori",
+          "offset": 2883
+        },
+        {
+          "phrase": "[Auctor Vitæ in singulis paginis.]",
+          "latin_context": "ccepta indicatur, hac formula: Avctoren.n.ex mss. aut Ex Evsebio, ex vitis PP. ex Svrio, &c. Si quæ ea pagina habentur, [Auctor Vitæ in singulis paginis.] quæ nulli certo tribuenda Auctori videantur, sed sint a me vndique compilata, adposui, Ex variis. Vitas singulas in ca",
+          "offset": 3227
+        },
+        {
+          "phrase": "[Capitum diuisio & tituli.]",
+          "latin_context": "m leuarem tædiumque Lectoris. Neque semper partitiones sum secutus quæ vel in aliorum editionibus vel in MSS. extabant, [Capitum diuisio & tituli.] quod plerumque mutuo non responderent codices; vnde coniecturam capiebam, non esse ab ipsis auctoribus illas capitum fa",
+          "offset": 3526
+        },
+        {
+          "phrase": "[Compendia dictorum in margine.]",
+          "latin_context": "igidæ, narrationes ipsæ inertes & languidæ, ac succo vacuæ; ne quis possit queri male in iis legendis operam collocari, [Compendia dictorum in margine.] aut certe ne molesto quidpiam querendi labore conficiatur: compendia omnium quæ tractantur in margine apposui, quasique",
+          "offset": 4401
+        },
+        {
+          "phrase": "[Annotationes litteris a b c indicatæ.]",
+          "latin_context": "illatim cuncta perlegere. Annotationes singulis subnexæ capitulis quem ad locum spectent, præsixæ litteræ significant, [Annotationes litteris a b c indicatæ.] quæ eædem & in contextu orationis & in marginibus impressæ. Quæ ex Diuinæ Scripturæ libris aliisve citantur auctoribus,",
+          "offset": 4872
+        },
+        {
+          "phrase": "[Numeri minoribus diuisionibus additi.]",
+          "latin_context": "os addidi iustis interuallis ad Vitam ac præfationes. Hos subseruire posse Indicibus rebar cum impressionem auspicarer. [Numeri minoribus diuisionibus additi.] Facilior reperta dein ratio est. Possunt tamen hi numeri aliis vsui esse: neque aut deformant historiam, aut ab aliorum",
+          "offset": 5462
+        }
+      ]
+    },
+    {
+      "prefix": "13",
+      "english_rel": "src/translations/jan-vol1/13-authors-style.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/13-iii-stylus-auctoris.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 4,
+      "marginalia": [
+        {
+          "phrase": "[Quæ ab Auctore ipso scripta, an eleganti stylo?]",
+          "latin_context": "profero, iis munditiam addam ornatumque dictionis. Ita qui veterum semitruncas statuas, carie situque exesas imagines, [Quæ ab Auctore ipso scripta, an eleganti stylo?] fractos enses ac loricas consectantur, ea vbi adepti sunt, vel in fabrefactis capsis reponunt, vel limbis pretiosis cir",
+          "offset": 337
+        },
+        {
+          "phrase": "[Merebantur Sancti:]",
+          "latin_context": "audes omni eloquentiæ facultate, arte, contentione celebrentur: neque ab eo studio auertere exemplo meo quemquam velim: [Merebantur Sancti:] hortor potius omnes, vt eo vim omnem ingeniumque conferant, vt Sanctorum res gestas stylo illustrent. Nusquam alibi mai",
+          "offset": 1226
+        },
+        {
+          "phrase": "[Quæ experegrinis linguis verterit?]",
+          "latin_context": "variorum Sanctorum ex Græca lingua aliave vertendis: nam vbi interpretis non est nomen expressum, meus omnis est labor: [Quæ experegrinis linguis verterit?] quo si qui me leuare voluerint, in beneficij non vulgaris loco ponam, & potero me tanto expeditius ad alia excutienda r",
+          "offset": 2562
+        },
+        {
+          "phrase": "[Græca quo stylo citarit?]",
+          "latin_context": "n cælum emigrauerint, plene esse satisfacturos. Vnum adhuc monere operæ pretium fuerit, quæ ex Græcis sumo auctoribus, [Græca quo stylo citarit?] ea vt antea iam versa sunt quandoque transscribere, sæpius meis verbis interpretari: neque enim, opinor, cum linguam qu",
+          "offset": 2949
+        }
+      ]
+    },
+    {
+      "prefix": "14",
+      "english_rel": "src/translations/jan-vol1/14-appendix-to-each-volume.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/14-iv-appendix-ad-singulos-tomos-post-inserenda-forte-amplior.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 1,
+      "marginalia": [
+        {
+          "phrase": "[Appendix addita eorum quæ ante ignorata,]",
+          "latin_context": "ntiores, multa me antea etiam sedulo indagantem fugerunt, quæ deinde absolutis iam aut certe affectis tomis his duobus, [Appendix addita eorum quæ ante ignorata,] amicorum beneficio sum assecutus, de Vita Sanctorū quorumdam, translationibus, miraculis: quorū alij ignoti mihi erant,",
+          "offset": 257
+        }
+      ]
+    },
+    {
+      "prefix": "15",
+      "english_rel": "src/translations/jan-vol1/15-six-indices.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/15-v-indices-tomis-singulis-sex.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 4,
+      "marginalia": [
+        {
+          "phrase": "[Cæteris adscriptæ litteræ A B, &c.]",
+          "latin_context": "eteri, quia non ad symmetriam quasique generalem fabricam operis pertinent, sed ad extrariam eius vsuram, postponuntur. [Cæteris adscriptæ litteræ A B, &c.] Ad hosce adiectæ in margine litteræ A B C D E F, quæ laborem leuent quidpiam vestigantium. Nam indicata signo arithmeti",
+          "offset": 4336
+        },
+        {
+          "phrase": "[SS. præfixa † .]",
+          "latin_context": "enclatio ab Auctoribus tribuitur, siue, vt iam dixi, altero horum tomorum celebrentur, siue ad alios pertineant menses, [SS. præfixa † .] signum † non littera S aut B præfixa, ne ea fortassis oculo quidpiam vestiganti, eoque seriem litterarum gradatim percu",
+          "offset": 6369
+        },
+        {
+          "phrase": "[Singulorum status indicatus, &c.]",
+          "latin_context": "xpressis annotatur. In hoc Indice plerumque ad perspicuitatem vel status hominum singulorum aperitur, vt Rex, monachus, [Singulorum status indicatus, &c.] miles, Comes, Abbas, Episcopus, &c. vel Sanctorum laureola, Virgo, Martyr, Doctor. Subinde in minus vulgo notis seculum",
+          "offset": 6844
+        },
+        {
+          "phrase": "[Nullus sacræ Scripturæ.]",
+          "latin_context": "Digressionibus, vt ipsi vocant, congeri & pertractari solent. Ipsius Scripturæ explicata vel prolata toto opere loca, [Nullus sacræ Scripturæ.] necessarium esse non putaui peculiari Indice complecti ac repræsentare, quod eius & vasta moles futura videbatur, & vsu",
+          "offset": 9451
+        }
+      ]
+    },
+    {
+      "prefix": "16",
+      "english_rel": "src/translations/jan-vol1/16-things-deliberately-avoided.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/16-vi-quaedam-consulto-vitata.md",
+      "latin_marginalia_count": 5,
+      "english_marginalia_count": 5,
+      "marginalia": [
+        {
+          "phrase": "[Auctor in alios non inuehitur,]",
+          "latin_context": "historia oportet) quod certum aut simile certi visum fuit, arripui, & idoneis testimoniis firmaui. Quod falsum putaui, [Auctor in alios non inuehitur,] id libere respui: qui id tradidissent, non reprehendi; solum dixi, falsos videri fuisse argumento aliquo aut interpreti",
+          "offset": 902
+        },
+        {
+          "phrase": "[Ordines religiosos reueretur & laudat:]",
+          "latin_context": "hominum congregationes quam decet reuerentiam adhibeo, multaque de iis honorifice & libenter prædico: iisque gratulor, [Ordines religiosos reueretur & laudat:] quod ipsorum institutis informati complures ad eximiam sanctitatem gloriamque peruenerunt, vnde ipsos ordines summa lau",
+          "offset": 3593
+        },
+        {
+          "phrase": "[Hibernis contra Scotos,]",
+          "latin_context": "iberni, veteres Scotos Hiberniæ incolas fuisse; (nec potest hoc negari) ab illis ortos se veros & germanos Scotos esse: [Hibernis contra Scotos,] quod non eo nomine appellentur, ideo fieri, quia quam olim in Britanniam miserant coloniam, ea cum Pictis aliisque Brit",
+          "offset": 4313
+        },
+        {
+          "phrase": "[Scotis contra Hibernos]",
+          "latin_context": "icosa natione, aut nationum colluuione, sed ex Hibernia, Sanctorum insula, ortos esse omnes. Hæc illi, nec falso omnia. [Scotis contra Hibernos] Negāt Scoti ab Hibernis se, quos probrosis etiam nominibus incessunt, prognatos: sed cum maiores sui olim Hiberniam ins",
+          "offset": 4751
+        },
+        {
+          "phrase": "[De multis Apostolis Galliarum,]",
+          "latin_context": "tatio. Omnes fere Gallicanæ Ecclesiæ a Christi & Apostolorum eius discipulis plantatæ apud se fidei primordia repetunt. [De multis Apostolis Galliarum,] Multis viris doctis, etiam Gallis, ea non probatur opinio; quod & S. Gregorius Turonensis lib. I. histor. Francor.cap.",
+          "offset": 6745
+        }
+      ]
+    },
+    {
+      "prefix": "17",
+      "english_rel": "src/translations/jan-vol1/17-future-works-planned.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/17-vii-alia-auctori-designata-in-posterum-opera.md",
+      "latin_marginalia_count": 7,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Si Deo placuerit,]",
+          "latin_context": "olior. Id modo significo, si Deus vitam, & vires corporis animique dederit, vt quod iam cœpi opus perficiam, alia esse, [Si Deo placuerit,] quæ cum his coniuncta, & publico aliquam allatura vtilitatem, velim tunc capessere; quæque si quid mihi prius euenerit,",
+          "offset": 558
+        },
+        {
+          "phrase": "[SS Chronologiam.]",
+          "latin_context": "Hellenismo fœdatas merito queruntur viri quidam eruditi. Hoc consilium meum supra exposui, cum de Metaphraste agerem. [SS Chronologiam.] Meditor deinde volumine vno chronologiam Sanctorum omnem complecti, vt, quoad licebit certas consequi notas, quæ ab orb",
+          "offset": 1878
+        },
+        {
+          "phrase": "[Onomasticon vocum obscuriorū;]",
+          "latin_context": "iam;] Altero volumine Topographiam Sanctorum describam, locaque omnia, quæ ij adiisse memorantur, recensebo & exponam. [Onomasticon vocum obscuriorū;] Tertium volumen Onomasticon erit, continebitque vocum & phraseon, quæ toto hoc opere occurrerint solœcæ, barbaræ, pereg",
+          "offset": 2269
+        },
+        {
+          "phrase": "[Martyrologia,]",
+          "latin_context": "solœcæ, barbaræ, peregrinæ, obscuræ, explanationem. Dein aliquot voluminibus variorum Martyrologia, præsertim vetera, [Martyrologia,] ex MSS. codicum fide repræsentabo, & fortassis Notis illustrabo. Belgicum quoque luculentius quam sit hactenus vllum ed",
+          "offset": 2517
+        },
+        {
+          "phrase": "[Acta Martyrum recentiorum;]",
+          "latin_context": "eorum etiam res gestas conscribere, qui ab anno M D. vel certe ex quo Europam inuoluere fœdissimarum hæresum turbines, [Acta Martyrum recentiorum;] Luthero auctore, cœperunt, pro Catholicæ religionis defensione ab hæreticis aliisque fidei orthodoxæ hostibus sunt truc",
+          "offset": 3265
+        },
+        {
+          "phrase": "[Vitas aliorum piorum hominum;]",
+          "latin_context": "itate illustrium hominū colligere vitas statui, quorum necdum ab Ecclesia consecrata est populorum venerationi memoria. [Vitas aliorum piorum hominum;] Hoc priusquam aggrediar, aut saltem emittam, opus, Apostolicæ Sedi vt mihi id historica fide vulgare liceat, supplicabo",
+          "offset": 3599
+        },
+        {
+          "phrase": "[Ascetica præcepta SS.]",
+          "latin_context": ", ecquid erit reliquum temporis, quod ab æternitatis conficiendis negotiis demi queat? Si quid erit, ascetica doctrina, [Ascetica præcepta SS.] vt a Sanctis tradita hoc in opere, vel re ipsa exercita excultaque, oblectabo animum meum senescens: & vt aliis vel sic",
+          "offset": 4285
+        }
+      ]
+    },
+    {
+      "prefix": "19",
+      "english_rel": "src/translations/jan-vol1/19-legitimate-grades-of-historians.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/19-i-legitimi-historicorum-gradus.md",
+      "latin_marginalia_count": 9,
+      "english_marginalia_count": 5,
+      "marginalia": [
+        {
+          "phrase": "[Falsa aut dubia vitare potest]",
+          "latin_context": "r: at quamdiu in eis humana industria, errori obnoxia, desudabit, quis securitatem præstabit, nihil vt esse suspicemur, [Falsa aut dubia vitare potest] quod aberret a vero? Potest quidem, qui primum sancti hominis cuiuspiam, quocum vixit, cuius actiones, aduersus vitia s",
+          "offset": 481
+        },
+        {
+          "phrase": "[Auctor dubia expendit,]",
+          "latin_context": "dere, integra omnia & inuiolata afferre, quoad possum. At si quid est vel a primæuo auctore scriptum falso ac perperam, [Auctor dubia expendit,] vel leui & temeraria interpolatione corruptum ac turbatum; non est perinde mihi expeditum, verum a falso secernere, nis",
+          "offset": 2047
+        },
+        {
+          "phrase": "[Quæ sit hic narrandorum probabilitas.]",
+          "latin_context": "historiæ cuipiam habeamus, nosse quis eam scripserit; hic cuiusmodi fuisse optem eos qui gesta Sanctorum conscripsere, [Quæ sit hic narrandorum probabilitas.] exponam; qualesque extiterint multi, procliuiore ad errandum methodo vsi. Tum vtro e genere mea sint, quæram: rectene q",
+          "offset": 4706
+        },
+        {
+          "phrase": "[Primus gradus historiæ, cum visa narrantur:]",
+          "latin_context": "nt, Deo vel mentes eorum collustrante, vel per Angelum aliumve cælestem administrum dictante vel edocente quæ scribant: [Primus gradus historiæ, cum visa narrantur:] de iis loquor, qui communi mortalium more quidpiam commentantur) eum igitur principem historiæ gradum statuunt viri eru",
+          "offset": 5383
+        },
+        {
+          "phrase": "[Secundus, cum de spectatoribus audita:]",
+          "latin_context": "adum ij tenent, qui non spectarunt ipsi quidem quæ narrant; ab iis tamen accepere, qui suis ea oculis sunt contemplati. [Secundus, cum de spectatoribus audita:] Ea fere ratione S. Francisci vitam composuit S. Bonauentura, S. Hilarionis S. Hieronymus, S. Claræ auctor anonymus, vt",
+          "offset": 5827
+        },
+        {
+          "phrase": "[Tertius.]",
+          "latin_context": "a magnalia Virginis virgines legere delectabit, rudis intelligentia non inueniat, vbi pro verborum ambitu tenebrescat. [Tertius.] Tertius gradus est eorum, qui ea commemorant, quæ non a spectatoribus ipsis accepere, sed ab iis quibus spectatores nar",
+          "offset": 6861
+        },
+        {
+          "phrase": "[Quartus.]",
+          "latin_context": "cana. Quarto in gradu ij locandi, qui quæ stylo prosequuntur, ex historicis qui in gradibus iam enumeratis consistant, [Quartus.] collegere, aut ex certis monumētis donationum, testamentorum, transactionum, aut commentariis, sed eorum dumtaxat qui a",
+          "offset": 7256
+        },
+        {
+          "phrase": "[Suspecta fides improborum,]",
+          "latin_context": ". Et hi quidem omnes fidem merentur, si sunt viri boni, si prudentes, si pura eorum minimeque adulterata scripta sunt. [Suspecta fides improborum,] Nam si eum qui se rei cuipiam gerendæ scribit adfuisse, suspiceris haud satis a mentiendi libidine alienum, quia hæreti",
+          "offset": 7545
+        },
+        {
+          "phrase": "[Commentaria eorum qui spectarunt, sæpe perperam interpolata.]",
+          "latin_context": "ve adulterent. Multorum id euenit Actis Sanctorum. Obseruare id passim licet, vt in S. Mauri Abbatis Vita XV. Ianuarij, [Commentaria eorum qui spectarunt, sæpe perperam interpolata.] quæ ab Odone Abbate recognita & expolita, Fausti tamen retinuit nomen, nec quam Faustus vir sanctus & omnium quæ scrips",
+          "offset": 9361
+        }
+      ]
+    },
+    {
+      "prefix": "20",
+      "english_rel": "src/translations/jan-vol1/20-writings-of-lesser-authority.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/20-ii-sequioris-notae-scripta.md",
+      "latin_marginalia_count": 7,
+      "english_marginalia_count": 14,
+      "marginalia": [
+        {
+          "phrase": "[Acta quorumdam SS. non scripta,]",
+          "latin_context": "uenda probabilitate laborandum. At sunt nonnulla notæ sequioris, vt quam illis adiungi fidem æquum sit, merito ambigas. [Acta quorumdam SS. non scripta,] Nam neque omnium scripta olim acta Sanctorum sunt; & quæ scripta, eorum quædam abolita, deperdita quædam, alia iam olim",
+          "offset": 308
+        },
+        {
+          "phrase": "[Martyrum,]",
+          "latin_context": "et, vel doctrinæ præsidio, vt posset. Testatus id olim lib. 1. aduersus gentes Arnobius: Sed neque hæc omnia conscribi, [Martyrum,] inquit, aut in aures omnium peruenire potuerunt, gesta gentibus in ignotis & vsum nescientibus litterarum. Neque id so",
+          "offset": 788
+        },
+        {
+          "phrase": "[Vitæ ita ex fama scriptæ.]",
+          "latin_context": "enefridæ, vel Deo boni omnis auctori acceptum scribi. Sunt vero, vt ad propositum redeamus, ea ratione ex populi fama, [Vitæ ita ex fama scriptæ.] plurimorum antiquorum Martyrum quæ interciderant acta conscripta, multorum Galliæ Apostolorum, plerorumque ex iam memor",
+          "offset": 8126
+        },
+        {
+          "phrase": "[Vitæ aliæ SS.]",
+          "latin_context": "fiet? Acta sunt alia, non ita quidem ex incertis populi narrationibus conserta, sed docte ac grauiter olim conscripta; [Vitæ aliæ SS.] verum deinde adulterata. Malitiæ dæmonum id Arnobius imputat, qui vel honorem debitum Sanctis detrahere, vel prouenturu",
+          "offset": 10587
+        },
+        {
+          "phrase": "[An & quomodo deprehendi fraus possit?]",
+          "latin_context": "irum doctrinam; quicum quod pugnat, spurium est. Quid dolo adiectum sit, facile erit ex aliis Scriptoribus demonstrare, [An & quomodo deprehendi fraus possit?] qui vel de præstantibus illis viris contraria tradunt, vel semper Catholicos habitos fuisse ostendunt, & quæ affinguntu",
+          "offset": 12308
+        },
+        {
+          "phrase": "[Aliæ contractæ aut interpolatæ.]",
+          "latin_context": "dolo malo, neque fama decepti, tradiderunt tamen gesta Sanctorum, quæ non facile probentur. Nam germanas tabulas nacti, [Aliæ contractæ aut interpolatæ.] breuiare quam integra dare acta maluerunt, quod longiuscula videbantur. Præcipua igitur capita virtutum paucis verbis p",
+          "offset": 13179
+        },
+        {
+          "phrase": "[Aliæ confictæ,]",
+          "latin_context": "emant quæ vulgaria & trita iudicarint. Denique Vitæ sunt quædam omnino confictæ, aliæ ab hæreticis hominum improborum, [Aliæ confictæ,] a Catholicis aliæ styli exercendi gratia. De his infra. Hæretici non solum acta subinde corruperunt, exotica assuentes",
+          "offset": 13845
+        }
+      ]
+    },
+    {
+      "prefix": "21",
+      "english_rel": "src/translations/jan-vol1/21-in-what-order-to-place-these.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/21-iii-quo-in-ordine-haec-ponenda.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 5,
+      "marginalia": [
+        {
+          "phrase": "[Quidam temere pronuntiant, omnes SS. Vitas confictas.]",
+          "latin_context": "e conscriptas, non ex certorum monumentorum fide, sed vel ex futilibus narratiunculis, vel ex propria quadam phantasia, [Quidam temere pronuntiant, omnes SS. Vitas confictas.] ac fabrica hebetis ingenij inscite illa nostrorum Heroum decora speculantis. Ita loquuntur, nec sine supercilio, Critic",
+          "offset": 465
+        },
+        {
+          "phrase": "[Imo nullæ hic tales:]",
+          "latin_context": "sis. Dico igitur, Primum nullas esse hoc in opere vitas, quas omnino commentitias possit quis vel leuissime suspicari, [Imo nullæ hic tales:] aliquo semper attestante Martyrologio certave auctoritate. Dein nullas esse, quas probabile sit vlla ex parte ab hæreti",
+          "offset": 1346
+        }
+      ]
+    },
+    {
+      "prefix": "22",
+      "english_rel": "src/translations/jan-vol1/22-should-lesser-writings-be-rejected.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/22-iv-an-posterioris-generis-scripta-omnia-respuenda.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 5,
+      "marginalia": [
+        {
+          "phrase": "[Improbant quidam vltima duo genera, siue vulgares Legendas,]",
+          "latin_context": "rumque ad virtutem animos exsuscitent. Sed nullas edi volunt, nisi limatas iudicio, atque vndequaque veritate firmatas, [Improbant quidam vltima duo genera, siue vulgares Legendas,] quæ non modo non conuelli, sed ne oppugnari quidem possint. Esset sane optandum, vt Sancti omnes, qualem hi postulant,",
+          "offset": 345
+        },
+        {
+          "phrase": "[Cur Ethnici scriptores de SS. sæpius non meminerint?]",
+          "latin_context": "ncipe eiusve comitatu, singulari insolentia, furore, obscœnitate; ipsi reticeant aulici, at narrent qui perpessi, quiq; [Cur Ethnici scriptores de SS. sæpius non meminerint?] spectarunt rustici, sed inornate ac insulse, neque vel pagum suum nominent, vel in qua is prouincia situs, nec quoto id",
+          "offset": 4216
+        },
+        {
+          "phrase": "[Refutantur contra sentiētium argumenta: 1. Hæretici hæc Acta ridebunt.]",
+          "latin_context": "aut minus probabile fas sit. Ridebunt, inquis, ista hæretici. Quid deinde? Sacratissima nostræ fidei mysteria rident, [Refutantur contra sentiētium argumenta: 1. Hæretici hæc Acta ridebunt.] rident etiam libros nonnullos, quos a Diuino Spiritu manasse certo scimus, rident multas piorum laudabiles actiones, ri",
+          "offset": 5149
+        },
+        {
+          "phrase": "[Imo suscipienda quia a viris bonis scripta,]",
+          "latin_context": "ssidue inculcent, quod vnicum est contra omne virus errorum antidotum; neque quia corrigi quædam ex his Ecclesia velit; [Imo suscipienda quia a viris bonis scripta,] ideo supprimēda, penitusque abolenda. Imo potius quia a bonis, simplicibus, sinceris hominibus, etsi non summa arte scr",
+          "offset": 14633
+        }
+      ]
+    },
+    {
+      "prefix": "23",
+      "english_rel": "src/translations/jan-vol1/23-are-the-acts-apocryphal.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/23-v-an-acta-ss-apocrypha.md",
+      "latin_marginalia_count": 5,
+      "english_marginalia_count": 10,
+      "marginalia": [
+        {
+          "phrase": "[An hæc apocrypha,]",
+          "latin_context": "pocrypha. Svnt alij quidam Aristarchi, seueri cumprimis & importuni, qui identidem illud occinunt, Apocrypha hæc esse, [An hæc apocrypha,] hausta ex Apocryphorum fabulis, somniis, deliramentis: eaque apocryphi appellatione veluti validissimo ariete deiicere",
+          "offset": 141
+        },
+        {
+          "phrase": "[Apocrypha vnde dicta?]",
+          "latin_context": "m animos assidue stimulat ac pungit, penitus euellatur, primum explicandum, quid apocryphum sit, quotque modis dicatur: [Apocrypha vnde dicta?] tum quatenus hæc apocrypha censeri debeant, vti & alia quædam veterum scripta. Apocryphum ab ἀποκρύπτειν, siue ἀποκρύπτ",
+          "offset": 2221
+        },
+        {
+          "phrase": "[Sic appellātur quæ certo auctore carent;]",
+          "latin_context": "um. Primo igitur apocryphum dicitur, vt habet Glossa in can. I. dist. 16. quod certo auctore caret, vti liber Iudicum, [Sic appellātur quæ certo auctore carent;] liber Tobiæ, Esther, Machabæorum, Iob & alij, qui tamen inter Canonica Diuinæ Scripturæ volumina habentur. Ea ratione i",
+          "offset": 2759
+        },
+        {
+          "phrase": "[Quædam olim apocrypha correcta.]",
+          "latin_context": "tyrum, imo & aliorum Sanctorum, quæ in variis quidem Ecclesiis, vt ex S. Augustino patet, legebantur, at non in Romana; [Quædam olim apocrypha correcta.] ea in hac quoque leguntur nunc, & sunt a pluribus seculis lecta, sed in breuem fere epitomen contracta. Et videntur quæ",
+          "offset": 9335
+        },
+        {
+          "phrase": "[Quatenas hæc nostra dici apocrypha possint.]",
+          "latin_context": "apocrypha proclamant, norint pauca ex Diuinis Scripturis accepta, neque omnia a certis auctoribus litteris consignata, [Quatenas hæc nostra dici apocrypha possint.] neque omnia esse eiusmodi vt legi in Ecclesiis debeant aut possint. Si ea significatione apocrypha appellant, nihil ego",
+          "offset": 9790
+        }
+      ]
+    },
+    {
+      "prefix": "24",
+      "english_rel": "src/translations/jan-vol1/24-are-all-saints-or-blessed.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/24-vi-an-sancti-omnes-aut-beati-quorum-hic-vitae-editae.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 3,
+      "marginalia": [
+        {
+          "phrase": "[Obseruata ab Auctore decreta Pontificia]",
+          "latin_context": "c nunc afferre quæstionem, quæ & ante generatim, & ad vitas singulas speciatim persoluta. Sed quia sunt nuper nonnulla, [Obseruata ab Auctore decreta Pontificia] de Sanctorum veneratione & actis, Apostolicæ Sedis grauissima sanctissimaque auctoritate sancita, faciendum duxi, vt me",
+          "offset": 204
+        },
+        {
+          "phrase": "[Ideo Sanctos vel Beatos non appellat, de quibus dubitat:]",
+          "latin_context": "itas legitimo Ecclesiæ iudicio confirmata; iis Sanctorum aut Beatorum titulum, cælestis indicem dignitatis, non tribui, [Ideo Sanctos vel Beatos non appellat, de quibus dubitat:] vt Margaritæ & Gentili Rauennatibus, XXIII. & XXVIII. Ianuarij: etiamsi nonnullis non modo centum annorum, sed & seculo",
+          "offset": 3868
+        }
+      ]
+    },
+    {
+      "prefix": "25",
+      "english_rel": "src/translations/jan-vol1/25-authors-protestation.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/25-vii-protestatio-avctoris.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 1,
+      "marginalia": [
+        {
+          "phrase": "[Hoc opus humana historia est, & humana nititur fide.]",
+          "latin_context": "æ pondus obtinere: cum neque Diuina reuelatione, neque Catholicæ Romanæ Ecclesiæ aut sanctæ Sedis auctoritate nitantur; [Hoc opus humana historia est, & humana nititur fide.] nisi quatenus ex Diuinæ Scripturæ libris, aut litteris Pontificum, aut alioquin ab Ecclesia approbatis Patrum monumenti",
+          "offset": 776
+        }
+      ]
+    },
+    {
+      "prefix": "27",
+      "english_rel": "src/translations/jan-vol1/27-authors-partner.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/27-i-auctoris-hoc-in-opere-elucubrando-socius.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 11,
+      "marginalia": [
+        {
+          "phrase": "[Adiutores necessarij]",
+          "latin_context": "sceptatione implexā, informauerit animo, is facile perspiciet, pro dignitate pertractari illud ab homine vno non posse, [Adiutores necessarij] nisi (quod Cardinalis Bellarminus censebat) immenso fere spatio temporis; aut nisi plures accedant adiutores, qui singu",
+          "offset": 229
+        },
+        {
+          "phrase": "[Iuuit & successor eius,]",
+          "latin_context": "orum exempla, qui iis subiecti sunt, facile studia ac mores componant; ceteri Lætienses monachi tum Societatem nostram, [Iuuit & successor eius,] quam inde a Blosij temporibus singulari semper caritate dilexerant, arctius etiam complexi sunt, Winghii imitatione; tu",
+          "offset": 4931
+        },
+        {
+          "phrase": "[Vitis multū recognitis:]",
+          "latin_context": "[& opera.] vt Vitas etiam bene multas ipse & recenseret, & diuideret in capita, & variarum rerum explicatione ornaret; [Vitis multū recognitis:] quas habebam ego quidem antea, sed raptim quandoque congestas, saltem non ita perspicue distinctas & explanatas. Ea rat",
+          "offset": 6755
+        },
+        {
+          "phrase": "[Indices ab eo confecti.]",
+          "latin_context": "ars esset sub illius nomine publicata. Eius quoque studio & industria omnes confecti Indices sunt, tum insigni iudicio, [Indices ab eo confecti.] tum multo sane labore plenoque fastidij. Non deerunt alij fortassis postea, qui in sequentibus tomis hac nos laboris pa",
+          "offset": 8228
+        }
+      ]
+    },
+    {
+      "prefix": "28",
+      "english_rel": "src/translations/jan-vol1/28-other-helpers.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/28-ii-alij-adiutores-ex-omni-ordine.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 4,
+      "marginalia": [
+        {
+          "phrase": "[Alij Vitas miserunt,]",
+          "latin_context": "omni ordine. Præter hunc domesticum & assiduum alij fuere adiutores quamplurimi, qui vel MSS. codices subministrarunt, [Alij Vitas miserunt,] vel Vitas sua manu descripserunt, vel quas ipsi edere parabant, eas operi inserendas meo obtulerunt, vel vnde adipisci",
+          "offset": 147
+        },
+        {
+          "phrase": "[Antonius Beatillus,]",
+          "latin_context": "ntia patuit. Facile omnium primas tulit Antonius Beatillus noster, qui vt erat gloriæ Sanctorum amplificandæ studiosus, [Antonius Beatillus,] tum ipse quorumdam historias accurate scriptas edidit in lucem, tum mihi de aliis, iis præsertim quorum in regno Neapol",
+          "offset": 1235
+        },
+        {
+          "phrase": "[Ioannes Gamans.]",
+          "latin_context": "is cumulatus, ad Sanctorum contubernium emigrauit. Ioannes Gamans, & ipse e Societate nostra, Nienariæ in Vbijs natus, [Ioannes Gamans.] origine Gelder, plurima in Germania, Bohemia, Belgio descripsit de Sanctis, planeque ingentem mihi suppeditauit thesaur",
+          "offset": 1657
+        },
+        {
+          "phrase": "[Andreas du Chesne.]",
+          "latin_context": "mographo; qui nuper magno litteratorum omnium luctu extinctus, sed (quæ rara doctorum virorum felicitas) filio relicto, [Andreas du Chesne.] studiorum, humanitatis, virtutum ceterarum hærede Francisco, qui paterna opera prouehit in lucem. Parens multas mecum S",
+          "offset": 2338
+        }
+      ]
+    },
+    {
+      "prefix": "29",
+      "english_rel": "src/translations/jan-vol1/29-origin-of-martyrologies.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/29-iii-martyrologiorum-origo-polemei-siluij-laterculus.md",
+      "latin_marginalia_count": 8,
+      "english_marginalia_count": 8,
+      "marginalia": [
+        {
+          "phrase": "[Martyrologia vetera, olim edenda.]",
+          "latin_context": "casio in Acta inquirendi. Verum quæ mihi desunt istiusmodi Breuiaria, vtinam consequi omnia possim! Sed præ his quoque, [Martyrologia vetera, olim edenda.] magno mihi subsidio Martyrologia fuere. Cogito quæ habeo non pauca, saltem quæ maxime probata erunt, illa olim edere ac",
+          "offset": 781
+        },
+        {
+          "phrase": "[Dies martyrij sedulo annotari solitus.]",
+          "latin_context": "itate peragi, memoria posset. Huc illa spectant S. Cypriani epist. 37. ad Presbyteros & Diaconos: Denique & dies eorum, [Dies martyrij sedulo annotari solitus.] quibus excedunt, annotate, vt commemorationes eorum inter memorias Martyrum celebrare poßimus. Quamquam Tertullus fidel",
+          "offset": 1781
+        },
+        {
+          "phrase": "[Hinc Fasti Ecclesiæ.]",
+          "latin_context": "rotegente celebrabimus. Hinc Ecclesiæ fasti, quos Tertullianus lib. de corona militis cap.13.solennitatibus Gentilium, [Hinc Fasti Ecclesiæ.] quæ vel ob victoriam natalemve Principum, vel in quoque municipio, peculiari instituto, agebantur, opponit: Coronatur,",
+          "offset": 2470
+        },
+        {
+          "phrase": "[Eucherio Episcopo dicatus.]",
+          "latin_context": "dam delibabo sacra & profana. Ita ergo incipit: Polemei Silvii Latercvlvs. Domino beatißimo Eucherio Episcopo Siluius. [Eucherio Episcopo dicatus.] Laterculum, quem priores fecerunt, cum difficilibus supputatioribus indiciis notatum legissem, ne minus doctis esset ob",
+          "offset": 5776
+        },
+        {
+          "phrase": "[Quæ in eo tractentur?]",
+          "latin_context": "in alternis inter eos foliis enumeratio Principum cum tyrannis; prouinciarum etiam Romanarum, spirantiumq; quadrupedum, [Quæ in eo tractentur?] volatilium, natantium: ratio quærendæ Lunæ, festiuiq; Paschatis: nec non vrbis Romæ fabricarum enarratio: poeticæ fabul",
+          "offset": 6361
+        },
+        {
+          "phrase": "[De diebus,]",
+          "latin_context": "tulte Gentiles loquuntur, nomina designari; quoniam nullius rei, nisi septenarij propter reuolubiles hebdomadas numeri, [De diebus,] sicut Scriptura cælestis edocuit, appellatione censentur. In quibus nec ita modus certus horarum est, vt valeat a quocu",
+          "offset": 6897
+        },
+        {
+          "phrase": "[Ianuarij festa:]",
+          "latin_context": "est amplius, Dominus & Deus noster Dei filius Iesus Christus corporaliter natus est, ordiemur. Ianvarivs. dies XXXI. [Ianuarij festa:] Vocatur apud Hebræos Sebit, apud Aegyptios Tibi, apud Græcos alios Audinæus. Kalendæ ἀπὸ τοῦ καλεῖν, hoc est a vocando,",
+          "offset": 8510
+        },
+        {
+          "phrase": "[Annotata]",
+          "latin_context": "eri. VIII. Natalis Domini Corporalis. Solstitium & initium hiberni. VII. Natalis S. Stephani Martyris. V. Natalis Titi. [Annotata] * ἐίδειν, legendum videtur. * an in pratis?",
+          "offset": 13416
+        }
+      ]
+    },
+    {
+      "prefix": "30",
+      "english_rel": "src/translations/jan-vol1/30-martyrologies-of-eusebius-and-jerome.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/30-iv-martyrologia-eusebij-s-hieronymi-huius-specimen.md",
+      "latin_marginalia_count": 10,
+      "english_marginalia_count": 8,
+      "marginalia": [
+        {
+          "phrase": "[Alia legi in Ecclesiis solita Martyrologia.]",
+          "latin_context": "citata epistola expositus, vt anniuersaria triumphi, quem Martyres retulissent, coli memoria posset. Tale Kalendarium, [Alia legi in Ecclesiis solita Martyrologia.] aut Sanctorum indiculum fuisse olim in Ecclesia Cordubensi, intelligi potest ex iis quæ Walafridus Strabus libro de reb",
+          "offset": 285
+        },
+        {
+          "phrase": "[Tale an scripserit Eusebius?]",
+          "latin_context": "o firmatum. Verum id opus qui Martyrologion dicat, a vocis notatione neutiquam aberrabit, est enim sermo de Martyribus; [Tale an scripserit Eusebius?] a notione, qua Martyrologij nomen nunc vsurpatur, plurimum. An illi Actorum collectioni, quam ab eo ostendimus συλλογὴν",
+          "offset": 1213
+        },
+        {
+          "phrase": "[Idne verterit, aut etiā aliud scripserit S. Hieronymus, incertum.]",
+          "latin_context": "Actus Apost.cap.1. Quibus astipulatur, inquit, & liber Martyrologij, qui B. Hieronymi nomine ac præfatione attitulatur: [Idne verterit, aut etiā aliud scripserit S. Hieronymus, incertum.] quamus idem Hieronymus illius libri non auctor, sed interpres, Eusebius autem auctor extitisse narretur. Non asserit ta",
+          "offset": 3784
+        },
+        {
+          "phrase": "[Eius epistola ad Chromatium,]",
+          "latin_context": "arcum c.26.citat Martyrologium Eusebij & Hieronymi vocabulis insignitum. Præfiguntur Vsuardi Martyrologio epistolæ duæ, [Eius epistola ad Chromatium,] vna Chromatij & Heliodori Episcoporum ad Hieronymum, altera ad ipsos Hieronymi: sed vtramque Baronius solidis argumenti",
+          "offset": 4263
+        },
+        {
+          "phrase": "[Eius nomine inscripta Martyrologium vetus.]",
+          "latin_context": "em in Carthusia Treuirensi Heribertus Rosweydus noster, vetustissimo charactere exaratum, statuitque in lucem emittere: [Eius nomine inscripta Martyrologium vetus.] & iam partem curauerat æneis laminis incidi, Balthasaris Moreti V.CL. expensis, editurus in aduersa pagina descripta el",
+          "offset": 6145
+        },
+        {
+          "phrase": "[Si a S. Hieronymo id compositum,]",
+          "latin_context": "lud citem passim toto opere; nullum tamen certum argumentum suppetit, quo id ab S. Hieronymo esse compositum confirmem, [Si a S. Hieronymo id compositum,] præter eam, quam ante retuli, libri inscriptionem, & quod in illud apte quadrare videantur, quæ sunt ab Vsuardo in sui",
+          "offset": 9840
+        },
+        {
+          "phrase": "[Quædam ex eo decerpta:]",
+          "latin_context": "Alexandria Tryphonis, Menelai, Cyrionis, Eulogij, Porphoris, Africis, Chusti, Iuliani, Eradij, item Tryphonis, Orestis. [Quædam ex eo decerpta:] Sed visum mihi operæ pretium est, dies aliquot, veluti specimen postea integre publicandi operis, dare. Ex Ianuario eos",
+          "offset": 11508
+        },
+        {
+          "phrase": "[Ianuarij dies 1.]",
+          "latin_context": "a templorum Pontificibus occisi sunt, in Suanis ciuitate Persarum. Ianvarivs. Dies XXXI. Kal. Ianu. Circumcisio Domini. [Ianuarij dies 1.] Natalis Coronæ, qui iubente Asclepio Vrbis Præfecto, cum diceret, Hodie Octauæ Dei cæli sunt, cessate a superstitionibu",
+          "offset": 12712
+        },
+        {
+          "phrase": "[Simile aliud Hibernicū.]",
+          "latin_context": "bet Ioannes Colganus Ord. S. Francisci Louanij in cœnobio S. Antonij de Padua Theologiæ Professor, ex Hibernia allatum: [Simile aliud Hibernicū.] sed aliquanto confusius descriptum, omissis locorum nominibus, & subiunctis vnicuique diei Sanctis Hibernicis. Hos ego",
+          "offset": 17075
+        },
+        {
+          "phrase": "[Annotatum]",
+          "latin_context": "ero vetusta MSS. Martyrologia: ea cuiusmodi fuerint non possum diuinare; video nonnumquam cum hisce nostris congruere. [Annotatum] * forte Cælij, Floræ.",
+          "offset": 19423
+        }
+      ]
+    },
+    {
+      "prefix": "31",
+      "english_rel": "src/translations/jan-vol1/31-roman-martyrology-modern-and-ancient.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/31-v-romanum-martyrologium-modernum-vetus.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 4,
+      "marginalia": [
+        {
+          "phrase": "[Romanum modernum ex Vsuardo est:]",
+          "latin_context": "onius, asseritque quamplurima Romæ extare antiqua manu exarata Martyrologij Romani exemplaria, quæ illi qui Romæ agunt, [Romanum modernum ex Vsuardo est:] vix magno labore, peruigili diligentia, & summa sint industria consecuti. At qui Romanum atque Vsuardi Martyrologia con",
+          "offset": 277
+        }
+      ]
+    },
+    {
+      "prefix": "32",
+      "english_rel": "src/translations/jan-vol1/32-martyrologies-of-bede-and-florus.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/32-vi-martyrologia-bedae-flori.md",
+      "latin_marginalia_count": 4,
+      "english_marginalia_count": 6,
+      "marginalia": [
+        {
+          "phrase": "[S. Bedæ Martyrologium.]",
+          "latin_context": "Martyrologium priuato studio concinnauit S. Beda, Presbyter Anglus. Nam huius se & S. Hieronymi prouocatum descriptis, [S. Bedæ Martyrologium.] suum componere aggressum Vsuardus testatur. Et ipse Beda in suorum operum catalogo, qui in editione Parisiensi an. 1583",
+          "offset": 291
+        },
+        {
+          "phrase": "[MSS. 4. eius nomine insignita:]",
+          "latin_context": "Bedæ, quia eo nomine iam innotuit. Reperi vetera MSS. quædam Bedæ præferentia nomen, in quibus tamen neque vacui dies, [MSS. 4. eius nomine insignita:] & quædam Beda posteriorum adiecta Sanctorum nomina. Primum, quod olim Centulensis in Gallia monasterij, siue S. Richari",
+          "offset": 1741
+        },
+        {
+          "phrase": "[Martyrologium Flori.]",
+          "latin_context": "Bede scripsit Vsuardus. De tertio & quarto MS. exemplari mox dicam. Post Bedam Florus extitit quidam, de quo Vsuardus: [Martyrologium Flori.] Quos tamen secutus (Hieronymum & Bedam) censui & Flori memorabilis viri latiora iam in ipso negotio sequi vestigia, præ",
+          "offset": 6040
+        },
+        {
+          "phrase": "[An id 3. quod Bedæ tribuitur in MS. Tornacensi?]",
+          "latin_context": "dæ nomine vulgatum est Martyrologium, Flori esset. Alia duo postea reperi MSS. de quibus id potius quispiam suspicetur: [An id 3. quod Bedæ tribuitur in MS. Tornacensi?] statuere tamen certi nihil possum. Prius est domus Professe Societatis Iesv Antuerpiæ cuius fronti inscriptum recentior",
+          "offset": 8230
+        }
+      ]
+    },
+    {
+      "prefix": "33",
+      "english_rel": "src/translations/jan-vol1/33-martyrology-of-usuard.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/33-vii-martyrologium-vsuardi.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Vsuardus monachus Martyrologium scripsit,]",
+          "latin_context": "scribit Sigebertus lib. de Scriptoribus Ecclesiasticis cap.85. Husuardus monachus, prouocatus studio Hieronymi & Bedæ, [Vsuardus monachus Martyrologium scripsit,] qui festiuitates Sanctorum annuatim recurrentes partim annotauerant; maxime autem animatus studio & iussu Magni Caroli",
+          "offset": 211
+        },
+        {
+          "phrase": "[Varia eius exemplaria habuit Auctor.]",
+          "latin_context": "queam, lubens addiscam. Vsuardi pluribus vsus sum exemplaribus. Nam præter geminam Molani editionem anni 1568. & 1583. [Varia eius exemplaria habuit Auctor.] Parisiensem an. 1536. Lubecanam an. 1475. habui exemplar, quod olim Autbertus Miræus in Rosweydi nostri gratiam Parisii",
+          "offset": 6100
+        }
+      ]
+    },
+    {
+      "prefix": "34",
+      "english_rel": "src/translations/jan-vol1/34-martyrologies-of-rabanus-wandelbert-ado-notker-ditmar.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/34-viii-martyrologia-rabani-vvandelberti-adonis-notkeri-ditmari.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Martyrologium Rabani editum & MS.]",
+          "latin_context": "loruit Rabanus Maurus Abbas Fuldēsis, idem postea Moguntinus Archiepiscopus, cuius extant complura scriptorum volumina, [Martyrologium Rabani editum & MS.] nuper a Georgio Coluenerio recensita editaque. In his est Martyrologium, quod in codice monasterij S. Galli, adscripto",
+          "offset": 253
+        },
+        {
+          "phrase": "[VVandelbertus metricum scripsit.]",
+          "latin_context": "quoque, cuius iam supra meminimus, Prumiensis in Treuirensi diœcesi monachus, Martyrologium metro heroico conscripsit, [VVandelbertus metricum scripsit.] atque Otrico viro illustri dicauit, præfixo inter alia anapæstico carmine ad Lotharium Imperatorem Ludouici Pij filium.",
+          "offset": 1059
+        }
+      ]
+    },
+    {
+      "prefix": "36",
+      "english_rel": "src/translations/jan-vol1/36-what-the-author-asks-of-the-saints.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/36-i-de-hoc-opere-quid-sanctos-auctor-precetur.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Sanctis Auctor non scribit,]",
+          "latin_context": "nnitatis, vultus vertite, ad homuncionem vestra vndique vestigantem & coaceruantem certamina, ac longi situs squallore, [Sanctis Auctor non scribit,] qua fas fuit, deterso, producentem in publicum, Vobisque dicantem. Non postulo, hæc legatis nunc ipsi: habetis librum a",
+          "offset": 277
+        },
+        {
+          "phrase": "[Ioan. 11. 25.]",
+          "latin_context": "iter dicamus, mors aufertur, vita largitur. Sic enim Saluator, Qui credit, inquit, in me, etiamsi mortuus fuerit viuet. [Ioan. 11. 25.] Ad resurrectionem denique ex mortuis, ad immortalitatis bonum perpetuæ, Historia Sanctorum incentiuum est sanctitatis,",
+          "offset": 3555
+        }
+      ]
+    },
+    {
+      "prefix": "37",
+      "english_rel": "src/translations/jan-vol1/37-what-the-author-requests-of-learned-readers.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/37-ii-quid-eruditos-lectores-auctor-postulet.md",
+      "latin_marginalia_count": 2,
+      "english_marginalia_count": 10,
+      "marginalia": [
+        {
+          "phrase": "[Lectores rogat vt moneant, sicubi errauit,]",
+          "latin_context": "opere vobis preclarum videbitur, id veterum est, iis impertite quam merentur laudem. At me sicubi coniectura fefellit, [Lectores rogat vt moneant, sicubi errauit,] si non sum scriptorum sententiam probe assecutus, si adulterinum aliquod scriptum pro legitimo suscepi, si respui quod",
+          "offset": 3171
+        },
+        {
+          "phrase": "[Translationum historias,]",
+          "latin_context": "ti, dari libellos, qui morbi ac curationis modum diserte continerent, tradit S. Augustinus lib.22. de ciuit. Dei cap.8. [Translationum historias,] Si quæ ad locum quempiam translatæ Sanctorum reliquiæ, estque eiusmodi translationis descripta historia; si quæ ad eoru",
+          "offset": 8480
+        }
+      ]
+    },
+    {
+      "prefix": "38",
+      "english_rel": "src/translations/jan-vol1/38-what-the-author-asks-of-non-catholics.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/38-iii-ab-heterodoxis-auctor-quid-poscat.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 2,
+      "marginalia": [
+        {
+          "phrase": "[Heterodoxos, non ministellos apostatas.]",
+          "latin_context": "onum & iucundum sit habitare fratres in vnum, maluerunt sequi desideria erroris, & profugi e cœnobiis, abiecto cucullo, [Heterodoxos, non ministellos apostatas.] qui innocentiæ retinende iis perpetuus hortator esse poterat, carnis voluptatibus qua possent indulgere. Hi, cum matrem",
+          "offset": 245
+        }
+      ]
+    },
+    {
+      "prefix": "39",
+      "english_rel": "src/translations/jan-vol1/39-what-the-author-asks-of-pious-readers.md",
+      "latin_rel": "src/latin/jan-vol1/chunks/39-iv-quid-pios-lectores-roget-auctor.md",
+      "latin_marginalia_count": 1,
+      "english_marginalia_count": 3,
+      "marginalia": [
+        {
+          "phrase": "[Piorum hominū gratia hoc scriptum opus,]",
+          "latin_context": "§. IV. Quid pios Lectores roget Auctor? [Piorum hominū gratia hoc scriptum opus,] Vos mihi volo operis mei Lectores. Vobis præcipue vt prodessem, hunc omnem laborem suscepi. Sancti scriptione non egent",
+          "offset": 43
+        }
+      ]
+    }
+  ]
+}

@@ -32,6 +32,7 @@ const allApr = args.includes('--all-apr');
 const allMay = args.includes('--all-may');
 const allJun = args.includes('--all-jun');
 const allJul = args.includes('--all-jul');
+const allAug = args.includes('--all-aug');
 
 /**
  * Remove byte-identical duplicate paragraph blocks within a saint's text.
@@ -313,6 +314,17 @@ async function main() {
       const files = (await readdir(dir)).filter(f => /^\d{4}-jul-day-\d{2}\.md$/.test(f));
       if (files.length === 0) continue;
       total += await splitDay(`jul/day-${dp}`);
+    }
+  } else if (allAug) {
+    // Only split days that actually have translations (August is being filled
+    // in chronologically; re-running this after more days land is safe).
+    for (let d = 1; d <= 31; d++) {
+      const dp = String(d).padStart(2, '0');
+      const dir = join(ROOT, 'src', 'translations', 'aug', `day-${dp}`);
+      if (!existsSync(dir)) continue;
+      const files = (await readdir(dir)).filter(f => /^\d{4}-aug-day-\d{2}\.md$/.test(f));
+      if (files.length === 0) continue;
+      total += await splitDay(`aug/day-${dp}`);
     }
   }
 

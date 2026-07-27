@@ -24,10 +24,17 @@ it stands and skip the build step entirely.
 ## Deploy
 
 ```bash
-cd site && npx vercel --prod
+cd site && npx vercel --prod --archive=tgz
 ```
 
 Production only — no preview or staging deploys.
+
+⚠ **`--archive=tgz` is required, not optional.** The site is ~16,200 files and
+Vercel's upload limit is 15,000; without the flag the deploy fails outright with
+`Invalid request: 'files' should NOT have more than 15000 items`. The count only
+grows as months are translated, so this will never go back under the limit.
+
+The live domain is **actasanctorum.org**.
 
 ## Hand-maintained files inside `site/`
 

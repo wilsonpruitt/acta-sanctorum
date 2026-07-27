@@ -514,6 +514,8 @@ const FONT_LINKS = `<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">`;
 
+const EXPORT_LINKS = '<div class="export-links"><a href="javascript:print()">Save as PDF</a></div>';
+
 function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
   const prev = prevLink
     ? `<a href="${prevLink.href}">&larr; Previous<span class="nav-label">${escapeHtml(prevLink.label)}</span></a>`
@@ -1098,6 +1100,7 @@ function buildSite() {
           <div class="section-rule"></div>
         </div>
         ${sourceLink}
+        ${EXPORT_LINKS}
         ${headnoteHtml}
         <article class="article">
           ${articleHtml}
@@ -1227,6 +1230,7 @@ function buildSite() {
             <div class="feast-date">${day.day} February &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1347,6 +1351,7 @@ function buildSite() {
             <div class="feast-date">${day.day} March &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1467,6 +1472,7 @@ function buildSite() {
             <div class="feast-date">${day.day} April &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1587,6 +1593,7 @@ function buildSite() {
             <div class="feast-date">${day.day} May &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1706,6 +1713,7 @@ function buildSite() {
             <div class="feast-date">${day.day} June &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1825,6 +1833,7 @@ function buildSite() {
             <div class="feast-date">${day.day} July &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;
@@ -1944,6 +1953,7 @@ function buildSite() {
             <div class="feast-date">${day.day} August &middot; ${genre}</div>
             <div class="section-rule"></div>
           </div>
+          ${EXPORT_LINKS}
           <article class="article">${articleHtml}</article>`;
 
         const prevSaint = si > 0 ? day.saints[si - 1] : null;

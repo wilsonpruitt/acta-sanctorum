@@ -539,6 +539,7 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
   <div class="page">
     <header class="site-header">
       <a href="${cssPath.replace('style.css', '')}index.html">Acta Sanctorum</a>
+      <a class="header-support" href="#support">Support</a>
     </header>
     ${breadcrumb ? `<nav class="breadcrumb">${breadcrumb}</nav>` : ''}
     ${body}
@@ -562,7 +563,7 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
         <button type="submit">Send</button>
       </form>
     </section>
-    <section class="site-support">
+    <section class="site-support" id="support">
       <h2>Support the Translation</h2>
       <p>The Acta Sanctorum has never been available in English. This site is translating all of it: January through July are done, August is underway, and the calendar runs to November&nbsp;10, where the Bollandists stopped in 1940. The scholarship pipeline is built; what remains is a compute bill. Contributions go directly to translating more of the calendar.</p>
       <div class="support-tiers">
@@ -575,6 +576,7 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
     <footer class="site-footer">
       Latin source: <a href="https://www.heiligenlexikon.de/ActaSanctorum/" target="_blank">Heiligenlexikon.de</a><br>
       English translation by Wilson Pruitt
+      <span class="footer-rights">The Latin is public domain. The English translation, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="${cssPath.replace('style.css', '')}rights.html">CC BY-NC 4.0</a> &mdash; free to share and build on, not to sell. <a href="${cssPath.replace('style.css', '')}rights.html">Commercial use, ask.</a></span>
     </footer>
   </div>
   <script src="${cssPath.replace('style.css', '')}pagefind/pagefind-ui.js"></script>

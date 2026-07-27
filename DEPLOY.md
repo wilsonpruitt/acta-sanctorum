@@ -1,5 +1,12 @@
 # Deploying Acta Sanctorum
 
+**Hosting is Vercel.** The `.netlify/` directory in this repo is a leftover from
+an earlier host — ignore it, and do not use the Netlify CLI. This file used to
+document a Netlify deploy; that was stale and is corrected here (2026-07-27).
+
+The Vercel project is linked at `site/`, not at the repo root
+(`site/.vercel/project.json`, Wroot Labs team).
+
 ## Build
 
 ```bash
@@ -8,23 +15,32 @@ node scripts/build-site.mjs
 
 This regenerates all HTML in `site/`.
 
-## Deploy via Netlify CLI
+⚠ **Do not rebuild mid-month.** While a month is partly translated, running the
+build (or a partial `split-saints` pass) publishes half a month and can re-slug
+saints when the rest lands. Finish the month first. To ship an unrelated change —
+a footer, a stylesheet, a hand-maintained page — deploy the existing `site/` as
+it stands and skip the build step entirely.
+
+## Deploy
 
 ```bash
-npx netlify deploy --prod --dir=site
+cd site && npx vercel --prod
 ```
 
-The CLI only uploads files whose content hash changed, so it's fast and doesn't use build minutes.
+Production only — no preview or staging deploys.
 
-## First-time setup
+## Hand-maintained files inside `site/`
 
-If the CLI isn't linked to the site yet:
+`site/` is gitignored, but not everything in it is generated. These are written
+by hand and are NOT reproduced by `build-site.mjs`, so a `rm -rf site/` loses
+them permanently:
 
-```bash
-npx netlify login
-npx netlify sites:list          # find the site name
-npx netlify link --name <site>  # link this directory
-```
+- `site/style.css`
+- `site/about.html`
+- `site/rights.html`
+- `site/favicon.svg`
+
+Back them up before any destructive operation on `site/`.
 
 ## If you need to split saints for a new month
 
@@ -32,7 +48,7 @@ npx netlify link --name <site>  # link this directory
 node scripts/split-saints.mjs --all-mar --dry-run   # preview
 node scripts/split-saints.mjs --all-mar              # write files
 node scripts/build-site.mjs                          # rebuild
-npx netlify deploy --prod --dir=site                 # deploy
+cd site && npx vercel --prod                         # deploy
 ```
 
 Replace `--all-mar` with `--source <month>/day-<NN>` for a single day.

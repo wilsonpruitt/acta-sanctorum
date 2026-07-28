@@ -1,5 +1,9 @@
 # Acta August translation run log (2026-07-24) — SESSION END
 
+> **Unrelated open item (2026-07-28):** `site/about.html` has **no translation methodology
+> section at all** — the weakest of the three corpus projects on this. Brief, model page,
+> and Wilson's own argument for it: **`NOTES-methodology-page.md`** at the repo root.
+
 ## Status: 804 / 2,912 chunks (27.6%), 13 days complete, 182 saint headers
 Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 804 files.
 

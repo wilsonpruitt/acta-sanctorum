@@ -6,7 +6,9 @@
 > cites this run's numbers (804 sections, 7-of-7 clean completions, the five reverted
 > day-02/03 headers), so material changes here may want reflecting there.
 
-## Status: 1,033 / 2,912 chunks (35.5%), 17 days complete, 233 saint headers
+## Status: 1,033 / 2,912 chunks (35.5%), 16 days complete, 233 saint headers
+(The pre-2026-08-01 log said "13 days complete" for 804 chunks; its own table listed only 12 and
+the chunk sum confirms 12. Corrected here — the day counts, not the chunk counts, were off.)
 Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1,033 files.
 
 | day | chunks | headers | | day | chunks | headers |
@@ -20,7 +22,7 @@ Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1
 | 07 | 85 | 16 | | 15 | 36 | 7 |
 | 08 | 43 | 14 | | 22 | 34 | 14 |
 
-## REMAINING — 14 days, 1,879 chunks
+## REMAINING — 15 days, 1,879 chunks
 16=90, 17=61, 18=106, 19=74, 20=233, 21=50, 23=107, 24=71, 25=451,
 26=155, 27=81, 28=217, 29=27, 30=61, 31=95
 Monsters needing shards: 25=451 (~7 agents), 20=233 (~3), 28=217 (~3), 26=155 (~2), 23=107, 18=106.
@@ -77,17 +79,25 @@ same class as the known leontius 0.34 hit):
   0007, so paragraphs 1-7 legitimately appear twice across the chunk boundary. Source parallel,
   NOT a translation overlap.
 
-## HEADER COLLISION — fixed in Aug, still OPEN corpus-wide (found 2026-08-01)
-`extractSaintName` reads the HEADER LINE ONLY. When a martyr-class header is normalized to a bare
-`ON THE HOLY MARTYRS` with the identifying names on the following subtitle line, every such entry
-in a day slugs identically and `collectSplitSaints` merges them into ONE page — the mega-merge
-defect class. FIXED in aug/day-10/0029: four Hieronymian classes had their names folded up onto
-the header line (corpus-majority form, e.g. `ON THE HOLY MARTYRS EUTICIA, MARY THE VIRGIN OF GOD,
-AND VI INNOCENTS.`). Aug now has zero same-day header collisions.
-⚠️ PRE-EXISTING AND LIVE: 22 days across apr-jul carry 2-3 bare `ON THE HOLY MARTYRS` headers in
-the SAME day and are therefore already merged on the deployed site — apr 07/08/10/13/15/16/28,
-may 02/03/04/10/12/15/18, jun 23, jul 03/11/12/23/25/27/31. Fixing means editing those chunks and
-re-splitting those months; deferred, not attempted in the Aug round.
+## BARE `ON THE HOLY MARTYRS` HEADERS — investigated 2026-08-01, NOT a defect
+When agents normalize a Hieronymian martyr-class header to a bare `ON THE HOLY MARTYRS` with the
+identifying names on a following subtitle line, several such entries in one day slug identically.
+I first read this as the mega-merge defect class. It is NOT. Two mechanisms are in play and both
+are working as designed:
+1. `extractSaintName` cuts at the first comma (line ~126) so `MARTYRS, GREAT IN NUMBER` → "Martyrs".
+   That comma cut is LOAD-BEARING corpus-wide (`JULIANA, VIRGIN OF NICOMEDIA` → "Juliana") —
+   do NOT "fix" it; changing it would re-slug every deployed month.
+2. These Hieronymian notices run 150-160 words each, so the deliberate `<200-word` absorb rule
+   folds them into the preceding entry. That rule exists to prevent fragment pages.
+Result in aug/day-10: three short martyr classes share `0003-martyrs-crescentio.md` (481 words
+total). That is correct behavior, not a mis-merge. The real defect was 27k-line files swallowing
+unrelated MAJOR saints; nothing of that kind here.
+Cosmetic change kept: the name-lists in aug/day-10/0029 were folded up onto their header lines
+(corpus-majority form) — better display names, no functional effect.
+NOTE for any future audit: 22 days across apr-jul also carry 2-3 bare `ON THE HOLY MARTYRS`
+headers in the same day (apr 07/08/10/13/15/16/28, may 02/03/04/10/12/15/18, jun 23,
+jul 03/11/12/23/25/27/31). Assume the same benign absorb behavior unless a specific page shows a
+SUBSTANTIAL entry buried in another. Not investigated further, not a known defect.
 
 Watch at build time (harmless but unusual):
 - aug/day-14/0031 and aug/day-15/0035 — frontmatter-only. Their LATIN source is 100% German

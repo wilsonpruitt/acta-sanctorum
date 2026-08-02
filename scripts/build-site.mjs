@@ -1867,12 +1867,23 @@ function buildSite() {
     ];
 
     // August index
+    const augPartial = augDayCount < 31;
+    const augSubtitle = augPartial
+      ? `August &middot; ${augDayCount} of 31 days &middot; ${augSaints} entries (in progress)`
+      : `August &middot; Days 1&ndash;31 &middot; ${augSaints} entries`;
+    const augNotice = augPartial
+      ? `
+      <div class="month-notice">
+        <p><strong>August is being published as it is translated.</strong> ${augDayCount} of its 31 days are complete and appear below; the rest are still in progress. Days that are not yet listed have not been translated, not omitted.</p>
+        <p>Because the entries for a month are re-divided once that month is whole, a few August pages may move to different addresses when the remaining days are finished. Text already published here will not be withdrawn.</p>
+      </div>`
+      : '';
     let augBody = `
       <div class="section-header">
         <h1>Augustus</h1>
-        <div class="subtitle">August &middot; Days 1&ndash;${augDayCount} &middot; ${augSaints} entries${augDayCount < 31 ? ' (in progress)' : ''}</div>
+        <div class="subtitle">${augSubtitle}</div>
         <div class="section-rule"></div>
-      </div>
+      </div>${augNotice}
       <div class="day-grid">`;
 
     for (const day of augDays) {

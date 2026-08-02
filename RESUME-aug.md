@@ -1,26 +1,36 @@
 # Acta August translation run log (2026-07-24) — SESSION END
 
-> **Unrelated open item (2026-07-28):** `site/about.html` has **no translation methodology
-> section at all** — the weakest of the three corpus projects on this. Brief, model page,
-> and Wilson's own argument for it: **`NOTES-methodology-page.md`** at the repo root.
+> **CLOSED 2026-07-28:** the translation-methodology section is written and live on
+> `site/about.html`. The brief it was built from — **`NOTES-methodology-page.md`** at the
+> repo root — is kept as the record of what the page must contain. Note that the page
+> cites this run's numbers (804 sections, 7-of-7 clean completions, the five reverted
+> day-02/03 headers), so material changes here may want reflecting there.
 
-## Status: 804 / 2,912 chunks (27.6%), 13 days complete, 182 saint headers
-Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 804 files.
+## Status: 1,033 / 2,912 chunks (35.5%), 17 days complete, 233 saint headers
+Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1,033 files.
 
 | day | chunks | headers | | day | chunks | headers |
 |---|---|---|---|---|---|---|
-| 01 | 59 | 24 | | 08 | 43 | 14 |
-| 02 | 52 | 13 | | 09 | 50 | 16 |
+| 01 | 59 | 24 | | 09 | 50 | 16 |
+| 02 | 52 | 13 | | 10 | 74 | 16 |
 | 03 | 67 | 13 | | 11 | 54 | 11 |
 | 04 | 213 | 18 | | 12 | 42 | 15 |
-| 05 | 72 | 19 | | 14 | 32 | 13 |
-| 06 | 35 | 10 | | | | |
-| 07 | 85 | 16 | | | | |
+| 05 | 72 | 19 | | 13 | 85 | 14 |
+| 06 | 35 | 10 | | 14 | 32 | 13 |
+| 07 | 85 | 16 | | 15 | 36 | 7 |
+| 08 | 43 | 14 | | 22 | 34 | 14 |
 
-## REMAINING — 18 days, 2,108 chunks
-10=74, 13=85, 15=36, 16=90, 17=61, 18=106, 19=74, 20=233, 21=50, 22=34,
-23=107, 24=71, 25=451, 26=155, 27=81, 28=217, 29=27, 30=61, 31=95
+## REMAINING — 14 days, 1,879 chunks
+16=90, 17=61, 18=106, 19=74, 20=233, 21=50, 23=107, 24=71, 25=451,
+26=155, 27=81, 28=217, 29=27, 30=61, 31=95
 Monsters needing shards: 25=451 (~7 agents), 20=233 (~3), 28=217 (~3), 26=155 (~2), 23=107, 18=106.
+
+## ROUND 2026-08-01 — days 10, 13, 15, 22 (229 chunks, 3 Opus agents, 3 clean completions)
+Envelope held again: 74 / 85 / 70 chunks per agent, 833K–956K tokens, ~75–88 min each.
+Running total 10 agents, 10 clean completions, zero self-throttle.
+August confirms the RESUME prediction: nearly EVERY header in these days arrived as spelled-out
+`DE SANCTIS/DE SANCTO/DE S./DE B.` and had to be normalized to `ON ST./ON SS./ON BL./ON THE HOLY`.
+Agents did this correctly when told; ~45 headers normalized across the four days.
 
 ## NOT DONE ON PURPOSE (do NOT do these until the month is WHOLE)
 - `split-saints.mjs --all-aug` — partial split creates saint pages a later re-split re-slugs
@@ -63,10 +73,49 @@ same class as the known leontius 0.34 hit):
 - aug/day-08/0010, 0012 — Acts of St. Myron, Acts of St. Marinus
 - aug/day-09/0019-0027 and aug/day-14/0002-0009 — long Greek Acts w/ Bollandist facing Latin
 - aug/day-12/0004-0005 — Greek compendium of Anicetus/Photius + facing Latin
+- aug/day-22/0006-0007 — Anthusa Acts: the Greek column falls in 0006 and its facing Latin in
+  0007, so paragraphs 1-7 legitimately appear twice across the chunk boundary. Source parallel,
+  NOT a translation overlap.
+
+## HEADER COLLISION — fixed in Aug, still OPEN corpus-wide (found 2026-08-01)
+`extractSaintName` reads the HEADER LINE ONLY. When a martyr-class header is normalized to a bare
+`ON THE HOLY MARTYRS` with the identifying names on the following subtitle line, every such entry
+in a day slugs identically and `collectSplitSaints` merges them into ONE page — the mega-merge
+defect class. FIXED in aug/day-10/0029: four Hieronymian classes had their names folded up onto
+the header line (corpus-majority form, e.g. `ON THE HOLY MARTYRS EUTICIA, MARY THE VIRGIN OF GOD,
+AND VI INNOCENTS.`). Aug now has zero same-day header collisions.
+⚠️ PRE-EXISTING AND LIVE: 22 days across apr-jul carry 2-3 bare `ON THE HOLY MARTYRS` headers in
+the SAME day and are therefore already merged on the deployed site — apr 07/08/10/13/15/16/28,
+may 02/03/04/10/12/15/18, jun 23, jul 03/11/12/23/25/27/31. Fixing means editing those chunks and
+re-splitting those months; deferred, not attempted in the Aug round.
 
 Watch at build time (harmless but unusual):
-- aug/day-14/0031 — frontmatter-only, 60 bytes. Its LATIN source is 100% German footer, so there
-  was genuinely nothing to translate. File kept so the 1:1 gap check stays clean.
+- aug/day-14/0031 and aug/day-15/0035 — frontmatter-only. Their LATIN source is 100% German
+  footer, so there was genuinely nothing to translate. Files kept so the 1:1 gap check stays clean.
+- aug/day-10 and aug/day-13 — SYSTEMATIC scrape defect: the first paragraph after every `§`
+  section head has lost its bracketed number (day-10 Lawrence commentary is missing [11] [22]
+  [32] [44] [54] [64] [77] [90] [100] [107] [118], the Amadeus Acts [13] [27] [39] [63] [72]
+  [88] [109] [134] [143] [150]; day-13 the same at [12] [21] [26] [38] and through Radegund /
+  Maximus / Cassian). Numbering is otherwise continuous. Same class as `column [ ]` — a scrape
+  artifact, not a translation error. Not worth retrofitting.
+- aug/day-10/0019 — three footnote letters (s, t, u) absent in the Latin though the note bodies
+  are present; agent supplied them where the a-z sequence was unambiguous and REPORTED it, same
+  judgment call as day-06/0011. Not a silent repair.
+- aug/day-13/0007 — mangled whitespace glyphs around `Locus + sigilli`, rendered as indentation.
+
+Source self-contradictions left as printed (the Bollandists flag most themselves):
+- day-10: Ado's annotation f puts Lawrence under Aurelian where the commentary argues Valerian;
+  the 165 Soldiers header says Aurelian, §2 concludes Valerian, §6 reverts to Aurelian; Nicholas V
+  twice called "Nicholas the Fourth"; a 1482/1483 clash in the Amadeus miracles.
+- day-13: `id tempus` vs `id opus` for the same quoted sentence (0078 vs 0080); Druthmar's
+  translation dated both 1100 and 1086 in the Corvey Annals.
+- day-15: St. Arnulf's death given as XIII Kal. Sept. in the Acts, corrected to XVIII Kal. Sept.
+  in the Bollandists' own note k; Book III advertises a ch. 19 with no text (their note i) and
+  carries bare chapter numerals VI, VII, IX, XI, XII with no content under them; the bell-tower
+  miracle dated MXCI in the Acts, MLXXXI in Sigebert.
+- day-22: the commentary says "concerning the emperor Trajan" where the Acts it just quoted name
+  Aurelian; 0013 has an intrusive-looking `non` with its footnote definition displaced into the
+  next chunk; the Porto martyr-lists differ irreconcilably between Martyrologies.
 - aug/day-07 is 61% one saint: chunks 0033-0084 = St. Cajetan of Thiene.
 - aug/day-12/0039-0040 — §§56-69 are one long Bollandist editorial bracket (miracles absent from
   their MS, supplied from Böddeken/Corsendonk/Surius). Brackets preserved intentionally.

@@ -6,7 +6,7 @@
 > cites this run's numbers (804 sections, 7-of-7 clean completions, the five reverted
 > day-02/03 headers), so material changes here may want reflecting there.
 
-## Status: 1,033 / 2,912 chunks (35.5%), 16 days complete, 233 saint headers
+## Status: 1,285 / 2,912 chunks (44.1%), 20 days complete
 (The pre-2026-08-01 log said "13 days complete" for 804 chunks; its own table listed only 12 and
 the chunk sum confirms 12. Corrected here — the day counts, not the chunk counts, were off.)
 Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1,033 files.
@@ -22,10 +22,23 @@ Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1
 | 07 | 85 | 16 | | 15 | 36 | 7 |
 | 08 | 43 | 14 | | 22 | 34 | 14 |
 
-## REMAINING — 15 days, 1,879 chunks
-16=90, 17=61, 18=106, 19=74, 20=233, 21=50, 23=107, 24=71, 25=451,
-26=155, 27=81, 28=217, 29=27, 30=61, 31=95
+## REMAINING — 11 days, 1,627 chunks
+18=106, 20=233, 21=50, 23=107, 24=71, 25=451, 26=155, 27=81, 28=217, 30=61, 31=95
 Monsters needing shards: 25=451 (~7 agents), 20=233 (~3), 28=217 (~3), 26=155 (~2), 23=107, 18=106.
+Only 21=50, 30=61, 24=71, 27=81, 31=95 still fit whole-day ownership; everything else shards.
+
+## ROUND 2026-08-03 — days 16, 17, 19, 29 (252 chunks, 3 Opus agents, 3 clean completions)
+Running total 13 agents, 13 clean completions, zero self-throttle.
+Verified: 0 gaps, 0 footer leaks, 0 same-day header collisions, 0 fatal header forms, frontmatter
+valid on all 252. EN:Latin ratio 1.438-1.476 across the four days (corpus norm ~1.46).
+**The header fix WORKED.** This round's prompt added: "keep the identifying NAMES on the header
+line itself, before any comma — the splitter reads the header line only and cuts at the first
+comma." Agents complied unprompted-by-followup (day-19 folded a ten-name martyr list up; day-16
+recast `DE SS. MARTYRIBUS ALEXANDRINIS ORIONE…` so the pre-comma name stays distinguishable).
+Zero collisions needed hand-fixing, vs 4 last round. KEEP THIS CLAUSE IN THE PROMPT.
+⚠️ Do NOT infer agent effort from reported token counts: the day-16 agent reported 109K tokens for
+90 chunks where comparable days reported 830-980K. Its EN:Latin ratio is 1.476, dead normal, and
+all 90 files are full length. Telemetry artifact, not truncation. (Cf. [[feedback_haiku-agent-telemetry-gate]].)
 
 ## ROUND 2026-08-01 — days 10, 13, 15, 22 (229 chunks, 3 Opus agents, 3 clean completions)
 Envelope held again: 74 / 85 / 70 chunks per agent, 833K–956K tokens, ~75–88 min each.
@@ -129,6 +142,17 @@ Source self-contradictions left as printed (the Bollandists flag most themselves
 - aug/day-07 is 61% one saint: chunks 0033-0084 = St. Cajetan of Thiene.
 - aug/day-12/0039-0040 — §§56-69 are one long Bollandist editorial bracket (miracles absent from
   their MS, supplied from Böddeken/Corsendonk/Surius). Brackets preserved intentionally.
+
+Verified NOT a problem (checked 2026-08-03, don't re-investigate):
+- aug/day-16/0038 `ON THE FRONT OF THE ALTAR` / `ON THE BACK OF THE ALTAR` (Hyacinth's tablet
+  inscriptions) — the day-16 agent flagged these as possible false splits. Tested against the real
+  `isSaintBoundary()`: both return FALSE. `THE FRONT`/`THE BACK` are not in the HONORIFIC list
+  (only `THE HOLY`/`THE BLESSED`). Same for `ON THE 13TH DAY OF AUGUST` in day-13.
+
+New convention application (2026-08-03): the empty-bracket `[ ]` device, previously used only for
+citation numerals dropped by the scrape, was extended by the day-17 agent to an IMPOSSIBLE source
+reading — `die LX Februarii` (a 60th of February) → `the [ ] day of February`. Correct instinct:
+mark the lacuna, never guess the numeral. Reuse this for other nonsensical numerals.
 
 Cosmetic, no action (corpus-wide scrape artifact):
 - Citations that lost their numeral render `column [ ]` / `page [ ]`. day-05 used `column —`

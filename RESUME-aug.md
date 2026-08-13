@@ -1,4 +1,4 @@
-# Acta August translation run log (2026-07-24) — SESSION END
+# Acta August translation run log (2026-07-24) — ⭐ AUGUST TRANSLATION COMPLETE 2026-08-11
 
 > **CLOSED 2026-07-28:** the translation-methodology section is written and live on
 > `site/about.html`. The brief it was built from — **`NOTES-methodology-page.md`** at the
@@ -6,10 +6,17 @@
 > cites this run's numbers (804 sections, 7-of-7 clean completions, the five reverted
 > day-02/03 headers), so material changes here may want reflecting there.
 
-## Status: 2,551 / 2,912 chunks (87.6%), 30 days complete (day-25 partial: 90/451)
+## ✅ Status: 2,912 / 2,912 chunks (100%), ALL 31 DAYS COMPLETE — translation phase closed
+**August is whole.** Verified across the whole month: latin chunk count == translation count on
+every one of the 31 days, 0 gaps, 0 extras, 0 footer leaks, frontmatter valid everywhere.
 (The pre-2026-08-01 log said "13 days complete" for 804 chunks; its own table listed only 12 and
-the chunk sum confirms 12. Corrected here — the day counts, not the chunk counts, were off.)
-Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1,033 files.
+the chunk sum confirms 12. Corrected then — the day counts, not the chunk counts, were off.)
+
+⚠️ **A stale-memory trap, hit 2026-08-11:** it is easy to remember day-31 as the outstanding one
+(it is the last *date*). It was finished 2026-08-07. The last day translated was **day-25**, which
+is the largest day in the entire corpus. Before any relaunch, audit the month on disk — one loop
+comparing `ls latin/aug/day-NN/chunks | wc -l` against `ls translations/aug/day-NN | wc -l` per day
+settles it in seconds and is the same discipline as the post-failure enumeration rule below.
 
 | day | chunks | headers | | day | chunks | headers |
 |---|---|---|---|---|---|---|
@@ -28,43 +35,146 @@ Verified: 0 gaps, 0 footer leaks, 0 stray test files, frontmatter valid on all 1
 | 31 | 95 | 22 | | 21 | 50 | 21 |
 | 26 | 155 | 27 | | 20 | 233 | 22 |
 | 28 | 217 | 47* | | 23 | 107 | 37* |
-*header LINES, not saints: day-28 = 17 distinct saints, day-23 = 28. See Rounds C/D.
+| 25 | 451 | 29* | | | **2,912** | |
+*header LINES, not saints: day-28 = 17 distinct saints, day-23 = 28, day-25 = 24 (Louis IX alone
+holds 6 of the 29 lines). See Rounds C/D/E.
 
-## ▶▶ REMAINING — day-25 ONLY — READ THIS BLOCK BEFORE LAUNCHING
-**day-25 is the last day of August and the largest day in the entire corpus (451 chunks).**
-Chunks **0000–0089 are DONE and verified**; **0090–0450 remain (361 chunks, ~4–5 agents).**
-Suggested shards: 0090–0179 / 0180–0269 / 0270–0359 / 0360–0450 (90/90/90/91).
+## ▶▶ THE MONTH GATES — ✅✅ ALL SIX CLOSED 2026-08-12
 
-**THE SEAM INTO 0090 — hand this to the first agent verbatim:**
-- English 0089 ends: *"…he began so to make himself over to the divine work that to all"*
-- Latin 0089 ends `…ita se divino cœpit operi mancipare, ut cunctis`
-- Latin 0090 opens `se cernentibus, velut jam futurus in Ecclesia præsul, forma fieret & exemplum.`
-- So **0090 opens mid-sentence with "…beholding him, he became a pattern and example, as one who
-  would one day be a prelate in the Church."** No recap, no bridging clause.
-- Context: inside the Acts of St. Maxentius quoted within the **St. Severus of Agde** commentary.
+1. ✅ `node scripts/scan-duplicate-translations.mjs` — ran clean. All August hits verified by hand
+   as the known benign class (Greek Acts with a facing/parallel Latin translation of the same
+   narrative — day-04 Ia, day-08 Myron/Marinus, day-09 Gregory, day-12 Anicetus, day-14 Ursicinus,
+   day-22 Anthusa). Nothing fixed, nothing new found.
+2. ✅ `node scripts/split-saints.mjs --all-aug` — dry run matched the live run exactly: 514 saint
+   entries across all 31 days, Louis IX correctly merged into one 633,798-word entry (the intended
+   6-header merge on day-25).
+3. ✅ `node scripts/build-site.mjs` — built clean, verified in the actual HTML: August's index reads
+   "Days 1–31 · 511 entries", no `.month-notice`, no "(in progress)" suffix. No code change needed,
+   as predicted.
+4. ✅ Pagefind reindex — `npx pagefind --site site`, ~195s, 4,408 pages / 231,597 words / 1 language.
+5. ✅ `site/about.html` figures refresh — backed up first to
+   `~/acta-sanctorum-backups/pre-gate5-20260812-055657/`. New figures: 40,336,564 EN words /
+   29,336,259 Latin words / 19,516 text sections / 244 days / "January–August complete." Also
+   rewrote the "How the Work Is Batched" narrative (previously stuck at "sixteen of thirty-one
+   days") to reflect the finished month — 35 agents, 35 clean completions, 2,912 sections.
+   **Note on the figures:** the corpus has structurally inconsistent representations across months
+   (jan-vol1 has no separate chunk layer; jan-vol2 has 16 days with a duplicate "manual"
+   retranslation that had to be resolved to avoid double-counting; some Latin day dirs nest a
+   `chunks-manual` variant too). The totals above resolve the known duplications with a consistent
+   method, but treat them as the same caliber of precision as the original hand-maintained numbers
+   — not a byte-audited figure.
+6. ✅ **DEPLOYED** — `cd site && npx vercel --prod --archive=tgz`, aliased to actasanctorum.org.
+   Two deploys: one after gates 1–5, a second after the about.html narrative fix.
 
-⚠️⚠️ **ST. LOUIS IX HAS NOT STARTED YET.** He does NOT appear anywhere in 0000–0089 — his dossier
-begins at 0090 or later and will be enormous. **The agent that opens it SETS THE HEADER FORM for
-every later shard.** Instruct it to use the most explicit wording (`ON ST. LOUIS IX, KING OF
-FRANCE, …`), to report it verbatim and prominently, and instruct every later shard to match it
-byte-for-byte before the comma. This is the exact shape that produced the Bernard split.
+August is fully live. Next real work on this project is a new month or a defect sweep — this
+run log's job is done.
 
-**HEADERS ALREADY EMITTED IN day-25 — paste into every resume prompt so open dossiers align:**
-```
-ON ST. BARTHOLOMEW THE APOSTLE,
-ON ST. GERONTIUS, BISHOP OF ITALICA IN SPAIN,
-ON SS. EUSEBIUS AND PONTIANUS AND VINCENTIUS AND PEREGRINUS, ROMAN MARTYRS,
-ON ST. MAGINUS OR MAXIMUS, MARTYR AMONG THE TARRACONESE IN CATALONIA,
-ON ST. GENESIUS THE MIME, MARTYR AT ROME,
-ON ST. GENESIUS THE NOTARY, MARTYR AT ARLES IN GAUL,
-ON ST. MAXIMA, VIRGIN AND MARTYR IN THE TERRITORY OF CHARTRES IN GAUL,
-ON SS. RUFINA AND EUTICA AND JULIAN AND PERHAPS JULIUS AND HERMES AND JUSTUS AND XVIII SOLDIERS, MARTYRS,
-ON ST. JULIAN, MARTYR IN SYRIA,
-ON ST. JOHN THE HERMIT, OF RUSELLO IN ABRUZZO OF ITALY,
-ON ST. VICTOR OR VICTURUS, BISHOP OF LE MANS IN GAUL,
-ON ST. GENNADIUS I, PATRIARCH OF CONSTANTINOPLE,
-ON ST. SEVERUS, ABBOT OF AGDE IN OCCITANIA OF GAUL,      <- OPEN at 0089, continues into 0090
-```
+Also still open from earlier rounds, deliberately: the ⬜ items under Rounds A–D (the day-23/0053
+21-word display name, the day-20/0090 `irregressibi` convention question) — Wilson's calls, left
+as printed, do not re-raise unprompted.
+
+## ROUND E 2026-08-11 — day-25 FINISHED, 361 chunks in 4 Opus shards (4 clean completions)
+Running total **35 agents, 35 clean completions, zero self-throttle.**
+Shards 0090–0179 / 0180–0269 / 0270–0359 / 0360–0450 (90/90/90/91); three concurrent, D launched
+as A landed. Token/time: 92K/102m, 954K/107m, 95K/107m, 957K/85m.
+
+### day-25 COMPLETE — verified on all 451
+0 gaps, 0 extras, 0 footer leaks, 0 fatal header forms, frontmatter + chunk-id + status valid on
+all 451, no chunk under 0.9. **Day ratio 1.475** (985,007 EN / 667,865 Latin words) — identical to
+the ratio of its own first 90 and to day-20/28.
+**29 header lines → 24 distinct slugs**, verified by EVALUATING `extractSaintName` (a throwaway
+mjs that imports the real functions out of `split-saints.mjs`), not by grepping. The sole MULTI is
+`louis-ix` with all six of its headers; the other 23 are singletons.
+**All three seams verified against the LATIN, not against the agents' reports:**
+- A→B `…In primis enim, inquit, ipsius regni` / `auspiciis de tam prolixa guerra ipsius comitis…`
+- B→C falls INSIDE a name — "…his son John" / "Tristan, …"
+- C→D `…quodque credat, eum esse sanctum` / `propter bona opera charitatis…`
+
+### ⭐ THE LESSON OF THIS ROUND: MANDATE THE MEGA-DOSSIER'S HEADER UP FRONT
+Round D's recipe said *shard A sets Louis IX's header form and later shards match it.* **That does
+not work when the shards run concurrently** — B, C and D would each have had to match a report that
+did not exist yet. So all four prompts were given the identical mandated string
+`ON ST. LOUIS IX, KING OF FRANCE,` in advance, with "byte-identical before the comma, no variation"
+and the wrong variants named explicitly.
+It paid: his dossier turned out to run **0158 → 0450, i.e. 293 chunks, two-thirds of the largest day
+in the corpus**, across all four shards, with **six** header lines (Commentarius prævius, Geoffrey of
+Beaulieu, William of Chartres, a second appendix, *Life II* by Queen Margaret's confessor,
+Joinville's *Vita III*). All six cut to `louis-ix`. Under Round D's recipe this was odds-on to build
+as several separate pages.
+**Generalize:** when a day is known to be dominated by one saint, fix that saint's header string in
+the prompt before dispatch. Sequencing information through agent reports only works for sequential
+rounds.
+
+### ⭐ A NEW HEADER TRAP, THE INVERSE OF BERNARD — two different saints, one name
+day-25 has **two distinct abbesses of Coldingham both named Ebba** (the virgin, d. 683, at 0111;
+the martyr with companions, 869/870, at 0153). Naïve headers cut both to `Ebba` and would have
+**merged two unrelated saints into one page** — the mirror image of the Bernard split. Shard A
+caught it unprompted and pushed each epithet before the comma. The pre-comma rule's half (b) was
+doing work nobody had yet seen it do.
+Cosmetic follow-up applied by hand: A's fix produced 11-word display names, so the comma was moved
+one word earlier → `ON ST. EBBA THE VIRGIN, ABBESS IN…` / `ON ST. EBBA THE MARTYR, ABBESS WITH…`,
+giving `ebba-the-virgin` / `ebba-the-martyr`, still distinct, nothing lost from the line. (Contrast
+day-23/0053, where shortening WOULD cost a name or a hedge — that one stays as printed.)
+
+### Shard B ran 90 chunks with ZERO headers — and saying so is what made it safe
+0180–0269 is one unbroken stretch of the Louis IX *Commentarius prævius*, paragraphs [159]–[833],
+1229–1258. The "if your shard contains NO saint header, say so explicitly" clause (added Round A)
+is what kept the collision scan from reading it as 90 chunks of lost headers. Keep the clause.
+
+### Fixes applied at verification (5)
+1. **0344 — a conjecture had reached the running text.** Latin `valorem quinque m librarum
+   Parisiensium`, where `m` is the marker; note m says the figure is manifestly wrong and *perhaps*
+   `quingentarum` should be read. The shard wrote "five [m] **hundred** pounds", importing the
+   guess → corrected to "five [m] pounds", conjecture confined to the note. **The shard flagged
+   this against itself in its own report**, which is the only reason it was findable. That
+   self-flagging is worth encouraging explicitly in future prompts.
+2. **0176, 0263, 0289 — three dropped `[Col. NNN]` markers restored.** A shard reasoned they were
+   scrape furniture and asked the convention question. They are NOT: the English corpus preserves
+   them in 85 files across every month, aug/day-01 included (220 latin files carry them, oct/nov
+   heaviest). Convention: keep the marker inline at the matching position; if the number is lost,
+   `[Col. [ ]]` (which shard D did correctly at 0376). **Add this to the frozen prompt** — it came
+   up unprompted twice.
+3. **The two Ebba display names** (above).
+
+### day-25 anomalies the Bollandists do NOT flag — the richest harvest of the month
+- **Three miracle numerals simply absent** in the canonization *Acta*: X (0369), V (0367), and
+  XXVIII skipped XXVII→XXIX (0379). No editorial note on any.
+- **`[230]` printed where `[130]` belongs** (0424, Joinville among the Saracens) — same defect class
+  as this day's earlier `[227]`-for-`[127]` (0176) and `[134]`-for-`[154]` (0179).
+- **`[19]` printed twice** for two distinct exempla (0401, count of Montfort / the old knight at
+  Cluny) while `[18]` never appears.
+- **Shard B's paragraph-number harvest:** `[200]` for `[300]`, `[42]` for `[422]`, `[404]` for
+  `[424]`, `[401]` for `[431]`, `[451]` and `[351]` duplicated, `[482]` printed twice with `[481]`
+  absent, and [202]/[220]/[267]/[481] skipped outright.
+- ⭐ **A rubric that contradicts its own text two lines later:** § XXVI (0199) calls Frederick II's
+  bride `sorore regis Angliæ` (sister), the body `filiam Henrici Angliæ regis Isabellam` (daughter).
+- ⭐ **A misquoted Vulgate, printed correctly two chunks later:** "Benedictus qui venit **in honore**
+  Domini" for *in nomine* (0208), then correctly at 0245.
+- ⭐ **Joinville's 100,000 livres where the narrative demands 200,000** (0429/0446); the note offers
+  "perhaps the author wrote *ducens*" and the figure stands unreconciled.
+- **The sultan in two places at once** — Achmon (Chaize) and Mansurah (Abulpharagius), 0246.
+- **A doubled countess the Bollandists catch once and miss once**: Beatrice of Provence's "four
+  daughters, two queens and as many countesses" then "a third countess" — corrected at 0230,
+  passing uncorrected at 0259 [750].
+- **A demolition list promising thirty towns, naming twenty-five, with Montaigu listed twice**
+  (0177), and a "twenty thousand marks" total that only closes if the Toulouse masters' 4,000 is
+  excluded (0178).
+- **A charter promising ten castles that names two and breaks off** into `Roque &c. …` (0179) —
+  truncated in the source itself, not by the chunk boundary.
+- **Print/scrape slips translated for sense and flagged, not bracketed** (not numerals): `vit` for
+  `vir` (0360), `pervenite` for `pervenire` (0359), `issus` for `usus` (0369), line-break
+  dittography `Armenorum / menorum` (0239), doubled `que` (0412), `qu faciant`, `sirmatis` (0178),
+  `n mium` (0091).
+- **0408 — the exact preposition trap the conventions warn about**: a genuine marker `a` sits beside
+  `a duobus annis`. Read as the preposition, no marker emitted. Correct.
+
+### day-25 `[ ]` lacunae
+~70 across the day, one dominant class: **Martène / Labbe / Migne / Ughelli / du Cange citations
+whose column number the scrape dropped** (the Latin prints a bare `Col.` or `a Col.`). Four are of
+other kinds and worth naming: a charter date that lost its day (0275, `on the [ ] day of March`); a
+chapter-list item truncated mid-phrase with the source's own stray double period (0325); a lost
+comparative adverb (0329); a phrase dropped inside the description of the bier (0334). Plus a
+corrupt editorial correction at 0209 (`legendum exiri` — `exiri` is not a numeral).
 
 ## ROUND D 2026-08-08/09 — day-23 sharded 2 + day-25 first 90 (Opus)
 **Ran twice: the first launch died on a weekly API limit, the second finished it.**

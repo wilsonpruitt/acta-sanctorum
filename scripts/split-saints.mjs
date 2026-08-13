@@ -11,6 +11,9 @@
  *        node scripts/split-saints.mjs --all-apr [--dry-run]
  *        node scripts/split-saints.mjs --all-may [--dry-run]
  *        node scripts/split-saints.mjs --all-jun [--dry-run]
+ *        node scripts/split-saints.mjs --all-jul [--dry-run]
+ *        node scripts/split-saints.mjs --all-aug [--dry-run]
+ *        node scripts/split-saints.mjs --all-sep [--dry-run]
  */
 
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
@@ -33,6 +36,7 @@ const allMay = args.includes('--all-may');
 const allJun = args.includes('--all-jun');
 const allJul = args.includes('--all-jul');
 const allAug = args.includes('--all-aug');
+const allSep = args.includes('--all-sep');
 
 /**
  * Remove byte-identical duplicate paragraph blocks within a saint's text.
@@ -325,6 +329,18 @@ async function main() {
       const files = (await readdir(dir)).filter(f => /^\d{4}-aug-day-\d{2}\.md$/.test(f));
       if (files.length === 0) continue;
       total += await splitDay(`aug/day-${dp}`);
+    }
+  } else if (allSep) {
+    // Only split days that actually have translations (September is being
+    // filled in chronologically; re-running this after more days land is safe).
+    // NOTE: September has 30 days, not 31 — do not copy the August bound.
+    for (let d = 1; d <= 30; d++) {
+      const dp = String(d).padStart(2, '0');
+      const dir = join(ROOT, 'src', 'translations', 'sep', `day-${dp}`);
+      if (!existsSync(dir)) continue;
+      const files = (await readdir(dir)).filter(f => /^\d{4}-sep-day-\d{2}\.md$/.test(f));
+      if (files.length === 0) continue;
+      total += await splitDay(`sep/day-${dp}`);
     }
   }
 

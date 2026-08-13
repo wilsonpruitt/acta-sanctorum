@@ -852,6 +852,7 @@ function buildSite() {
   const junDays = collectSplitSaints('jun', 1, 30);
   const julDays = collectSplitSaints('jul', 1, 31);
   const augDays = collectSplitSaints('aug', 1, 31);
+  const sepDays = collectSplitSaints('sep', 1, 30); // September has 30 days
   const headnotes = loadHeadnotes();
   const parisPages = loadParisPages();
 
@@ -881,6 +882,8 @@ function buildSite() {
   const julDayCount = julDays.length;
   const augSaints = augDays.reduce((s, d) => s + d.saintCount, 0);
   const augDayCount = augDays.length;
+  const sepSaints = sepDays.reduce((s, d) => s + d.saintCount, 0);
+  const sepDayCount = sepDays.length;
   const landingBody = `
     <div class="landing">
       <div class="landing-ornament">&#10022; &#10022; &#10022;</div>
@@ -896,7 +899,7 @@ function buildSite() {
       <div class="landing-description">
         A new English translation of the <em>Acta Sanctorum</em>, the monumental Bollandist
         collection of hagiographic texts arranged by liturgical feast day. This edition
-        presents ${totalSaints + febSaints + marSaints + aprSaints + maySaints + junSaints + julSaints + augSaints} saint entries across January through ${augSaints > 0 ? 'August' : (julSaints > 0 ? 'July' : (junSaints > 0 ? 'June' : (maySaints > 0 ? 'May' : (aprSaints > 0 ? 'April' : 'March'))))},
+        presents ${totalSaints + febSaints + marSaints + aprSaints + maySaints + junSaints + julSaints + augSaints + sepSaints} saint entries across January through ${sepSaints > 0 ? 'September' : (augSaints > 0 ? 'August' : (julSaints > 0 ? 'July' : (junSaints > 0 ? 'June' : (maySaints > 0 ? 'May' : (aprSaints > 0 ? 'April' : 'March')))))},
         translated from the Latin text digitized by the &Ouml;kumenisches Heiligenlexikon.
       </div>
       <div class="month-grid">
@@ -943,7 +946,12 @@ function buildSite() {
           <span class="vol-count">${augSaints} entries${augDayCount < 31 ? ' (in progress)' : ''}</span>
         </div>`
           : `<div class="month-link disabled">Augustus <span class="vol-count">forthcoming</span></div>`}
-        <div class="month-link disabled">September <span class="vol-count">forthcoming</span></div>
+        ${sepSaints > 0
+          ? `<div class="month-link">
+          <a href="september/index.html">September</a>
+          <span class="vol-count">${sepSaints} entries${sepDayCount < 30 ? ' (in progress)' : ''}</span>
+        </div>`
+          : `<div class="month-link disabled">September <span class="vol-count">forthcoming</span></div>`}
         <div class="month-link disabled">October <span class="vol-count">forthcoming</span></div>
         <div class="month-link disabled">November <span class="vol-count">forthcoming</span></div>
         <div class="month-link disabled">December <span class="vol-count">&mdash;</span></div>
@@ -1908,7 +1916,7 @@ function buildSite() {
         breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> August',
         body: augBody,
         prevLink: { href: '../july/index.html', label: 'July' },
-        nextLink: null,
+        nextLink: sepDays.length > 0 ? { href: '../september/index.html', label: 'September' } : null,
       })
     );
 
@@ -1979,6 +1987,136 @@ function buildSite() {
             : { href: 'index.html', label: `${day.day} August` },
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} August` } : null),
+        }));
+      }
+    }
+  }
+
+  if (sepDays.length > 0) {
+    const SEPTEMBER_DATES = [
+      'Kalendis Septembris', 'IV Non. Sep.', 'III Non. Sep.', 'Prid. Non. Sep.',
+      'Nonis Septembris', 'VIII Id. Sep.', 'VII Id. Sep.', 'VI Id. Sep.',
+      'V Id. Sep.', 'IV Id. Sep.', 'III Id. Sep.', 'Prid. Id. Sep.',
+      'Idibus Septembris', 'XVIII Kal. Oct.', 'XVII Kal. Oct.', 'XVI Kal. Oct.',
+      'XV Kal. Oct.', 'XIV Kal. Oct.', 'XIII Kal. Oct.', 'XII Kal. Oct.',
+      'XI Kal. Oct.', 'X Kal. Oct.', 'IX Kal. Oct.', 'VIII Kal. Oct.',
+      'VII Kal. Oct.', 'VI Kal. Oct.', 'V Kal. Oct.', 'IV Kal. Oct.',
+      'III Kal. Oct.', 'Prid. Kal. Oct.'
+    ];
+
+    // September index
+    const sepPartial = sepDayCount < 30;
+    const sepSubtitle = sepPartial
+      ? `September &middot; ${sepDayCount} of 30 days &middot; ${sepSaints} entries (in progress)`
+      : `September &middot; Days 1&ndash;30 &middot; ${sepSaints} entries`;
+    const sepNotice = sepPartial
+      ? `
+      <div class="month-notice">
+        <p><strong>September is being published as it is translated.</strong> ${sepDayCount} of its 30 days are complete and appear below; the rest are still in progress. Days that are not yet listed have not been translated, not omitted.</p>
+        <p>Because the entries for a month are re-divided once that month is whole, a few September pages may move to different addresses when the remaining days are finished. Text already published here will not be withdrawn.</p>
+      </div>`
+      : '';
+    let sepBody = `
+      <div class="section-header">
+        <h1>September</h1>
+        <div class="subtitle">${sepSubtitle}</div>
+        <div class="section-rule"></div>
+      </div>${sepNotice}
+      <div class="day-grid">`;
+
+    for (const day of sepDays) {
+      const dp = String(day.day).padStart(2, '0');
+      const romanDate = SEPTEMBER_DATES[day.day - 1] || '';
+      const topSaints = day.saints.slice(0, 5).map(s => s.displayName).join(', ');
+      const more = day.saintCount > 5 ? ` + ${day.saintCount - 5} more` : '';
+      sepBody += `
+        <div class="day-card">
+          <h3><a href="day-${dp}/index.html">${day.day} September</a></h3>
+          <div class="saint-preview">${romanDate} &middot; ${day.saintCount} entries: ${escapeHtml(topSaints)}${more}</div>
+        </div>`;
+    }
+    sepBody += '</div>';
+
+    fs.mkdirSync(path.join(SITE_DIR, 'september'), { recursive: true });
+    fs.writeFileSync(
+      path.join(SITE_DIR, 'september/index.html'),
+      htmlPage({
+        title: 'September',
+        cssPath: '../style.css',
+        breadcrumb: '<a href="../index.html">Home</a><span class="sep">&rsaquo;</span> September',
+        body: sepBody,
+        prevLink: { href: '../august/index.html', label: 'August' },
+        nextLink: null,
+      })
+    );
+
+    // September day + saint pages (same structure as January–August)
+    for (let di = 0; di < sepDays.length; di++) {
+      const day = sepDays[di];
+      const dp = String(day.day).padStart(2, '0');
+      const dayDir = path.join(SITE_DIR, 'september', `day-${dp}`);
+      fs.mkdirSync(dayDir, { recursive: true });
+
+      let dayBody = `
+        <div class="day-header">
+          <h2>${day.day} September</h2>
+          <div class="day-date">${SEPTEMBER_DATES[day.day - 1] || ''} &middot; ${day.saintCount} entries</div>
+          <div class="section-rule"></div>
+        </div>
+        <ul class="saint-list">`;
+
+      for (const saint of day.saints) {
+        const genre = guessGenre(saint);
+        dayBody += `
+          <li>
+            <a href="${saint.slug}.html">${escapeHtml(saint.displayName)}</a>
+            ${genreTagHtml(genre)}
+          </li>`;
+      }
+      dayBody += '</ul>';
+
+      const prevDay = di > 0 ? sepDays[di - 1] : null;
+      const nextDay = di < sepDays.length - 1 ? sepDays[di + 1] : null;
+
+      fs.writeFileSync(path.join(dayDir, 'index.html'), htmlPage({
+        title: `${day.day} September`,
+        cssPath: '../../style.css',
+        breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">September</a><span class="sep">&rsaquo;</span> ${day.day} September`,
+        body: dayBody,
+        prevLink: prevDay
+          ? { href: `../day-${String(prevDay.day).padStart(2, '0')}/index.html`, label: `${prevDay.day} September` }
+          : { href: '../index.html', label: 'September' },
+        nextLink: nextDay
+          ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} September` }
+          : null,
+      }));
+
+      for (let si = 0; si < day.saints.length; si++) {
+        const saint = day.saints[si];
+        const articleHtml = renderSaintArticle(saint);
+        const genre = guessGenre(saint);
+
+        const saintBody = `
+          <div class="saint-header">
+            <h1>${escapeHtml(saint.displayName)}</h1>
+            <div class="feast-date">${day.day} September &middot; ${genre}</div>
+            <div class="section-rule"></div>
+          </div>
+          ${EXPORT_LINKS}
+          <article class="article">${articleHtml}</article>`;
+
+        const prevSaint = si > 0 ? day.saints[si - 1] : null;
+        const nextSaint = si < day.saints.length - 1 ? day.saints[si + 1] : null;
+
+        fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
+          title: saint.displayName,
+          cssPath: '../../style.css',
+          breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">September</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} September</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
+          body: saintBody,
+          prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
+            : { href: 'index.html', label: `${day.day} September` },
+          nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
+            : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} September` } : null),
         }));
       }
     }
@@ -2106,6 +2244,21 @@ function buildSite() {
       });
     }
   }
+  // Add September saints
+  for (const day of sepDays) {
+    const dp = String(day.day).padStart(2, '0');
+    for (const saint of day.saints) {
+      allSaints.push({
+        displayName: saint.displayName,
+        day: day.day,
+        month: 'september',
+        slug: saint.slug,
+        dayPad: dp,
+        genre: guessGenre(saint),
+        words: saint.totalWords || 0,
+      });
+    }
+  }
   allSaints.sort((a, b) => {
     // Sort numbers to end, then alphabetically
     const aNum = a.displayName.match(/^\d/);
@@ -2119,7 +2272,7 @@ function buildSite() {
   let indexBody = `
     <div class="section-header">
       <h1>Index of Saints</h1>
-      <div class="subtitle">${allSaints.length} entries &middot; January&ndash;${augDays.length > 0 ? 'August' : (julDays.length > 0 ? 'July' : (junDays.length > 0 ? 'June' : (mayDays.length > 0 ? 'May' : (aprDays.length > 0 ? 'April' : 'March'))))}</div>
+      <div class="subtitle">${allSaints.length} entries &middot; January&ndash;${sepDays.length > 0 ? 'September' : (augDays.length > 0 ? 'August' : (julDays.length > 0 ? 'July' : (junDays.length > 0 ? 'June' : (mayDays.length > 0 ? 'May' : (aprDays.length > 0 ? 'April' : 'March')))))}</div>
       <div class="section-rule"></div>
     </div>
     <div style="text-align:center; margin-bottom: 2rem; font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.15em;">`;
@@ -2141,7 +2294,7 @@ function buildSite() {
       currentLetter = letter;
       indexBody += `<h3 id="letter-${letter}" style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; color: var(--rubric); margin: 2rem 0 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--rule);">${letter}</h3>`;
     }
-    const monthLabel = saint.month === 'august' ? 'Aug' : (saint.month === 'july' ? 'Jul' : (saint.month === 'june' ? 'Jun' : (saint.month === 'may' ? 'May' : (saint.month === 'april' ? 'Apr' : (saint.month === 'march' ? 'Mar' : (saint.month === 'february' ? 'Feb' : 'Jan'))))));
+    const monthLabel = saint.month === 'september' ? 'Sep' : (saint.month === 'august' ? 'Aug' : (saint.month === 'july' ? 'Jul' : (saint.month === 'june' ? 'Jun' : (saint.month === 'may' ? 'May' : (saint.month === 'april' ? 'Apr' : (saint.month === 'march' ? 'Mar' : (saint.month === 'february' ? 'Feb' : 'Jan')))))));
     const monthPath = saint.month || 'january';
     const wordLabel = saint.words > 1000 ? `${Math.round(saint.words / 1000)}k` : (saint.words > 0 ? `${saint.words}` : '');
     indexBody += `<div style="padding: 0.3rem 0; display: flex; justify-content: space-between; align-items: baseline;">

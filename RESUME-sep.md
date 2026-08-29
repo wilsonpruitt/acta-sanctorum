@@ -687,3 +687,72 @@ that is correct, not a duplicate translation. Do NOT "fix" these.
 - `build-site.mjs`, `about.html` refresh, pagefind, deploy — all wait for a complete September
 - The `--all-sep` + build-site September wiring is **uncommitted on `master`**, alongside
   `RESUME-aug.md`, `MAP-sep.md`, and now `PROMPT-sep.md` and this file
+
+---
+
+## Round D — 2026-08-28/29 (days 03, 07, 16) — ALL CLEAN
+
+Three Opus agents, whole-day ownership, launched concurrently. **352 chunks.**
+September now **1,074/4,120 chunks (26.1%), 13 of 30 days** (03, 05, 06, 07, 08, 09, 11, 12, 13, 16, 21, 23, 24).
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs |
+|-----|--------|-----|---------------|-----------------|
+| 03 | 111 | I | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio **1.206** | 19 → 19 |
+| 07 | 116 | III | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.158 | 31 → 26 |
+| 16 | 125 | V | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.158 | 19 → 18 |
+
+Every slug merge was verified by EVALUATING `extractSaintName`, and every one is intentional:
+day-16 Euphemia ×2 (Acts + the separate *culta* treatise at 0020), day-07 Stephen of Die ×5
+(Commentary, metric Life, Miracula, Paraphrase, Letter) and John of Lodi ×2. Zero unintended
+merges, zero same-saint splits. **The two Johns of day-07 landed as `john-the-martyr` and
+`john-of-lodi`** — the mandated pair did its job.
+
+### ⭐ AN AGENT GIVEN A WHOLE DAY MAY SHARD ITSELF — AND THE THREE OUTCOMES DIFFERED
+None of the three prompts mentioned sharding; all said "you are the sole agent on this day."
+- **day-07 (116 chunks) ran SERIALLY** — one agent, 154 tool uses, ~1h57m. Whole-day serial
+  ownership is therefore *proven at 116 chunks*, which the Round-A–C record (max 99) had not shown.
+- **day-03 (111) self-sharded into 8**, its coordinator reporting 1.2 MB of Latin as too large for
+  one context at full fidelity.
+- **day-16 (125) self-sharded into 5** at 25 chunks each, with pre-assigned header forms.
+Same instruction, same size band, opposite strategies. **Do not infer from a clean big day that
+serial ownership was what ran** — check the agent's own report. Both sharding coordinators froze a
+header table centrally before dispatch (Round E's lesson, rediscovered unprompted) and both
+verified seams afterward; that is why the self-sharding cost nothing.
+
+### Defects the agents caught and repaired themselves (none reached disk)
+- day-16: a clause duplicated across the 0048/0049 shard boundary.
+- day-03: a place line opening `ON THE ISLAND OF CAPRAJA…` — a false-split shape — recast to `IN THE
+  ISLAND OF…`; plus an inconsistent `[*]` marker across 0015–0027.
+- day-07: **reading two Latin chunks per turn twice caused both to be translated into the earlier
+  file** (0043/0044, 0085/0086); split back at the exact Latin boundary. New failure shape worth
+  naming in the prompt — it is not a seam error, it is a *read-batching* error, and it produces a
+  fat file plus a thin one rather than a gap.
+
+### ⚠️ THE BYTE RATIO MOVES WITH GREEK LOAD — 1.206 IS NOT PADDING
+day-03 came in at **1.206**, above the 1.09–1.16 band, i.e. the opposite direction from truncation.
+Per-chunk spread is tight (max 1.27, no outlier), so it is a day-level property, not invented text
+in one place. Cause: **untranslated Greek reproduced verbatim DEFLATES the ratio.** day-16 has Greek
+in 20 files and sits at 1.158; day-03's Greek is much lighter and sits at 1.206. Read the band as
+Greek-dependent, not absolute. `RESUME-aug.md`'s stated band was measured on Greek-bearing days.
+
+### Header work mandated up front this round (all held)
+- **day-07 two different Johns** — `ON ST. JOHN THE MARTYR,` (0003) vs `ON ST. JOHN OF LODI, …`
+  (0082, 0097). Found by reading the day's Latin headers before dispatch, not from `MAP-sep.md`.
+- **day-16 Euphemia** — `ON ST. EUPHEMIA OF CHALCEDON, VIRGIN AND MARTYR,` byte-identical across
+  the Acts and the `DE S. EUPHEMIA V. M. CULTA` treatise, which would otherwise have built as a
+  second page. Also Victor III (ordinal before the comma) and Edith/Eadgitha.
+- **day-03** one-man-two-names: Godegrand/Chrodogang, Aristion/Aristeus; Aigulphus' companion
+  roster kept out of the display name; Ambrose **of Sens** given its epithet pre-comma so it can
+  never collide with Ambrose of Milan.
+Generalizing the method: **grep each day's Latin `DE S.`/`DE SS.` headers before dispatch and put
+the day's actual clashes in its prompt.** The three days' traps were all real and none of the three
+appears in `MAP-sep.md`'s name-trap list.
+
+⬜ **OPEN, for Wilson:** day-03/0038 prints apostrophus numerals (`1ⅠƆCC`, `1ⅠƆC`) for Strabo's
+colonist figures. The glyphs survived the scrape intact, so the agent reproduced them verbatim
+rather than blanking to `[ ]`. Reads correct — the lacuna convention is for *lost* content — but it
+sits next to the deliberately-unruled garbled-WORDS question. Not re-raised elsewhere.
+
+**NOT run this round (deliberate, per Wilson's "stop after that"):** split-saints, build-site,
+pagefind, deploy. September still shows `forthcoming` on the live site.
+Remaining: **17 days / 3,046 chunks.** 04 (294), 14 (387), 28 (241), 30 (320) still last.

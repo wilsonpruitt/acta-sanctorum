@@ -504,3 +504,56 @@ and none of the 24 renamed pages is among them.
 ## Fixed
 
 *(nothing yet — move entries here with the date and what was done)*
+
+---
+
+## D11 — HEADERS SILENTLY REJECTED BY THE SPLITTER (found 2026-08-30, Round F)
+
+⚠️⚠️ **`headers → slugs` parity CANNOT detect this.** A header line the translator plainly intended
+as a saint entry can fail `isSaintBoundary()` in `scripts/split-saints.mjs` and be dropped in
+silence: the saint gets no page, and the text accretes onto the PRECEDING saint. The header count
+and the slug count stay self-consistently wrong, so `check-day.mjs` reports perfect health.
+
+**Found by the day-02 agent**, which evaluated the real `isSaintBoundary` per-line instead of
+trusting totals, and caught its own `ON THE TEN HOLY MARTYRS:` being rejected before the split ran.
+Verified independently against `split-saints.mjs`: `HONORIFIC` must sit IMMEDIATELY after `ON ` /
+`CONCERNING `, so any interposed word breaks it.
+
+### Corpus-wide sweep — `scripts/check-header-boundaries.mjs` (new, this session)
+Loads the REAL `isSaintBoundary` out of `split-saints.mjs` by source extraction, so the check can
+never drift from the splitter it models. Full output: `deploy/header-boundary-report.txt`.
+
+**4,553 header-shaped lines pass. 209 do not.** Split into:
+
+**A. 71 lines that read as intended saint headers.** Dominant failure patterns:
+| Pattern | Count | Example |
+|---|---|---|
+| Quantifier between `THE` and `HOLY` | 20 | `ON THE SEVENTEEN HOLY AFRICAN MARTYRS.` · `ON THE TEN THOUSAND HOLY MARTYRS AT NICOMEDIA` |
+| `ON HOLY …` / `ON THE SAINTS …` (no matching honorific) | 16 | `ON THE SAINTS MARTYRS OF MASSYLA` · `ON HOLY MARTYRS` |
+| `THE VENERABLE` (only bare `VENERABLE` is in HONORIFIC) | 12 | `ON THE VENERABLE ODA, OF THE PREMONSTRATENSIAN ORDER` |
+| feast / translation / relic sub-titles | 15 | `ON THE ELEVATION OF THE BODY OF SAINT AMANDUS,` |
+| misc | ~8 | `ON ST RICHARD…` (**no period after ST**) · `ON ANOTHER ST. VENANTIUS, MARTYR,` |
+
+⚠️ **The 15 feast/translation titles are probably CORRECT rejections** — `split-saints.mjs` says in
+its own comments that `LIFE OF` / `TRANSLATION OF` / `MIRACLES OF` are sub-sections, not new saints.
+So the real damage is **roughly 50–56 lines, not 71.** Do not quote 71 as the defect count.
+
+**B. 138 subtitles/section titles opening with `ON `** — correctly rejected, harmless to the split,
+but they violate the standing rule that a subtitle must never begin with `ON `.
+Per month: jan-vol2 30 · jul 29 · may 23 · feb 18 · aug 13 · jun 12 · apr 9 · mar 4.
+
+### ⭐⭐ SEPTEMBER IS CLEAN — ZERO in both categories
+Every one of the 209 is in a **deployed** month (jan-vol2, feb, mar, apr, may, jun, jul, aug).
+September has not a single silent rejection and not a single `ON `-opening subtitle. **The rules
+added to `PROMPT-sep.md` this year are what made the difference** — the deployed months predate
+them. This is the same shape as D8 and D4: a systematic fault laid down before the rule existed.
+
+### ⬜ FOR WILSON — a live-site decision, NOT a correctness-only one
+Fixing these **creates new pages and changes existing URLs** on eight deployed months. That is the
+same link-breakage call as the 23 live oversized slugs (D10), and it is his, not the model's.
+Nothing has been touched. Options: fix the header lines (new pages appear, some URLs move) · widen
+`isSaintBoundary`'s HONORIFIC to admit `THE VENERABLE`, `THE SAINTS`, and a quantifier before
+`HOLY` (fixes ~48 without editing any translation, but silently re-splits deployed months on the
+next build) · leave and record.
+⚠️ **The second option is the tempting one and the most dangerous**: a regex widening changes the
+split of every deployed month at once, with no per-case reading.

@@ -168,19 +168,63 @@ byte-identical before the comma, every time, no variation (not "<WRONG VARIANT 1
 "<WRONG VARIANT 2>"). Report each occurrence verbatim and prominently.
 ```
 
-Mandated strings for September's nine cross-seam dossiers (English forms; Latin sources in `MAP-sep.md`):
+Mandated strings for September's cross-seam dossiers (English forms; Latin sources in `MAP-sep.md`).
+**Re-derived 2026-08-30 by grepping every day with `^DE [A-Z]` and measuring the gap to the next
+header.** Two spans in the old table were WRONG and one of them merged two saints — see the warning
+below. Threshold is now **~40 chunks**, not 75.
 
 | Day | Mandated header | Latin chunks |
 |-----|-----------------|--------------|
 | 14 | `ON ST. JOHN CHRYSOSTOM, BISHOP OF CONSTANTINOPLE AND DOCTOR OF THE CHURCH,` | 0159–0351 (193) |
 | 30 | `ON ST. JEROME THE PRESBYTER,` | 0098–0269 (172) |
-| 18 | `ON ST. THOMAS OF VILLANOVA, ARCHBISHOP OF VALENCIA,` | 0023–0187 (165) |
+| 18 | `ON ST. THOMAS OF VILLANOVA, ARCHBISHOP OF VALENCIA,` | **0023–0142 (120)** ⚠ corrected |
 | 04 | `ON ST. MOSES THE PROPHET, LEADER AND LAWGIVER OF THE PEOPLE OF ISRAEL,` | 0000–0107 (108) |
 | 14 | `ON ST. CYPRIAN OF CARTHAGE, BISHOP AND MARTYR,` | 0030–0127 (98) |
 | 04 | `ON ST. ROSALIA OF PALERMO, VIRGIN,` | 0167–0249 (83) |
-| 17 | `ON ST. HILDEGARD, VIRGIN AND MISTRESS OF THE SISTERS OF THE ORDER OF ST. BENEDICT,` | 0096–0174 (79) |
 | 29 | `ON ST. MICHAEL THE ARCHANGEL, AND ON ALL THE ANGELS,` | 0000–0076 (77) |
 | 30 | `ON ST. GREGORY THE ILLUMINATOR, BISHOP OF ARMENIA AND CONFESSOR,` | 0020–0094 (75) |
+| 02 | `ON ST. STEPHEN, FIRST KING OF THE HUNGARIANS,` | 0068–0140 (73) |
+| 28 | `ON BL. BERNARDINO OF FELTRE, CONFESSOR OF THE ORDER OF MINORS OBSERVANT OF ST. FRANCIS,` | 0173–0240 (68) |
+| 17 | `ON ST. LAMBERT, BISHOP OF MAASTRICHT AND MARTYR,` | 0030–0089 (60) |
+| 28 | `ON ST. WENCESLAUS, MARTYR, DUKE AND PATRON OF BOHEMIA,` | 0108–0154 (47) |
+| 17 | `ON ST. HILDEGARD, VIRGIN AND MISTRESS OF THE SISTERS OF THE ORDER OF ST. BENEDICT,` | **0096–0141 (46)** ⚠ corrected |
+| 01 | `ON ST. JOSHUA, LEADER OF THE ISRAELITES,` | 0000–0044 (45) |
+| 18 | `ON BL. JOSEPH OF CUPERTINO, PRESBYTER OF THE ORDER OF MINORS CONVENTUAL OF ST. FRANCIS,` | 0143–0187 (45) |
+| 26 | `ON SS. CYPRIAN OF ANTIOCH AND JUSTINA AND THEOCTISTUS, MARTYRS NEAR NICOMEDIA IN BITHYNIA,` | 0003–0046 (44) |
+| 27 | `ON ST. ELZÉAR DE SABRAN, BARON OF ANSOUIS AND COUNT OF ARIANO, CONFESSOR,` | 0093–0135 (43) |
+| 26 | `ON ST. NILUS, ABBOT OF GROTTAFERRATA,` | 0057–0098 (42) |
+| 28 | `ON ST. FAUSTUS OF RIEZ, BISHOP,` | 0033–0073 (41) |
+| 04 | `ON ST. ROSE OF VITERBO, VIRGIN,` | 0250–0289 (40) |
+
+Day 25 has no dossier over 40 chunks (18 headers across 116) and needs no mandated string.
+The eleven strings below the old 75-chunk line were derived 2026-08-30 from each dossier's OWN
+Latin header and subtitle, never from outside knowledge; they have not yet been through an agent.
+
+### ⚠️⚠️ THE OLD TABLE HAD TWO WRONG SPANS — ONE WOULD HAVE MERGED TWO SAINTS
+- **Day 18: Thomas of Villanova was listed as 0023–0187 (165).** He actually ends at **0142**;
+  chunk **0143 opens `DE B. JOSEPHO A CUPERTINO`**, a 45-chunk dossier of his own. Dispatched on the
+  old figure, every shard past 0143 would have been ordered to head Joseph of Cupertino's dossier
+  with Thomas's mandated string — **manufacturing the exact D8 merged-works defect on purpose**, and
+  the mandate would have made it look correct to every gate.
+- **Day 17: Hildegard was listed as 0096–0174 (79).** She ends at **0141**; 0142 is
+  `DE B. GANDOLPHO` and 0158 is `DE B. PETRO ARBUESIO`.
+
+**Lesson: a mandated span is an instruction to OVERWRITE headers, so a too-long span is far more
+dangerous than no mandate at all.** Re-measure the gap to the next `^DE [A-Z]` before trusting any
+row here, and never widen a span to "cover" a shard boundary.
+
+### ⚠️ THREE MORE THINGS THE `^DE [A-Z]` SWEEP TURNED UP
+- **`^DE [A-Z]` has its own false positives.** Day-17/0153 is `DE CULTU, RELIQUIIS ET MIRACULIS
+  RECENTIORIBUS.` — a *sub-section* of the Gandolphus dossier, not an article header, and it names
+  no saint. Same family as day-10's `DE AFRICANIS MARTYRIBUS…`, which was the opposite case (a real
+  dossier naming no saint). **The pattern is the right net; a reader still has to sort the catch.**
+- **The `ITEM DE …` joined-dossier shape recurs.** Day-30's Gregory header is
+  `DE S. GREGORIO EPISCOPO ARMENIÆ CONFESSORE: ITEM DE SS. VIRGINIBUS RIPSIME, GAIANA ET SOCIIS` —
+  the mandated string above keeps only Gregory and **silently drops Ripsime and Gaiana**. Day-02's
+  0010 does the same to a second Nicomedian group. This is the day-05 Romulus/Melitene problem:
+  **keep both and claim neither wrongly.** ⬜ Unresolved — decide before day 30 is dispatched.
+- **Day-17's Lambert header itself carries `ET EA OCCASIONE DE BB. PETRO, ANDOLETO ETC.`** — a
+  second group folded into the header line. Same decision as above.
 
 Note day 14: Cyprian's mandated form carries **OF CARTHAGE before the comma** precisely so it can
 never collide with day 26's Cyprian of Antioch. Same reasoning for Rosalia **OF PALERMO**.

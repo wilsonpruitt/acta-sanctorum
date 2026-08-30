@@ -327,7 +327,7 @@ line; deleting from the blank rather than the heading silently eats the previous
 work's last paragraph. Verify by concatenating the two halves back together and
 diffing against the pre-split file — the only difference should be whitespace.
 
-## D9 — sep/day-19: the Januarius of Naples treatise is absent from the SOURCE
+## D9 — the volume APPENDIX pages were never scraped (found via sep/day-19 Januarius)
 
 **Status:** ⬜ open — Wilson's call on what to do about it
 **Found:** 2026-08-29, resolving the standing "day-19 may be structurally
@@ -354,15 +354,39 @@ Evidence:
   for the name (`day-29`, `0146`) is a **different** Januarius, one of the Roman
   soldier-martyrs of 29 September.
 
-**So day-19 is complete as scraped at 60 chunks, and September can be called
-done without it — but the corpus will be silently missing one of the largest
-articles in the whole Acta** (~130 printed pages, and the famous one: the
-liquefaction of the blood at Naples).
+**So day-19 is complete as scraped at 60 chunks and September can be called done
+without it.**
 
-⬜ **For Wilson:** three options — (a) ship September as-is and record the hole
-on the *What Is Known to Be Wrong* page; (b) re-scrape that stretch of volume VI
-from the source and translate it as a day-19 appendix; (c) leave it and revisit
-when the source side is next touched. Nothing downstream is blocked either way.
+### ⚠️ ESCALATED 2026-08-30 — this is NOT a September problem, and the text IS available
+The treatise is **on the source site**, on `Anhang_September_VI.html`, a page no
+scraper of ours has ever visited. The day-19 index page lists Januarius with the
+Bollandists' own *"Acta imprimenda circa finem tomi"* and **no hyperlink**; the
+only links it carries are to the volume's Einleitung and **Anhang**.
+
+**Every volume has an `Anhang_<Month>_<Vol>.html`, and we have scraped exactly
+one of them** (January vol. 2). Several hold full treatises:
+`Anhang_August_VI.html` alone carries **nine** — Hildegar, Famianus, Firmus &
+Rusticus, Fedlimid, Rufinus, Fagnanus, Aduinus, Ago, Burchard. **August is a
+completed, DEPLOYED month, missing nine articles, and the live site does not say
+so.** ~62 volumes are unchecked; nobody has counted, so quote no number yet.
+
+⚠️ Content type **varies**: `Anhang_September_I.html` is an `INDEX HISTORICUS`,
+not treatises, and jan-vol2's local `anhang.txt` is 181 lines of lettered notes
+with zero `DE ` headers. A sweep must classify before acting.
+
+⚠️ **Trap for whoever writes the scraper:** `scrape-index-day.mjs`'s chrome
+filter strips any line beginning `Anhang ` — correct on a day page, wrong on the
+Anhang page itself, where that is the title. Do not reuse `extractArticle`
+unmodified.
+
+⭐ **Full handoff, self-contained: `D9-RUNBOOK.md`** — evidence chain, the
+four-step plan (enumerate/classify → scrape → translate → placement), and the
+open decisions.
+
+⬜ **For Wilson:** (1) September only, or the corpus-wide sweep? (2) deployed
+months are affected — fix quietly, disclose on *What Is Known to Be Wrong*, or
+both (the house pattern is disclosure); (3) translate the `INDEX HISTORICUS`
+appendices or skip them as apparatus; (4) September does **not** wait on this.
 
 ## D10 — oversized page slugs: FIXED, 30 across the corpus
 

@@ -36,6 +36,17 @@ Do NOT read chunks outside your range for "context." To calibrate register, read
 
 Your last chunk simply ends where its Latin ends, almost certainly mid-sentence. Add no closing summary or bridging text.
 
+## ⚠️ ONE LATIN CHUNK PER TURN — THE READ-BATCHING ERROR
+**Read exactly one Latin chunk, write its English file, then read the next.** Do not read two or
+more Latin chunks in the same turn to "save round-trips." A September Round-D agent did this twice
+on day-07 and both times translated *both* chunks into the *earlier* file (0043/0044, 0085/0086),
+leaving one fat file and one thin one. It had to be split back by hand at the exact Latin boundary.
+
+This is not a seam error and the range check will not catch it — the file count is right and no
+chunk is missing. The only tell is a byte ratio far above the day's mean paired with one far below.
+If you ever find you have read ahead, stop and write each chunk's translation to its own file
+before continuing.
+
 ## OUTPUT FORMAT
 The Latin source has NO frontmatter. You must GENERATE the YAML frontmatter on every English file:
 
@@ -68,7 +79,11 @@ status: translated
 A downstream script detects saint entries by the header line ALONE, and cuts the display name at **the first comma**. Everything after that comma is discarded for naming purposes.
 
 - Required form: `ON ST. X` / `ON STS. X` / `ON SS. X` / `ON S. X` / `ON BL. X` / `ON BB. X` / `ON BLESSED X` / `ON THE HOLY X` / `ON THE BLESSED X` / `ON VEN. X` / `ON VENERABLE X` / `ON SAINT X`, or `CONCERNING …` with the same honorifics. **ALL CAPS, on its own line.**
-- The Latin will often arrive spelled out as `DE SANCTO …` / `DE SANCTIS …` / `DE BEATO …` / `DE BEATA …`, or as the Bollandist index form (`Hieronymus presbyter … (S.)`). **Normalize all of these to the `ON ST.` / `ON SS.` / `ON BL.` forms.**
+- The Latin will often arrive spelled out as `DE SANCTO …` / `DE SANCTIS …` / `DE BEATO …` / `DE BEATA …` instead of `DE S.`. **Normalize all of these to the `ON ST.` / `ON SS.` / `ON BL.` forms.** They are true article headers and a grep for `DE S.` alone will miss them — September day-10's Hilarus, day-15's Catherine Fieschi Adorno (the largest dossier on her day), and three `DE B.` blesseds all arrived this way.
+- ⚠️⚠️ **BUT THE BOLLANDIST INDEX HEAD IS NOT AN ARTICLE HEADER — DO NOT PROMOTE IT.** The running identification line `Valerianus martyr, Threnorchii in ducatu Burgundiæ (S.)` — typically sitting under a source line such as `Ex variis exemplaribus Mss. & impressis inter se collatis.` and above a `BHL Number:` line — identifies a *document* inside a dossier that already has its own `DE` header elsewhere. **Render it in sentence case as the elogium it is** (`Valerian, martyr, at Tournus in the duchy of Burgundy. (S.)`), keeping the `(S.)`/`(Bl.)` marker and the `BHL Number` line. Never emit it as an ALL-CAPS `ON ST.` line.
+  - This clause used to read "…or as the Bollandist index form (`Hieronymus presbyter … (S.)`). Normalize all of these" — and **two independent September Round-E agents duly promoted every running index head to a header**, one emitting 56 header lines for 19 saints and the other 29 for 13. Both had to be reverted. The instruction, not the agents, was at fault; it is corrected here.
+  - **A chunk with no header at all is normal and expected** — see the clause below. Do not go looking for a header to give it. If a dossier's `DE` header appeared in an earlier chunk, every later chunk of that dossier correctly carries none.
+  - The same applies to the **day-opening roster** and to the Bollandist **index blocks** (runs of lines like `Ammonius M. Alexandriæ in Ægypto (S.)`). September day-08 met 27 such lines and rendered them in sentence case; emitted as headers they would have produced ~27 false splits. Sentence case, always.
 - `ON BLESSED X` and `ON THE HOLY MARTYRS X` are legitimate corpus-majority forms. Do not "fix" them.
 - **FATAL forms — never emit:** `OF SAINT X`, `OF S. X`, `CONCERNING BLESSED X` as an opener, or any lowercase keyword/honorific.
 - **A subtitle or location line must never begin with `ON `** — that shape gets misread as a saint header and produces a false split. Recast it (`ON MOUNT SCETIS IN LIBYA` → `IN MOUNT SCETIS OF LIBYA`).

@@ -44,7 +44,212 @@ repeatedly in July and August; one went 42 minutes and then finished all 96 chun
 `status=failed` justifies a gap-fill. A low reported token count is likewise not truncation (see the
 telemetry-artifact note below, now seen three times).
 
-## ✅ NOTHING IS IN FLIGHT. All ten started days are COMPLETE and verified.
+## ⏸ THE SEPTEMBER COMPLETION DEPLOY NOW CARRIES MORE THAN SEPTEMBER
+Wilson, 2026-08-30: **hold the full deploy until September is complete.** Riding along with it:
+- **30 oversized page slugs fixed** — 6 in September, **24 on the LIVE site** (renamed but not yet
+  published), with **24 permanent redirects** mapped in `site/vercel.json` (tracked master copy at
+  `deploy/vercel.json`, because `site/` is gitignored). See **D10** in `CORPUS-DEFECTS.md`.
+- ⚠️ **A rebuild does NOT delete old pages** (no `rmSync` over `SITE_DIR`), so the 24 stale files
+  must be removed at deploy time — list in `deploy/stale-pages.txt`.
+- ⚠️ **`build-site.mjs` has NO completeness gate** — it links September whenever any September saints
+  exist, labelled `(in progress)` at `sepDayCount < 30`. The mid-month rule holds only because nobody
+  runs the build. **Do not run it until day 30 lands.**
+
+## ✅ ROUND E COMPLETE — 2026-08-29, days 10, 15, 22 — 450 chunks
+September now **1,524 / 4,120 chunks (37.0%), 16 of 30 days** (03, 05, 06, 07, 08, 09, 10, 11, 12,
+13, 15, 16, 21, 22, 23, 24). Three Opus agents, whole-day ownership, launched concurrently.
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs |
+|-----|--------|-----|---------------|-----------------|
+| 10 | 154 | III | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.155 | **18 → 18** |
+| 15 | 147 | V | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.161 | **19 → 19** |
+| 22 | 149 | VI | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.171 | **13 → 13** |
+
+All three self-sharded (3, 6 and 5 sub-agents), all three froze the header table centrally before
+dispatch, all three verified their seams. **Days 15 and 22 needed an index-head revert; day 10 did
+not make the mistake at all** despite the same defective prompt clause.
+
+Both self-sharded (6 and 5 sub-agents), both froze the header table centrally before dispatch, both
+verified their seams. day-15 repaired two real cross-seam content losses of its own (0089/0090 lost
+"is wont to shrink from" and "of our humanity"; 0113/0114 lost that it was the *first* of the nine
+days) — **the failure mode a sharded run creates and a serial run cannot.**
+
+### ⭐ THE INDEX-HEAD DEFECT HAS TWO SHAPES — a one-for-one recast would swallow content
+Found on day-22, and it matters for any future repair:
+- **Shape 1 — header ADDED above an intact index block.** The sentence-case lines are still there
+  underneath; the inserted line is pure surplus and is simply deleted. (2 lines on day-22.)
+- **Shape 2 — header REPLACED the index line**, and in several cases **collapsed a multi-line block
+  into one header**. Restoring meant rebuilding *7* lines for the Theban Legion and 2 each for
+  Drosis and Digna/Merita. (14 lines on day-22.)
+⚠ **A naive one-for-one recast fixes the header count while silently losing the extra roster lines.**
+
+### ⚠️ AND THE SHARDS DROPPED `(S.)` FROM TWO INDEX BLOCKS
+Latin 0009:95–105 prints `Mauritius primicerius M. Agauni in Vallesia (S.)` on all six lines; the
+English carried none. Content present in the source and absent from the translation — conventions 1
+and 7, not a formatting preference, and `(S.)` vs `(B.)` carries real information. Restored on the
+six lines at 0009 and six at 0029. **A day-wide sweep then confirmed 53 Latin marker lines → 53
+English, zero per-chunk mismatches**; the drop was confined to those two blocks, and the seventh
+line of each (`Alii milites legionis Thebææ`) correctly has no marker because the Latin has none.
+
+### ⬜⬜ OPEN FOR WILSON — OVERSIZED SLUGS, 30 CORPUS-WIDE, 6 STILL IN SEPTEMBER
+Scanned every month by evaluating the real `slugify`. **30 slugs run over 60 characters.** Four
+distinct classes, and only the first is merely a long URL:
+
+| Class | Example | Deployed? |
+|---|---|---|
+| Roster that needed the COLON form | sep day-06 — **198 chars**, 13 names | no |
+| Role/place leaked PAST the comma | `michael-of-barga-of-the-order-of-minors-observant-near-lucca-in-tuscany` (apr day-30) | **yes** |
+| Work title absorbed into the name | `45-martyrs-at-nicopolis-in-armenia-about-the-year-319-preliminary-comm…` (jul day-10) | **yes** |
+| Malformed opener | `and-divinely-inspired-writer-henry-suso-…` (jan-vol2 day-25) | **yes** |
+
+⚠ **Classes 2–4 are not cosmetic — the page's DISPLAY NAME is wrong**, showing an office or a work
+title where the saint's name belongs.
+
+Per month: aug 10 · sep 6 · mar 6 · apr 3 · jan-vol2 1 · jul 1 · jun 1 · may 1 · feb/oct/nov 0.
+
+### ✅ SEPTEMBER'S SIX ARE FIXED — 2026-08-30, zero oversized slugs left in the month
+All six recast to the colon form, **collective sourced from each dossier's own Latin subtitle, never
+invented** (the day-10 Caesarea discipline):
+
+| Day/chunk | Latin subtitle | New display name | Slug: was → now |
+|---|---|---|---|
+| 05/0011 | `IN GRÆCIA` + `MELITINÆ` | Romulus and the Martyrs of Melitene | 64 → 35 |
+| 06/0006 | `ALEXANDRIÆ IN ÆGYPTO` | Martyrs of Alexandria in Egypt | **198 → 30** |
+| 06/0012 | `EPISCOPIS IN AFRICA` | Bishops of Africa | 74 → 17 |
+| 08/0000 | `ALEXANDRIÆ IN ÆGYPTO` | Martyrs of Alexandria in Egypt | 103 → 30 |
+| 12/0004 | `ALEXANDRIÆ IN ÆGYPTO` | Martyrs of Alexandria in Egypt | 70 → 30 |
+| 13/0001 | `TOMIS IN PONTO, ET ANCYRÆ IN GALATIA` | Martyrs of Tomi and Ancyra | 100 → 26 |
+
+Edits were **minimal — collective + colon inserted, every roster name left byte-identical**; no
+translation content was rewritten. `headers → slugs` parity unchanged on all five days (05 19→19 ·
+06 17→17 · 08 11→11 · 12 16→16 · 13 17→17).
+
+⚠ **Day-05's was not a pure roster problem.** The Latin is two joined dossiers — `DE SANCTO ROMULO
+MARTYRE / IN GRÆCIA,` then `item DE SS. MM. EUDOXIO, ZENONE, MACARIO et MCIV MILITIBUS / MELITINÆ` —
+so Romulus is **not** of Melitene. Header reads `ON ST. ROMULUS AND THE MARTYRS OF MELITENE: …`,
+keeping both and claiming neither wrongly. A blind "Martyrs of Melitene" would have relocated him.
+
+✅ **`martyrs-of-alexandria-in-egypt` now occurs on days 06, 08 and 12 — verified safe.** Pages build
+to `<month>/day-NN/<slug>.html` with day-relative links (`build-site.mjs`), so slugs are **day-scoped**
+and the three are distinct URLs. Checked, not assumed.
+
+⬜ **Noticed and deliberately NOT fixed (day-06/0006):** the header ends with an unattached role list
+— `…AND CALODOTA, MARTYRS, THE PRESBYTER, THE DEACON, THE LECTOR, THE ACOLYTE, THE SOLDIER, THE
+SHIP-MASTER, THE VIRGINS AND THE MARRIED WOMAN,` — where the Latin pairs each office to its name
+(`FAUSTO PRESBYTERO, BIBO VEL ABIBO DIACONO, DIONYSIO LECTORE…`). Repairing that is a translation
+change, not a slug fix, so it was left alone. All of it falls after the colon and is inert to the
+splitter.
+
+**The remaining 23 are LIVE and untouched.**
+
+**September's remaining 6 were FREE to fix** — days 05, 06, 08, 09, 12, 13, all pre-split and
+pre-deploy — and get more expensive after the split. **The other 23 are LIVE**, so recasting them
+changes existing URLs; that is a link-breakage decision, not a correctness one. ⬜ Wilson rules on
+both. Nothing has been touched.
+
+### ⭐ DAY-10'S EUPLUS SLUG — THE `VEL` VARIANTS DOUBLE INTO THE SLUG
+The dispatch note said the 0005 Euplus group "has about six names and can take the ordinary comma
+form." Wrong: each Bollandist `VEL` variant (`EUPLO VEL EUPLIA`, `CUPSICO VEL CEROCISO`) doubles into
+the slug and `ET ALIIS QUINQUE` adds a clause — six names became **110 characters**. The Commentarius
+confirms it, reckoning `undecim omnino fuisse Martyres`, and the Bollandists explicitly decline to
+choose between the spellings (`nec lubet divinare, utro loco scribantur rectius`), so both variants
+had to stay. Recast to `ON THE HOLY MARTYRS OF CAESAREA IN CAPPADOCIA: …` → **33 chars**; the
+collective came from the dossier's own subtitle and its seven index lines, not invention.
+**Count slug TOKENS, not names.**
+
+## 🔴 ROUND E DISPATCH RECORD — days 10, 15, 22
+
+Three Opus agents, whole-day ownership, launched concurrently: **day-10 (154, vol III) · day-15
+(147, vol V) · day-22 (149, vol VI) = 450 chunks.** Wilson approved the burn ("opus go").
+
+**If this session died, do NOT relaunch these three days from 0000.** Run
+`node scripts/check-day.mjs sep --gaps` first and gap-fill only the missing ranges — see the
+recipe above. The three days had no prior work, so a dead agent's day will simply be partial.
+
+Each agent was given a pre-dispatch header table (grepped from its own Latin, the Round-D lesson)
+and mandated header strings for its mega-dossier:
+- day-10 → `ON ST. NICHOLAS OF TOLENTINO, OF THE ORDER OF HERMITS OF ST. AUGUSTINE,` (0089–0153, 65 chunks)
+- day-15 → `ON ST. CATHERINE FIESCHI ADORNO, WIDOW, OF GENOA,` (0070–0114, 44) and
+  `ON ST. LEONTIUS OF ROME, MARTYR,` (0114–0146, 33)
+- day-22 → `ON THE HOLY MARTYRS OF THE THEBAN LEGION: MAURICE THE PRIMICERIUS AND …, MARTYRS AT
+  AGAUNUM IN VALAIS,` (0009–0068, 59 — **colon form**, six named men plus the legion) and
+  `ON ST. EMMERAM OF REGENSBURG, BISHOP AND MARTYR,` (0099–0136, 37)
+
+### ⭐ THE PRE-DISPATCH GREP MUST NOT BE `DE S.` ALONE — IT MISSED REAL HEADERS THIS ROUND
+Grepping `^(DE S\.|DE SS\.)` found 15 headers on day 10 and 16 on day 15. The true counts are
+**17 and 19**. Missed: `DE SANCTO HILARO PAPA` (day-10 0041), `DE SANCTA CATHARINA FLISCA ADURNA
+VIDUA,` (day-15 0070 — **the largest dossier on the day**), `DE B. JOANNE SALERNITANO` (day-10
+0083), `DE B. ORANNA…` and `DE B. ROLANDO DE MEDICIS…` (day-15 0066, 0067).
+**The correct pattern is `^DE [A-Z]` — nothing narrower.** Day-10's `DE AFRICANIS MARTYRIBUS DOLETATULO, AUT CATULO, TUSCO, VALENTINO, ET FORTASSE MAGARO` (0005) is a genuine dossier with its own Commentarius, index lines and `J. S.` byline, and it escapes even the widened `DE S.|DE SANCT|DE B.` pattern because it names no saint at all. The day-10 agent caught it and flagged it rather than absorbing it into the preceding saint. **Day-10 alone had two escapes from the narrow pattern.** Also grep
+`^APPENDIX` separately and tell the agent those are sub-sections, never headers (day-10 has two,
+day-15 two). And check whether a header wraps across physical lines before quoting it — day-22's
+Theban Legion header is **four lines**, day-10's Numidian group is three.
+
+### day-15 RESOLVED — reverted to 19 → 19
+The agent recast all 37 index heads back to the sentence-case elogium (merging each ALL-CAPS/location
+pair back into the one Latin line it came from) and re-verified: 147 files, frontmatter ok, ratio
+1.161, no chunk <0.9, **19 headers → 19 slugs, one distinct form each**, both mandates untouched, the
+Etruscan-Sea recast intact, all 9 `BHL Number` lines and every `(S.)`/`(Bl.)` marker preserved. No
+content was deleted — only casing and header form were wrong.
+
+⬜ **A real question it surfaced, for Wilson, low stakes:** four of the 37 do open genuinely separate
+*works* — the anonymous Passio (0010), Falco the monk's Passio (0011), the 1485 Legend of Louvain
+(0064), Mayer's *Miracula recentiora* (0144). They lack a `DE` header, being introduced instead by a
+source line (`Ex variis exemplaribus Mss. & impressis…`) with the index head beneath. The criterion
+now applied is **"a separate work with its own Latin `DE` header gets a header line"** — which is what
+day-07's five Stephen of Die works had, and these four do not. Note those five all merged to one slug
+anyway, so this decides an in-page heading, not whether a page is built. If the rule is ever loosened
+to "separate work" regardless of `DE`, day 15 is where it would change.
+
+### ⚠️⚠️⚠️ THE FROZEN PROMPT ITSELF CAUSED THIS — `PROMPT-sep.md` LINE 82, NOW FIXED
+Two Round-E agents with no contact with each other (day-15 and day-22) independently promoted every
+running Bollandist index head to an ALL-CAPS saint header: **56 headers for 19 saints** and **29 for
+13**. That is not two agents erring the same way by chance. The SAINT-HEADER RULES read:
+
+> The Latin will often arrive spelled out as `DE SANCTO …` … **or as the Bollandist index form**
+> (`Hieronymus presbyter … (S.)`). **Normalize all of these to the `ON ST.` / `ON SS.` / `ON BL.` forms.**
+
+Both agents did exactly as instructed. **The clause is now rewritten**: spelled-out
+`DE SANCTO`/`DE SANCTA`/`DE BEATO` remain true article headers to normalize (they are why the
+pre-dispatch grep must not be `DE S.` alone), but the running index head is explicitly excluded, the
+day-08 roster/index-block precedent is written in, and "a chunk with no header at all is normal" is
+restated at the point of temptation.
+
+⚠️ **Lesson beyond this bug: when two independent agents make the same judgement call, suspect the
+prompt before suspecting the agents.** The day-15 agent was told its ruling was wrong on the strength
+of the day-08 precedent; that was right about the outcome and wrong about the cause.
+
+### ✅ THE OTHER FOURTEEN DAYS ARE CLEAN — surveyed 2026-08-29
+`headers → slugs` for every finished day: 03 19→19 · 05 19→19 · 06 17→17 · 07 31→26 · 08 11→11 ·
+09 22→22 · 11 21→18 · 12 16→16 · 13 17→17 · 15 19→19 (after revert) · 16 19→18 · 21 20→12 ·
+23 11→11 · 24 10→10. **Only day-22 (29→13) was an outlier**, and it is being reverted. The defect
+did not reach the earlier rounds — day-08's agent met the same index blocks and ruled correctly
+against them, which is where the house precedent comes from.
+
+### ⚠️⚠️ INDEX HEADS ARE NOT SAINT HEADERS — AND `headers → slugs` PARITY IS THE DETECTOR
+The day-15 agent ruled that the Bollandist running index head (`Valerianus martyr, Threnorchii in
+ducatu Burgundiæ (S.)`) should be normalized to the saint's mandated ALL-CAPS header, because 14
+chunks carry no `DE ` line and would "lose their header signal." **The premise is false and the
+ruling is wrong.** A mid-dossier chunk is *supposed* to carry no header — `PROMPT-sep.md` says so
+outright — and all 14 were interior to a dossier that had its `DE` header chunks earlier. The line
+is a *document* identification opening a Passio inside a dossier, not an article header.
+**September day-08 already ruled the other way** (roster + 27-line index block rendered in sentence
+case), and that is the practice across all eight deployed months.
+
+⭐ **The cheap detector, worth running on every day from now on:** `check-day.mjs` already prints
+`headers → slugs`. **The header count should sit at or just above the saint count.** Verified days:
+day-13 17→17 · day-23 11→11 · day-16 19→18 · day-07 31→26 (and day-07's surplus is five genuinely
+separate *works* in the Stephen of Die dossier, each with its own Latin `DE` header). **Day-15 came
+back 56→19 — a three-fold outlier that named the defect instantly.** A ratio far above ~1.5
+header-lines per saint means something that is not an article header is being emitted as one.
+
+Note the failure was *invisible* to every other gate: file count, frontmatter, footer leak, byte
+ratio (1.161, dead normal), per-chunk minimum, and even the distinct-slug count were all clean,
+because identical pre-comma text merges every stray line onto the correct page. Nothing builds
+wrong; the article just carries a repeated ALL-CAPS heading mid-text. **Slug distinctness is not
+sufficient — check the ratio too.**
+
+## ✅ Before Round E: nothing was in flight. All thirteen started days were COMPLETE and verified.
 
 `node scripts/check-day.mjs sep --gaps` returns COMPLETE for every one. The next session starts a
 fresh round on untouched days — see "Days still to do" below.
@@ -60,7 +265,7 @@ Cost of trusting the report instead of the disk would have been 94 re-translated
 
 ---
 
-## Status: 722 / 4,120 chunks (17.5%), 10 of 30 days complete — STOPPED HERE 2026-08-16 at Wilson's instruction
+## Status: 1,524 / 4,120 chunks (37.0%), 16 of 30 days complete — Round E landed 2026-08-29
 
 | Day | Chunks | Vol | Round | Headers → slugs | Hand-fixes |
 |-----|--------|-----|-------|-----------------|------------|
@@ -82,13 +287,15 @@ Running total **41 agents, 41 clean completions, zero self-throttle** (35 carrie
 Round A token/time: 237K/31m (day-08), 913K/79m (days 12+13), 752K/66m (day-21).
 Round B token/time: 203K/104m (day-05), 997K/87m (day-06), 141K/95m (day-09).
 
-**Days still to do (20):** 01, 02, 03, 04, 07, 10, 14, 15, 16, 17, 18, 19, 20, 22, 25, 26, 27, 28,
-29, 30 — **3,398 chunks.** Days 04 (294), 14 (387), 28 (241) and 30 (320) are the monsters, need
+**Days still to do (14):** 01, 02, 04, 14, 17, 18, 20, 25, 26, 27, 28, 29, 30 — plus **19 (60)**,
+which is scraped-complete but never dispatched. **2,596 chunks.** Days 04 (294), 14 (387), 28 (241) and 30 (320) are the monsters, need
 sharding, and stay last; their mandated mega-dossier header strings are in `PROMPT-sep.md`.
 
 Suggested next round (whole-day ownership, within the proven 60–96 envelope):
-**07** (116, shard 2) · **10** (154, shard 2) · **20** (47) + **19** (60) — but see the day-19
-Januarius warning below before treating 19 as complete.
+**10** (154) · **15** (147) · **22** (149), or the two small ones **19** (60) + **20** (47).
+Round D proved whole-day serial ownership at 116 chunks and self-sharding at 111/125, so the
+125–155 band is dispatchable as one agent per day. Day 19's Januarius warning is now **closed** —
+see STILL OPEN below; 19 is complete at 60 chunks.
 
 ## ⚠️ THE EN:LA RATIO NORM DEPENDS ON THE METRIC — 1.15 BY BYTES IS NORMAL
 
@@ -673,10 +880,18 @@ that is correct, not a duplicate translation. Do NOT "fix" these.
 
 ## STILL OPEN FOR SEPTEMBER
 
-- ⚠️ **Day 19, Januarius of Naples** — the roster carries the Bollandist note *"Acta imprimenda
-  circa finem tomi"*; his acts print at the END of the volume, which is why day 19 is only 60
-  chunks. His dossier may sit physically in another day's scrape or be absent. **Check before
-  treating day 19 as complete.** Scrape-shape question, resolve at the gate pass, not mid-run.
+- ✅ **Day 19, Januarius of Naples — RESOLVED 2026-08-29. He is not in the scrape at all.**
+  The roster's Bollandist note *"Acta imprimenda circa finem tomi"* is accurate: his acts print at
+  the END of volume VI. But the dossier is not hiding in another day — it was never scraped.
+  `day-19-full.txt` carries 14 `DE S.`/`DE SS.` headers and none is his, and the file ends cleanly
+  on Lucia de Monte plus the `September VI: 20. September` boundary, so nothing was truncated.
+  `einleitung-sep-vi.txt` has him in the synopsis and `INDEX SANCTORUM` (p. 761 ff., commentary
+  outline to p. 801+) — but that file is front matter and index only, no article bodies. The only
+  other `Januar-` hit in September (`day-29/0146`) is a **different** Januarius, a Roman
+  soldier-martyr of 29 September. **Day 19 is therefore COMPLETE at 60 chunks and September can be
+  called done**; the corpus is simply missing ~130 printed pages, including the Naples
+  blood-liquefaction material. Recorded as **D9** in `CORPUS-DEFECTS.md` with the three options
+  (ship + disclose · re-scrape and translate as a day-19 appendix · defer). ⬜ Wilson picks.
 - ⬜ day-08/0019's floating `o` (above) — Wilson's call.
 - The nine cross-seam mega-dossiers (Chrysostom 193, Jerome 172, Thomas of Villanova 165, Moses 108,
   Cyprian of Carthage 98, Rosalia 83, Hildegard 79, Michael 77, Gregory the Illuminator 75) still

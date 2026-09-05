@@ -228,3 +228,163 @@ row here, and never widen a span to "cover" a shard boundary.
 
 Note day 14: Cyprian's mandated form carries **OF CARTHAGE before the comma** precisely so it can
 never collide with day 26's Cyprian of Antioch. Same reasoning for Rosalia **OF PALERMO**.
+
+---
+
+## ✅ THE `ITEM DE` / JOINED-DOSSIER RULE — RULED BY WILSON 2026-09-03
+
+**When one Latin header folds a second dossier into itself** — `ITEM DE …`, a colon joining two
+parties, or `ET EA OCCASIONE DE …` — **both parties go into the display name.** Use the colon form:
+every party's NAME before the colon, roles and places after it.
+
+```
+LATIN   DE S. LAMBERTO SEU LANDEBERTO EPISCOPO TRAJECTENSI ET MARTYRE,
+        ET EA OCCASIONE DE BB. PETRO, ANDOLETO ETC.
+HEADER  ON ST. LAMBERT AND BB. PETER AND ANDOLETUS: BISHOP OF MAASTRICHT AND MARTYR,
+        → display "Lambert and Bb. Peter and Andoletus"
+```
+
+This is the **day-05 Romulus/Melitene form**, now house policy: *keep both, claim neither wrongly.*
+A blind primary-only header relocates or erases a saint who has no other page.
+
+⚠️ **Round F's day-02/0010 went the other way** — `ON THE HOLY 6,628 MARTYRS OF NICOMEDIA: WITH SS.
+AITHALUS, JUNIUS, PHILIP, AND THEODOTUS, MARTYRS,` drops Aithalus and company from the display name.
+That is now the **outlier**, logged for repair before the September deploy; do not copy it.
+
+**Live cases this rule governs:** day 17/0030 (Lambert + BB. Peter, Andoletus) · day 01/0122
+(`DE SS. MARCIANO EP., SISINNIO, AMAUSO: ITEM DE SS. PRIMO AC MATERNO MM.`) · day 30/0020
+(`DE S. GREGORIO EPISCOPO ARMENIÆ CONFESSORE: ITEM DE SS. VIRGINIBUS RIPSIME, GAIANA ET SOCIIS`).
+
+⚠️ **The mandated-string table above is written in the primary-only form for days 17 and 30. Where
+this rule applies, the mandated string is SUPERSEDED by the colon form.** Corrected strings:
+
+| Day | Chunks | Mandated header (supersedes the table row) |
+|-----|--------|--------------------------------------------|
+| 17 | 0030–0089 | `ON ST. LAMBERT AND BB. PETER AND ANDOLETUS: BISHOP OF MAASTRICHT AND MARTYR,` |
+| 30 | 0020–0094 | `ON ST. GREGORY THE ILLUMINATOR AND SS. RIPSIME AND GAIANA: BISHOP OF ARMENIA AND CONFESSOR,` |
+
+⚠️ Day 01/0122 is a four-header chunk and needs no mandated string (the dossier is short); the rule
+still applies to its header line: `ON SS. MARCIAN AND SISINNIUS AND AMASUS AND PRIMUS AND MATERNUS:
+BISHOP AND MARTYRS,`.
+
+
+---
+
+## ⛔⛔ THE HONORIFIC MUST SIT IMMEDIATELY AFTER `ON ` — added 2026-09-04, after a real defect
+
+The splitter's `isSaintBoundary()` **silently rejects** a header whose honorific is not immediately
+adjacent to `ON `. A rejected header produces **no page**: the saint's text accretes onto the
+preceding saint, and `check-day.mjs` still reports `headers → slugs` parity, because the counts stay
+*self-consistently wrong*. Every other gate — file count, frontmatter, byte ratio, per-chunk minimum,
+distinct-slug count — stays green too. **This is defect class D11 and it is invisible without the
+dedicated checker.**
+
+**Safe openers, and nothing else:**
+`ON ST.` · `ON STS.` · `ON SS.` · `ON S.` · `ON BL.` · `ON BB.` · `ON BLESSED` · `ON THE HOLY …` ·
+`ON THE BLESSED …` · `ON VEN.` · `ON VENERABLE` · `ON SAINT` — or `CONCERNING …` with the same
+honorifics.
+
+⛔ **Never put a number, adjective, or article between `ON THE` and `HOLY`/`BLESSED`.**
+
+**The real case (September day-01/0077, caught pre-split 2026-09-04).** A twelve-name group took the
+colon form and came out as:
+
+    ON THE TWELVE HOLY BROTHERS: DONATUS AND FELIX AND …, MARTYRS AT BENEVENTO IN ITALY,   ❌ REJECTED
+
+`TWELVE` sits between `THE` and `HOLY`. The dossier is **fifteen chunks (0077–0091)**; rejected, all
+twelve martyrs get no page at all. Corrected to:
+
+    ON THE HOLY TWELVE BROTHERS: DONATUS AND FELIX AND …, MARTYRS AT BENEVENTO IN ITALY,   ✅ PASSES
+
+⚠️ **THE SHAPE RECURS ON NUMBERED GROUPS — second real instance, September day-28/0001.**
+`ET DE TRIGINTA MILITIBUS` translates naturally to `ON THE THIRTY HOLY SOLDIERS…`, rejected for the
+same reason. It was caught pre-dispatch and the group took the sourced collective
+`ON THE HOLY MARTYRS OF ASIA MINOR: …` instead. **Whenever a group header carries a NUMBER, check it
+against the real function before you write it** — the number is what lands in the fatal slot.
+
+⭐ Note the corrected form is also the **more literal** one — the Latin is `DE SS. DUODECIM FRATRIBUS`,
+*sanctis duodecim fratribus*, "the holy twelve brothers".
+
+**VERIFY EVERY HEADER YOU WRITE. Do not eyeball it — run the real function:**
+
+```
+cd ~/acta-sanctorum && node -e "
+const fs=require('fs');
+const m=fs.readFileSync('scripts/split-saints.mjs','utf8').match(/function isSaintBoundary[\s\S]*?\n}/);
+eval(m[0].replace('function isSaintBoundary','globalThis.isSaintBoundary=function'));
+console.log(isSaintBoundary('YOUR HEADER LINE HERE'));
+"
+```
+
+Every real saint header must return `true`. Or check a whole finished day at once with
+`node scripts/check-header-boundaries.mjs` — it extracts the real function from `split-saints.mjs` by
+source, so it cannot drift from the splitter.
+
+⚠️ **And the mirror rule: no subtitle or section heading may begin with `ON `.** Those lines are
+*correctly* rejected today, so they cause no false split — but they become false splits the instant
+`isSaintBoundary()` is widened, which is a live option for the D11 repair. Recast them against their
+own Latin. Two real cases on September day 17:
+
+| Latin | Wrong | Right |
+|---|---|---|
+| `IN MONTE S. RUPERTI JUXTA BINGIUM…` | `ON THE MOUNT OF ST. RUPERT…` | `AT THE MOUNT OF ST. RUPERT…` |
+| `DE CULTU, RELIQUIIS ET MIRACULIS RECENTIORIBUS.` | `ON THE CULT, THE RELICS…` | `OF THE CULT, THE RELICS…` |
+
+⭐ The first is the trap worth remembering: the Latin is `IN MONTE`, and rendering `IN` as the natural
+English `ON` is what created the fatal shape. **A location line translated naturally drifts into it.**
+
+
+---
+
+## ⚖️ THE SILENT-REPAIR CLAUSE — RULED BY WILSON 2026-09-04. THIS SUPERSEDES ALL EARLIER PRACTICE.
+
+The scrape and the printed source corrupt things in different ways, and the corpus had **no single
+policy**, so agents on the same day applied opposite ones — day-29 split 93 chunks, day-25 split 21
+files. **There is now one policy. State it verbatim in every shard prompt, and rule it centrally
+before you shard.**
+
+### The three branches
+
+**① A WORD the scrape mangled, whose correct form is fixed by the immediate text → CORRECT IT, AND LOG IT.**
+Render the word correctly and record it in the day's repair ledger. The licence is narrow and it is
+the whole of the rule: *the surrounding text must supply the answer.*
+
+> **The deciding case (day-27/0002).** The Latin reads `quo minus idem esse possit Jones`. `Jones` is
+> not a Latin word; the printed text is `Joannes`, and chunk 0003 spells `Joannes Marcus` three times
+> in the same argument. → rendered **"John Mark"**, logged. ✅
+
+⛔ **"Fixed by the immediate text" means a witness you can point at** — the same word spelled correctly
+elsewhere in the dossier, or a grammatical form with exactly one possible completion. It does **not**
+mean "what it probably was," and it does **not** mean your own knowledge of who the saint was. If your
+justification would be *"this is obviously Saint So-and-so"* rather than *"the text says so at line
+N"*, you are in branch ②, not branch ①.
+
+**② A NUMERAL, DATE, PLACE, or NAME with NO textual witness → `[ ]` AND REPORT IT.**
+Column numbers, paragraph numbers, years, day-dates, place-names, and any name the surrounding text
+does not independently supply. Write the empty-bracket lacuna — `the [ ] day of February`,
+`column [ ]`, `volume [ ]` — and report it. **Never infer what a lost numeral probably was.**
+
+**③ Anything the source PRINTS, however wrong → PRESERVE IT EXACTLY, and report it under "NOT flagged".**
+Numbering that jumps, repeats, or is impossible; the Bollandists' own contradictions, bad arithmetic,
+wrong regnal numbers, misattributed Scripture. This is convention 4 and it is untouched by the above.
+A wrong year inside a quoted papal decree stays as printed (day-18/0156).
+
+### Where the boundary actually falls
+Branch ① is about **transmission damage** — the scrape ate a character. Branch ② is about
+**information that is gone**. Branch ③ is about **information that is present and wrong**.
+⚠️ The failure mode is drifting from ① into ②: "the text fixes it" quietly becoming "I know what it
+should say." When you cannot name the witness, use `[ ]`.
+
+### The repair ledger — REQUIRED for every branch-① correction
+Append to **`~/acta-sanctorum/REPAIRS-sep.md`**, one line per correction:
+
+```
+| day | chunk | printed/scraped | rendered | the witness that fixed it |
+|-----|-------|-----------------|----------|---------------------------|
+| 27  | 0002  | `Jones`         | John Mark | 0003 spells `Joannes Marcus` 3x |
+```
+
+A branch-① correction that is **not** in the ledger is a silent repair, which is the thing this clause
+exists to abolish. Ordinary printer/OCR noise translated straight to evident sense (`Fremitæ` for
+*Eremitæ*, `muficam` for *musicam*) does **not** need a ledger line — the ledger is for cases where a
+reader could reasonably have expected `[ ]` instead.

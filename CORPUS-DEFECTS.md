@@ -557,3 +557,107 @@ Nothing has been touched. Options: fix the header lines (new pages appear, some 
 next build) · leave and record.
 ⚠️ **The second option is the tempting one and the most dangerous**: a regex widening changes the
 split of every deployed month at once, with no per-case reading.
+
+---
+
+## D12 — the section-opening paragraph numeral is dropped corpus-wide, and the corpus marks it inconsistently
+
+**Found 2026-09-05, Round I, from a day-28 shard disagreement.** Seven of eight day-28 shards
+preserved the section-opening paragraph with no numeral (branch ③, "as printed"); shard E wrote
+`[ ]` (branch ②, "information gone") in ten places. The agent reported it as an unruled question and
+defaulted to the **majority** reading. **The majority was wrong.**
+
+### The measurement settles it — this is the day-25 detector, and Wilson already ruled on that shape
+Ruling ② (2026-09-04) established the precise detector: *a numbering sequence that skips exactly one
+across a section head*, `[n] … § … [n+2]`, with the numeral confirmed absent in the Latin too, is a
+**scrape drop → branch ② → `[ ]`**. Day-28 fires that detector at **96 of 99 section heads**
+(81 skip-one, 15 restarts where `[1]` is gone and numbering resumes at `[2]`; 1 contiguous, 2 other).
+
+⭐ **The restarts are the decisive evidence against "the printer just leaves section openings
+unnumbered."** If that were the convention, numbering would resume at `[1]` on the *second*
+paragraph. It resumes at `[2]` — so `[1]` was assigned to the section-opening paragraph and is
+missing from the scrape. Compare, structurally identical:
+
+```
+day-25/0005 (Latin)  § II. …  →  [gloss, no numeral]  →  [14]     ← Wilson ruled `[ ]`
+day-28/0033 (Latin)  § I.  …  →  [gloss, no numeral]  →  [2]      ← same shape
+```
+
+### ⭐ INDEPENDENTLY CORROBORATED THE SAME DAY, BY AN AGENT WITH NO SHARED BRIEF
+The day-04 agent — a separate run, a different corpus stretch, never shown day-28's argument —
+reported the identical finding unprompted: *"the paragraph number is missing from the first
+paragraph of nearly every `§` and `CAPUT` throughout the day… which reads as a scrape artifact
+rather than a printed fault."* It also declined to supply `[ ]`, leaving day-04 at 1 marker against
+173 dropped numerals.
+
+⚠️ Note the contrast that makes this worth recording: **day-28's seven agreeing shards were one
+brief and not evidence; day-04 is a real second witness.** Both reads agree the numeral is *missing
+rather than never printed* — the branch-②/③ question — and the measurement agrees with both. What
+neither did was act, each treating an already-settled ruling as an open one.
+
+### Scope: September-wide, 96.6%
+| | |
+|---|---|
+| Section heads in September | **1,781** |
+| Missing exactly one numeral | **1,721 (96.6%)** |
+| `[ ]` markers present in the English (ALL kinds, incl. column lacunae) | **256** |
+
+Every day is affected; the *marking* is what varies, and it varies wildly both between days and
+inside them: day-18 has 113, day-17 has 67, day-25 has 31 (the ruling-② repair), day-01 has 25,
+day-28 has 10 — and **eighteen days have zero or one**. ⚠️ The 256 figure is an upper bound: it
+counts every line-initial `[ ]`, most of which are scraped column numbers, not section openings.
+
+**This is exactly the disorder ruling ② was written to abolish** ("agents on the same day applied
+opposite ones… there is now one policy"). The policy was never applied backwards, and 26 of
+September's days were translated before or around it.
+
+### ✅ RESOLVED FOR SEPTEMBER — Wilson ruled scope = September, applied 2026-09-05
+**1,553 of 1,721 dropped-numeral section openings (90.2%) now carry `[ ]`** — 1,340 inserted this
+pass, 123 already present, the rest already covered in their window. Backup taken first at
+`~/acta-sanctorum-backup-sep-<ts>/` (3,413 files). All 28 days re-gated afterwards: **still COMPLETE,
+still 0 D11 hits, every `headers → slugs` parity unchanged.** September's line-initial `[ ]` count
+went 256 → 1,596.
+
+⚠️ **168 openings were deliberately NOT touched and are enumerated in `D12-WORKLIST.json`.**
+Nothing was guessed: where the target paragraph could not be identified with certainty, the sweep
+skipped rather than inserted.
+
+| Left alone | Why |
+|---|---|
+| 139 | bare `CAPUT`/`APPENDIX` head with no marginal-gloss anchor — an unnumbered **chapter argument** intervenes and its length varies, so the target must be picked by eye |
+| 29 | the section head **straddles a chunk boundary**, so Latin and English head counts differ in that chunk and the ordinal mapping is not trustworthy |
+
+### ⭐⭐ THE TARGET PARAGRAPH IS NOT SIMPLY "THE NEXT ONE" — three shapes, and two of them bite
+The first mapping cost two rejected drafts before it was right. Anyone repeating this on Feb–Aug
+must handle all three:
+1. **`§ N. <summary>`** — the summary sits *inline on the head line*, so the next paragraph is the
+   target. ✅ straightforward.
+2. **bare `CAPUT N.` / `APPENDIX`** — an **unnumbered chapter argument** follows on its own before
+   the first real paragraph. Targeting "the next paragraph" puts the marker on the argument. Worse,
+   the English sometimes wraps that argument across *several* paragraphs, so "skip exactly one" also
+   fails. The workable anchor is the first following **`[marginal gloss]`** line; where there is
+   none, the case goes to the worklist.
+3. **A wrapped head** — the English occasionally continues the `§` summary onto a second paragraph.
+   Detectable because the continuation starts **lowercase**; 51 were caught this way. A corpus
+   paragraph never begins mid-sentence, so a lowercase start means the target is wrong.
+
+⛔ **`[marginal gloss]` is NOT a reliable marker of a paragraph start on its own** — day-28/0033's
+opening paragraph is `Bollandus noster ad XVI Januarii… [S. Fausti, de quo ante breviter actum,] quo
+in ecclesia…`, with the gloss sitting *mid-paragraph*. The gloss anchor is safe only as a
+tie-breaker for shape 2, never as the primary test.
+
+### ⬜ FOR WILSON — the ruling exists; the SCOPE is the open question
+Applying branch ② consistently means inserting ~1,700 `[ ]` markers across September, and the same
+pattern certainly runs through the eight deployed months. Unlike D10/D11 this changes **no URL and
+no page**, only body text, so it is cheap and reversible — but it is ~1,700 mechanical edits and it
+is his call whether September ships internally consistent, corpus-consistent, or as-is.
+
+Options: **(a)** apply to September only (makes the shipping month self-consistent, leaves it
+differing from Feb–Aug) · **(b)** apply September + backfill the deployed months (one policy
+everywhere; a large mechanical pass, no URLs move) · **(c)** leave it and record (the corpus stays
+inconsistent within single days, e.g. day-28's ten marked against its eighty-six unmarked) ·
+**(d)** reverse the ruling for this shape and strip the 256, treating a missing section-opening
+numeral as branch ③.
+
+⚠️ Nothing has been changed. The detector is exact and scriptable, so (a) and (b) are mechanical —
+but the numeral itself is **never inferred** under any option; `[ ]` is the whole of the repair.

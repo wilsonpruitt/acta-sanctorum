@@ -55,6 +55,675 @@ Wilson, 2026-08-30: **hold the full deploy until September is complete.** Riding
   exist, labelled `(in progress)` at `sepDayCount < 30`. The mid-month rule holds only because nobody
   runs the build. **Do not run it until day 30 lands.**
 
+## ✅ ROUND I COMPLETE — 2026-09-05, days 04 + 28 — 535 chunks
+
+**September stands at 3,413 / 4,120 chunks (82.8%), 28 of 30 days.** `check-day.mjs sep --gaps`
+returns COMPLETE for all 28 with no gap anywhere. Remaining: **14 (387) + 30 (320) = 707 chunks.**
+
+Wilson approved the burn: **"opus go b"** — explicitly choosing the SPLIT shape over all-four-at-once,
+his reason verbatim: *"a would suck up my usage and fail."* Two Opus agents, whole-day ownership,
+launched concurrently: **day-04 (294, vol II) · day-28 (241, vol VII).** Estimated **~5.4M tokens**
+at the runbook's own rate (~10K/chunk). Both output dirs were EMPTY at dispatch — no prior work.
+
+**⛔ IF THIS SESSION DIED, DO NOT RELAUNCH THESE DAYS FROM 0000.** Run
+`node scripts/check-day.mjs sep --gaps` first and gap-fill only the missing ranges.
+⚠️ A parent's death does not kill its children — watch the file count until **stable**.
+
+**Round J, NOT yet approved: days 14 (387) + 30 (320) = 707 chunks, ~7.1M tokens.** Wilson approved
+Round I only. Ask again before dispatching Round J. On completion of BOTH, September is
+**4,120/4,120, 30 of 30** and the month goes whole.
+
+### ✅ DAY-28 COMPLETE — 241/241, verified on disk 2026-09-05
+Not taken from the agent's report: `ls | wc -l` = 241, range `0000`–`0240` with **0 missing and 0
+duplicate**, `check-day.mjs` and `check-header-boundaries.mjs` re-run independently.
+
+```
+files 241/241 · frontmatter ok · footer leak none
+EN:LA byte ratio 1.170 · per-chunk <0.9 ⚠ 0012(0.87) · headers → slugs 21 → 21
+```
+**D11: clean — zero September entries** (the checker's 209 hits are all pre-existing, in the eight
+deployed months). All 21 headers byte-identical to the frozen table; all traps held (both Fausti,
+both Salomons, both joined dossiers in colon form, one John).
+
+**The 0012 outlier is Greek, verified independently: 7,908 Greek characters in the Latin and the
+identical 7,908 in the English** — the Chariton Vita reproduced verbatim per convention 3, with only
+the facing Latin column translated. Greek is byte-heavy in UTF-8 and passes through unexpanded, so
+it drags the ratio down; the day's high 1.170 overall is the same effect in reverse, the rest of the
+day being Greek-free. Not a defect.
+
+The agent **self-sharded into 8**, cutting at dossier boundaries so no mandated string straddled a
+seam — the third day-wide self-shard on this project, and the first where the coordinator had a
+pre-frozen whole-day table to hand down rather than building one. 34 `[ ]` lacunae (30 of them
+scraped `Col.` citation numbers), 1 `[Col. [ ]]` carried through at 0052, 41 ledger lines appended.
+
+## ⚖️⚖️ TWO RULINGS BY WILSON — 2026-09-05. Both applied the same day.
+
+### ① D12 SCOPE = SEPTEMBER. Swept, 1,340 markers inserted.
+*"With 1, scope is September."* → **1,553 of 1,721 dropped-numeral section openings now carry `[ ]`
+(90.2%)**; September's line-initial `[ ]` count went 256 → 1,596. Backup first
+(`~/acta-sanctorum-backup-sep-<ts>/`, 3,413 files); all 28 days re-gated after: **COMPLETE, 0 D11,
+every `headers → slugs` parity unchanged.** Feb–Aug deliberately untouched — he scoped it to
+September, so the deployed months still differ and that is now a known, recorded state.
+
+**168 openings were skipped on purpose and listed in `D12-WORKLIST.json`** (139 bare-`CAPUT` heads
+with no gloss anchor, 29 heads straddling a chunk boundary). Nothing was guessed: where the target
+could not be identified with certainty the sweep skipped. Full mechanics in D12.
+
+⭐ **The mapping took three attempts and the first two were wrong in ways every gate would have
+missed.** "Insert before the paragraph after the head" is correct only for `§ N. <inline summary>`
+heads. Bare `CAPUT`/`APPENDIX` heads have an **unnumbered chapter argument** in between — and the
+English sometimes wraps it over several paragraphs, so "skip exactly one" fails too. A third shape,
+the wrapped `§` summary, was caught only by noticing 51 targets began **lowercase**. *A paragraph in
+this corpus never begins mid-sentence, so a lowercase target is a proof of mis-mapping* — that check
+is worth keeping for any future sweep.
+
+### ② THE `Col.` RULE CONFIRMED — swept, and my own pre-sweep call was WRONG
+*"With 2, confirm the rule and sweep."* The rule holds: **`Col.` after a volume citation is a
+citation** (prose `column [ ]`); **`Col.` interrupting running prose is the edition's column marker**
+(`[Col. [ ]]`).
+
+⛔ **But I told Wilson 0265 was "the one clear miscategorization" and it was not.** Reading the sites
+properly showed the scrape's mechanism is *glue-to-next-token-and-eat-its-first-letter*, so
+`tom. 1 Col.um. 17` is `tom. 1` + marker + `[n]um. 17` — the citation is **num. 17**, and `[Col. [ ]]`
+was right all along. Same for `tom. 2 Col.Hic`. **The lesson: classify these from the glued token,
+not from the words before `Col.`** — the preceding `tom. N` is a decoy that reads like a citation
+locus in exactly the cases where it is not.
+
+Three real fixes, all in day-04: **0114** had a bare untranslated `Col.` left standing as a word
+("*Col.* observes this to our purpose") → `[Col. [ ]] He observes…`; **0171** and **0204** used prose
+`col.` where the corpus form is `column`. Day-04 now reads 9 `[Col. [ ]]` · 4 `column [ ]` · all
+surviving numbers as `column NNN`, with no bare `col.` left.
+
+⭐ **0222 was left as the agent had it, against my first reading.** `Col.tiam` looks like marker +
+`[e]tiam`, but the sentence's governing `asserit` at the end demands an accusative-and-infinitive,
+so `Coli etiam` ("that St. Rosalia is *venerated* also") is the grammatically forced reading and
+there is no marker to preserve. **Grammar outranked the mechanism here** — the one site where it does.
+
+### ✅ DAY-04 COMPLETE — 294/294, verified on disk 2026-09-05
+Independently checked, not taken from the report: 294 files, range `0000`–`0293`, **0 missing, 0
+duplicate**.
+
+```
+files 294/294 · frontmatter ok · footer leak none
+EN:LA byte ratio 1.170 · per-chunk <0.9 NONE · headers → slugs 18 → 18
+```
+**D11: zero sep/day-04 lines.** All 18 headers byte-identical to the frozen table, one occurrence
+each, on the mandated chunk. Ratio 1.170 with Greek in only 35 of 294 chunks — the light-Greek
+high-and-clean shape, per-chunk span 1.052–1.236 with no fat/thin pair, so no read-batching.
+
+**All six traps held**, including the three Marcelli (the third stayed inside the 0124 group with no
+header of his own) and both Naples Candidae separated on the source's own `JUNIORE` contrast alone.
+⭐ The **`IN MONTE` → `ON THE MOUNT` D11 trap was live in three shards** — Rosalia is a mountain-cave
+dossier — and every instance was recast (`IN NEBO MONTE ARABIÆ` → `AT MOUNT NEBO IN ARABIA`). That
+clause has now paid for itself on the first day where the geography made it near-certain to fire.
+The agent **self-sharded into 7** at 42 chunks each (the Latin was near-uniform at ~10.6 KB/chunk).
+**195 ledger lines** appended — `REPAIRS-sep.md` now holds 240 rows across days 04/27/28.
+
+### ⭐⭐ DAY-04 CORROBORATES D12 INDEPENDENTLY — and this time it IS independent
+The day-04 agent, which never saw day-28's shard argument, reported the same finding unprompted:
+*"the paragraph number is missing from the first paragraph of nearly every `§` and `CAPUT`
+throughout the day… which reads as a scrape artifact rather than a printed fault."* It then did
+**not** supply `[ ]`, leaving day-04 at 1 marker against 173 dropped numerals.
+
+⚠️ **This is a genuinely independent confirmation, unlike day-28's seven shards** — a different day,
+a different corpus stretch, a separate agent, no shared brief on the question. Two independent reads
+now agree the numeral is *missing rather than never printed*, which is the branch-②/③ question, and
+the measurement in D12 agrees with both. **What no agent did was act on it**, because each treated a
+settled ruling as an open one. D12 stands; the scope is still Wilson's.
+
+### ⬜ OPEN, FOR WILSON — the day-04 `Col.` convention, 15 sites, and the rule that sorts them
+The scrape glued every `Col.` to the following token and ate that token's first letter
+(`Col.cribit` for `scribit`). Three shards read it three ways: **8 rendered `[Col. [ ]]`** (convention
+6's marker form, correctly bracketed — it matches the 87 corpus-wide instances), **3 rendered prose
+`column [ ]`**, and ~4 were handled as branch-① repairs or left where the number survived.
+
+⭐ **The Latin sorts them mechanically, and the agents' split was NOT arbitrary — it was one rule
+applied inconsistently.** Where `Col.` follows a volume citation it is a *citation* and belongs in
+prose; where it interrupts running prose it is the edition's own *column marker* and takes
+convention 6's form:
+
+```
+0103  apud Labbeum tom. 4 Concil. Col.        CITATION → "column [ ]"     ✅ rendered prose
+0265  Ughellus Italiæ sacræ tom. 1 Col.       CITATION → "column [ ]"     ❌ rendered [Col. [ ]]
+0268  quem laudatus Ughellus Col.cribit       MARKER   → "[Col. [ ]]"     ✅
+0270  idem testificantibus, ac Gianna Col.el  MARKER   → "[Col. [ ]]"     ✅
+0271  se pedetentim duci per Giannam Col.d    MARKER   → "[Col. [ ]]"     ✅
+```
+
+So **0265 is the one clear miscategorization** (`tom. 1 Col.` is Ughelli's *Italia Sacra* vol. 1,
+column N — a citation). ⬜ Wilson: confirm the `tom. N Col.` = citation rule and the 15 sites can be
+swept in one pass. Nothing has been changed.
+
+### ⛔⛔ THE DAY-28 SHARD DISAGREEMENT WAS NOT AN UNRULED QUESTION — IT WAS A MEASURABLE FACT, AND THE MAJORITY WAS WRONG
+Seven shards preserved the unnumbered section-opening paragraph; shard E wrote `[ ]` in ten places.
+The agent framed this as a ruling Wilson owed it and **defaulted to the majority reading**. Running
+ruling ②'s own detector settles it against the majority: day-28 skips exactly one numeral at **96 of
+99 section heads**, and at restarts numbering resumes at `[2]`, not `[1]` — so the numeral existed
+in print and the scrape ate it. **Shard E was right; the other seven under-marked ~86 openings.**
+
+⭐ **The lesson is the one already on file twice** ([[feedback_briefed-agents-are-not-independent]],
+[[feedback_two-agents-same-error-suspect-the-prompt]]): **seven shards of one agent agreeing is one
+brief, not seven findings.** A shard majority is not evidence, and "most of me did X" is not a
+reason to prefer X. The cheap control was a detector Wilson had already specified and nobody ran.
+
+Scope turned out to be September-wide — **1,721 of 1,781 section heads (96.6%)**, against only 256
+`[ ]` markers of every kind in all the English. **Recorded as D12 in `CORPUS-DEFECTS.md` with four
+options. ⬜ Wilson picks the SCOPE; the ruling itself already exists.** Nothing has been changed.
+
+### ⭐ THE FOUR MONSTERS WERE DELIBERATELY LAST — AND SPLITTING THEM WAS WILSON'S CALL, ON USAGE
+The four are 04 (294), 14 (387), 28 (241), 30 (320) = 1,242 chunks. Offered as one round (~12.4M)
+or two, at identical total cost, **Wilson took the split for usage-window risk, not price.** The
+supporting argument was that day-14 at 387 is nearly double the largest day ever given to one agent
+(day-01, 199), and that three August agents had already died to a weekly limit mid-round. Pairing
+04+28 also keeps the two heaviest days out of one window and puts the lighter pair first as the
+maiden run of the silent-repair ledger.
+
+### ✅ ALL SIX MANDATED SPANS RE-MEASURED BEFORE DISPATCH — all six CORRECT this time
+Per the standing rule that *a mandated span is an instruction to OVERWRITE headers, so a too-long
+span is more dangerous than no mandate*, every row was re-derived by mapping `^DE [A-Z]` to chunk
+numbers rather than trusted from the table. Day-18/day-17's two bad spans have no counterpart here:
+
+| Day | Dossier | Table said | Measured | Verdict |
+|-----|---------|-----------|----------|---------|
+| 04 | Moses | 0000–0107 (108) | 0000–0107 | ✅ |
+| 04 | Rosalia | 0167–0249 (83) | 0167–0249 | ✅ |
+| 04 | Rose of Viterbo | 0250–0289 (40) | 0250–0289 | ✅ |
+| 28 | Faustus of Riez | 0033–0073 (41) | 0033–0073 | ✅ |
+| 28 | Wenceslaus | 0108–0154 (47) | 0108–0154 | ✅ |
+| 28 | Bernardino of Feltre | 0173–0240 (68) | 0173–0240 | ✅ |
+
+### ⭐ THE WHOLE HEADER TABLE WAS FROZEN AND MACHINE-VERIFIED BEFORE DISPATCH — 41 headers, not just the mega-dossiers
+Round E's lesson (concurrent shards have no report to read, so mandate up front) was applied to
+**every dossier on both days, not only those over 40 chunks** — 18 headers on day 04, 21 on day 28
+(two chunks, 0004 and 0005, legitimately carry two headers each). Each string was run through the
+**real `isSaintBoundary()` and `extractSaintName()` evaluated out of `split-saints.mjs` by source**,
+not eyeballed. All 41 return `true`; all 41 display names are distinct. The tables went to the
+agents as files, so a self-sharding coordinator can hand them down verbatim.
+
+**This is the first round where the frozen table covers the whole day.** Rationale: D11 rejection is
+invisible to every other gate, and the cheap moment to catch it is before a single chunk is written.
+
+### ⭐ FOUR EPITHETS SOURCED FROM THE DOSSIERS' OWN SUBTITLES — the day-01 Vincent-of-Besalú method, now routine
+None came from outside knowledge of who the saint was; each has a witness that can be pointed at:
+- **day-28/0074's bare `DE S. FAUSTO EPISC.`** → its own subtitle reads `TARBENSI IN NOVEMPOPULANIA`
+  → **`ON ST. FAUSTUS OF TARBES`**, against 0033's Faustus of Riez.
+- **day-28/0001's seven-name-plus-thirty-soldiers group** → its own subtitle `IN VARIIS ASIÆ MINORIS
+  LOCIS` and its own index lines (`Marcus M. in Asia Minore (S.)`) → collective
+  **`ON THE HOLY MARTYRS OF ASIA MINOR: …`**.
+- **day-04's two Marcelli** → `PROPE CABILONEM IN DUCATU BURGUNDIÆ` → **of Chalon** (0113); `TUNGRIS
+  VEL TREVIRIS IN GERMANIA` → **of Tongres** (0122).
+
+⚠️ **The two Candidae are the instructive case: BOTH are `NEAPOLI`, so place cannot separate them.**
+The warrant is the source's own `JUNIORE` at 0137, which licenses `THE YOUNGER` and, by its own
+contrast, `THE ELDER` at 0108. That is a textual witness, not biography — exactly the branch-①/②
+boundary the silent-repair clause draws. Had the source not said *Junior*, the right move was `[ ]`
+and a report, not an inferred epithet.
+
+### ⚠️ A THIRD MARCELLUS HIDES INSIDE A GROUP HEADER
+Day-04/0124 `DE SS. RUFINO, SILVANO, MARCELLO, GAIANO` carries a Marcellus who is **not** either
+dossier Marcellus and must never be given a header of his own. The group form
+`ON SS. RUFINUS AND SILVANUS AND MARCELLUS AND GAIANUS, MARTYRS,` keeps him inside the group's
+display name. **A `^DE [A-Z]` sweep finds dossier heads; it does not find a name-clash buried in a
+companion roster** — that needs reading the roster itself.
+
+### ⛔ THE D11 TRAP THE ASIA MINOR HEADER WAS WRITTEN TO DODGE
+The natural English for `ET DE TRIGINTA MILITIBUS` is `ON THE THIRTY HOLY SOLDIERS…`, which
+`isSaintBoundary()` **silently rejects** — `THIRTY` sits between `THE` and `HOLY`, the exact shape
+that killed day-01/0077's twelve brothers. Rejected, thirty martyrs get no page and every other gate
+stays green. The mandated collective avoids it. **This is now the second real instance of the same
+defect, both caught pre-split; the shape recurs specifically on numbered groups.**
+
+### Two hedges that are NOT ruling-③ cases — a distinction worth keeping
+`DE SANCTA GRATA VIRGINE, UT FERTUR` (04/0139) and `DE S. DODA VIRGINE, ET FORSAN MARTYRE` (28/0005)
+both hedge, but they hedge a **status**, not a **name** — unlike day-27's `AC FORTE APHRODISIO`,
+where the hedge sat on a person who would otherwise lose his page. Status hedges fall after the
+comma and the splitter discards them, so they need no ruling: keep them as printed. Ruling ③ is
+about hedged *names* only.
+
+---
+
+## ✅ ROUND H COMPLETE — 2026-09-03/04, days 01, 17, 18 — 562 chunks
+
+Covered by Wilson's Round G+H approval ("Both rounds, Opus, go"). Three Opus agents, whole-day
+ownership, launched concurrently: **day-01 (199, vol I) · day-17 (175, vol V) · day-18 (188, vol V).**
+Estimated ~5.6M tokens. On completion September reaches **2,878 / 4,120 (69.9%), 26 of 30 days**,
+leaving only the four monsters — 04 (294), 14 (387), 28 (241), 30 (320) = 1,242 chunks.
+
+**⛔ IF THIS SESSION DIED, DO NOT RELAUNCH THESE DAYS FROM 0000.** Run
+`node scripts/check-day.mjs sep --gaps` first and gap-fill only the missing ranges. None had prior
+work. ⚠️ A parent's death does not kill its children — watch the file count until **stable**.
+
+### ✅ SEPTEMBER IS AT 2,878 / 4,120 CHUNKS (69.9%), 26 OF 30 DAYS — 2026-09-04
+
+`check-day.mjs sep --gaps` returns **COMPLETE for every one of the 26 days.** No gaps anywhere.
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs | D11 |
+|-----|--------|-----|---------------|-----------------|-----|
+| 01 | 199 | I | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.167 | **34 → 34** | 0 |
+| 17 | 175 | V | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.156 | **17 → 17** | 0 |
+| 18 | 188 | V | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.133 | **11 → 11** | 0 |
+
+**Days still to do (4): 04 (294), 14 (387), 28 (241), 30 (320) — 1,242 chunks.** The monsters, as planned.
+
+⭐ The day-01 gap-fill closed all three ranges (`0064`, `0122`–`0131`, `0193`–`0198` = 17 chunks) and
+resolved the day's two hardest calls with sourced evidence:
+- **`DE SANCTIS MARTYRIBUS AFRICANIS` ruled a GENUINE dossier** — it has its own subtitle roster, its
+  own source line, its own `[Commentarius]`, **four of its own index lines**, and its own `J. P.`
+  byline: the full day-10 Caesarea signature, none of which day-17's `DE CULTU…` sub-section had. The
+  four names came from its own subtitle, so no collective had to be invented.
+- **The second Vincent** got `OF BESALÚ` from his own subtitle `BISULDUNI IN CATALONIA` (the
+  commentary itself glosses `Bisuldunum, vulgari nomine Besalu`), against 0119's Vincent of Dax.
+- **The second Priscus** became `ON THE HOLY AFRICAN CONFESSORS OF THE KINGDOM OF NAPLES: …`, the
+  collective built only from `AFRICANIS CONFESSORIBUS` + `IN REGNO NEAPOLITANO` in its own subtitle.
+⚠️ It also flagged that day-01/0122's index line prints **Amausus** where the mandated header reads
+**AMASUS** — mandate kept byte-identical, index line kept as printed, difference on record.
+
+---
+
+## ⚖️⚖️ FOUR RULINGS BY WILSON — 2026-09-04. All applied; nothing left pending on them.
+
+### ① THE SILENT-REPAIR CLAUSE — ruled, written into `PROMPT-sep.md`, ledger created
+**A word the scrape mangled, whose correct form is fixed by a witness in the immediate text → CORRECT
+IT AND LOG IT.** Numerals, dates, places and names with **no** textual witness → `[ ]` + report.
+Anything the source **prints**, however wrong → preserve exactly (convention 4, untouched).
+
+The licence is narrow and deliberately so: *"fixed by the immediate text" means a witness you can point
+at* — the same word spelled correctly elsewhere in the dossier, or a grammatical form with one possible
+completion. **Not "what it probably was", and not your own knowledge of who the saint was.** The named
+failure mode is drifting from branch ① into branch ②: "the text fixes it" quietly becoming "I know what
+it should say."
+
+✅ **New file `REPAIRS-sep.md` is the ledger.** A branch-① correction that is not in it **is** a silent
+repair. Seeded with the two disclosed day-27 cases (`Jones` → John Mark; `Sec. I.` → `Cent. I.`).
+Ordinary OCR noise translated straight to evident sense needs no line. ⬜ Days 04, 14, 28, 30 are the
+first bound by it; retro-filling days 01–29 is optional and low value.
+
+### ② DAY-25 IS NO LONGER INTERNALLY SPLIT — repaired under the new clause, 10 chunks
+Shard A's silent gaps were closed with `[ ]`, matching shard B's existing form (`[ ] [marginal note] Text`).
+
+⭐ **The repair was NOT done by pattern-matching "paragraphs with no number".** That crude sweep gave 20
+candidates, most of them legitimate. The precise detector is **a numbering sequence that skips exactly
+one across a section head** — `[n] … § … [n+2]` — which yielded **10**, and each was then checked
+against the Latin to confirm the numeral is **absent there too** (`[12] … § II … [14]` in 0005,
+`[7] … § II … [9]` in 0013, `[9] … CAPUT II … [11]` in 0044). So it is a **scrape drop**, branch ②, and
+`[ ]` is right — not content the agent lost, which would have needed the real number restored.
+✅ Residual skip-by-one gaps in shard A: **0**. Distribution now A 20 · B 30. Backup taken before edit.
+
+### ③ DAY-27's `AC FORTE APHRODISIO` — names in the title, hedge in the body
+```
+was  ON SS. FLORENTINUS AND HILARY AND PERHAPS APHRODISIUS, MARTYRS AMONG THE ÆDUI IN GAUL,
+now  ON SS. FLORENTINUS AND HILARY AND APHRODISIUS, MARTYRS AMONG THE ÆDUI IN GAUL,
+```
+Aphrodisius still gets a findable name; the title stops asserting a scholarly judgement. The hedge
+survives verbatim in the body, where the Bollandists themselves put it (3 occurrences in 0016 —
+*"why I have joined Aphrodisius to them I shall note below"*, *"I have only doubtfully joined him"*).
+`headers → slugs` unchanged at 15 → 15.
+
+### ④ DAY-02/0010 — the `ITEM DE` outlier brought into line with the ruling
+```
+was  ON THE HOLY 6,628 MARTYRS OF NICOMEDIA: WITH SS. AITHALUS, JUNIUS, PHILIP, AND THEODOTUS, MARTYRS,
+now  ON THE HOLY 6,628 MARTYRS OF NICOMEDIA AND SS. AITHALUS AND JUNIUS AND PHILIP AND THEODOTUS: MARTYRS,
+```
+Aithalus and his three companions are back in the display name. `headers → slugs` unchanged at 22 → 22,
+`isSaintBoundary()` verified `true`. **September now has no `ITEM DE` outlier left.**
+
+### ⑤ D11 ON THE EIGHT DEPLOYED MONTHS — DEFERRED, deliberately
+~50–56 saints currently get no page across the deployed months. **Wilson's call: defer until September
+ships**, then treat it as its own session with per-case reading, one month at a time. `isSaintBoundary`
+is **not** to be widened — that fixes ~48 with no translation edits but silently re-splits every
+deployed month at once with no per-case reading. Nothing touched.
+
+### ⬜ ONE ITEM CAME BACK TO WILSON — day-26/0037 is NOT the same thing as 0042
+The "strip the glosses" ruling was taken on a description that fitted **0042** and not **0037**:
+- **0042 — a true editorial insertion inside a quotation**, `In the said church (the cathedral) are many
+  bodies of Saints`. ✅ **Stripped**, per the ruling.
+- **0037 — NOT an editorial gloss.** It is the **English rendering of a lapidary inscription that is
+  transcribed verbatim above it** in epigraphic form (`FFINES FVNDIC APITINIANI / IVRIS SC̄Ē EC̄C̄L̄ R̄ŌM…`),
+  followed by `(That is: But four ounces of the estate Eucarpianum…)`. **Stripping it would leave
+  untranslated Latin in an English text, which convention 1 forbids.** ⬜ **Left in place pending Wilson.**
+
+⚠️ There is **no house precedent either way**: `(That is:` occurs exactly twice in the whole corpus,
+both on day-26, and no deployed month carries verbatim Latin epigraphy at all (`HIC IACET`,
+`DEPOSITVS`, `EXPLICIT`, `IVRIS` → 0 files). So this ruling sets the convention for inscriptions
+corpus-wide, and it will recur.
+
+### ⛔ THE SESSION USAGE LIMIT KILLED ROUND H MID-RUN — 2026-09-04, ~2am reset
+`You've hit your session limit` (HTTP 429) terminated the day-01 parent, the day-17 parent, and
+several shards of both. **The protocol paid for itself a FOURTH time.**
+
+- **day-17 came back COMPLETE (175) even though its parent died.** Its orphaned children finished the
+  day on their own — the Round-F day-29 pattern exactly. A blind relaunch from 0000 would have
+  re-translated all 175 chunks.
+- **day-18 was already COMPLETE (188)** and untouched.
+- **day-01 stopped at 182/199.** `--gaps` returned three ranges: **`0064` (1) · `0122`–`0131` (10) ·
+  `0193`–`0198` (6) = 17 chunks.** Only those were relaunched. File count confirmed **stable** before
+  dispatch (a parent's death does not kill its children).
+
+⚠️ The day-17 parent's last words were *"the 0153 section heading I mandated begins with `ON `,
+exactly the shape the header rule forbids. Fixing it now."* — **it died mid-fix.** Do not assume a
+dying agent's announced repair was applied; check it. It had not been.
+
+### ⭐⭐⭐ A REAL D11 DEFECT WAS CREATED IN SEPTEMBER AND CAUGHT PRE-SPLIT — day-01/0077
+**`ON THE TWELVE HOLY BROTHERS: DONATUS AND FELIX AND …` is SILENTLY REJECTED by `isSaintBoundary()`**
+— a quantifier (`TWELVE`) sat between `THE` and `HOLY`, which is one of the named D11 classes. The
+dossier runs **0077–0091, fifteen chunks**. Rejected, it produces **no page**: twelve martyrs vanish
+and their text accretes onto Sixtus and Sinicius (0070–0076), while `check-day.mjs` reports
+`headers → slugs` perfectly self-consistently and every other gate stays green.
+
+⚠️ **This overturns "September is clean" as a standing fact.** September was clean because the
+`PROMPT-sep.md` rules prevented it — but the rules never named this shape, so day 01 produced one the
+first time a large group needed the colon form. **The `PROMPT-sep.md` header rules did not state that
+the honorific must sit IMMEDIATELY after `ON `.** That clause now goes in every dispatch.
+
+✅ **FIXED, and the fix is also the more literal rendering.** Latin is `DE SS. DUODECIM FRATRIBUS
+MARTYRIBUS,` — *sanctis duodecim fratribus*, "the **holy twelve** brothers". So:
+
+    ON THE TWELVE HOLY BROTHERS: …   → REJECT
+    ON THE HOLY TWELVE BROTHERS: …   → PASS   ✅ applied
+
+⭐ **The right fix was the header line, NOT widening `isSaintBoundary()`** — widening is the option
+the D11 note calls "the tempting and most dangerous," because it silently re-splits every deployed
+month at once with no per-case reading. Nothing in the splitter was touched.
+
+### ✅ TWO FRAGILE `ON `-OPENING SUBTITLES RECAST ON DAY 17
+Both were *correctly* rejected by the splitter, so neither was causing a false split — but both
+violate `PROMPT-sep.md`'s own rule that a subtitle must never begin with `ON `, and both would become
+false splits the moment `isSaintBoundary()` were ever widened. Recast against their own Latin:
+
+| Chunk | Latin | Was | Now |
+|---|---|---|---|
+| 0096 | `IN MONTE S. RUPERTI JUXTA BINGIUM…` | `ON THE MOUNT OF ST. RUPERT NEAR BINGEN…` | `AT THE MOUNT OF ST. RUPERT NEAR BINGEN…` |
+| 0153 | `DE CULTU, RELIQUIIS ET MIRACULIS RECENTIORIBUS.` | `ON THE CULT, THE RELICS, AND…` | `OF THE CULT, THE RELICS, AND…` |
+
+⭐ 0096 is instructive: the Latin is `IN MONTE`, and rendering `IN` as `ON` is what created the
+forbidden shape. `PROMPT-sep.md`'s own example is this exact case (`ON MOUNT SCETIS IN LIBYA` →
+`IN MOUNT SCETIS OF LIBYA`). **A location line translated naturally will drift into the fatal shape;
+the rule has to be checked, not remembered.**
+
+✅ Re-verified after all three edits: `check-header-boundaries.mjs` returns **zero rejections** across
+sep/day-01 and sep/day-17, and day-17 still reads 175 files · 17 → 17.
+
+### ✅ DAY 17 LANDED AND VERIFIED — 2026-09-04
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs | D11 |
+|-----|--------|-----|---------------|-----------------|-----|
+| 17 | 175 | V | files ok · frontmatter ok · no footer leak · **no chunk <0.9** · ratio 1.156 | **17 → 17** | 0 (after recast) |
+
+✅ The **Lambert colon form held**: `ON ST. LAMBERT AND BB. PETER AND ANDOLETUS: BISHOP OF MAASTRICHT
+AND MARTYR,` at 0030, once, byte-identical. ⭐ And the shard-A report **vindicates Wilson's ruling on
+the evidence**: Peter and Andoletus are Lambert's kinsmen (`nepotes`), named in six sources, killed
+before him in expiation and laid in one shrine with him at Liège — **and their whole dossier sits
+inside Lambert's**, so they have no other page in September. A primary-only header would have erased
+two martyrs the corpus records nowhere else. The `ETC.` beyond them covers the unnamed rest of
+Lambert's household (Anselm's *multi … procul dubio martyres effecti*), whose bodies, the Bollandist
+notes, nobody recorded.
+
+✅ Hildegard ended at 0141 as re-measured; **0142 Gandolphus and 0158 Peter Arbués got their own
+`ON BL.` headers**, not Hildegard's name. Day heading checked: `XV KAL. OCTOBR.` — correct for 17 Sep.
+
+⭐ **Day-17's best unflagged find:** the 0058 copper epitaph calls Lambert the **"twenty-ninth and
+last-but-one bishop of the Tungrians"** — a numbering nowhere reconciled with the succession lists the
+same Commentary uses. Also `Act. 8 ℣ 36` for Acts 9:36 (0004), and Simon de Brie given two regnal
+numbers in one clause, `Martinus II, by others IV` (0007).
+
+### ✅ DAY 18 LANDED AND VERIFIED — 2026-09-03
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs | D11 |
+|-----|--------|-----|---------------|-----------------|-----|
+| 18 | 188 | V | files ok · frontmatter ok · no footer leak · **no chunk <0.9** · ratio 1.133 | **11 → 11** | 0 |
+
+⛔✅ **THE 0142/0143 BOUNDARY HELD — verified independently, not taken on the report's word.**
+`THOMAS OF VILLANOVA` occurs at **0023 only**; a scan for it in any chunk numbered ≥0143 returns
+**zero**. `JOSEPH OF CUPERTINO` occurs at 0143 only. Exactly 11 `^ON ` lines exist on the day. The
+corrected span (0023–0142, re-measured 2026-08-30 and again 2026-09-03) did its job: on the old
+`0023–0187` figure, all 45 of Joseph's chunks would have been headed with Thomas's name.
+
+⭐ Day heading checked: `SANCTI, QUI COLUNTUR XIV KAL. OCTOB.` — 18 September **is** the XIV Kalends
+of October. Correct, unlike day 25's.
+
+### ⭐⭐ THE CENTRAL `[ ]` RULING WORKED — MEASURED, NOT ASSUMED
+Day 18 carries the same day-wide scrape defect day 25 had (the first numbered paragraph after every
+`CAPUT`/`§`/document head loses its numeral) — **85 instances, spread across all four shards.** This
+is precisely the day that would have shipped internally split.
+
+`[ ]` markers per shard range: **A 0000–0047 = 35 · B 0048–0095 = 34 · C 0096–0142 = 31 · D 0143–0187 = 29.**
+Evenly distributed, no shard at zero. Compare **day 25, where one shard wrote 21 and the other wrote 0.**
+
+⭐ **The fix was not the policy's content but WHERE it was decided** — the parent ruled once, centrally,
+before sharding, and stated it verbatim in every shard prompt. Keep this for days 04, 14, 28 and 30;
+they are bigger and will shard wider.
+
+### ⚠️ A BARE `Col.` GREP OVER-COUNTS `[Col. NNN]` MARKERS BADLY — new, from day 18
+The day-18 agent's own pre-dispatch scan flagged **six** chunks as carrying inline `[Col. NNN]` markers.
+**Only one did** (0177, `[Col. 01044A]`). The other five (0010, 0021, 0033, 0069, 0144) were ordinary
+**citations whose column number the scrape had glued to the next word** — convention-7 `[ ]` lacunae,
+not corpus markers. Two of its shards correctly reported the discrepancy against their instructions.
+⚠️ **If a future dispatch note lists `[Col.]` chunks from a plain `Col.` grep, expect most to be lacunae**
+and say so in the prompt, or shards will be told to preserve something that is not there.
+
+### ⭐ THE `SI19001` STRAY TOKEN IS IN THE LATIN SOURCE — preserved, correctly
+It follows the Bollandist index line at **0143, 0157, 0179, 0181** in the Joseph dossier. Confirmed
+present in the Latin at exactly those four chunks, so rendering it verbatim is right and deleting it
+would have been a silent repair. Almost certainly a scrape/database artefact, but uniform and recorded.
+
+### ⭐ Day-18's most valuable unflagged find: A WRONG YEAR INSIDE A QUOTED PAPAL DECREE
+**0156** — Clement XI's dispensation reads `sequuti die XVIII Septembris `**`MDCXLIII`**. Joseph of
+Cupertino died in **1663**; the decree is twenty years out. Quoted silently by the Bollandist and
+preserved as printed. Six further printed paragraph-numbering corruptions preserved per convention 4
+(0012 `[19]` for 29 · 0022 `[n16]` · 0075 `[223]` for 233 · 0078 `[162]` for 262 · 0113 `[127]` for
+527 · 0117 `[449]` for 549).
+
+### What Round G's lessons changed in these three prompts
+- **The `[ ]` policy is now stated as ONE policy and the parent must fix it centrally before sharding**
+  — the day-25/day-29 split-policy defect, blocked at the source rather than repaired afterwards.
+- **Each agent is told to check its own `SANCTI, QUI … KAL. … COLUNTUR` line and report a mismatch**
+  (17 Sep = XV Kal. Oct., 18 Sep = XIV Kal. Oct., 1 Sep = the Kalends themselves). Day 25's wrong
+  heading was rendered faithfully but went **unreported**, which is the failure this closes.
+- **Both corrected mandated spans carry the full explanation of what the old figure would have done**,
+  so no agent widens a span to cover its own shard boundary: day-18 Thomas ends **0142** (0143 opens
+  Joseph of Cupertino), day-17 Hildegard ends **0141** (0142 Gandolphus, 0158 Peter Arbués).
+- **Lambert and day-01/0122 carry the new colon-form strings** from Wilson's `ITEM DE` ruling, each
+  marked as superseding the old primary-only table row so it cannot be "simplified" back.
+
+### ⛔⛔ DAY 01 IS A DIFFERENT SHAPE FROM THE OTHER TWO — 34 headers across 199 chunks
+Its risk is **not** a mega-dossier crossing a seam; it is **name collisions, more than any September day
+dispatched so far**. The seven given to the agent, each with the instruction to derive every epithet
+from that dossier's OWN Latin and to report which words it used:
+1. ⛔⛔ **THREE Ægidii/Giles** — 0168 `DE SANCTO ÆGIDIO ABBATE`, 0180 `ÆGIDIO EREMITIS`, 0182 `DE BEATO
+   ÆGIDIO ABBATE`. **0168 and 0182 are identical Latin but for `SANCTO` vs `BEATO`** — `ON ST. GILES,
+   ABBOT,` and `ON BL. GILES, ABBOT,` both cut to `Giles` and merge a saint with a blessed. The purest
+   form of the August day-25 Ebba defect yet seen.
+2. **Two Prisci** (0059 bishop-martyr, 0123 group head) · 3. **Two Vincentii** (0119 bishop, 0122
+   presbyter) · 4. **Rosa of Sulci** (0064, `fortasse M.` hedge) · 5. **Firminus the confessor** (0104)
+   against day-25's Firminus of Amiens the martyr · 6. **A bare `DE SANCTO LUPO`** (0147, no epithet in
+   the header at all) against day-25's Lupus of Lyons, with his **mother** Austregildis a separate
+   dossier at 0157 · 7. Doublets `MARTHA VEL MATHANA`, `VICTORIO SEU VICTURIO`, `AUSTREGILDE VEL AGIA`.
+
+⚠️ **Chunk 0122 alone carries FIVE headers**, one of them the `ITEM DE` case, and one of them
+`DE SANCTIS MARTYRIBUS AFRICANIS` — which **names no saint** but is likely a real dossier, the mirror of
+day-10's `DE AFRICANIS MARTYRIBUS…`. ⬜ The agent was told to read it, rule, and report which way.
+
+⚠️ Five day-01 headers arrive spelled out (`DE SANCTA VERENA`, `DE SANCTO AREALDO`, `DE SANCTO LUPO`,
+`DE SANCTO ÆGIDIO`, `DE BEATO ÆGIDIO`) — **a `DE S.` grep would have missed all five.** The widened
+`^DE [A-Z]` net keeps paying.
+
+## ✅ ROUND G COMPLETE — 2026-09-03, days 25, 26, 27 — 371 chunks
+
+Wilson approved the burn ("Both rounds, Opus, go"), covering **Round G and Round H together**.
+Three Opus agents, whole-day ownership, launched concurrently:
+**day-25 (116, vol VII) · day-26 (119, vol VII) · day-27 (136, vol VII).**
+Estimated ~3.7M tokens at the runbook's own rate (~10K/chunk, from Round F's 421 chunks ≈ 4.2M).
+
+**⛔ IF THIS SESSION DIED, DO NOT RELAUNCH THESE DAYS FROM 0000.** Run
+`node scripts/check-day.mjs sep --gaps` first and gap-fill only the missing ranges — see the recipe
+at the top of this file. None of the three had prior work, so a dead agent's day is simply partial.
+⚠️ And remember a parent's death does not kill its children (day-29, Round F): watch the file count
+until it is **stable** before dispatching anything into one of these days.
+
+**Round H, pre-approved and queued: days 01 (199), 17 (175), 18 (188) = 562 chunks, ~5.6M tokens.**
+Dispatch it once G verifies. That takes September to **2,878 / 4,120 (69.9%), 26 of 30 days**,
+leaving only the four monsters — 04 (294), 14 (387), 28 (241), 30 (320) = 1,242 chunks.
+
+### ✅ ALL THREE DAYS LANDED AND VERIFIED — 2026-09-03
+
+September now **2,316 / 4,120 chunks (56.2%), 23 of 30 days.**
+
+| Day | Chunks | Vol | check-day.mjs | headers → slugs |
+|-----|--------|-----|---------------|-----------------|
+| 25 | 116 | VII | files ok · frontmatter ok · no footer leak · ⚠ 0115 (0.21, legitimate) · ratio 1.155 | **18 → 18** |
+| 26 | 119 | VII | files ok · frontmatter ok · no footer leak · ⚠ 8 chunks <0.9 (see below) · ratio 1.103 | **11 → 11** |
+| 27 | 136 | VII | files ok · frontmatter ok · no footer leak · no chunk <0.9 · ratio 1.152 | **15 → 15** |
+
+**Days still to do (7): 01, 04, 14, 17, 18, 28, 30 — 1,804 chunks.**
+
+⚠️ **day-25/0115's 0.21 ratio is correct, not truncation.** Its entire Latin content is two variant-reading
+lines (`* l. ea`, `* l. alicui`) plus the German scrape block, which was correctly deleted. Verified by
+reading the chunk, not by trusting the report — this is the convention-2 trap firing exactly where the
+prompt says it will (the last chunk of a day is where the furniture block lives).
+
+`check-header-boundaries.mjs` (the **D11** gate) returns **zero rejections** for both days — September
+stays clean in both categories, which is what the `PROMPT-sep.md` rules are for.
+
+**Both mandated strings on each day occurred exactly once**, at the dossier opening, byte-identical.
+Later chunks of those dossiers correctly carry no header — the expected case, not lost headers.
+
+#### ⭐ Day-26's eight sub-0.9 chunks are the KNOWN Greek false-positive class — CONFIRMED, not assumed
+0025, 0031, 0060, 0069, 0070, 0073, 0076, 0083 — all from the **Greek Acts / Confession of Cyprian
+of Antioch** and the **Greek Vita of Nilus**. Checked three ways before accepting them:
+- **Greek character counts are byte-identical LA vs EN** in all eight (7,120–8,093 chars each), so the
+  Greek was reproduced verbatim per convention 3 with nothing dropped.
+- **Non-Greek content EXPANDS healthily** in every one — 5→15, 27→50, 129→186, 70→113 tokens.
+- **0025 is 100% Greek** — zero non-Greek words in the Latin source at all.
+
+Cause is the one already recorded further down this file: the scrape stores **one word per line**, the
+English joins it into paragraphs, so thousands of newline bytes vanish while the Greek passes through
+at ratio 1.0. ⚠️ **Do not "repair" one of these.** The gate is right to flag and wrong to convict; the
+discriminator is the Greek-character equality, not the byte ratio.
+
+#### ⭐⭐ NEW UNFLAGGED SOURCE ERROR — DAY 25'S OWN DAY-HEADING IS WRONG IN THE PRINTED SOURCE
+day-25/0000 reads `SANCTI, QUI VII KAL. SEPTEMB. COLUNTUR.` — but 25 September **is** the VII Kalends
+of **October**, and day-25's own body text says `VII Kalends of October` repeatedly (Ado, Peter de
+Natalibus). Swept the whole run to confirm it is isolated:
+
+`21 XI KAL. OCTOBR · 22 X · 23 IX · 24 VIII · 25 VII KAL.` **`SEPTEMB.`** `· 26 VI OCTOBRIS · 27 V · 28 IV · 29 III · 30 PRIDIE KAL. OCTOBRIS`
+
+**Day 25 is the only day in the month that says SEPTEMB.** The agent rendered it faithfully (correct
+under convention 7 — never silently repair) but **did not report it**, so it would have gone unrecorded.
+⭐ Found by checking the translation against the Latin rather than reading the agent's report, which is
+the whole argument for the gate pass. ⚠️ It belongs in the imprint's *What Is Known to Be Wrong*.
+
+#### ⚠️⚠️ THE SILENT-REPAIR SPLIT-POLICY DEFECT RECURRED — SECOND TIME, DIFFERENT DAY, SAME SHAPE
+Day-25's two shards applied **opposite policies to the same day-wide scrape defect.** The scrape dropped
+the bracketed paragraph number from every `§`-opening paragraph. **Shard A left the gap silent; Shard B
+wrote `[ ]`** — 21 files (0058, 0059, 0061, 0062, 0069, 0073, 0076, 0078, 0079, 0082, 0085, 0087, 0089,
+0091, 0097, 0103, 0105, 0107, 0108, 0109, 0111). So day 25 is internally split, exactly as day 29's 93
+chunks were.
+
+⭐ **This is now a two-instance pattern, and it indicts the PROMPT, not the agents** — the
+[[feedback_two-agents-same-error-suspect-the-prompt]] lesson in its mirror form. `PROMPT-sep.md`
+conventions 4 and 7 genuinely point opposite ways here: 4 says preserve numbering **as printed**
+(supports A), 7 says a **missing numeral** gets `[ ]` plus a report (supports B).
+
+✅ **Interim policy applied to Round H, read off convention 7's own text, not invented:** a paragraph
+number *present in print but lost to the scrape* is a **missing numeral** → `[ ]`. Convention 4 governs
+numbering that IS printed (jumps, repeats, plainly wrong); convention 7 governs numbering that is gone.
+Round H prompts mandate `[ ]` **and** require the parent to fix one policy centrally before sharding.
+⬜ **Wilson still rules** — day 25's 21 files are a one-pass fix either way, and nothing is deployed.
+
+#### ⬜ Day-27: a clean test case for the SILENT-REPAIR CLAUSE Wilson still owes
+`day-27/0002` Latin reads `quo minus idem esse possit Jones` — **`Jones` is a scrape corruption of
+`Joannes`**, and chunk 0003 spells `Joannes Marcus` three times in the same argument. The agent
+rendered it "John Mark" and **reported it rather than doing it silently**. This splits the two
+branches of the proposed clause exactly: *grammar-determined word → correct + list* (it is not a Latin
+word and the surrounding text fixes it) vs *name → `[ ]`* (it is a name, and names are bracketed
+precisely because that is where invention hides). **Left as translated, pending Wilson.** Decide before
+day 30 — the monsters will produce many of these.
+
+Also disclosed, lower stakes: `Sec. I.` (day-27/0000) rendered `Cent. I.` after day-27/0007's
+`Sec. I post LXIII` proved it abbreviates *saeculo*, not *sectio*. An abbreviation expansion, not a
+numeral repair.
+
+#### ⬜ Day-27: the `AC FORTE` hedge went INTO the display name
+0016 emitted `ON SS. FLORENTINUS AND HILARY AND PERHAPS APHRODISIUS, MARTYRS AMONG THE ÆDUI IN GAUL,`
+→ display **"Florentinus and Hilary and perhaps Aphrodisius"**. The agent reasoned from Wilson's own
+`ITEM DE` rule: Aphrodisius appears nowhere else in September, so a primary-only header erases him,
+while asserting him flatly resolves a question the Bollandists deliberately left open (convention 7).
+The hedge is carried in the body too (`why I have joined Aphrodisius to them I shall note below`).
+⚠️ **"and perhaps" in a page title is a new shape in the corpus** — Wilson to confirm or recast.
+
+#### ⬜ Day-26: two items the agent flagged for a human before deploy
+- **Parenthetical English glosses added after the two lapidary inscriptions** (0037, 0042) — an
+  addition to the source; convention 1/7 territory. Needs a reading.
+- 0030's missing footnote letters `b`/`q` are a **source absence, not an output defect** — recorded so
+  a later gate does not re-open it.
+
+#### ✅ The two Eusebii were separated, and from the day's OWN Latin
+`ON ST. EUSEBIUS THE POPE,` (0048) vs `ON ST. EUSEBIUS OF BOLOGNA,` (0052). Verified independently:
+day-26/0000's roster prints `S. Eusebius Episcopus Conf., Bononiæ in Italia.` and 0052 carries
+`Eusebium episcopum Bononiensem`, `Bononiæ item sancti Eusebii`, `S. Eusebium Bononiensem`. The
+epithet came from the dossier's own text, not from outside knowledge — the rule the prompt demands.
+
+### Pre-dispatch header sweep (`^DE [A-Z]`, the only correct pattern)
+Re-run 2026-09-03 over all six Round G+H days. **Every mandated span in `PROMPT-sep.md` verifies**,
+including the two corrected 2026-08-30 rows: day-18 Thomas of Villanova really does end at **0142**
+(0143 opens `DE B. JOSEPHO A CUPERTINO`) and day-17 Hildegard at **0141** (0142 Gandolphus, 0158
+Peter Arbués). Day-17/0153 `DE CULTU, RELIQUIIS ET MIRACULIS RECENTIORIBUS.` is confirmed a **false
+positive** — it sits inside the Gandolphus dossier and carries its own `^APPENDIX` line.
+
+Counts: day-25 **18** headers (0034 carries three) · day-26 **11** (0047 carries two) ·
+day-27 **15** (0007, 0063 and 0065 carry two each) · day-01 **34** (0122 carries five, 0157 two,
+0180 two) · day-17 **18** (0001, 0005, 0009 carry two or three each) · day-18 **11**.
+`^APPENDIX` — day-27/0077 · day-01/0103, 0127, 0157 · day-17/0153 · day-18/0179, 0181. All
+sub-sections, never headers; each agent told so. **No header wraps across physical lines** on any of
+the six days (checked, not assumed — day-22's Theban Legion header was four lines).
+
+### ⚠️ NAME COLLISION FOUND AT SCOPING — new, was not in the standing trap list
+**Day 26 has TWO men named Eusebius, four chunks apart:** 0048 `DE S. EUSEBIO PAPA CONF.` and 0052
+`DE S. EUSEBIO EPISCOPO CONF.` Both cut to `Eusebius` and would merge onto one page — the August
+day-25 Ebba defect. The agent was told to build each epithet from that dossier's **own** Latin
+subtitle and index line, never from outside knowledge, and to report where each came from.
+
+### Slug traps flagged before dispatch, not after
+**Day 27 is unusually dense in spelling doublings** — `ZENA ALIAS ZENONE` (0007), `ELEUTHERO AUT
+ELEUTHERIO` (0065), `CERAUNIO VEL CERAUNO` (0067) — the day-10 Euplus class, where each variant
+doubles into the slug. Day 25 has `AUNARIO SEU AUNACHARIO` (0051) and `BARRO VEL FINBARRO` (0086),
+day 26 `THEOCTISTO SEU THEOGNITO` (0003). Two `FORTE` hedges: day-25/0099 `ANTILIA VIRGINE AC FORTE
+MARTYRE` and day-27/0016 `AC FORTE APHRODISIO` — ⚠ the second is the Bollandists hedging whether
+Aphrodisius belongs to the group at all; **render the hedge, never resolve it** (convention 7).
+Large groups pointed at the colon form with a collective from their own Latin subtitle: day-26/0000
+Callistratus **+ 49 soldiers**, day-25/0034 Bardomianus/Eucarpus **+ 26**, day-25/0034 the Paul and
+Tatta family of six. Day-25/0101 Maria de Cervello is the longest header of the three days.
+
+### Two extra mandated strings issued beyond the `PROMPT-sep.md` table
+The table's threshold is ~40 chunks, but a dossier below it still crosses a **self-shard** seam:
+- day-27 **Cosmas and Damian, 0031–0062 (32)** → `ON SS. COSMAS AND DAMIAN AND ANTHIMUS AND LEONTIUS AND EUPREPIUS, MARTYRS,`
+- day-26 Cyprian and day-26 Nilus and day-27 Elzéar issued from the table unchanged.
+
+⚠️ **Day 25 needed none** (18 headers across 116; longest run 0012→0034, 22 chunks) — but the agent
+was still bound by the pre-comma rule, freezing each saint's English form on first emission.
+
+### ✅✅ THE `ITEM DE` / JOINED-DOSSIER RULE — RULED BY WILSON 2026-09-03, NOW IN `PROMPT-sep.md`
+**Both parties go into the display name, colon form: every party's NAME before the colon, roles and
+places after.** This is the day-05 Romulus/Melitene form made house policy — *keep both, claim
+neither wrongly*. A primary-only header relocates or erases a saint who has no other page.
+
+Supersedes two rows of the mandated table:
+
+| Day | Chunks | Mandated header (supersedes the table row) |
+|-----|--------|--------------------------------------------|
+| 17 | 0030–0089 | `ON ST. LAMBERT AND BB. PETER AND ANDOLETUS: BISHOP OF MAASTRICHT AND MARTYR,` |
+| 30 | 0020–0094 | `ON ST. GREGORY THE ILLUMINATOR AND SS. RIPSIME AND GAIANA: BISHOP OF ARMENIA AND CONFESSOR,` |
+
+Also governs day-01/0122 (`DE SS. MARCIANO EP., SISINNIO, AMAUSO: ITEM DE SS. PRIMO AC MATERNO MM.`).
+
+⬜⬜ **NEW REPAIR OWED BEFORE THE SEPTEMBER DEPLOY: Round F's day-02/0010 is now the outlier.**
+It reads `ON THE HOLY 6,628 MARTYRS OF NICOMEDIA: WITH SS. AITHALUS, JUNIUS, PHILIP, AND THEODOTUS,
+MARTYRS,` — the joined party sits *after* the colon, so Aithalus and his three companions are
+dropped from the display name and get no page. Latin: `DE SS. SEX MILLE SEXCENTIS VIGINTI OCTO
+MARTYRIBUS NICOMEDIENSIBUS. ITEM DE SS. AITHALA, JUNIO, PHILIPPO, THEODOTO MM.` Pre-split and
+pre-deploy, so it is still **free to fix** — it gets more expensive after the split, exactly like
+September's six oversized slugs did.
+
 ## ✅ ROUND F COMPLETE — 2026-08-30, days 19+20, 02, 29 — 421 chunks
 
 Wilson approved the burn ("opus go"). Three Opus agents, whole-day ownership, launched concurrently:

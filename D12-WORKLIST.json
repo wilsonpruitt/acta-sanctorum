@@ -1,0 +1,1178 @@
+[
+ {
+  "day": "day-01",
+  "chunk": "0018",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XIII. Mira Hierichuntis obsidio &",
+  "expected_numeral": 126
+ },
+ {
+  "day": "day-01",
+  "chunk": "0037",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XXV. Constantiæ adversus seditiosos præmium",
+  "expected_numeral": 243
+ },
+ {
+  "day": "day-01",
+  "chunk": "0147",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Sancti veneratio in diversis locis; Officia propria: Ac",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-01",
+  "chunk": "0164",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-01",
+  "chunk": "0165",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 6
+ },
+ {
+  "day": "day-01",
+  "chunk": "0166",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-01",
+  "chunk": "0167",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 21
+ },
+ {
+  "day": "day-01",
+  "chunk": "0183",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Notitiæ de Beata ad nos missæ; genealogia majorum; cult",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-01",
+  "chunk": "0183",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Beneficia Beatæ patrocinio impetrata; scriptores, qui ",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-01",
+  "chunk": "0188",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ II. Beati in Ordine vestitus; an sacerdos;",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-01",
+  "chunk": "0194",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ VIII. Dissertationis prædictæ continuatio, in",
+  "expected_numeral": 63
+ },
+ {
+  "day": "day-02",
+  "chunk": "0051",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 7
+ },
+ {
+  "day": "day-02",
+  "chunk": "0052",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 16
+ },
+ {
+  "day": "day-02",
+  "chunk": "0054",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 32
+ },
+ {
+  "day": "day-02",
+  "chunk": "0055",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 44
+ },
+ {
+  "day": "day-02",
+  "chunk": "0056",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 58
+ },
+ {
+  "day": "day-02",
+  "chunk": "0057",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VI.",
+  "expected_numeral": 68
+ },
+ {
+  "day": "day-02",
+  "chunk": "0065",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-03",
+  "chunk": "0026",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 30
+ },
+ {
+  "day": "day-03",
+  "chunk": "0055",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-03",
+  "chunk": "0057",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-03",
+  "chunk": "0058",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 22
+ },
+ {
+  "day": "day-03",
+  "chunk": "0060",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-03",
+  "chunk": "0062",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 13
+ },
+ {
+  "day": "day-03",
+  "chunk": "0064",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 26
+ },
+ {
+  "day": "day-04",
+  "chunk": "0043",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XXVIII. Moyses per dies quadraginta cum Deo",
+  "expected_numeral": 302
+ },
+ {
+  "day": "day-04",
+  "chunk": "0066",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XLI. Quæ de morte Mariæ & Aaronis aliisque deinde secutis ",
+  "expected_numeral": 462
+ },
+ {
+  "day": "day-04",
+  "chunk": "0134",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ II. Ecclesia S. Mauri in Hattonis castro,",
+  "expected_numeral": 10
+ },
+ {
+  "day": "day-04",
+  "chunk": "0147",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-04",
+  "chunk": "0148",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 15
+ },
+ {
+  "day": "day-04",
+  "chunk": "0149",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 23
+ },
+ {
+  "day": "day-04",
+  "chunk": "0150",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 28
+ },
+ {
+  "day": "day-04",
+  "chunk": "0150",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VI.",
+  "expected_numeral": 36
+ },
+ {
+  "day": "day-04",
+  "chunk": "0157",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 3
+ },
+ {
+  "day": "day-04",
+  "chunk": "0158",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 11
+ },
+ {
+  "day": "day-04",
+  "chunk": "0160",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 23
+ },
+ {
+  "day": "day-04",
+  "chunk": "0226",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XLII. Sanatus evidenti miraculo Franciscus",
+  "expected_numeral": 458
+ },
+ {
+  "day": "day-04",
+  "chunk": "0237",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 23
+ },
+ {
+  "day": "day-04",
+  "chunk": "0238",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-04",
+  "chunk": "0287",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-05",
+  "chunk": "0013",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-05",
+  "chunk": "0014",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 5
+ },
+ {
+  "day": "day-05",
+  "chunk": "0015",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 13
+ },
+ {
+  "day": "day-05",
+  "chunk": "0078",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "APPENDIX MIRACULA ALIA NECDUM DATA CONTINENS",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-05",
+  "chunk": "0078",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-06",
+  "chunk": "0078",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ III. Alia venerationis indicia usque ad annum",
+  "expected_numeral": 19
+ },
+ {
+  "day": "day-07",
+  "chunk": "0005",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-07",
+  "chunk": "0006",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 4
+ },
+ {
+  "day": "day-07",
+  "chunk": "0007",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-07",
+  "chunk": "0069",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 29
+ },
+ {
+  "day": "day-08",
+  "chunk": "0006",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-08",
+  "chunk": "0008",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 6
+ },
+ {
+  "day": "day-08",
+  "chunk": "0010",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 17
+ },
+ {
+  "day": "day-08",
+  "chunk": "0012",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 25
+ },
+ {
+  "day": "day-08",
+  "chunk": "0013",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 31
+ },
+ {
+  "day": "day-08",
+  "chunk": "0015",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-08",
+  "chunk": "0016",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ II. De translatis in Belgium S. Adriani",
+  "expected_numeral": 19
+ },
+ {
+  "day": "day-09",
+  "chunk": "0030",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ VI. Sancti mors & sepultura: hymnus in",
+  "expected_numeral": 55
+ },
+ {
+  "day": "day-09",
+  "chunk": "0053",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ II. Seculum, quo Sancta floruit, ignotum: in",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-09",
+  "chunk": "0087",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 15
+ },
+ {
+  "day": "day-11",
+  "chunk": "0042",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ I. Cultus Antiquus; an monasterium S. Adelphii",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-11",
+  "chunk": "0047",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-11",
+  "chunk": "0059",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 3
+ },
+ {
+  "day": "day-11",
+  "chunk": "0060",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 9
+ },
+ {
+  "day": "day-11",
+  "chunk": "0062",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 16
+ },
+ {
+  "day": "day-11",
+  "chunk": "0065",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 26
+ },
+ {
+  "day": "day-11",
+  "chunk": "0066",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 31
+ },
+ {
+  "day": "day-11",
+  "chunk": "0068",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VI.",
+  "expected_numeral": 38
+ },
+ {
+  "day": "day-11",
+  "chunk": "0069",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VII.",
+  "expected_numeral": 46
+ },
+ {
+  "day": "day-11",
+  "chunk": "0072",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VIII.",
+  "expected_numeral": 54
+ },
+ {
+  "day": "day-11",
+  "chunk": "0073",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IX.",
+  "expected_numeral": 61
+ },
+ {
+  "day": "day-11",
+  "chunk": "0075",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT X.",
+  "expected_numeral": 67
+ },
+ {
+  "day": "day-11",
+  "chunk": "0076",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XI.",
+  "expected_numeral": 73
+ },
+ {
+  "day": "day-11",
+  "chunk": "0079",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XII.",
+  "expected_numeral": 81
+ },
+ {
+  "day": "day-11",
+  "chunk": "0093",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX DE MIRACULIS.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-13",
+  "chunk": "0031",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 18
+ },
+ {
+  "day": "day-13",
+  "chunk": "0037",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-13",
+  "chunk": "0041",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ III. Quædam etiam de Sancto nostro in Vita",
+  "expected_numeral": 9
+ },
+ {
+  "day": "day-13",
+  "chunk": "0041",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Sancti pueritia: episcopatus Sedunensis an",
+  "expected_numeral": 9
+ },
+ {
+  "day": "day-15",
+  "chunk": "0015",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-15",
+  "chunk": "0089",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 16
+ },
+ {
+  "day": "day-15",
+  "chunk": "0091",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 29
+ },
+ {
+  "day": "day-15",
+  "chunk": "0092",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 37
+ },
+ {
+  "day": "day-15",
+  "chunk": "0094",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 50
+ },
+ {
+  "day": "day-15",
+  "chunk": "0096",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VI.",
+  "expected_numeral": 60
+ },
+ {
+  "day": "day-15",
+  "chunk": "0098",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VII.",
+  "expected_numeral": 77
+ },
+ {
+  "day": "day-15",
+  "chunk": "0100",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VIII.",
+  "expected_numeral": 90
+ },
+ {
+  "day": "day-15",
+  "chunk": "0102",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IX.",
+  "expected_numeral": 105
+ },
+ {
+  "day": "day-16",
+  "chunk": "0009",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-16",
+  "chunk": "0011",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II",
+  "expected_numeral": 11
+ },
+ {
+  "day": "day-16",
+  "chunk": "0014",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-16",
+  "chunk": "0017",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II",
+  "expected_numeral": 11
+ },
+ {
+  "day": "day-16",
+  "chunk": "0030",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-16",
+  "chunk": "0088",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-16",
+  "chunk": "0090",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 14
+ },
+ {
+  "day": "day-16",
+  "chunk": "0092",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 26
+ },
+ {
+  "day": "day-16",
+  "chunk": "0094",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 41
+ },
+ {
+  "day": "day-16",
+  "chunk": "0099",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VII.",
+  "expected_numeral": 71
+ },
+ {
+  "day": "day-16",
+  "chunk": "0101",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VIII.",
+  "expected_numeral": 79
+ },
+ {
+  "day": "day-16",
+  "chunk": "0102",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IX.",
+  "expected_numeral": 86
+ },
+ {
+  "day": "day-16",
+  "chunk": "0104",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT X.",
+  "expected_numeral": 94
+ },
+ {
+  "day": "day-16",
+  "chunk": "0106",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XII.",
+  "expected_numeral": 109
+ },
+ {
+  "day": "day-17",
+  "chunk": "0044",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ X. Causa martyrii a Godeschalco & Stephano tradita asserit",
+  "expected_numeral": 137
+ },
+ {
+  "day": "day-17",
+  "chunk": "0082",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 16
+ },
+ {
+  "day": "day-17",
+  "chunk": "0096",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ I. Acta S. Hildegardis jam edita, & illius",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-17",
+  "chunk": "0153",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-18",
+  "chunk": "0060",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XII.",
+  "expected_numeral": 116
+ },
+ {
+  "day": "day-18",
+  "chunk": "0181",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX II",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0003",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0006",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II",
+  "expected_numeral": 10
+ },
+ {
+  "day": "day-19",
+  "chunk": "0021",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0021",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "CAPUT LXXXVIII.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0029",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Illustria apud scriptores S. Theodori",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0032",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Res in Anglia a S. Theodoro præclare",
+  "expected_numeral": 23
+ },
+ {
+  "day": "day-19",
+  "chunk": "0035",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ III. Chronotaxis rerum gestarum a Wilfridi",
+  "expected_numeral": 44
+ },
+ {
+  "day": "day-19",
+  "chunk": "0038",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ IV. Figuntur epochæ conciliorum Romani propter",
+  "expected_numeral": 65
+ },
+ {
+  "day": "day-19",
+  "chunk": "0047",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Horum memoria in Martyrologiis hoc die, qui",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-19",
+  "chunk": "0048",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Examinantur quædam de sanctis asserta:",
+  "expected_numeral": 13
+ },
+ {
+  "day": "day-20",
+  "chunk": "0001",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Expenduntur argumenta petita ab antiquitate Actorum.",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-20",
+  "chunk": "0003",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ III. Nota erroris in fide rigidius auctori",
+  "expected_numeral": 30
+ },
+ {
+  "day": "day-20",
+  "chunk": "0005",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ IV. S. Eustathii & Sociorum in Fastis sacris antiqua memor",
+  "expected_numeral": 42
+ },
+ {
+  "day": "day-20",
+  "chunk": "0007",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ V. Examinantur pia molimina Athanasii Kircheri",
+  "expected_numeral": 57
+ },
+ {
+  "day": "day-20",
+  "chunk": "0014",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-20",
+  "chunk": "0021",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Sanctorum Martyrum apud martyrologos memoria. Acta eden",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-20",
+  "chunk": "0022",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Lucensium & Narniensium de sacris S. Faustæ exuviis co",
+  "expected_numeral": 14
+ },
+ {
+  "day": "day-20",
+  "chunk": "0035",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ I. Actorum S. Agapeti apud scriptores chronotaxis a variis",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-20",
+  "chunk": "0038",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ II. Examinatur, quo mense & die S. Agapetus Cathedram asce",
+  "expected_numeral": 24
+ },
+ {
+  "day": "day-20",
+  "chunk": "0039",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ III. Res gestæ Agapeti in Italia.",
+  "expected_numeral": 37
+ },
+ {
+  "day": "day-20",
+  "chunk": "0042",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ IV. Commentum de S. Agapeto: ejus iter Roma Constantinopol",
+  "expected_numeral": 61
+ },
+ {
+  "day": "day-22",
+  "chunk": "0001",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 6
+ },
+ {
+  "day": "day-22",
+  "chunk": "0002",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II",
+  "expected_numeral": 10
+ },
+ {
+  "day": "day-22",
+  "chunk": "0122",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 11
+ },
+ {
+  "day": "day-22",
+  "chunk": "0126",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 13
+ },
+ {
+  "day": "day-23",
+  "chunk": "0037",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ VIII. Utrum Liberius videatur subscripsisse",
+  "expected_numeral": 114
+ },
+ {
+  "day": "day-25",
+  "chunk": "0072",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 12
+ },
+ {
+  "day": "day-25",
+  "chunk": "0092",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ I. Notitia archiepiscopatus ipsius: memoria in",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-26",
+  "chunk": "0020",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-26",
+  "chunk": "0024",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-26",
+  "chunk": "0028",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 15
+ },
+ {
+  "day": "day-26",
+  "chunk": "0030",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 21
+ },
+ {
+  "day": "day-26",
+  "chunk": "0059",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-26",
+  "chunk": "0063",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-26",
+  "chunk": "0066",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 15
+ },
+ {
+  "day": "day-26",
+  "chunk": "0068",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 22
+ },
+ {
+  "day": "day-26",
+  "chunk": "0073",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 32
+ },
+ {
+  "day": "day-26",
+  "chunk": "0075",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VI.",
+  "expected_numeral": 40
+ },
+ {
+  "day": "day-26",
+  "chunk": "0078",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VII.",
+  "expected_numeral": 47
+ },
+ {
+  "day": "day-26",
+  "chunk": "0080",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT VIII.",
+  "expected_numeral": 53
+ },
+ {
+  "day": "day-26",
+  "chunk": "0083",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IX.",
+  "expected_numeral": 60
+ },
+ {
+  "day": "day-26",
+  "chunk": "0085",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT X.",
+  "expected_numeral": 67
+ },
+ {
+  "day": "day-26",
+  "chunk": "0088",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XI.",
+  "expected_numeral": 73
+ },
+ {
+  "day": "day-26",
+  "chunk": "0090",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XII.",
+  "expected_numeral": 79
+ },
+ {
+  "day": "day-26",
+  "chunk": "0093",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XIII.",
+  "expected_numeral": 86
+ },
+ {
+  "day": "day-26",
+  "chunk": "0096",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT XIV.",
+  "expected_numeral": 94
+ },
+ {
+  "day": "day-27",
+  "chunk": "0077",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "APPENDIX",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-27",
+  "chunk": "0112",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ XI. Hæc faciunt, ut certo edicere nequeam,",
+  "expected_numeral": 170
+ },
+ {
+  "day": "day-27",
+  "chunk": "0112",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "§ IX. Supplicatio Joanni XXII Papæ pro",
+  "expected_numeral": 170
+ },
+ {
+  "day": "day-27",
+  "chunk": "0131",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT IV.",
+  "expected_numeral": 44
+ },
+ {
+  "day": "day-27",
+  "chunk": "0133",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT V.",
+  "expected_numeral": 61
+ },
+ {
+  "day": "day-28",
+  "chunk": "0011",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-28",
+  "chunk": "0132",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "§ XIII. Aliquot reliquiæ a reliquo Sancti",
+  "expected_numeral": 223
+ },
+ {
+  "day": "day-28",
+  "chunk": "0234",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "APPENDIX ALTERA",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-28",
+  "chunk": "0234",
+  "reason": "head straddles a chunk boundary — LA/EN head counts differ; map by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-29",
+  "chunk": "0080",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-29",
+  "chunk": "0082",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 10
+ },
+ {
+  "day": "day-29",
+  "chunk": "0091",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT I.",
+  "expected_numeral": 1
+ },
+ {
+  "day": "day-29",
+  "chunk": "0093",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT II.",
+  "expected_numeral": 8
+ },
+ {
+  "day": "day-29",
+  "chunk": "0096",
+  "reason": "bare CAPUT/APPENDIX with no marginal-gloss anchor — chapter argument intervenes; pick the paragraph by hand",
+  "latin_head": "CAPUT III.",
+  "expected_numeral": 15
+ }
+]

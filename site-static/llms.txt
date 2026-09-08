@@ -1,0 +1,26 @@
+# Acta Sanctorum
+
+> English translation of the Acta Sanctorum, the Bollandists' collection of
+> hagiographic texts (lives, passions, and miracle collections of the
+> saints, organized by feast day), January through August so far.
+
+Latin source text is public domain. The English translation, editorial
+apparatus (headnotes, genre tags, marginalia/marker inventory), and
+encoding are CC BY-NC 4.0, attribution "Wilson Pruitt (Wroot Press)".
+Machine-learning training and retrieval are explicitly permitted under
+those terms, including for commercial model development — see the
+Machine Use section at https://actasanctorum.org/rights.html
+
+## Structure
+- One canonical page per saint entry: https://actasanctorum.org/<month>/day-<NN>/<slug>.html
+- Every saint page has plain-text and JSON siblings: replace .html with
+  .txt or .json in the URL.
+- Bulk export (all saint entries, one JSON record each):
+  https://actasanctorum.org/export.html
+
+## Credits
+Latin source digitized by the Ökumenisches Heiligenlexikon
+(heiligenlexikon.de), supplemented by manual transcription from the Paris
+edition.
+
+Sitemap: https://actasanctorum.org/sitemap.xml

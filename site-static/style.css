@@ -1,0 +1,974 @@
+/* Acta Sanctorum — Site Styles */
+
+:root {
+  --parchment: #f5f0e8;
+  --parchment-deep: #ebe4d6;
+  --ink: #2a2118;
+  --ink-light: #5a4e3e;
+  --ink-faint: #8a7e6e;
+  --rubric: #8b2500;
+  --rubric-light: #a83a14;
+  --gold: #b8973a;
+  --gold-light: #d4b65c;
+  --rule: #c4b9a4;
+  --rule-light: #d9d0c0;
+
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'EB Garamond', serif;
+  --font-ui: 'Source Sans 3', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 18px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--parchment);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+/* ─── Layout ─── */
+
+.page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+/* Extra right margin on wide screens for margin notes — only on article pages */
+@media (min-width: 1100px) {
+  .article { overflow: visible; position: relative; }
+}
+
+/* ─── Site Header ─── */
+
+.site-header {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2.5rem;
+}
+
+.site-header a {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.site-header a:hover { color: var(--rubric); }
+
+html { scroll-behavior: smooth; }
+
+.site-header { position: relative; }
+
+.site-header a.header-support {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+}
+
+.site-header a.header-support:hover { color: var(--rubric); border-bottom-color: var(--rubric); }
+
+/* ─── Breadcrumb ─── */
+
+.breadcrumb {
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover { color: var(--rubric); }
+.breadcrumb .sep { margin: 0 0.5em; opacity: 0.5; }
+
+/* ─── Landing Page ─── */
+
+.landing {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.landing-ornament {
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5em;
+}
+
+.landing h1 {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.landing h1 em {
+  display: block;
+  font-style: italic;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  color: var(--ink-light);
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.landing-rule {
+  width: 120px;
+  height: 1px;
+  background: var(--gold);
+  margin: 2rem auto;
+}
+
+.landing-meta {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  line-height: 2;
+}
+
+.landing-description {
+  max-width: 600px;
+  margin: 2.5rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--ink-light);
+}
+
+/* ─── Month / Volume Grid ─── */
+
+.month-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem 2rem;
+  max-width: 500px;
+  margin: 3rem auto 0;
+  text-align: left;
+}
+
+.month-grid h3 {
+  grid-column: 1 / -1;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--rubric);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.month-link {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--rule-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.month-link a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.month-link a:hover { color: var(--rubric); }
+
+.month-link .vol-count {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+
+.month-link.disabled {
+  opacity: 0.4;
+}
+
+/* ─── Section Headers ─── */
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-header h1,
+.section-header h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+.section-header h1 { font-size: 2.2rem; }
+.section-header h2 { font-size: 1.8rem; }
+
+.section-header .subtitle {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ink-faint);
+  margin-top: 0.3rem;
+}
+
+.section-rule {
+  width: 60px;
+  height: 1px;
+  background: var(--gold);
+  margin: 1.2rem auto 0;
+}
+
+/* ─── Day Index (list of saints) ─── */
+
+.day-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.day-header h2 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.day-header .day-date {
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 0.3rem;
+}
+
+.saint-list {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.saint-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.saint-list a {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.saint-list a:hover { color: var(--rubric); }
+
+.saint-list .genre-tag {
+  font-family: var(--font-ui);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  position: relative;
+  cursor: help;
+}
+
+.saint-list .genre-tag::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 0.3rem;
+  width: 240px;
+  padding: 0.6rem 0.8rem;
+  background: var(--sidebar-bg, #2a2118);
+  color: var(--parchment);
+  font-size: 0.6rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: 1.6;
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.saint-list .genre-tag:hover::after,
+.saint-list .genre-tag:focus::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile: show on tap via focus */
+@media (max-width: 860px) {
+  .saint-list .genre-tag { -webkit-tap-highlight-color: transparent; }
+  .saint-list .genre-tag:focus::after { opacity: 1; visibility: visible; }
+}
+
+/* ─── Saint Page ─── */
+
+.saint-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.saint-header h1 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+}
+
+.saint-header .feast-date {
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 0.3rem;
+}
+
+/* ─── Headnote ─── */
+
+.headnote {
+  max-width: 620px;
+  margin: 0 auto 2.5rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--parchment-deep);
+  border-left: 3px solid var(--gold);
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--ink-light);
+}
+
+.headnote .bhl {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.headnote .bhl a {
+  color: var(--rubric-light);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rubric-light);
+}
+
+/* ─── Article Body ─── */
+
+.article {
+  line-height: 1.85;
+  font-size: 1rem;
+}
+
+.article h2 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--rubric);
+  margin: 2.5rem 0 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.article h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--rubric);
+  margin: 3rem 0 0.8rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.article h4 {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ink-light);
+  text-align: center;
+  margin: 0 0 1.5rem;
+}
+
+.article p {
+  margin-bottom: 1rem;
+  text-indent: 1.5em;
+}
+
+.article p:first-child,
+.article h2 + p,
+.article h3 + p,
+.article h4 + p {
+  text-indent: 0;
+}
+
+.article .section-marker {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--rubric);
+  margin-right: 0.3em;
+}
+
+/* Facing-column verse: original Latin beside the English translation */
+.article .verse-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2.5rem;
+  margin: 1.8rem 0;
+  padding: 1.4rem 0 1.4rem 1.5rem;
+  border-left: 2px solid var(--rule);
+}
+.article .verse-col-label {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.6rem;
+}
+.article .verse-line {
+  font-family: var(--font-body);
+  line-height: 1.5;
+  text-indent: 0;
+  margin: 0;
+}
+.article .verse-latin .verse-line { font-style: italic; color: var(--ink-light); }
+.article .verse-gap { height: 0.8rem; }
+
+@media (max-width: 640px) {
+  .article .verse-cols {
+    grid-template-columns: 1fr;
+    gap: 0.4rem 0;
+  }
+  .article .verse-english { margin-top: 1rem; }
+}
+
+.article .margin-note {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  font-style: italic;
+  display: block;
+  float: right;
+  clear: right;
+  width: 160px;
+  margin: 0.15rem -180px 0.5rem 1rem;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.5;
+  border: none;
+}
+
+/* On screens too narrow for true margins, tuck them inline */
+@media (max-width: 1100px) {
+  .article .margin-note {
+    float: none;
+    width: auto;
+    margin: 0.3rem 0 0.3rem 1.5em;
+    padding-left: 0.6rem;
+    border-left: 2px solid var(--rule-light);
+    text-indent: 0;
+    font-size: 0.62rem;
+    position: relative;
+    cursor: help;
+  }
+
+  .article .margin-note:first-of-type::before {
+    content: 'Marginal note from the original edition';
+    display: block;
+    font-size: 0.5rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    opacity: 0.7;
+    margin-bottom: 0.15rem;
+    font-style: normal;
+  }
+
+  .article .margin-note::after {
+    content: 'Marginal note from the original Bollandist edition. These annotations appear in the margins of the printed text as navigational aids.';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 0.2rem;
+    width: 220px;
+    padding: 0.5rem 0.7rem;
+    background: var(--sidebar-bg, #2a2118);
+    color: var(--parchment);
+    font-size: 0.55rem;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .article .margin-note:hover::after,
+  .article .margin-note:focus::after {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* ─── Source Link ─── */
+
+.source-ref {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+}
+
+.source-ref a {
+  color: var(--rubric-light);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rubric-light);
+}
+
+.source-ref a:hover { border-bottom-style: solid; }
+
+/* ─── Export (Save as PDF) ─── */
+
+.export-links {
+  text-align: center;
+  margin: 0 0 2rem;
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+}
+
+.source-ref + .export-links { margin-top: -1.6rem; }
+
+.export-links a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--ink-faint);
+}
+
+.export-links a:hover { border-bottom-style: solid; }
+
+/* ─── Prev/Next Navigation ─── */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.page-nav a {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-decoration: none;
+  max-width: 45%;
+}
+
+.page-nav a:hover { color: var(--rubric); }
+
+.page-nav .nav-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  margin-top: 0.2rem;
+}
+
+.page-nav .next { text-align: right; }
+
+/* ─── Feedback ─── */
+
+.site-feedback {
+  max-width: 32rem;
+  margin: 4rem auto 0;
+  padding: 2rem 0 0;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+}
+
+.site-feedback h2 {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.site-feedback p {
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
+.site-feedback form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.site-feedback label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.site-feedback label span {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.site-feedback input[type="email"],
+.site-feedback textarea {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 2px;
+}
+
+.site-feedback textarea {
+  resize: vertical;
+  min-height: 5rem;
+}
+
+.site-feedback input[type="email"]:focus,
+.site-feedback textarea:focus {
+  outline: none;
+  border-color: var(--ink-faint);
+}
+
+.site-feedback button {
+  align-self: center;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+
+.site-feedback button:hover {
+  border-color: var(--rubric);
+  color: var(--rubric);
+}
+
+/* ─── Footer ─── */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  line-height: 2;
+}
+
+.site-footer a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+
+.site-footer a:hover { color: var(--rubric); }
+
+/* Rights line — sits under the source credit, wider measure and a touch
+   quieter than the credit above it. Mirrors LICENSE and rights.html. */
+.footer-rights {
+  display: block;
+  max-width: 44rem;
+  margin: 0.6rem auto 0;
+  letter-spacing: 0.04em;
+  line-height: 1.7;
+  text-transform: none;
+}
+
+/* ─── Month Index ─── */
+
+.month-notice {
+  margin: 2rem 0 0;
+  padding: 1.1rem 1.4rem;
+  background: var(--parchment-deep);
+  border-left: 3px solid var(--gold);
+}
+
+.month-notice p {
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--ink-light);
+}
+
+.month-notice p + p {
+  margin-top: 0.7rem;
+}
+
+.month-notice strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+@media print {
+  .month-notice { border-left-color: var(--rule); background: none; padding-left: 0; }
+}
+
+.day-grid {
+  margin: 2rem 0;
+}
+
+.day-card {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule-light);
+}
+
+.day-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.day-card h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.day-card h3 a:hover { color: var(--rubric); }
+
+.day-card .saint-preview {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+
+/* ─── Footnotes ─── */
+
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.footnotes h4 {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 1rem;
+}
+
+.footnote {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--ink-light);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.fn-num {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--rubric);
+  margin-right: 0.3em;
+}
+
+.fn-ref a {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  color: var(--rubric);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rubric-light);
+}
+
+.fn-ref a:hover {
+  border-bottom-style: solid;
+}
+
+/* ─── Search ─── */
+
+.search-container {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.search-hint {
+  margin: 0.85rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--ink-faint);
+  text-align: center;
+}
+
+.pagefind-ui {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: var(--rubric);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--parchment);
+  --pagefind-ui-border: var(--rule);
+  --pagefind-ui-tag: var(--parchment-deep);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 3px;
+  --pagefind-ui-font: var(--font-ui);
+}
+
+/* ─── Responsive ─── */
+
+@media (max-width: 600px) {
+  .page { padding: 2rem 1.25rem 4rem; }
+  .landing h1 { font-size: 2rem; }
+  .month-grid { grid-template-columns: 1fr; }
+  .saint-header h1 { font-size: 1.6rem; }
+  .site-header a.header-support {
+    position: static;
+    transform: none;
+    display: block;
+    margin-top: 0.6rem;
+  }
+}
+
+@media print {
+  @page { margin: 0.75in; }
+  .site-header, .page-nav, .site-footer, .site-feedback,
+  .site-support, .breadcrumb, .export-links,
+  .search-container, .pagefind-ui { display: none; }
+  .page { max-width: 100%; padding: 0; }
+  body { background: white; }
+  .article a, .fn-ref a, .fn-num a, .footnote a { color: inherit; text-decoration: none; }
+  /* Margin notes hang into the page margin on wide screens; keep them inline on paper */
+  .article .margin-note {
+    float: none;
+    width: auto;
+    margin: 0.3rem 0 0.3rem 1.5em;
+    padding-left: 0.6rem;
+    border-left: 2px solid var(--rule-light);
+    font-size: 0.62rem;
+  }
+  .article .margin-note::before, .article .margin-note::after { display: none; }
+  .article h2, .article h3, .article h4 { break-after: avoid; }
+  .footnotes { break-before: auto; }
+}
+
+/* ─── Support ─── */
+
+.site-support {
+  max-width: 32rem;
+  margin: 3rem auto 0;
+  padding: 2rem 0 0;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  scroll-margin-top: 1.5rem;
+}
+
+.site-support h2 {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.site-support p {
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
+.support-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.25rem;
+}
+
+.support-tiers a {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.support-tiers a:hover {
+  border-color: var(--ink-faint);
+}
+
+.site-support .support-fine {
+  font-size: 0.7rem;
+  line-height: 1.5;
+}

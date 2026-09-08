@@ -21,3 +21,4 @@ devotional/drafts/_backup-pre-fidelity-*/
 
 # Python bytecode from scripts/
 __pycache__/
+export/

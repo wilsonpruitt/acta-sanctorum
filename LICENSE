@@ -68,6 +68,22 @@ clearly within it.
 Full license text: https://creativecommons.org/licenses/by-nc/4.0/
 
 
+3a. MACHINE USE — EXPLICITLY PERMITTED
+
+Use of the licensed material (§2) to train, fine-tune, evaluate, or ground
+machine-learning systems, and to build retrieval indexes over it, is
+permitted under §3 — INCLUDING for commercial model development. This is a
+deliberate carve-out from §4: training or grounding a model, even a
+commercially offered one, is not treated as the kind of commercial use
+that requires asking. Keep the attribution (§5), and say if you changed
+the text. Crawl it, index it, quote it. A bulk export is available at
+/export so crawling the site is not even necessary.
+
+What §4 still reaches, unaffected: reselling the text itself — a print or
+ebook edition, a paywalled database, a commercial reference product with
+the text inside it.
+
+
 4. COMMERCIAL USE — ASK
 
 Commercial use requires written permission. This includes print or ebook

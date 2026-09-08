@@ -13,6 +13,69 @@ import path from 'path';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const TRANS_DIR = path.join(ROOT, 'src/translations');
 const SITE_DIR = path.join(ROOT, 'site');
+const SITE_BASE_URL = 'https://actasanctorum.org';
+
+// Open Corpus reading-layer contract (~/open-corpus/PLAN.md item 5): schema.org
+// CreativeWork JSON-LD for a saint entry. `relPath` is the page's path relative
+// to SITE_DIR, e.g. "february/day-02/some-saint.html".
+function saintJsonLd(saint, relPath, dayNum) {
+  const month = relPath.split('/')[0];
+  const monthTitle = month.charAt(0).toUpperCase() + month.slice(1);
+  const canonical = `${SITE_BASE_URL}/${relPath}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    '@id': canonical,
+    url: canonical,
+    name: saint.displayName,
+    translator: { '@type': 'Organization', name: 'Wroot Press' },
+    publisher: { '@type': 'Organization', name: 'Wroot Press', url: 'https://wrootpress.com' },
+    inLanguage: ['en', 'la'],
+    isBasedOn: { '@type': 'Book', name: `Acta Sanctorum, ${monthTitle} ${dayNum}` },
+    isPartOf: { '@type': 'Collection', '@id': `${SITE_BASE_URL}/${month}/` },
+    license: `${SITE_BASE_URL}/rights.html`,
+  };
+}
+
+// Plain-text and JSON siblings (reading-layer contract item 7): a saint
+// page's canonical is <relPath ending .html>; its siblings are the literal
+// files with .txt/.json in place of .html next to it.
+function writeSaintSiblings(saint, relPath, dayNum) {
+  const month = relPath.split('/')[0];
+  const monthTitle = month.charAt(0).toUpperCase() + month.slice(1);
+  const canonical = `${SITE_BASE_URL}/${relPath}`;
+  const combinedBody = saint.parts
+    .map(p => p.body.replace(/<!--.*?-->\n*/g, ''))
+    .join('\n\n');
+  const { bodyText } = extractFootnotes(combinedBody);
+
+  const header = [
+    saint.displayName,
+    `Acta Sanctorum, ${monthTitle} ${dayNum}`,
+    'Source text: Public Domain. English translation/apparatus/encoding: CC BY-NC 4.0, Wroot Press.',
+    canonical,
+    '-'.repeat(40),
+    '',
+  ].join('\n');
+  fs.writeFileSync(path.join(SITE_DIR, relPath.replace(/\.html$/, '.txt')), header + '\n' + bodyText.trim() + '\n');
+
+  const record = {
+    id: saint.slug,
+    url: canonical,
+    site: 'acta-sanctorum',
+    collection: `${month}/day-${String(dayNum).padStart(2, '0')}`,
+    title: saint.displayName,
+    languages: ['en'],
+    source_edition: `Acta Sanctorum, ${monthTitle} ${dayNum}`,
+    source_text: null,
+    english: bodyText,
+    license_source: 'Public Domain Mark 1.0',
+    license_translation: 'CC BY-NC 4.0',
+    license_apparatus: 'CC BY-NC 4.0',
+    generated: new Date().toISOString().slice(0, 10),
+  };
+  fs.writeFileSync(path.join(SITE_DIR, relPath.replace(/\.html$/, '.json')), JSON.stringify(record, null, 2) + '\n');
+}
 const MANIFEST = path.join(ROOT, 'src/data/jan-saints-manifest.json');
 
 // ── Name Cleanup ──
@@ -516,7 +579,7 @@ const FONT_LINKS = `<link rel="preconnect" href="https://fonts.googleapis.com">
 
 const EXPORT_LINKS = '<div class="export-links"><a href="javascript:print()">Save as PDF</a></div>';
 
-function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
+function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink, canonicalPath, jsonLd }) {
   const prev = prevLink
     ? `<a href="${prevLink.href}">&larr; Previous<span class="nav-label">${escapeHtml(prevLink.label)}</span></a>`
     : '<span></span>';
@@ -531,11 +594,11 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink }) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${escapeHtml(title)} — English translation of the Acta Sanctorum, the Bollandist collection of hagiographic texts.">
   <title>${escapeHtml(title)} — Acta Sanctorum</title>
-  <link rel="icon" href="${cssPath.replace('style.css', '')}favicon.svg" type="image/svg+xml">
+  ${canonicalPath ? `<link rel="canonical" href="${SITE_BASE_URL}/${canonicalPath}">\n  ` : ''}<link rel="icon" href="${cssPath.replace('style.css', '')}favicon.svg" type="image/svg+xml">
   ${FONT_LINKS}
   <link rel="stylesheet" href="${cssPath}">
   <link rel="stylesheet" href="${cssPath.replace('style.css', '')}pagefind/pagefind-ui.css">
-  <script defer src="/_vercel/insights/script.js"></script>
+  ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n  ` : ''}<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <div class="page">
@@ -819,7 +882,19 @@ function citationHtml(dayNum, parisPages) {
 
 // ── Build Pages ──
 
+// Hand-maintained files (~/open-corpus/PLAN.md's flagged first step for this
+// site): site/ is gitignored, so these used to have no history. They now
+// live in the tracked site-static/ and are copied in on every build.
+const SITE_STATIC = path.join(ROOT, 'site-static');
+function copySiteStatic() {
+  fs.mkdirSync(SITE_DIR, { recursive: true });
+  for (const f of fs.readdirSync(SITE_STATIC)) {
+    fs.copyFileSync(path.join(SITE_STATIC, f), path.join(SITE_DIR, f));
+  }
+}
+
 function buildSite() {
+  copySiteStatic();
   const days = collectSaints(); // Jan Vol I (days 1-15)
   // Try manual translations first, fall back to original scrape
   let janV2Days = collectSplitSaints('jan-vol2', 16, 31);
@@ -1247,6 +1322,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">February</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} Feb</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1254,6 +1331,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} February` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1368,6 +1446,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">March</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} Mar</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1375,6 +1455,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} March` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1489,6 +1570,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">April</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} Apr</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1496,6 +1579,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} April` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1610,6 +1694,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">May</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} May</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1617,6 +1703,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} May` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1730,6 +1817,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">June</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} June</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1737,6 +1826,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} June` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1850,6 +1940,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">July</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} July</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1857,6 +1949,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} July` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -1981,6 +2074,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">August</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} August</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -1988,6 +2083,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} August` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }
@@ -2111,6 +2207,8 @@ function buildSite() {
         fs.writeFileSync(path.join(dayDir, `${saint.slug}.html`), htmlPage({
           title: saint.displayName,
           cssPath: '../../style.css',
+          canonicalPath: `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`,
+          jsonLd: saintJsonLd(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day),
           breadcrumb: `<a href="../../index.html">Home</a><span class="sep">&rsaquo;</span><a href="../index.html">September</a><span class="sep">&rsaquo;</span><a href="index.html">${day.day} September</a><span class="sep">&rsaquo;</span> ${escapeHtml(saint.displayName)}`,
           body: saintBody,
           prevLink: prevSaint ? { href: `${prevSaint.slug}.html`, label: prevSaint.displayName }
@@ -2118,6 +2216,7 @@ function buildSite() {
           nextLink: nextSaint ? { href: `${nextSaint.slug}.html`, label: nextSaint.displayName }
             : (nextDay ? { href: `../day-${String(nextDay.day).padStart(2, '0')}/index.html`, label: `${nextDay.day} September` } : null),
         }));
+        writeSaintSiblings(saint, `${path.relative(SITE_DIR, dayDir).split(path.sep).join('/')}/${saint.slug}.html`, day.day);
       }
     }
   }

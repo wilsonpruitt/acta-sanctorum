@@ -630,7 +630,7 @@ function htmlPage({ title, cssPath, breadcrumb, body, prevLink, nextLink, canoni
     </section>
     <section class="site-support" id="support">
       <h2>Support the Translation</h2>
-      <p>The Acta Sanctorum has never been available in English. This site is translating all of it: January through July are done, August is underway, and the calendar runs to November&nbsp;10, where the Bollandists stopped in 1940. The scholarship pipeline is built; what remains is a compute bill. Contributions go directly to translating more of the calendar.</p>
+      <p>The Acta Sanctorum has never been available in English. This site is translating all of it: January through August are done, September is underway, and the calendar runs to November&nbsp;10, where the Bollandists stopped in 1940. The scholarship pipeline is built; what remains is a compute bill. Contributions go directly to translating more of the calendar.</p>
       <div class="support-tiers">
         <a href="https://buy.stripe.com/6oUcN4fPfb5cfQS6Lh4gg06" target="_blank" rel="noopener">$10 &mdash; a feast day</a>
         <a href="https://buy.stripe.com/fZu14mdH74GObAC4D94gg07" target="_blank" rel="noopener">$300 &mdash; a month</a>

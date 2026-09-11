@@ -55,6 +55,21 @@ Wilson, 2026-08-30: **hold the full deploy until September is complete.** Riding
   exist, labelled `(in progress)` at `sepDayCount < 30`. The mid-month rule holds only because nobody
   runs the build. **Do not run it until day 30 lands.**
 
+## 🚀 PARTIAL DEPLOY — DAYS 01–13 LIVE, 2026-09-11 (Wilson: "Let's just deploy September 1-13")
+Wilson changed the Aug 30 hold: days 01–13 ship now, and the whole month deploys when it's done (target 09-13).
+- Split **one day at a time** (`--source sep/day-NN`, days 01–13 only): **252 entries**. Every header
+  in the chunks also appears in the saint files. Five short entries (<200 words) were folded into the
+  entry before them, as designed: 02 timothy + aithalas-and-ammun → maxima · 07 faciolus → gratus · 09 mark-and-his-companions → donatus… · 11 syrus-and-serapion → diodorus….
+- Built, then pagefind (4,700 pages) and sitemap (4,700 URLs). Homepage line fixed in `build-site.mjs`
+  ("January through August are done, September is underway"). The 24 files in `deploy/stale-pages.txt` were deleted.
+- `vercel --prod --archive=tgz` from `site/`. Checked live: September index, day-13, and a day-07 saint page
+  return 200; day-14 returns 404; homepage shows "252 entries (in progress)".
+- ⚠️ **Don't run `--all-sep` until days 14 and 30 are COMPLETE.** It splits any day that has files, so a partial
+  day-14 would go out. Days 01–13 re-split the same way every time (slugs are per day), so a later `--all-sep` is safe.
+- ⬜ day-02 slug `6-628-martyrs-of-nicomedia-and-ss-aithalus-and-junius-and-philip-and-theodotus` is **78 chars**
+  (ruling ④ of 09-04 put the names back in). It's live at that URL now, so if you recast it, add a redirect.
+- day-14 stopped at **321/387** (last file written 09-06 06:09). Not in this record: run `--gaps`, then fill only 0321–0386.
+
 ## ✅ ROUND I COMPLETE — 2026-09-05, days 04 + 28 — 535 chunks
 
 **September stands at 3,413 / 4,120 chunks (82.8%), 28 of 30 days.** `check-day.mjs sep --gaps`
